@@ -1,0 +1,4 @@
+requests>=2.32.0
+rdflib>=7.0.0
+PyYAML>=6.0.0
+pypdf>=5.0.0

@@ -1,0 +1,9 @@
+# A medical editor completes Turkish labels, curriculum groups and SVG path IDs.
+# Never invent ids: svgId must equal the id in public/atlas/<system>.svg.
+http://purl.obolibrary.org/obo/UBERON_0000970:
+  ta2Id: A02.1.03.001
+  system: bones
+  latin: Os frontale
+  turkish: Alın kemiği
+  group: Kafa kemikleri
+  svgId: os-frontale

@@ -1,0 +1,187 @@
+{
+  "title": "Segmented skull: 22 bones",
+  "author": "BodyParts3D, The Database Center for Life Science",
+  "license": "CC Attribution-Share Alike 2.1 Japan",
+  "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/desc.html",
+  "mirror": "https://github.com/Kevin-Mattheus-Moerman/BodyParts3D/tree/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+  "changes": "STL to indexed GLB; welded vertices; recomputed normals; Z-up to Y-up; millimeters to meters. No segmentation or anatomical deformation.",
+  "revision": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+  "parts": [
+    {
+      "id": "os-frontale",
+      "fma": "FMA52734",
+      "name": "frontal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52734.stl",
+      "sha256": "0791c2e2dde886005d3d5997b75a05353d3ae20d908fc74ab820a58520d26f46",
+      "vertices": 16531
+    },
+    {
+      "id": "os-occipitale",
+      "fma": "FMA52735",
+      "name": "occipital bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52735.stl",
+      "sha256": "22467369bae988b5afc2699c631f3ae0d2db2ef65a624ccb5c6a259d767415b5",
+      "vertices": 13904
+    },
+    {
+      "id": "os-sphenoidale",
+      "fma": "FMA52736",
+      "name": "sphenoid bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52736.stl",
+      "sha256": "76e95b3525d5e94964f5ed5308e8234f78945b9c2ffdc6065e5d3a6e2dc08777",
+      "vertices": 7647
+    },
+    {
+      "id": "os-ethmoidale",
+      "fma": "FMA52740",
+      "name": "ethmoid",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52740.stl",
+      "sha256": "732b19d2f1784564cdcbe3dd892eebbc1d0274a62491fecb3779186371faaf93",
+      "vertices": 3887
+    },
+    {
+      "id": "os-parietale-dexter",
+      "fma": "FMA52788",
+      "name": "right parietal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52788.stl",
+      "sha256": "b2bb58e09216066e45af9d74894b8974cbe84bc3a0fa4db5b614670272d5c428",
+      "vertices": 14863
+    },
+    {
+      "id": "os-parietale-sinister",
+      "fma": "FMA52789",
+      "name": "left parietal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52789.stl",
+      "sha256": "fbff8a906a4a96ff287b842c5a14ebbee2d96c2df6d554608861b011836a1346",
+      "vertices": 15123
+    },
+    {
+      "id": "os-temporale-dexter",
+      "fma": "FMA52738",
+      "name": "right temporal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52738.stl",
+      "sha256": "c4d134473a62f43ab18efa415f394ff6c01a07ca14664a640a4ba787eaa6cadc",
+      "vertices": 5633
+    },
+    {
+      "id": "os-temporale-sinister",
+      "fma": "FMA52739",
+      "name": "left temporal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52739.stl",
+      "sha256": "c42357deb26fb0468d7a2f4b471e7e7d8e7363cc5abe7e6d90e982c3d1ae449f",
+      "vertices": 5604
+    },
+    {
+      "id": "os-nasale-dexter",
+      "fma": "FMA53647",
+      "name": "right nasal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53647.stl",
+      "sha256": "a2c4e73f0346df903e9fcc4c7522c2ce9a82fd65f2f8f2993867812306577303",
+      "vertices": 514
+    },
+    {
+      "id": "os-nasale-sinister",
+      "fma": "FMA53648",
+      "name": "left nasal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53648.stl",
+      "sha256": "576a778c98145cbe676ca7c97f599430f8f52ed367ba4907d7ab1ebb720bb5ca",
+      "vertices": 564
+    },
+    {
+      "id": "maxilla-dexter",
+      "fma": "FMA53649",
+      "name": "right maxilla",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53649.stl",
+      "sha256": "a83de38623317730c5f6c47be8c98b1fd7780b23317d09ca35e1f4f0735dd02e",
+      "vertices": 7068
+    },
+    {
+      "id": "maxilla-sinister",
+      "fma": "FMA53650",
+      "name": "left maxilla",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53650.stl",
+      "sha256": "875a8fafabc5df5c11d9cdc6c99ac37326c7f77c5ab5987e8d5b3d00e0d8b907",
+      "vertices": 7251
+    },
+    {
+      "id": "os-zygomaticum-dexter",
+      "fma": "FMA52892",
+      "name": "right zygomatic bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52892.stl",
+      "sha256": "a7af6f93c52cd816c3b5f134811ebe1cba5766e0ab170747cff37c089cbcc001",
+      "vertices": 2308
+    },
+    {
+      "id": "os-zygomaticum-sinister",
+      "fma": "FMA52893",
+      "name": "left zygomatic bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52893.stl",
+      "sha256": "a47bff85f4f2fbde1ed67cdb79688414616f9ca05187425bc2ffa1b841295feb",
+      "vertices": 2282
+    },
+    {
+      "id": "os-palatinum-dexter",
+      "fma": "FMA53655",
+      "name": "right palatine bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53655.stl",
+      "sha256": "318b033125aa504ed5583e61c4a6808a7fd998835d2dceef9df17c327726582b",
+      "vertices": 1798
+    },
+    {
+      "id": "os-palatinum-sinister",
+      "fma": "FMA53656",
+      "name": "left palatine bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53656.stl",
+      "sha256": "1ac7ac814f39eb834d2f175002825085c6b04ecc94751ec247ab7c0161cabe37",
+      "vertices": 1823
+    },
+    {
+      "id": "os-lacrimale-dexter",
+      "fma": "FMA53645",
+      "name": "right lacrimal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53645.stl",
+      "sha256": "19849965bec68b62f2d6c08968ab1d421cddd433f65e7d7e60fedaa4b5cf3466",
+      "vertices": 559
+    },
+    {
+      "id": "os-lacrimale-sinister",
+      "fma": "FMA53646",
+      "name": "left lacrimal bone",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53646.stl",
+      "sha256": "9c3dc16643b4d11476b055f6785775a725d6e1cdf7497e26d4c634fda446e010",
+      "vertices": 578
+    },
+    {
+      "id": "concha-nasalis-inferior-dexter",
+      "fma": "FMA54737",
+      "name": "right inferior nasal concha",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA54737.stl",
+      "sha256": "7797ac8cb5c391b89091f704b810ee72d0a2e6f2bc31e088d9d9732c12606acf",
+      "vertices": 806
+    },
+    {
+      "id": "concha-nasalis-inferior-sinister",
+      "fma": "FMA54738",
+      "name": "left inferior nasal concha",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA54738.stl",
+      "sha256": "b5433ce863c424e22f113062e23812b81afbbdacac33b5afa73ecab03b6ebeff",
+      "vertices": 744
+    },
+    {
+      "id": "vomer",
+      "fma": "FMA9710",
+      "name": "vomer",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9710.stl",
+      "sha256": "8504c22ef2017bf56768f1127d607ccb0947dab8b2893e546d0ececc76d28d9b",
+      "vertices": 1213
+    },
+    {
+      "id": "mandibula",
+      "fma": "FMA52748",
+      "name": "mandible",
+      "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52748.stl",
+      "sha256": "e0321ce797a06e8e14fea22261084262cf28099172224e22f44a60d66c42a888",
+      "vertices": 10831
+    }
+  ]
+}

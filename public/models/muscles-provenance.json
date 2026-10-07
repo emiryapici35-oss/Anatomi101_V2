@@ -1,0 +1,5050 @@
+{
+  "author": "BodyParts3D, The Database Center for Life Science",
+  "source": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20110915/",
+  "license": "CC BY 4.0",
+  "changes": "OBJ 99 to indexed GLB; recomputed smooth normals; Z-up to Y-up; mm to meters; meshoptimizer simplification (ratio 0.35, error 0.001), quantization and compression. Original anatomical positions retained.",
+  "archive": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20110915/BodyParts3D_3.0_obj_99.zip",
+  "archiveSha256": "2125f6d761b14ead4ee64f71713f56f3f0f29982693ff20aac63474470cb92f4",
+  "parts": [
+    {
+      "mesh": "bp44",
+      "fma": "BP44",
+      "name": "humeral head of left extensor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-ulnaris-sinister-6",
+      "sha256": "add30219c7aad2db341f166f8d5755898f80356f1eb3bf6a7350aca4f7f49c67",
+      "triangles": 6340
+    },
+    {
+      "mesh": "bp45",
+      "fma": "BP45",
+      "name": "humeral head of right extensor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-ulnaris-dexter-6",
+      "sha256": "9712b4b4d95d92c77a01beb60fe7f015d40642c7245d7896aef951d870d98417",
+      "triangles": 6328
+    },
+    {
+      "mesh": "bp46",
+      "fma": "BP46",
+      "name": "ulnar head of left extensor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-ulnaris-sinister-6",
+      "sha256": "f8aa0fbf2caeb9963484727eb4be2acd4a814f2a84e37d8894c07a1eda670384",
+      "triangles": 3484
+    },
+    {
+      "mesh": "bp47",
+      "fma": "BP47",
+      "name": "ulnar head of right extensor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-ulnaris-dexter-6",
+      "sha256": "f0a6d928d8d0b16b12c7566476ea4825804d34af9c48f9dbd8a058a42c1d3370",
+      "triangles": 3440
+    },
+    {
+      "mesh": "fma13295",
+      "fma": "FMA13295",
+      "name": "diaphragm",
+      "itemId": "atlas-muscles-diaphragma-1",
+      "sha256": "2c4a526a39ede4cb5171f2a9f8f69541f29eb6cb0c7f2bca6d7bdcbffea273a1",
+      "triangles": 42132
+    },
+    {
+      "mesh": "fma13336",
+      "fma": "FMA13336",
+      "name": "right external oblique",
+      "itemId": "atlas-muscles-musculus-obliquus-externus-abdominis-dexter-1",
+      "sha256": "8e48613f6aae18d6e6d3526497e1b41b9a7c9a85a9267827dd90f5cbe4f288c8",
+      "triangles": 120430
+    },
+    {
+      "mesh": "fma13337",
+      "fma": "FMA13337",
+      "name": "left external oblique",
+      "itemId": "atlas-muscles-musculus-obliquus-externus-abdominis-sinister-1",
+      "sha256": "929021730ded4d40b470c2c07e1ab0e846fda06ebc7ba8b1072defd041447919",
+      "triangles": 119788
+    },
+    {
+      "mesh": "fma13346",
+      "fma": "FMA13346",
+      "name": "right sternohyoid",
+      "itemId": "atlas-muscles-musculus-sternohyoideus-dexter-6",
+      "sha256": "57dae45e4b0f4db9640edf5c479f2ba9ce59e62590a8e49e7c4fe92283127ce0",
+      "triangles": 2788
+    },
+    {
+      "mesh": "fma13347",
+      "fma": "FMA13347",
+      "name": "left sternohyoid",
+      "itemId": "atlas-muscles-musculus-sternohyoideus-sinister-6",
+      "sha256": "d76398476b27853bac08f2bfca6c7503de2c049a59b73f67aa9c2da3097f9888",
+      "triangles": 892
+    },
+    {
+      "mesh": "fma13348",
+      "fma": "FMA13348",
+      "name": "right omohyoid",
+      "itemId": "atlas-muscles-musculus-omohyoideus-dexter-2",
+      "sha256": "4d017dc053d115e1bc2dafcbc529290b2789f2cf8ab863801e8245f9fa1384c8",
+      "triangles": 5418
+    },
+    {
+      "mesh": "fma13349",
+      "fma": "FMA13349",
+      "name": "left omohyoid",
+      "itemId": "atlas-muscles-musculus-omohyoideus-sinister-2",
+      "sha256": "8c8ff1ecf8f719602eaa08f47b05e37bb368b54bb4aa0e214762d7e3cd789759",
+      "triangles": 5392
+    },
+    {
+      "mesh": "fma13350",
+      "fma": "FMA13350",
+      "name": "right sternothyroid",
+      "itemId": "atlas-muscles-musculus-sternothyroideus-dexter-9",
+      "sha256": "cd02b90bf5b713f63de91d3cfc209e533ad293499b25cc6dd7b4cbc780fa9662",
+      "triangles": 2220
+    },
+    {
+      "mesh": "fma13351",
+      "fma": "FMA13351",
+      "name": "left sternothyroid",
+      "itemId": "atlas-muscles-musculus-sternothyroideus-sinister-9",
+      "sha256": "266444b84cc3e651eef95a387b2aded743be195fd02e6f343ec24bc3e773e60d",
+      "triangles": 2182
+    },
+    {
+      "mesh": "fma13352",
+      "fma": "FMA13352",
+      "name": "right thyrohyoid",
+      "itemId": "atlas-muscles-musculus-thyrohyoideus-dexter-10",
+      "sha256": "13ac8d6400f202ac7e28657327bfc6fc5578dc944742afbe740c4062050cee5c",
+      "triangles": 1456
+    },
+    {
+      "mesh": "fma13353",
+      "fma": "FMA13353",
+      "name": "left thyrohyoid",
+      "itemId": "atlas-muscles-musculus-thyrohyoideus-sinister-10",
+      "sha256": "a867184922686ff96280443571eacc062d9672b8bad83860ccd0185d74caf538",
+      "triangles": 1448
+    },
+    {
+      "mesh": "fma13358",
+      "fma": "FMA13358",
+      "name": "right latissimus dorsi",
+      "itemId": "atlas-muscles-musculus-latissimus-dorsi-dexter-4",
+      "sha256": "07082eb26856a47e408aa7915012140fc03ac8620baadec13fcde760ad369f9f",
+      "triangles": 45594
+    },
+    {
+      "mesh": "fma13359",
+      "fma": "FMA13359",
+      "name": "left latissimus dorsi",
+      "itemId": "atlas-muscles-musculus-latissimus-dorsi-sinister-4",
+      "sha256": "fad8dab60f63bceaed0dbee8b1bd6f11162176c4bc8ebd63844904b05bcbb671",
+      "triangles": 45572
+    },
+    {
+      "mesh": "fma13375",
+      "fma": "FMA13375",
+      "name": "right pectoralis minor",
+      "itemId": "atlas-muscles-musculus-pectoralis-minor-dexter-4",
+      "sha256": "a0e611973b71dda42fb80f99ab8dbd16f1cfde4218e6aefb7d5d00080c2b06eb",
+      "triangles": 9072
+    },
+    {
+      "mesh": "fma13376",
+      "fma": "FMA13376",
+      "name": "left pectoralis minor",
+      "itemId": "atlas-muscles-musculus-pectoralis-minor-sinister-4",
+      "sha256": "a65c3de1690ce66a5aada483a2e262f01c69ba5e373826c651bbedc2a21c7f7b",
+      "triangles": 9102
+    },
+    {
+      "mesh": "fma13377",
+      "fma": "FMA13377",
+      "name": "right rectus abdominis",
+      "itemId": "atlas-muscles-musculus-rectus-abdominis-dexter-4",
+      "sha256": "b00b3d214f6ee3b4fc16ca9dd4e64b4ac3047862a2bfcb6c06b50e371d621772",
+      "triangles": 41920
+    },
+    {
+      "mesh": "fma13378",
+      "fma": "FMA13378",
+      "name": "left rectus abdominis",
+      "itemId": "atlas-muscles-musculus-rectus-abdominis-sinister-4",
+      "sha256": "b8029d562de3ef08af46414a004bd4d4bd569da72849bcb00c4f4e5b610c8b4f",
+      "triangles": 41406
+    },
+    {
+      "mesh": "fma13381",
+      "fma": "FMA13381",
+      "name": "right rhomboid major",
+      "itemId": "atlas-muscles-musculus-rhomboideus-major-dexter-7",
+      "sha256": "ce51af829acb045c7de7b7b06511362f3f4ca916a2bda040995e8e68d59f2550",
+      "triangles": 9650
+    },
+    {
+      "mesh": "fma13382",
+      "fma": "FMA13382",
+      "name": "left rhomboid major",
+      "itemId": "atlas-muscles-musculus-rhomboideus-major-sinister-7",
+      "sha256": "21a4c8f9421241ff06bb62b11da98dedc2d65a3f83b480c19c336e5d44d91f06",
+      "triangles": 9700
+    },
+    {
+      "mesh": "fma13383",
+      "fma": "FMA13383",
+      "name": "right rhomboid minor",
+      "itemId": "atlas-muscles-musculus-rhomboideus-minor-dexter-6",
+      "sha256": "5c87463d9a5a451162ac9cf8503e7402afbba9cda5986afd5781074640898b4e",
+      "triangles": 3018
+    },
+    {
+      "mesh": "fma13384",
+      "fma": "FMA13384",
+      "name": "left rhomboid minor",
+      "itemId": "atlas-muscles-musculus-rhomboideus-minor-sinister-6",
+      "sha256": "ddca9ace8e1935c1b0826c83a4ea4d2db0ec98401c05a19c95efa7d84ee19000",
+      "triangles": 3018
+    },
+    {
+      "mesh": "fma13388",
+      "fma": "FMA13388",
+      "name": "right scalenus posterior",
+      "itemId": "atlas-muscles-musculus-scalenus-posterior-dexter-5",
+      "sha256": "ecf02496a5c74bdcefeaa3a819cad2492b854d537065d79388397953ba4c1721",
+      "triangles": 2668
+    },
+    {
+      "mesh": "fma13389",
+      "fma": "FMA13389",
+      "name": "left scalenus posterior",
+      "itemId": "atlas-muscles-musculus-scalenus-posterior-sinister-5",
+      "sha256": "0e0d10083e891fce66f02453706f9ce8af94c3f4a0df2024c048605393adf4bf",
+      "triangles": 2634
+    },
+    {
+      "mesh": "fma13390",
+      "fma": "FMA13390",
+      "name": "right scalenus medius",
+      "itemId": "atlas-muscles-musculus-scalenus-medius-dexter-4",
+      "sha256": "9baef1247b6053f550b6c17f20fdc7cf692b51aed5b58581787de1b6d1ef0d16",
+      "triangles": 4246
+    },
+    {
+      "mesh": "fma13391",
+      "fma": "FMA13391",
+      "name": "left scalenus medius",
+      "itemId": "atlas-muscles-musculus-scalenus-medius-sinister-4",
+      "sha256": "09cc4db2d0c55148e7912a90e90c2d65e6c9547f2a00329b5451562bc36e8d91",
+      "triangles": 4240
+    },
+    {
+      "mesh": "fma13392",
+      "fma": "FMA13392",
+      "name": "right scalenus anterior",
+      "itemId": "atlas-muscles-musculus-scalenus-anterior-dexter-3",
+      "sha256": "e9d063e9d81d8accc4cce5479c2231c7a0706b237bf3b39e6210462284fbdf28",
+      "triangles": 2796
+    },
+    {
+      "mesh": "fma13393",
+      "fma": "FMA13393",
+      "name": "left scalenus anterior",
+      "itemId": "atlas-muscles-musculus-scalenus-anterior-sinister-3",
+      "sha256": "c9305f76e92a352d696d1ddf70b6a045f05cb57b510d1e05fe1552eca38b7f16",
+      "triangles": 2740
+    },
+    {
+      "mesh": "fma13398",
+      "fma": "FMA13398",
+      "name": "right serratus anterior",
+      "itemId": "atlas-muscles-musculus-serratus-anterior-dexter-6",
+      "sha256": "324a26236c6514fb7538579d496cb84706816b7ee4b9785145262d33baf8f03c",
+      "triangles": 50524
+    },
+    {
+      "mesh": "fma13399",
+      "fma": "FMA13399",
+      "name": "left serratus anterior",
+      "itemId": "atlas-muscles-musculus-serratus-anterior-sinister-6",
+      "sha256": "4ef54e20e4ef926fd278c98ecaf4cb43e4716c2584d3e5d4ffd51aaa95762249",
+      "triangles": 54424
+    },
+    {
+      "mesh": "fma13403",
+      "fma": "FMA13403",
+      "name": "right serratus posterior superior",
+      "itemId": "atlas-muscles-musculus-serratus-posterior-superior-dexter-8",
+      "sha256": "a5fe51b9aaeb72d6a6ea57cde0f61f746e6bb5bb1127af97fe40f9dd8f5acfc3",
+      "triangles": 11786
+    },
+    {
+      "mesh": "fma13404",
+      "fma": "FMA13404",
+      "name": "left serratus posterior superior",
+      "itemId": "atlas-muscles-musculus-serratus-posterior-superior-sinister-8",
+      "sha256": "8a644a977c82f47d944a63a4d4984854e45c199d31474989926e57b6213b4adf",
+      "triangles": 11686
+    },
+    {
+      "mesh": "fma13405",
+      "fma": "FMA13405",
+      "name": "right serratus posterior inferior",
+      "itemId": "atlas-muscles-musculus-serratus-posterior-inferior-dexter-9",
+      "sha256": "e76405ca399fb29034b612b7ea1133bcca9dd13c25bd093d43ac46dd8d1e6021",
+      "triangles": 18066
+    },
+    {
+      "mesh": "fma13406",
+      "fma": "FMA13406",
+      "name": "left serratus posterior inferior",
+      "itemId": "atlas-muscles-musculus-serratus-posterior-inferior-sinister-9",
+      "sha256": "186df3ef080e587e6b7f14ac20c5dc70bd1912d71d5ecf65eb84e381574ec00f",
+      "triangles": 18040
+    },
+    {
+      "mesh": "fma13408",
+      "fma": "FMA13408",
+      "name": "right sternocleidomastoid",
+      "itemId": "atlas-muscles-musculus-sternocleidomastoideus-dexter-1",
+      "sha256": "2c50fb8a1ba7babbfb9fa7f13b6cddae43adec12746240dc22912c62e52e427c",
+      "triangles": 10262
+    },
+    {
+      "mesh": "fma13409",
+      "fma": "FMA13409",
+      "name": "left sternocleidomastoid",
+      "itemId": "atlas-muscles-musculus-sternocleidomastoideus-sinister-1",
+      "sha256": "63cc196a0df1a727a18b1142e25cb39c95ef3deda2862465b8f5fa5b74d60432",
+      "triangles": 10058
+    },
+    {
+      "mesh": "fma13411",
+      "fma": "FMA13411",
+      "name": "left subclavius",
+      "itemId": "atlas-muscles-musculus-subclavius-sinister-5",
+      "sha256": "f6f539e32afd7866b071a683564ddeeca781d523ecc0ec0d623fe3b88aa2942a",
+      "triangles": 1684
+    },
+    {
+      "mesh": "fma13412",
+      "fma": "FMA13412",
+      "name": "right subclavius",
+      "itemId": "atlas-muscles-musculus-subclavius-dexter-5",
+      "sha256": "2ad253c1e78e70e010d49e16ae921f2229f9772069258b0a2dd1e0c95717f0b1",
+      "triangles": 1630
+    },
+    {
+      "mesh": "fma13414",
+      "fma": "FMA13414",
+      "name": "right subscapularis",
+      "itemId": "atlas-muscles-musculus-subscapularis-dexter-7",
+      "sha256": "d0d145a5f97e02a5b829fcd3311f8f738dfb42645a0a8f8b8064f40d67c73311",
+      "triangles": 6124
+    },
+    {
+      "mesh": "fma13415",
+      "fma": "FMA13415",
+      "name": "left subscapularis",
+      "itemId": "atlas-muscles-musculus-subscapularis-sinister-7",
+      "sha256": "99fc70e0ebd1fa0e3588b5c7587d474fb5fa0383ab081fee9b2da2c0db595de2",
+      "triangles": 6134
+    },
+    {
+      "mesh": "fma13892",
+      "fma": "FMA13892",
+      "name": "right internal oblique",
+      "itemId": "atlas-muscles-musculus-obliquus-internus-abdominis-dexter-2",
+      "sha256": "b5e1938292a9537226e6daf4bf3c787fe95437cd0be65bed89ac36be919a8213",
+      "triangles": 58408
+    },
+    {
+      "mesh": "fma13893",
+      "fma": "FMA13893",
+      "name": "left internal oblique",
+      "itemId": "atlas-muscles-musculus-obliquus-internus-abdominis-sinister-2",
+      "sha256": "c768ff8691c181b9826a8f5f83869ec8e6f29d36f7d7ff780d52b8a3b9f8fc40",
+      "triangles": 57920
+    },
+    {
+      "mesh": "fma21930",
+      "fma": "FMA21930",
+      "name": "external anal sphincter",
+      "itemId": "atlas-muscles-musculus-sphincter-ani-externus-1",
+      "sha256": "5d3fbae2728aa5a8f50dbe02040b49fe3f35bbd29eb4e95bf53ac1ccd8f728ab",
+      "triangles": 802
+    },
+    {
+      "mesh": "fma22322",
+      "fma": "FMA22322",
+      "name": "right iliacus",
+      "itemId": "atlas-muscles-musculus-iliacus-dexter-9",
+      "sha256": "715f6a418993d32f2511888875682bcacbaca42549d4ad6a9873f5e806441e8d",
+      "triangles": 8880
+    },
+    {
+      "mesh": "fma22323",
+      "fma": "FMA22323",
+      "name": "left iliacus",
+      "itemId": "atlas-muscles-musculus-iliacus-sinister-9",
+      "sha256": "383bba74e2b22ca508295eaf76ec76ea395a723fc68c838a8dadd5dc9a569f1b",
+      "triangles": 8860
+    },
+    {
+      "mesh": "fma22324",
+      "fma": "FMA22324",
+      "name": "right obturator internus",
+      "itemId": "atlas-muscles-musculus-obturatorius-internus-dexter-2",
+      "sha256": "c6f66d1ed3b5f530f759a0b064599e8354f4b56438e561ab34a0302c833d1348",
+      "triangles": 7554
+    },
+    {
+      "mesh": "fma22325",
+      "fma": "FMA22325",
+      "name": "left obturator internus",
+      "itemId": "atlas-muscles-musculus-obturatorius-internus-sinister-2",
+      "sha256": "28e94f633563db4f74f4581c30aad5c9a6bb493591641312406f3242a9581f76",
+      "triangles": 7084
+    },
+    {
+      "mesh": "fma22326",
+      "fma": "FMA22326",
+      "name": "right obturator externus",
+      "itemId": "atlas-muscles-musculus-obturatorius-externus-dexter-5",
+      "sha256": "57f80a6003818c0daa416ba89e41e3eb1b8f67bb8aac6d79b181f7b93b581408",
+      "triangles": 2352
+    },
+    {
+      "mesh": "fma22327",
+      "fma": "FMA22327",
+      "name": "left obturator externus",
+      "itemId": "atlas-muscles-musculus-obturatorius-externus-sinister-5",
+      "sha256": "fa12b273da8db6fc896bd8e9543af0aa0995fb4bb34f4bdc44503a7e096da545",
+      "triangles": 2312
+    },
+    {
+      "mesh": "fma22328",
+      "fma": "FMA22328",
+      "name": "right gluteus maximus",
+      "itemId": "atlas-muscles-musculus-gluteus-maximus-dexter-1",
+      "sha256": "e1feda6d4b530cf1de3bb633d3baa62fe23828d00f349dc46adc2b82b2e5179d",
+      "triangles": 6844
+    },
+    {
+      "mesh": "fma22329",
+      "fma": "FMA22329",
+      "name": "left gluteus maximus",
+      "itemId": "atlas-muscles-musculus-gluteus-maximus-sinister-1",
+      "sha256": "7fc08556284f7583f8050b76dbff20568d434a90abab3d822e257655e16bb2f9",
+      "triangles": 6600
+    },
+    {
+      "mesh": "fma22330",
+      "fma": "FMA22330",
+      "name": "right gluteus medius",
+      "itemId": "atlas-muscles-musculus-gluteus-medius-dexter-2",
+      "sha256": "f3998a3d4d01802603d97a9c7ba54c50b9a0dc588fbf600c51b4e090d6dd9213",
+      "triangles": 10362
+    },
+    {
+      "mesh": "fma22331",
+      "fma": "FMA22331",
+      "name": "left gluteus medius",
+      "itemId": "atlas-muscles-musculus-gluteus-medius-sinister-2",
+      "sha256": "7b2110b9d0e2926260df1091339c089862ee7b6cf6378fc7c9d58e9990369ca1",
+      "triangles": 10126
+    },
+    {
+      "mesh": "fma22332",
+      "fma": "FMA22332",
+      "name": "right gluteus minimus",
+      "itemId": "atlas-muscles-musculus-gluteus-minimus-dexter-3",
+      "sha256": "d8ac261e15335ff824762e52ead285f454ce8457388fa02f2481c5c6822b0c72",
+      "triangles": 12622
+    },
+    {
+      "mesh": "fma22333",
+      "fma": "FMA22333",
+      "name": "left gluteus minimus",
+      "itemId": "atlas-muscles-musculus-gluteus-minimus-sinister-3",
+      "sha256": "1bf3f2a0086da7e42b33419d908153ab66ff6623e2c90db636e6ae49bf3ad433",
+      "triangles": 12536
+    },
+    {
+      "mesh": "fma22334",
+      "fma": "FMA22334",
+      "name": "right gemellus superior",
+      "itemId": "atlas-muscles-musculus-gemellus-superior-dexter-6",
+      "sha256": "869272d1629a5dad9c105a08705ff3b9fdc5dd60818f33e60e7eb306610862b0",
+      "triangles": 902
+    },
+    {
+      "mesh": "fma22335",
+      "fma": "FMA22335",
+      "name": "left gemellus superior",
+      "itemId": "atlas-muscles-musculus-gemellus-superior-sinister-6",
+      "sha256": "760ea535f98a9f31a35085eb9312f5ecf784e7306aa66d230eb2a04efd5d8185",
+      "triangles": 860
+    },
+    {
+      "mesh": "fma22336",
+      "fma": "FMA22336",
+      "name": "right gemellus inferior",
+      "itemId": "atlas-muscles-musculus-gemellus-inferior-dexter-7",
+      "sha256": "ea49d9f7498d4e62c011b743156c22617129779fb49cd26e2e35b2fd1a6b8c44",
+      "triangles": 1954
+    },
+    {
+      "mesh": "fma22337",
+      "fma": "FMA22337",
+      "name": "left gemellus inferior",
+      "itemId": "atlas-muscles-musculus-gemellus-inferior-sinister-7",
+      "sha256": "66ce05bdf661a4bb8967955d56c4669b9c6910514f8610f442cb00fd8b7c83d6",
+      "triangles": 1884
+    },
+    {
+      "mesh": "fma22338",
+      "fma": "FMA22338",
+      "name": "right quadratus femoris",
+      "itemId": "atlas-muscles-musculus-quadratus-femoris-dexter-8",
+      "sha256": "cad942bb1dca3a19d442d85cbfef58e516b1a47bfdd43511392dff8d2b2b4af3",
+      "triangles": 3354
+    },
+    {
+      "mesh": "fma22339",
+      "fma": "FMA22339",
+      "name": "left quadratus femoris",
+      "itemId": "atlas-muscles-musculus-quadratus-femoris-sinister-8",
+      "sha256": "74bb4b3a350d81ba73a9eb454b5698272351205bfda3a262596aab1433485c34",
+      "triangles": 3352
+    },
+    {
+      "mesh": "fma22340",
+      "fma": "FMA22340",
+      "name": "right piriformis",
+      "itemId": "atlas-muscles-musculus-piriformis-dexter-1",
+      "sha256": "7b18a1714880c6fe42f88dc4d627256d65f6d301b17a166f689efd85caacbfc8",
+      "triangles": 3020
+    },
+    {
+      "mesh": "fma22341",
+      "fma": "FMA22341",
+      "name": "left piriformis",
+      "itemId": "atlas-muscles-musculus-piriformis-sinister-1",
+      "sha256": "ddc0a7455f6f7cbaaf3a297620abb9b30b20fd6864b919dacd13fde5a7a2a9ef",
+      "triangles": 2848
+    },
+    {
+      "mesh": "fma22342",
+      "fma": "FMA22342",
+      "name": "right psoas major",
+      "itemId": "atlas-muscles-musculus-psoas-major-dexter-7",
+      "sha256": "dcb0d14e353dc04e1d61472c9f721b8c40697b796542d5f0d2c9fb68ddbcf282",
+      "triangles": 11322
+    },
+    {
+      "mesh": "fma22343",
+      "fma": "FMA22343",
+      "name": "left psoas major",
+      "itemId": "atlas-muscles-musculus-psoas-major-sinister-7",
+      "sha256": "b78b80ec0a0c8f7afc83f4e3a247e7fd6d199b77a8d6977d15cfb153a18d11b9",
+      "triangles": 11152
+    },
+    {
+      "mesh": "fma22344",
+      "fma": "FMA22344",
+      "name": "right transversus abdominis",
+      "itemId": "atlas-muscles-musculus-transversus-abdominis-dexter-3",
+      "sha256": "b6241b71a6ac13e6ab190eb8a119bf2084482b4a54836a19a6fefb5e89ea8129",
+      "triangles": 68682
+    },
+    {
+      "mesh": "fma22345",
+      "fma": "FMA22345",
+      "name": "left transversus abdominis",
+      "itemId": "atlas-muscles-musculus-transversus-abdominis-sinister-3",
+      "sha256": "7ef955fe297a89331924c8835b31dbed8896202af6c414f41b05df7dd33cc6f2",
+      "triangles": 68592
+    },
+    {
+      "mesh": "fma22346",
+      "fma": "FMA22346",
+      "name": "right pyramidalis",
+      "itemId": "atlas-muscles-musculus-pyramidalis-dexter-5",
+      "sha256": "a50eafa49ba21981d93b34bb6599b847b2bb8d38c3773b25a25e7e134a926fed",
+      "triangles": 2458
+    },
+    {
+      "mesh": "fma22347",
+      "fma": "FMA22347",
+      "name": "left pyramidalis",
+      "itemId": "atlas-muscles-musculus-pyramidalis-sinister-5",
+      "sha256": "cfd7a59f59d9c2fe8c1209fdc4a0c176e9d3e580eaead7d9232a6e59144e92e5",
+      "triangles": 2420
+    },
+    {
+      "mesh": "fma22348",
+      "fma": "FMA22348",
+      "name": "right quadratus lumborum",
+      "itemId": "atlas-muscles-musculus-quadratus-lumborum-dexter-6",
+      "sha256": "ba3b92af3412c9197981e6ae31d7268b4febed4d3b3766f5994f691750037bc8",
+      "triangles": 5676
+    },
+    {
+      "mesh": "fma22349",
+      "fma": "FMA22349",
+      "name": "left quadratus lumborum",
+      "itemId": "atlas-muscles-musculus-quadratus-lumborum-sinister-6",
+      "sha256": "f978ff10049acb3f5caabfb37293bc28c801d0c13a093dab58d681b3f873136a",
+      "triangles": 5612
+    },
+    {
+      "mesh": "fma22354",
+      "fma": "FMA22354",
+      "name": "right sartorius",
+      "itemId": "atlas-muscles-musculus-sartorius-dexter-1",
+      "sha256": "a61b73684f63c4ade2b956307f38e731f0b43ed084b99eaebfe277a91785df89",
+      "triangles": 10482
+    },
+    {
+      "mesh": "fma22355",
+      "fma": "FMA22355",
+      "name": "left sartorius",
+      "itemId": "atlas-muscles-musculus-sartorius-sinister-1",
+      "sha256": "f2538535eaace754f6d3d7578447de958de001a05ad87ef2ff7212e812fbe500",
+      "triangles": 10294
+    },
+    {
+      "mesh": "fma22358",
+      "fma": "FMA22358",
+      "name": "right semitendinosus",
+      "itemId": "atlas-muscles-musculus-semitendinosus-dexter-15",
+      "sha256": "1a215e853c3f9418e95d16c0c2adff179dcd664389410d0c67c3ccf81df67dd5",
+      "triangles": 8710
+    },
+    {
+      "mesh": "fma22359",
+      "fma": "FMA22359",
+      "name": "left semitendinosus",
+      "itemId": "atlas-muscles-musculus-semitendinosus-sinister-15",
+      "sha256": "050e4a214a371ed2035bd98a88f7cf430d9cf2649719d82fd91511879a68cedc",
+      "triangles": 8506
+    },
+    {
+      "mesh": "fma22425",
+      "fma": "FMA22425",
+      "name": "right tensor fasciae latae",
+      "itemId": "atlas-muscles-musculus-tensor-fasciae-latae-dexter-4",
+      "sha256": "5fbc04ba0c8a109683c070cafb7b2cabd398d70d8d7e33952d1399dadd681e80",
+      "triangles": 3736
+    },
+    {
+      "mesh": "fma22426",
+      "fma": "FMA22426",
+      "name": "left tensor fasciae latae",
+      "itemId": "atlas-muscles-musculus-tensor-fasciae-latae-sinister-4",
+      "sha256": "994d0398ae4f81e1c4edab7a9b9492a7e7af552b85fae5a5bb11311a84b98c96",
+      "triangles": 3702
+    },
+    {
+      "mesh": "fma22448",
+      "fma": "FMA22448",
+      "name": "right semimembranosus",
+      "itemId": "atlas-muscles-musculus-semimembranosus-dexter-16",
+      "sha256": "063e4a1bbfd65116210709cf243493017ec1ee73fdf960c0e31137d4a40c2717",
+      "triangles": 14912
+    },
+    {
+      "mesh": "fma22449",
+      "fma": "FMA22449",
+      "name": "left semimembranosus",
+      "itemId": "atlas-muscles-musculus-semimembranosus-sinister-16",
+      "sha256": "285e0b0202cbb6218b2d427e84d1f353e545623319a7b4d2f3e8167f54ecf47f",
+      "triangles": 14424
+    },
+    {
+      "mesh": "fma22450",
+      "fma": "FMA22450",
+      "name": "right pectineus",
+      "itemId": "atlas-muscles-musculus-pectineus-dexter-7",
+      "sha256": "964fe932bdbeb1c6e33acb97ce96e0010615b2bb76c426a1f6543a8a84c85bbc",
+      "triangles": 4030
+    },
+    {
+      "mesh": "fma22451",
+      "fma": "FMA22451",
+      "name": "left pectineus",
+      "itemId": "atlas-muscles-musculus-pectineus-sinister-7",
+      "sha256": "e74a1391f814757fbfaeb0a666c44682f930dde6571e5e3cb31d6fba9aa372a2",
+      "triangles": 4122
+    },
+    {
+      "mesh": "fma22452",
+      "fma": "FMA22452",
+      "name": "right adductor brevis",
+      "itemId": "atlas-muscles-musculus-adductor-brevis-dexter-9",
+      "sha256": "9c024df92994f17a504e4bb53a126887a3cd007c9bdc5d2a655548ba455dd8e4",
+      "triangles": 4320
+    },
+    {
+      "mesh": "fma22454",
+      "fma": "FMA22454",
+      "name": "left adductor brevis",
+      "itemId": "atlas-muscles-musculus-adductor-brevis-sinister-9",
+      "sha256": "030ba676af3f8be714de0d97ac2edc3b73f6bb14e2b8f3783beb320656deaf32",
+      "triangles": 4344
+    },
+    {
+      "mesh": "fma22456",
+      "fma": "FMA22456",
+      "name": "right adductor longus",
+      "itemId": "atlas-muscles-musculus-adductor-longus-dexter-8",
+      "sha256": "b7d6b5db33660f2b6796b1a61028dcd6ecbe6ebba5c327c7c8c72173f54d735c",
+      "triangles": 7428
+    },
+    {
+      "mesh": "fma22457",
+      "fma": "FMA22457",
+      "name": "left adductor longus",
+      "itemId": "atlas-muscles-musculus-adductor-longus-sinister-8",
+      "sha256": "b801408978d8b5b3172156027e8294772e6de857f0f5b3744f6c59b65df073ff",
+      "triangles": 7574
+    },
+    {
+      "mesh": "fma22459",
+      "fma": "FMA22459",
+      "name": "right adductor magnus",
+      "itemId": "atlas-muscles-musculus-adductor-magnus-dexter-1",
+      "sha256": "54a042661d480b5b43702a854a69288aa0a61f7a309ddb83666d2f010f51ac1d",
+      "triangles": 16394
+    },
+    {
+      "mesh": "fma22460",
+      "fma": "FMA22460",
+      "name": "left adductor magnus",
+      "itemId": "atlas-muscles-musculus-adductor-magnus-sinister-1",
+      "sha256": "c6fa34294314d9efb209b0b76e5f391934afb9c628f1fbaddd41f3ca45bb414c",
+      "triangles": 16498
+    },
+    {
+      "mesh": "fma22544",
+      "fma": "FMA22544",
+      "name": "right tibialis anterior",
+      "itemId": "atlas-muscles-musculus-tibialis-anterior-dexter-1",
+      "sha256": "a9eb9775be13ae5e5f110a6f9d93c13c4191655e5a9341f751ca0f4e2f43397e",
+      "triangles": 7182
+    },
+    {
+      "mesh": "fma22545",
+      "fma": "FMA22545",
+      "name": "left tibialis anterior",
+      "itemId": "atlas-muscles-musculus-tibialis-anterior-sinister-1",
+      "sha256": "acd55f8a8c17c8a6ff840cde92077d5944f54437fa2b46a823918c43f7a13061",
+      "triangles": 6904
+    },
+    {
+      "mesh": "fma22546",
+      "fma": "FMA22546",
+      "name": "right extensor hallucis longus",
+      "itemId": "atlas-muscles-musculus-extensor-hallucis-longus-dexter-2",
+      "sha256": "e520e6dac12a832d1e70b5a53b9a29c05c7b723da85ab9787dc9897a6c9c6934",
+      "triangles": 4760
+    },
+    {
+      "mesh": "fma22547",
+      "fma": "FMA22547",
+      "name": "left extensor hallucis longus",
+      "itemId": "atlas-muscles-musculus-extensor-hallucis-longus-sinister-2",
+      "sha256": "ba829be4a39185ac55b30f623b1ab96834c766fe91cc5c65ecee4fb46c2e631a",
+      "triangles": 4628
+    },
+    {
+      "mesh": "fma22548",
+      "fma": "FMA22548",
+      "name": "right extensor digitorum longus",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-longus-dexter-3",
+      "sha256": "67f67a28bd5461a3962b9dcfb8bdc681d76e8ebb7807930d40101d2f0a6d3c9b",
+      "triangles": 12514
+    },
+    {
+      "mesh": "fma22549",
+      "fma": "FMA22549",
+      "name": "left extensor digitorum longus",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-longus-sinister-3",
+      "sha256": "56f0b46583e606b112eb684ad440885fd1eedb8e3079b0b969b40c5f649cc848",
+      "triangles": 12400
+    },
+    {
+      "mesh": "fma22550",
+      "fma": "FMA22550",
+      "name": "right fibularis tertius",
+      "itemId": "atlas-muscles-musculus-fibularis-tertius-dexter-4",
+      "sha256": "4564074c888468d077145d9d75e4327dc899dac346dad6a9a752b3bfde6b3b26",
+      "triangles": 1264
+    },
+    {
+      "mesh": "fma22551",
+      "fma": "FMA22551",
+      "name": "left fibularis tertius",
+      "itemId": "atlas-muscles-musculus-fibularis-tertius-sinister-4",
+      "sha256": "850a0e136279f1aa99c509e390d9dab7d11b0d85e2cfdfc6559aff3941e6c320",
+      "triangles": 1222
+    },
+    {
+      "mesh": "fma22552",
+      "fma": "FMA22552",
+      "name": "right fibularis longus",
+      "itemId": "atlas-muscles-musculus-fibularis-longus-dexter-5",
+      "sha256": "1de3a2f86b69474ddf59a50cd38d4f2436080aeb7ccc13e92110df507f7564c5",
+      "triangles": 11642
+    },
+    {
+      "mesh": "fma22553",
+      "fma": "FMA22553",
+      "name": "left fibularis longus",
+      "itemId": "atlas-muscles-musculus-fibularis-longus-sinister-5",
+      "sha256": "06176ea21363633c3abed4c4ecd2171db641707b49ed903651ae08a1201c79ea",
+      "triangles": 11662
+    },
+    {
+      "mesh": "fma22554",
+      "fma": "FMA22554",
+      "name": "right fibularis brevis",
+      "itemId": "atlas-muscles-musculus-fibularis-brevis-dexter-6",
+      "sha256": "5f2713a8a76bc0020a36b54031b21973a6bad0b122eff1a686ec6999b617ec1b",
+      "triangles": 7146
+    },
+    {
+      "mesh": "fma22555",
+      "fma": "FMA22555",
+      "name": "left fibularis brevis",
+      "itemId": "atlas-muscles-musculus-fibularis-brevis-sinister-6",
+      "sha256": "3dbf3550f6495f00ff9f34a6b693636a14d185eb2e353b93f925df556702ee09",
+      "triangles": 7162
+    },
+    {
+      "mesh": "fma22558",
+      "fma": "FMA22558",
+      "name": "right soleus",
+      "itemId": "atlas-muscles-musculus-soleus-dexter-9",
+      "sha256": "6533e41e724b02d0eaf7429bdc497fa62577d905278d8fbd570e51af7cf8d753",
+      "triangles": 13712
+    },
+    {
+      "mesh": "fma22559",
+      "fma": "FMA22559",
+      "name": "left soleus",
+      "itemId": "atlas-muscles-musculus-soleus-sinister-9",
+      "sha256": "a61531c3959ecb7d5caec2a074c040e688d7c20e12f1f377f04395b61dd75350",
+      "triangles": 13872
+    },
+    {
+      "mesh": "fma22560",
+      "fma": "FMA22560",
+      "name": "right plantaris",
+      "itemId": "atlas-muscles-musculus-plantaris-dexter-10",
+      "sha256": "92bd8f5ce064064f5e02989788d191b54a2552e32f665203ea3b0613936cf702",
+      "triangles": 9404
+    },
+    {
+      "mesh": "fma22561",
+      "fma": "FMA22561",
+      "name": "left plantaris",
+      "itemId": "atlas-muscles-musculus-plantaris-sinister-10",
+      "sha256": "729ce1bc4a32e290658c25acecb88a1c08bc0e90315e70129aac2c8605c86eb0",
+      "triangles": 9340
+    },
+    {
+      "mesh": "fma22591",
+      "fma": "FMA22591",
+      "name": "right popliteus",
+      "itemId": "atlas-muscles-musculus-popliteus-dexter-11",
+      "sha256": "414c47a57bccf1c9040d00d1c37f8747e8756a67f4eba105c0f08ae339662185",
+      "triangles": 2288
+    },
+    {
+      "mesh": "fma22592",
+      "fma": "FMA22592",
+      "name": "left popliteus",
+      "itemId": "atlas-muscles-musculus-popliteus-sinister-11",
+      "sha256": "3f1a8e04adaf489b50c366ce6c40f17da479960cb7b7d05243d768e6d04b5171",
+      "triangles": 2234
+    },
+    {
+      "mesh": "fma22726",
+      "fma": "FMA22726",
+      "name": "right splenius cervicis",
+      "itemId": "atlas-muscles-musculus-splenius-cervicis-dexter-2",
+      "sha256": "5148285971b1edd67d0c950d3ad90769c04d170a06d9dca40481a1b4b69d626c",
+      "triangles": 8908
+    },
+    {
+      "mesh": "fma22727",
+      "fma": "FMA22727",
+      "name": "left splenius cervicis",
+      "itemId": "atlas-muscles-musculus-splenius-cervicis-sinister-2",
+      "sha256": "59edf3709f4bd0dfc5eae4c9ec665d83014bbfa93ad9b80ab899361b88be32a9",
+      "triangles": 8926
+    },
+    {
+      "mesh": "fma22728",
+      "fma": "FMA22728",
+      "name": "right splenius capitis",
+      "itemId": "atlas-muscles-musculus-splenius-capitis-dexter-1",
+      "sha256": "9791dbd40bdc56399419a82290fb968c5cd7aa370f8a668fe0def80c0d4ea88f",
+      "triangles": 10652
+    },
+    {
+      "mesh": "fma22729",
+      "fma": "FMA22729",
+      "name": "left splenius capitis",
+      "itemId": "atlas-muscles-musculus-splenius-capitis-sinister-1",
+      "sha256": "5ff2444019bc51ebd7d71989d606e9316e30c8f3f253b0d2daea51774bac6bc8",
+      "triangles": 10670
+    },
+    {
+      "mesh": "fma22740",
+      "fma": "FMA22740",
+      "name": "right iliocostalis lumborum",
+      "itemId": "atlas-muscles-musculus-iliocostalis-lumborum-dexter-1",
+      "sha256": "5e2737d76494b1a8eedac5d48a8bbdb8eef6b66c091ccc1a5a6e82082de8a73f",
+      "triangles": 21508
+    },
+    {
+      "mesh": "fma22741",
+      "fma": "FMA22741",
+      "name": "left iliocostalis lumborum",
+      "itemId": "atlas-muscles-musculus-iliocostalis-lumborum-sinister-1",
+      "sha256": "18beb06566e1647cda9f7ae4964cb8374f68a4a6ab8231eb628651ac06e850d2",
+      "triangles": 21976
+    },
+    {
+      "mesh": "fma22742",
+      "fma": "FMA22742",
+      "name": "right iliocostalis thoracis",
+      "itemId": "atlas-muscles-musculus-iliocostalis-thoracis-dexter-2",
+      "sha256": "72fe5639968110bc578cb0726890c0567ed764b828df0f4811033ee195459a1a",
+      "triangles": 11584
+    },
+    {
+      "mesh": "fma22743",
+      "fma": "FMA22743",
+      "name": "left iliocostalis thoracis",
+      "itemId": "atlas-muscles-musculus-iliocostalis-thoracis-sinister-2",
+      "sha256": "6809f6104c96c824a88281d584bda9020cad432280566238ebd4e5819fdf401f",
+      "triangles": 11270
+    },
+    {
+      "mesh": "fma22744",
+      "fma": "FMA22744",
+      "name": "right iliocostalis cervicis",
+      "itemId": "atlas-muscles-musculus-iliocostalis-cervicis-dexter-3",
+      "sha256": "97b9a9c19f1c840d2de76f2e14e048a39d73179c4b91c68b329af2c8b78478dc",
+      "triangles": 4144
+    },
+    {
+      "mesh": "fma22745",
+      "fma": "FMA22745",
+      "name": "left iliocostalis cervicis",
+      "itemId": "atlas-muscles-musculus-iliocostalis-cervicis-sinister-3",
+      "sha256": "92afb1b15b037118975415c7e82acf6705f9bbffca5e729aa451ee359bb81194",
+      "triangles": 3976
+    },
+    {
+      "mesh": "fma22751",
+      "fma": "FMA22751",
+      "name": "right longissimus thoracis",
+      "itemId": "atlas-muscles-musculus-longissimus-thoracis-dexter-4",
+      "sha256": "df4783899f4d3424ef055a520d6b6256afbc84c2f5f6d2454d3caf5a2f2d245b",
+      "triangles": 21432
+    },
+    {
+      "mesh": "fma22753",
+      "fma": "FMA22753",
+      "name": "left longissimus thoracis",
+      "itemId": "atlas-muscles-musculus-longissimus-thoracis-sinister-4",
+      "sha256": "4767484df819a861d67010b6541d3c61241ff092df8f259b21aeb6af6dcf92fc",
+      "triangles": 21076
+    },
+    {
+      "mesh": "fma22754",
+      "fma": "FMA22754",
+      "name": "right longissimus capitis",
+      "itemId": "atlas-muscles-musculus-longissimus-capitis-dexter-6",
+      "sha256": "90c49eae57f22d691b03247b44a83674a6e5d09c367ba05c2e6a11418d1f9a62",
+      "triangles": 3170
+    },
+    {
+      "mesh": "fma22756",
+      "fma": "FMA22756",
+      "name": "left longissimus capitis",
+      "itemId": "atlas-muscles-musculus-longissimus-capitis-sinister-6",
+      "sha256": "94626ef361a5195008ed2b8dfab4dd1b9c3ff327e6178935d8689659e33a04a4",
+      "triangles": 3080
+    },
+    {
+      "mesh": "fma22757",
+      "fma": "FMA22757",
+      "name": "right longissimus cervicis",
+      "itemId": "atlas-muscles-musculus-longissimus-cervicis-dexter-5",
+      "sha256": "05c02c75c543f6fbfba1414884cf9301dfbf864a1f7ade899c8038900a365ec8",
+      "triangles": 3752
+    },
+    {
+      "mesh": "fma22758",
+      "fma": "FMA22758",
+      "name": "left longissimus cervicis",
+      "itemId": "atlas-muscles-musculus-longissimus-cervicis-sinister-5",
+      "sha256": "3df80980491d683e0f393acf324360031c08d8c890640ea08af339668f5f3291",
+      "triangles": 3620
+    },
+    {
+      "mesh": "fma22779",
+      "fma": "FMA22779",
+      "name": "right spinalis thoracis",
+      "itemId": "atlas-muscles-musculus-spinalis-thoracis-dexter-7",
+      "sha256": "89170ac7e0cf4b0a052df3d3a2b6edf12b11abd56fdf208dfd69128efced435e",
+      "triangles": 11196
+    },
+    {
+      "mesh": "fma22780",
+      "fma": "FMA22780",
+      "name": "left spinalis thoracis",
+      "itemId": "atlas-muscles-musculus-spinalis-thoracis-sinister-7",
+      "sha256": "7a893123af76a3cd6d9733cc39dc60ea4319bfebef7506e64429b0f83c75606f",
+      "triangles": 10820
+    },
+    {
+      "mesh": "fma22781",
+      "fma": "FMA22781",
+      "name": "right spinalis cervicis",
+      "itemId": "atlas-muscles-musculus-spinalis-cervicis-dexter-8",
+      "sha256": "adac45f8aa6695a3901f3679763fbb42f74d62ed05d575a833b262ef5988a330",
+      "triangles": 1202
+    },
+    {
+      "mesh": "fma22782",
+      "fma": "FMA22782",
+      "name": "left spinalis cervicis",
+      "itemId": "atlas-muscles-musculus-spinalis-cervicis-sinister-8",
+      "sha256": "06cd42f684efbeb35fe2c4f42a6105232cbb844b68dc2bdd2061804647fb722d",
+      "triangles": 1188
+    },
+    {
+      "mesh": "fma22872",
+      "fma": "FMA22872",
+      "name": "right semispinalis thoracis",
+      "itemId": "atlas-muscles-musculus-semispinalis-thoracis-dexter-5",
+      "sha256": "92fa975d2f30f4da52dfd04a78e4da1d688e8ab7e4bc070386b796d0e23de8ff",
+      "triangles": 10118
+    },
+    {
+      "mesh": "fma22873",
+      "fma": "FMA22873",
+      "name": "left semispinalis thoracis",
+      "itemId": "atlas-muscles-musculus-semispinalis-thoracis-sinister-5",
+      "sha256": "b41558213d7f3c4be7a4bbebb80213880ffb866bf3a329db6d42c964653fc3da",
+      "triangles": 9704
+    },
+    {
+      "mesh": "fma22874",
+      "fma": "FMA22874",
+      "name": "right semispinalis cervicis",
+      "itemId": "atlas-muscles-musculus-semispinalis-cervicis-dexter-4",
+      "sha256": "c4b730d45db39c30e1f655333542d2f31450e85a1072f51735258faeae12e8b1",
+      "triangles": 5232
+    },
+    {
+      "mesh": "fma22875",
+      "fma": "FMA22875",
+      "name": "left semispinalis cervicis",
+      "itemId": "atlas-muscles-musculus-semispinalis-cervicis-sinister-4",
+      "sha256": "11a3512e13667895b533cfc3f8c8247d71c99e9848f283c0e6e21393d844426e",
+      "triangles": 5032
+    },
+    {
+      "mesh": "fma22876",
+      "fma": "FMA22876",
+      "name": "right semispinalis capitis",
+      "itemId": "atlas-muscles-musculus-semispinalis-capitis-dexter-3",
+      "sha256": "81eef574dce6475d168a60109ad7b7fd53b8dd5d11fb63971dfcd340812c5fe2",
+      "triangles": 5490
+    },
+    {
+      "mesh": "fma22877",
+      "fma": "FMA22877",
+      "name": "left semispinalis capitis",
+      "itemId": "atlas-muscles-musculus-semispinalis-capitis-sinister-3",
+      "sha256": "d37471b90ed9210573ea0da450c50cf7ea202474de5e2a81a63db2afdd6af9b3",
+      "triangles": 5478
+    },
+    {
+      "mesh": "fma32530",
+      "fma": "FMA32530",
+      "name": "right rectus capitis posterior major",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-posterior-major-dexter-1",
+      "sha256": "c2d1d968d2dd11583e054637d3ba156803814c6363c01ae7040d3c110959e18a",
+      "triangles": 1578
+    },
+    {
+      "mesh": "fma32531",
+      "fma": "FMA32531",
+      "name": "left rectus capitis posterior major",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-posterior-major-sinister-1",
+      "sha256": "52c0fb62d75a7b3f635554c9266897a3176d153eda4482b9207b8ce52377683e",
+      "triangles": 1566
+    },
+    {
+      "mesh": "fma32532",
+      "fma": "FMA32532",
+      "name": "right rectus capitis posterior minor",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-posterior-minor-dexter-2",
+      "sha256": "91878b920d18547df0cbbc1c22e9272580b05fbb06bc955b8a45cff88909f58f",
+      "triangles": 878
+    },
+    {
+      "mesh": "fma32533",
+      "fma": "FMA32533",
+      "name": "left rectus capitis posterior minor",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-posterior-minor-sinister-2",
+      "sha256": "667b62408405cf83a12a452697525e245fb3c6d286868b346621a40bdef539e2",
+      "triangles": 860
+    },
+    {
+      "mesh": "fma32534",
+      "fma": "FMA32534",
+      "name": "right obliquus capitis superior",
+      "itemId": "atlas-muscles-musculus-obliquus-capitis-superior-dexter-3",
+      "sha256": "0af0c8e1e53a4bcb3ec35df8eec3a19a267b9fa41e510b3474ec0a08f847df51",
+      "triangles": 1436
+    },
+    {
+      "mesh": "fma32535",
+      "fma": "FMA32535",
+      "name": "left obliquus capitis superior",
+      "itemId": "atlas-muscles-musculus-obliquus-capitis-superior-sinister-3",
+      "sha256": "4814f25078a9baad64c8106d752048c6ad9d43bea00210063fe808f1d8067206",
+      "triangles": 1426
+    },
+    {
+      "mesh": "fma32536",
+      "fma": "FMA32536",
+      "name": "right obliquus capitis inferior",
+      "itemId": "atlas-muscles-musculus-obliquus-capitis-inferior-dexter-4",
+      "sha256": "b7c84df19dace50b5519d177ce694baddf3083c0fa65f3649cc913152b6a1959",
+      "triangles": 1082
+    },
+    {
+      "mesh": "fma32537",
+      "fma": "FMA32537",
+      "name": "left obliquus capitis inferior",
+      "itemId": "atlas-muscles-musculus-obliquus-capitis-inferior-sinister-4",
+      "sha256": "ac05f3e9dadf1f1f0b306e1be6b3e87ae84e58b4c4a252cb00388f657f9be309",
+      "triangles": 1044
+    },
+    {
+      "mesh": "fma32540",
+      "fma": "FMA32540",
+      "name": "right levator scapulae",
+      "itemId": "atlas-muscles-musculus-levator-scapulae-dexter-5",
+      "sha256": "27fd8d9956d16e32419527d3fdd62982d075e906ea3e962e6ec45eb2c93625a8",
+      "triangles": 6266
+    },
+    {
+      "mesh": "fma32541",
+      "fma": "FMA32541",
+      "name": "left levator scapulae",
+      "itemId": "atlas-muscles-musculus-levator-scapulae-sinister-5",
+      "sha256": "d62060933023e5a6bbb3b389270d4d917b6518ea198fae749252df996867ec6b",
+      "triangles": 6090
+    },
+    {
+      "mesh": "fma32544",
+      "fma": "FMA32544",
+      "name": "right supraspinatus",
+      "itemId": "atlas-muscles-musculus-supraspinatus-dexter-4",
+      "sha256": "20366af170a74fe29117180bc57214b1b68150c7f5be6d8255e5da2e93702587",
+      "triangles": 2862
+    },
+    {
+      "mesh": "fma32545",
+      "fma": "FMA32545",
+      "name": "left supraspinatus",
+      "itemId": "atlas-muscles-musculus-supraspinatus-sinister-4",
+      "sha256": "099c9ee02ae4382ce8a1ef7bdf5192343641e568447c81834a521adeea2df3e9",
+      "triangles": 2962
+    },
+    {
+      "mesh": "fma32547",
+      "fma": "FMA32547",
+      "name": "right infraspinatus muscle",
+      "itemId": "atlas-muscles-musculus-infraspinatus-dexter-5",
+      "sha256": "3e306bfc0c8452b2d1bfd004bba11ebcb43f9f39729b97bc5173dbb00345cafa",
+      "triangles": 6336
+    },
+    {
+      "mesh": "fma32548",
+      "fma": "FMA32548",
+      "name": "left infraspinatus muscle",
+      "itemId": "atlas-muscles-musculus-infraspinatus-sinister-5",
+      "sha256": "561ab43477b8ff911e508a0bacf0c0d74b28287ed63472b68a7d912cabded3ca",
+      "triangles": 6378
+    },
+    {
+      "mesh": "fma32551",
+      "fma": "FMA32551",
+      "name": "right teres major",
+      "itemId": "atlas-muscles-musculus-teres-major-dexter-8",
+      "sha256": "2c57f2f640de6fb690c080f2b10635001cdccf0bd0ec696ba32db0982cdc350e",
+      "triangles": 3428
+    },
+    {
+      "mesh": "fma32552",
+      "fma": "FMA32552",
+      "name": "left teres major",
+      "itemId": "atlas-muscles-musculus-teres-major-sinister-8",
+      "sha256": "12b474f05db028e25dc2b4edad41919caaf00991322d70b39e48036b81053752",
+      "triangles": 3422
+    },
+    {
+      "mesh": "fma32553",
+      "fma": "FMA32553",
+      "name": "right teres minor",
+      "itemId": "atlas-muscles-musculus-teres-minor-dexter-6",
+      "sha256": "f0ffca591d2fabc242e2bd57685c48db804b4d20a9b2dc6747ab7c8b47f3994d",
+      "triangles": 3044
+    },
+    {
+      "mesh": "fma32554",
+      "fma": "FMA32554",
+      "name": "left teres minor",
+      "itemId": "atlas-muscles-musculus-teres-minor-sinister-6",
+      "sha256": "5c6891e04626dfba942efba6968eaaaa371f17bc59f1cc78097a67dc76ac2f20",
+      "triangles": 3030
+    },
+    {
+      "mesh": "fma33581",
+      "fma": "FMA33581",
+      "name": "ascending part of right trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-ascendens-dexter-3",
+      "sha256": "1634da1307df6ce0e698b322aae4ac6c04bed1a794e5f2b3b5a21ac46725bfae",
+      "triangles": 13926
+    },
+    {
+      "mesh": "fma33583",
+      "fma": "FMA33583",
+      "name": "ascending part of left trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-ascendens-sinister-3",
+      "sha256": "ec7bef56bee6a0bca42a84b160956ebe9e19d8a80423167ace39282df2d9ed67",
+      "triangles": 13638
+    },
+    {
+      "mesh": "fma33584",
+      "fma": "FMA33584",
+      "name": "transverse part of right trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-transversa-dexter-2",
+      "sha256": "2d02c891eba80f3e193e03f757540ea674ada7829b76ecfbcbe7040b4aafa96e",
+      "triangles": 6116
+    },
+    {
+      "mesh": "fma33585",
+      "fma": "FMA33585",
+      "name": "transverse part of left trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-transversa-sinister-2",
+      "sha256": "a20de975072b7e2057d021865a3a001221261cd6adaeb31975fafd6a66ee33de",
+      "triangles": 6070
+    },
+    {
+      "mesh": "fma33586",
+      "fma": "FMA33586",
+      "name": "descending part of right trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-descendens-dexter-1",
+      "sha256": "a013040a38a21b5f89ab722e40ebf8c4f10b2165ce3e9084914083a66ce43419",
+      "triangles": 9290
+    },
+    {
+      "mesh": "fma33587",
+      "fma": "FMA33587",
+      "name": "descending part of left trapezius",
+      "itemId": "atlas-muscles-musculus-trapezius-pars-descendens-sinister-1",
+      "sha256": "3ba15425918163ea1e4a2aac025ac61dbd18f1609ed8dd9140d8a646ddbc08f5",
+      "triangles": 8998
+    },
+    {
+      "mesh": "fma34680",
+      "fma": "FMA34680",
+      "name": "clavicular part of right deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-clavicularis-dexter-1",
+      "sha256": "10b0e35c10709a6bdfbd048678066c90fd5b0cbd189613b88fbc0404f552406d",
+      "triangles": 5816
+    },
+    {
+      "mesh": "fma34681",
+      "fma": "FMA34681",
+      "name": "clavicular part of left deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-clavicularis-sinister-1",
+      "sha256": "41788377cd779767136f1046dcdbecf97603e6e8298d0e896c530527315ebbb1",
+      "triangles": 5696
+    },
+    {
+      "mesh": "fma34682",
+      "fma": "FMA34682",
+      "name": "acromial part of right deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-acromialis-dexter-2",
+      "sha256": "1a7954444ce41e197185119f8b08aa513868ad97f5c297b8c8054bd94fe8027f",
+      "triangles": 5936
+    },
+    {
+      "mesh": "fma34683",
+      "fma": "FMA34683",
+      "name": "acromial part of left deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-acromialis-sinister-2",
+      "sha256": "be76675482515304fa803ebfd1eecd22259910e5217ae639f24c4af91748f107",
+      "triangles": 5814
+    },
+    {
+      "mesh": "fma34684",
+      "fma": "FMA34684",
+      "name": "spinal part of right deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-spinalis-dexter-3",
+      "sha256": "d1d6d20d8efe7fa552533b4d09fc1cc98585824ffdd4621368177ca726b578bb",
+      "triangles": 8802
+    },
+    {
+      "mesh": "fma34685",
+      "fma": "FMA34685",
+      "name": "spinal part of left deltoid",
+      "itemId": "atlas-muscles-musculus-deltoideus-pars-spinalis-sinister-3",
+      "sha256": "17da00bf8d0d39730247fababca4fbbe317359749518d843ccce246c5b387dca",
+      "triangles": 8924
+    },
+    {
+      "mesh": "fma34690",
+      "fma": "FMA34690",
+      "name": "clavicular part of right pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-clavicularis-dexter-1",
+      "sha256": "30cb0abb6e541a5166c52ee32f84d5fe8ce53245a6644d244d11ff0b21557863",
+      "triangles": 1866
+    },
+    {
+      "mesh": "fma34691",
+      "fma": "FMA34691",
+      "name": "clavicular part of left pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-clavicularis-sinister-1",
+      "sha256": "b68248a44986a38f967e5843099e0bb252767fa13964721de45f3e62e5340d90",
+      "triangles": 1872
+    },
+    {
+      "mesh": "fma37386",
+      "fma": "FMA37386",
+      "name": "right abductor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-abductor-pollicis-brevis-dexter-1",
+      "sha256": "4eb2e32e3e588e14290a43c3b202c29983a87e8eb422f7a897310de4c5c8d7a3",
+      "triangles": 1270
+    },
+    {
+      "mesh": "fma37387",
+      "fma": "FMA37387",
+      "name": "left abductor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-abductor-pollicis-brevis-sinister-1",
+      "sha256": "af94cd76ff62b585782dce621f49ceb438e5548a62344f9aac5e8ffaec90e07c",
+      "triangles": 1208
+    },
+    {
+      "mesh": "fma37390",
+      "fma": "FMA37390",
+      "name": "right opponens pollicis",
+      "itemId": "atlas-muscles-musculus-opponens-pollicis-dexter-4",
+      "sha256": "3947965f417f6cf6a63397d2d4fee42469cff1f04ec40c90a8d70ce3dc0bcd87",
+      "triangles": 1580
+    },
+    {
+      "mesh": "fma37391",
+      "fma": "FMA37391",
+      "name": "left opponens pollicis",
+      "itemId": "atlas-muscles-musculus-opponens-pollicis-sinister-4",
+      "sha256": "fdb70ba75d835f4745dd82a78fc0293c8d7a58e6f8d855666889e1e8d65d4b03",
+      "triangles": 1516
+    },
+    {
+      "mesh": "fma37396",
+      "fma": "FMA37396",
+      "name": "abductor digiti minimi of right hand",
+      "itemId": "atlas-muscles-musculus-abductor-digiti-minimi-manus-dexter-8",
+      "sha256": "80071373e1addafe77f9e4e22ad892598cd52390f6b52e4bbe08789cd2aa64ea",
+      "triangles": 1414
+    },
+    {
+      "mesh": "fma37397",
+      "fma": "FMA37397",
+      "name": "abductor digiti minimi of left hand",
+      "itemId": "atlas-muscles-musculus-abductor-digiti-minimi-manus-sinister-8",
+      "sha256": "9ff9ed69ef9d77627d63b2a772a7574dfbe86ff70f3b09ab9ab8c2fabe50af6c",
+      "triangles": 1372
+    },
+    {
+      "mesh": "fma37398",
+      "fma": "FMA37398",
+      "name": "flexor digiti minimi brevis of right hand",
+      "itemId": "atlas-muscles-musculus-flexor-digiti-minimi-brevis-manus-dexter-9",
+      "sha256": "5067640f96e67e610e4e5e24864e60962526b0425f5b38eec762c8775648e49b",
+      "triangles": 628
+    },
+    {
+      "mesh": "fma37399",
+      "fma": "FMA37399",
+      "name": "flexor digiti minimi brevis of left hand",
+      "itemId": "atlas-muscles-musculus-flexor-digiti-minimi-brevis-manus-sinister-9",
+      "sha256": "a2fc392ea82737497e8f669a4c9b188e8d06399fec5feb5f7ed22c5d9780d80b",
+      "triangles": 608
+    },
+    {
+      "mesh": "fma37400",
+      "fma": "FMA37400",
+      "name": "opponens digiti minimi of right hand",
+      "itemId": "atlas-muscles-musculus-opponens-digiti-minimi-dexter-10",
+      "sha256": "976a4ff5fb984f42af5b8fa850f8ea063f07a717117074cbd4534387bd4dfd34",
+      "triangles": 932
+    },
+    {
+      "mesh": "fma37401",
+      "fma": "FMA37401",
+      "name": "opponens digiti minimi of left hand",
+      "itemId": "atlas-muscles-musculus-opponens-digiti-minimi-sinister-10",
+      "sha256": "3c26ec14322df1e6f5e1579c2c5d1fee9a38bba41c1406b8ed66626f1ff74772",
+      "triangles": 914
+    },
+    {
+      "mesh": "fma37459",
+      "fma": "FMA37459",
+      "name": "right abductor hallucis",
+      "itemId": "atlas-muscles-musculus-abductor-hallucis-dexter-3",
+      "sha256": "fb90e90af6b465e4719a25de6843ebd8c9887ced44a3e08b599f1dea8aca1025",
+      "triangles": 3430
+    },
+    {
+      "mesh": "fma37460",
+      "fma": "FMA37460",
+      "name": "left abductor hallucis",
+      "itemId": "atlas-muscles-musculus-abductor-hallucis-sinister-3",
+      "sha256": "f44f4f74448c273f464e22b840e60b404fcf67ee0409f98db77e6d921eb0f9c1",
+      "triangles": 3418
+    },
+    {
+      "mesh": "fma37461",
+      "fma": "FMA37461",
+      "name": "right flexor digitorum brevis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-brevis-dexter-4",
+      "sha256": "2828ae37f0e868b70c3ec38321ae622161c0a30bc98b697b35b4381cc2e001df",
+      "triangles": 6508
+    },
+    {
+      "mesh": "fma37462",
+      "fma": "FMA37462",
+      "name": "left flexor digitorum brevis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-brevis-sinister-4",
+      "sha256": "9a2b5ac7534ca5e7fd27ea05c697ff407c88486812dbe9a2550ad152d07784d7",
+      "triangles": 6824
+    },
+    {
+      "mesh": "fma37463",
+      "fma": "FMA37463",
+      "name": "abductor digiti minimi of right foot",
+      "itemId": "atlas-muscles-musculus-abductor-digiti-minimi-pedis-dexter-5",
+      "sha256": "cb52ad91716cb25856aea612d7e4d820ed76d366ccd57bbe9e09ab57b13cb1db",
+      "triangles": 2646
+    },
+    {
+      "mesh": "fma37464",
+      "fma": "FMA37464",
+      "name": "abductor digiti minimi of left foot",
+      "itemId": "atlas-muscles-musculus-abductor-digiti-minimi-pedis-sinister-5",
+      "sha256": "9d8fd699483f9303f842b33f091ecbb95e30db8f993d6d7f45b38e6c2e8335cf",
+      "triangles": 2780
+    },
+    {
+      "mesh": "fma37465",
+      "fma": "FMA37465",
+      "name": "right flexor accessorius",
+      "itemId": "atlas-muscles-musculus-quadratus-plantae-dexter-6",
+      "sha256": "a48f16fdf596373c4ec00c1327d5c7c0ac76ef84cfb9f6091a4078f4f2955366",
+      "triangles": 2360
+    },
+    {
+      "mesh": "fma37466",
+      "fma": "FMA37466",
+      "name": "left flexor accessorius",
+      "itemId": "atlas-muscles-musculus-quadratus-plantae-sinister-6",
+      "sha256": "d89dccf3ca40773d6b7f0d6d0d0ca663d0088385487d7144f3b7463fc6528ab5",
+      "triangles": 2500
+    },
+    {
+      "mesh": "fma37471",
+      "fma": "FMA37471",
+      "name": "flexor digiti minimi brevis of right foot",
+      "itemId": "atlas-muscles-musculus-flexor-digiti-minimi-brevis-pedis-dexter-15",
+      "sha256": "db69960fa3f73bc448822aa320f00cb54688ff37f84e9b8be6b3fc5dbb37b7f9",
+      "triangles": 1000
+    },
+    {
+      "mesh": "fma37472",
+      "fma": "FMA37472",
+      "name": "flexor digiti minimi brevis of left foot",
+      "itemId": "atlas-muscles-musculus-flexor-digiti-minimi-brevis-pedis-sinister-15",
+      "sha256": "3c3583bcae718d4b0db2df4f54aeecf731a8778b8043a5cb3dec89c9f2d7e8b9",
+      "triangles": 1024
+    },
+    {
+      "mesh": "fma37483",
+      "fma": "FMA37483",
+      "name": "fourth lumbrical of right foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-quartus-pedis-dexter-10",
+      "sha256": "ca93d5e78d0079136fe0219cd485063f7bfab0db6aa53c68b16e9ace1f9094ae",
+      "triangles": 602
+    },
+    {
+      "mesh": "fma37484",
+      "fma": "FMA37484",
+      "name": "fourth lumbrical of left foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-quartus-pedis-sinister-10",
+      "sha256": "928fc1aa127417704b59640839ecb476574edbe8d1a5338abe096f9e618da54d",
+      "triangles": 644
+    },
+    {
+      "mesh": "fma37485",
+      "fma": "FMA37485",
+      "name": "third lumbrical of right foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-tertius-pedis-dexter-9",
+      "sha256": "ee81116a2b02f43d886c93344d55de1bd8f8985d8877d4d9229872cabee8d625",
+      "triangles": 688
+    },
+    {
+      "mesh": "fma37486",
+      "fma": "FMA37486",
+      "name": "third lumbrical of left foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-tertius-pedis-sinister-9",
+      "sha256": "1c1764805c887677464fb2c6335e853fcef292778180d49a0bb36d46f43a8e43",
+      "triangles": 704
+    },
+    {
+      "mesh": "fma37665",
+      "fma": "FMA37665",
+      "name": "right coracobrachialis",
+      "itemId": "atlas-muscles-musculus-coracobrachialis-dexter-3",
+      "sha256": "e47c6315825eb58c459919d27bd0729288cbb6e4a2fc2852a4c91529359d7e5a",
+      "triangles": 2328
+    },
+    {
+      "mesh": "fma37666",
+      "fma": "FMA37666",
+      "name": "left coracobrachialis",
+      "itemId": "atlas-muscles-musculus-coracobrachialis-sinister-3",
+      "sha256": "d7b29abd45b00253df6ad401a7ca02112213899b3067e2b405a18668a55ce1a4",
+      "triangles": 2222
+    },
+    {
+      "mesh": "fma37668",
+      "fma": "FMA37668",
+      "name": "right brachialis",
+      "itemId": "atlas-muscles-musculus-brachialis-dexter-4",
+      "sha256": "e7e1f6d028d4524a14807f8cc0d44a674286988237e2fd2edf1028e8cf1039cf",
+      "triangles": 6996
+    },
+    {
+      "mesh": "fma37669",
+      "fma": "FMA37669",
+      "name": "left brachialis",
+      "itemId": "atlas-muscles-musculus-brachialis-sinister-4",
+      "sha256": "6ca8f8b8d93354cbd90b1c20ab8cd71476aa62fa0248c8456ff8aae5e0df6dbe",
+      "triangles": 6936
+    },
+    {
+      "mesh": "fma37684",
+      "fma": "FMA37684",
+      "name": "short head of right biceps brachii",
+      "itemId": "atlas-muscles-musculus-biceps-brachii-caput-breve-dexter-2",
+      "sha256": "8fdf147f4fd4ad7a91d33bdf16e18338d9792da4a85de82b6aff730a613598c4",
+      "triangles": 5566
+    },
+    {
+      "mesh": "fma37685",
+      "fma": "FMA37685",
+      "name": "short head of left biceps brachii",
+      "itemId": "atlas-muscles-musculus-biceps-brachii-caput-breve-sinister-2",
+      "sha256": "ed15e7cc43921bf47d22e2e2a3bd4fdc79d764f8e0b6e8dab46f9cf6b498a003",
+      "triangles": 5740
+    },
+    {
+      "mesh": "fma37686",
+      "fma": "FMA37686",
+      "name": "long head of right biceps brachii",
+      "itemId": "atlas-muscles-musculus-biceps-brachii-caput-longum-dexter-1",
+      "sha256": "7d518123ddfb119278dc3f63d38ce39f1ded867d7da8a64a0d8e377da15e60d5",
+      "triangles": 6452
+    },
+    {
+      "mesh": "fma37687",
+      "fma": "FMA37687",
+      "name": "long head of left biceps brachii",
+      "itemId": "atlas-muscles-musculus-biceps-brachii-caput-longum-sinister-1",
+      "sha256": "6ae9dd9ca402ff59adb868f96c973a10af8cd9f048fb9688c218c63ba394393d",
+      "triangles": 6580
+    },
+    {
+      "mesh": "fma37695",
+      "fma": "FMA37695",
+      "name": "medial head of right triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-mediale-dexter-7",
+      "sha256": "45af5e4bcb0b40032cc785a73e32a5007e62787e5204d0b562f9c193fc8683d0",
+      "triangles": 5376
+    },
+    {
+      "mesh": "fma37696",
+      "fma": "FMA37696",
+      "name": "medial head of left triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-mediale-sinister-7",
+      "sha256": "83f6e7b68c59929395f16738e96540e555a0abd4414979811310767fb2db9f5b",
+      "triangles": 5244
+    },
+    {
+      "mesh": "fma37697",
+      "fma": "FMA37697",
+      "name": "lateral head of right triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-laterale-dexter-6",
+      "sha256": "ecaf3e4aaa1c29c580ce9400e66124729e59c1f3b33e293e056af1381c5e7a3b",
+      "triangles": 7262
+    },
+    {
+      "mesh": "fma37698",
+      "fma": "FMA37698",
+      "name": "lateral head of left triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-laterale-sinister-6",
+      "sha256": "c194486da6f6afa360e24eed3c640cd981a7371a52bc555d747a8a8260359170",
+      "triangles": 7194
+    },
+    {
+      "mesh": "fma37699",
+      "fma": "FMA37699",
+      "name": "long head of right triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-longum-dexter-5",
+      "sha256": "c416531f0ddac4d3873f6420c9bbf3a7f0f9e72f2df3f03acd2829ebc5b0d456",
+      "triangles": 7902
+    },
+    {
+      "mesh": "fma37700",
+      "fma": "FMA37700",
+      "name": "long head of left triceps brachii",
+      "itemId": "atlas-muscles-musculus-triceps-brachii-caput-longum-sinister-5",
+      "sha256": "9f7e10724485f52e8ca16efae379d1522a7168502157d441fc0bc661c21b4fbf",
+      "triangles": 7624
+    },
+    {
+      "mesh": "fma37705",
+      "fma": "FMA37705",
+      "name": "right anconeus",
+      "itemId": "atlas-muscles-musculus-anconeus-dexter-8",
+      "sha256": "0c6829ba0cccc63b812c6451f4babb2ad7f0a67f62bbf1ec2c9f386f2ef1f1a7",
+      "triangles": 2886
+    },
+    {
+      "mesh": "fma37706",
+      "fma": "FMA37706",
+      "name": "left anconeus",
+      "itemId": "atlas-muscles-musculus-anconeus-sinister-8",
+      "sha256": "8f9048770784a1c1545778e707d20c0d8bb57e02e7899979b0daad05f27eaac9",
+      "triangles": 2836
+    },
+    {
+      "mesh": "fma37717",
+      "fma": "FMA37717",
+      "name": "first lumbrical of right foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-primus-pedis-dexter-7",
+      "sha256": "4dbbfd37d28df71e82b75f32ef54c74ae481282b820ee3b851a3f430809f34f8",
+      "triangles": 984
+    },
+    {
+      "mesh": "fma37718",
+      "fma": "FMA37718",
+      "name": "first lumbrical of left foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-primus-pedis-sinister-7",
+      "sha256": "6d5706d195d700bf9d822913facb30f1eebe47f1e78915d9613966f61d845a42",
+      "triangles": 952
+    },
+    {
+      "mesh": "fma37719",
+      "fma": "FMA37719",
+      "name": "second lumbrical of right foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-secundus-pedis-dexter-8",
+      "sha256": "5b4e2e4ae0e4dff5823c11b2536ec79a788c6e3613f7ea459e4129fd104933ce",
+      "triangles": 666
+    },
+    {
+      "mesh": "fma37720",
+      "fma": "FMA37720",
+      "name": "second lumbrical of left foot",
+      "itemId": "atlas-muscles-musculus-lumbricalis-secundus-pedis-sinister-8",
+      "sha256": "cf64be64be3a0159435a315255da5b78a8edc76322c59222ca6db289c810a5b8",
+      "triangles": 660
+    },
+    {
+      "mesh": "fma37741",
+      "fma": "FMA37741",
+      "name": "third plantar interosseous of right foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-tertius-dexter-18",
+      "sha256": "4a9020ad6d378ddcd9a0eab337b2126bdb2464c9ce1b595b0663fc974630d436",
+      "triangles": 788
+    },
+    {
+      "mesh": "fma37742",
+      "fma": "FMA37742",
+      "name": "third plantar interosseous of left foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-tertius-sinister-18",
+      "sha256": "659513fc3e23e42f91c487e32549dc223fe61973ffc7064d9a8f56dec8351efa",
+      "triangles": 1024
+    },
+    {
+      "mesh": "fma37743",
+      "fma": "FMA37743",
+      "name": "second plantar interosseous of right foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-secundus-dexter-17",
+      "sha256": "0e85dabeac81cd2d63c031a8817b2bd1ad45732fc9ceed82596b2a29e0e48836",
+      "triangles": 864
+    },
+    {
+      "mesh": "fma37744",
+      "fma": "FMA37744",
+      "name": "second plantar interosseous of left foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-secundus-sinister-17",
+      "sha256": "bb8cb3929df981ec6d0665aa899d4bf738922eab31b43c6f97180acf1d5902e7",
+      "triangles": 866
+    },
+    {
+      "mesh": "fma37745",
+      "fma": "FMA37745",
+      "name": "first plantar interosseous of right foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-primus-dexter-16",
+      "sha256": "bafbd1d672b1f616cdcc70ebf092bdbabec767a136a334a8ae6f44d26b1ee40a",
+      "triangles": 888
+    },
+    {
+      "mesh": "fma37746",
+      "fma": "FMA37746",
+      "name": "first plantar interosseous of left foot",
+      "itemId": "atlas-muscles-musculus-interosseus-plantaris-primus-sinister-16",
+      "sha256": "7471b172ac26fdf7372cff9c9394dbfad9940a7ffd897e5b9b0504a777d9221c",
+      "triangles": 876
+    },
+    {
+      "mesh": "fma38454",
+      "fma": "FMA38454",
+      "name": "right pronator quadratus",
+      "itemId": "atlas-muscles-musculus-pronator-quadratus-dexter-11",
+      "sha256": "ab4e1564c2497de20a6d1b819ff7bfbf56df13dead2f8e0ddb8e1a3eeebf6ee4",
+      "triangles": 2932
+    },
+    {
+      "mesh": "fma38455",
+      "fma": "FMA38455",
+      "name": "left pronator quadratus",
+      "itemId": "atlas-muscles-musculus-pronator-quadratus-sinister-11",
+      "sha256": "6fab25146953b9699e4087841025270a2fbd92c90a543c0933660e1c3e6949dd",
+      "triangles": 2886
+    },
+    {
+      "mesh": "fma38460",
+      "fma": "FMA38460",
+      "name": "right flexor carpi radialis",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-radialis-dexter-3",
+      "sha256": "513d4323c71b44d49b2d7012f6cc431cc92f7588cfd86a4c2f682816bfd485c0",
+      "triangles": 3344
+    },
+    {
+      "mesh": "fma38461",
+      "fma": "FMA38461",
+      "name": "left flexor carpi radialis",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-radialis-sinister-3",
+      "sha256": "5d826137abdbc24485976ec7610efab8a110ad78b7c2ae44e578af4d84275f7c",
+      "triangles": 3186
+    },
+    {
+      "mesh": "fma38463",
+      "fma": "FMA38463",
+      "name": "right palmaris longus",
+      "itemId": "atlas-muscles-musculus-palmaris-longus-dexter-4",
+      "sha256": "86585d9fac0e4c07c5376d475a8e4730a9a726278d972fb081287208b15c35e5",
+      "triangles": 8882
+    },
+    {
+      "mesh": "fma38464",
+      "fma": "FMA38464",
+      "name": "left palmaris longus",
+      "itemId": "atlas-muscles-musculus-palmaris-longus-sinister-4",
+      "sha256": "e9ab4d0c050722880e474908d5905c9c78eb6469148d5338aed07d60510d5047",
+      "triangles": 8612
+    },
+    {
+      "mesh": "fma38479",
+      "fma": "FMA38479",
+      "name": "right flexor digitorum profundus",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-profundus-dexter-9",
+      "sha256": "a03b62f1fc2bbcbdb1b10bf8f6750a3ee1af2be2debbdde45e9f85f3e65468ed",
+      "triangles": 14258
+    },
+    {
+      "mesh": "fma38480",
+      "fma": "FMA38480",
+      "name": "left flexor digitorum profundus",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-profundus-sinister-9",
+      "sha256": "76dbebaec7040466a175ef6fae57a2adfc45673c71d6dc7ed7746533d38e47e8",
+      "triangles": 14518
+    },
+    {
+      "mesh": "fma38482",
+      "fma": "FMA38482",
+      "name": "right flexor pollicis longus",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-longus-dexter-10",
+      "sha256": "d8025db7a81e8c824daffec5b8c6d0de8b0601501f25f91d5ad5cd6641df0f49",
+      "triangles": 3808
+    },
+    {
+      "mesh": "fma38484",
+      "fma": "FMA38484",
+      "name": "left flexor pollicis longus",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-longus-sinister-10",
+      "sha256": "1aff485ce0df7065f0dc26032ffc91dc1543e419a96dc17505f33f2def772178",
+      "triangles": 3738
+    },
+    {
+      "mesh": "fma38486",
+      "fma": "FMA38486",
+      "name": "right brachioradialis",
+      "itemId": "atlas-muscles-musculus-brachioradialis-dexter-1",
+      "sha256": "4267814b253062062295e8489def2cdb9d74da6a9e6a639c52de2fc878026776",
+      "triangles": 14632
+    },
+    {
+      "mesh": "fma38487",
+      "fma": "FMA38487",
+      "name": "left brachioradialis",
+      "itemId": "atlas-muscles-musculus-brachioradialis-sinister-1",
+      "sha256": "522fdadefd8c34fd023436880e6ed5802f89ef481edd695b125d450f9b851f45",
+      "triangles": 14710
+    },
+    {
+      "mesh": "fma38495",
+      "fma": "FMA38495",
+      "name": "right extensor carpi radialis longus",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-radialis-longus-dexter-2",
+      "sha256": "9769df1ee9eec2c1ac5131424ed258bfac288a160832ffe9c83182dc5cba3e31",
+      "triangles": 7428
+    },
+    {
+      "mesh": "fma38496",
+      "fma": "FMA38496",
+      "name": "left extensor carpi radialis longus",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-radialis-longus-sinister-2",
+      "sha256": "52a2250a7b8ccc91b7654cb87142d794c9683a4dcda307211fb7c0b14c4eeddf",
+      "triangles": 7654
+    },
+    {
+      "mesh": "fma38498",
+      "fma": "FMA38498",
+      "name": "right extensor carpi radialis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-radialis-brevis-dexter-3",
+      "sha256": "f849d0022798b0bfa4d8e147d91ae7ae6c128ede3bce4d429694754b84216f02",
+      "triangles": 6298
+    },
+    {
+      "mesh": "fma38499",
+      "fma": "FMA38499",
+      "name": "left extensor carpi radialis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-carpi-radialis-brevis-sinister-3",
+      "sha256": "8caab60a31b20a2ddeed5e9e93a75c260b066eac65376741d3ca8b5dfc931d4b",
+      "triangles": 6778
+    },
+    {
+      "mesh": "fma38501",
+      "fma": "FMA38501",
+      "name": "right extensor digitorum",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-dexter-4",
+      "sha256": "5597bcca7ae0ec78863addc36fdd2abf24c0767c253b47704c8486dcc8b9cca1",
+      "triangles": 12888
+    },
+    {
+      "mesh": "fma38502",
+      "fma": "FMA38502",
+      "name": "left extensor digitorum",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-sinister-4",
+      "sha256": "20972f9770bf49065ed2536b0686aa57b86f6180f6523742379dafb23d4c8212",
+      "triangles": 12730
+    },
+    {
+      "mesh": "fma38504",
+      "fma": "FMA38504",
+      "name": "right extensor digiti minimi",
+      "itemId": "atlas-muscles-musculus-extensor-digiti-minimi-dexter-5",
+      "sha256": "c864afca59f0e4ed523b536107b1386102148f24ab5d3790a86b5ea6765d3351",
+      "triangles": 4308
+    },
+    {
+      "mesh": "fma38505",
+      "fma": "FMA38505",
+      "name": "left extensor digiti minimi",
+      "itemId": "atlas-muscles-musculus-extensor-digiti-minimi-sinister-5",
+      "sha256": "3c3cff12984f5ca314ec2f2da50bbcfa46d55893773f74de02a712bbedc4f6a2",
+      "triangles": 4300
+    },
+    {
+      "mesh": "fma38513",
+      "fma": "FMA38513",
+      "name": "right supinator",
+      "itemId": "atlas-muscles-musculus-supinator-dexter-7",
+      "sha256": "99cc68c0211cf16a4091a9107981593044f794bf41a8ac32f861cabe966e40b0",
+      "triangles": 5530
+    },
+    {
+      "mesh": "fma38514",
+      "fma": "FMA38514",
+      "name": "left supinator",
+      "itemId": "atlas-muscles-musculus-supinator-sinister-7",
+      "sha256": "128f33fd98e5ba654f27d6932328d8c47149801fa50e0ca4107562dfc61bf67a",
+      "triangles": 5214
+    },
+    {
+      "mesh": "fma38516",
+      "fma": "FMA38516",
+      "name": "right abductor pollicis longus",
+      "itemId": "atlas-muscles-musculus-abductor-pollicis-longus-dexter-8",
+      "sha256": "1aa0790103081a0ea4054b16533d9ebbcb218212f5860c38b82b37862329e04d",
+      "triangles": 4952
+    },
+    {
+      "mesh": "fma38517",
+      "fma": "FMA38517",
+      "name": "left abductor pollicis longus",
+      "itemId": "atlas-muscles-musculus-abductor-pollicis-longus-sinister-8",
+      "sha256": "17e6d3c1e3a86b02bd664ab3545734fec85801b3ce421df24cbeecf085551577",
+      "triangles": 4732
+    },
+    {
+      "mesh": "fma38519",
+      "fma": "FMA38519",
+      "name": "right extensor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-pollicis-brevis-dexter-9",
+      "sha256": "efa490812b65a3f43f9a9276c0bbbed1ff3d05a9530e5bc5a53b93cee913cb38",
+      "triangles": 2346
+    },
+    {
+      "mesh": "fma38520",
+      "fma": "FMA38520",
+      "name": "left extensor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-pollicis-brevis-sinister-9",
+      "sha256": "ffdbb8d8e576bb48ddd0b8aeb5140c38d2755e6696563a60317e5236430385d8",
+      "triangles": 2324
+    },
+    {
+      "mesh": "fma38522",
+      "fma": "FMA38522",
+      "name": "right extensor pollicis longus",
+      "itemId": "atlas-muscles-musculus-extensor-pollicis-longus-dexter-10",
+      "sha256": "3daad2a9dfa913f3d8e76baf4ace77e8ebaa1c9b31879910d7577b8c7b4592b9",
+      "triangles": 3246
+    },
+    {
+      "mesh": "fma38523",
+      "fma": "FMA38523",
+      "name": "left extensor pollicis longus",
+      "itemId": "atlas-muscles-musculus-extensor-pollicis-longus-sinister-10",
+      "sha256": "59e08a5fa21f4174eaf6851b03a5a8f982ecee984dad0f5783415fd79f53189b",
+      "triangles": 3214
+    },
+    {
+      "mesh": "fma38525",
+      "fma": "FMA38525",
+      "name": "right extensor indicis",
+      "itemId": "atlas-muscles-musculus-extensor-indicis-dexter-11",
+      "sha256": "d3127cbb9cd188db82a19553110c6f60b5eb71977375f1b8275fdf76274c9c7a",
+      "triangles": 2334
+    },
+    {
+      "mesh": "fma38526",
+      "fma": "FMA38526",
+      "name": "left extensor indicis",
+      "itemId": "atlas-muscles-musculus-extensor-indicis-sinister-11",
+      "sha256": "939d4a949bf8326231abc974706ba1f8b6db3322ac4ef1f9df9c69cbd38e5b95",
+      "triangles": 2302
+    },
+    {
+      "mesh": "fma38560",
+      "fma": "FMA38560",
+      "name": "humeral head of right pronator teres",
+      "itemId": "atlas-muscles-musculus-pronator-teres-caput-humerale-dexter-1",
+      "sha256": "07d78d912987a2cdd311d79c5e6497b7805d74a835a8df41a1d675677064a6b4",
+      "triangles": 5194
+    },
+    {
+      "mesh": "fma38561",
+      "fma": "FMA38561",
+      "name": "humeral head of left pronator teres",
+      "itemId": "atlas-muscles-musculus-pronator-teres-caput-humerale-sinister-1",
+      "sha256": "3ce22d24e14a6505686fbfc0d24d99db819fb2bc8162a49a04fe72005cccc6b8",
+      "triangles": 5074
+    },
+    {
+      "mesh": "fma38562",
+      "fma": "FMA38562",
+      "name": "ulnar head of right pronator teres",
+      "itemId": "atlas-muscles-musculus-pronator-teres-caput-ulnare-dexter-2",
+      "sha256": "a1bb5df0c8b0725b2bfb433da398636dc52e1ec481fe4e7a57b5522f46e7e87f",
+      "triangles": 2274
+    },
+    {
+      "mesh": "fma38563",
+      "fma": "FMA38563",
+      "name": "ulnar head of left pronator teres",
+      "itemId": "atlas-muscles-musculus-pronator-teres-caput-ulnare-sinister-2",
+      "sha256": "74ab08518cff0f15c88f5a925f81e8d1bb8dabb247ba28225d4b0fb881c01d3f",
+      "triangles": 2280
+    },
+    {
+      "mesh": "fma38617",
+      "fma": "FMA38617",
+      "name": "humeral head of right flexor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-ulnaris-caput-humerale-dexter-5",
+      "sha256": "167833b0908cc4308f5e8381c29e1b49441fbec43099061a07a02747aca78296",
+      "triangles": 7826
+    },
+    {
+      "mesh": "fma38618",
+      "fma": "FMA38618",
+      "name": "humeral head of left flexor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-ulnaris-caput-humerale-sinister-5",
+      "sha256": "ca7b18da83e3293f5284c9c1dc3fb9f9c7d67251569ec25c2e1836ac43aceb64",
+      "triangles": 8072
+    },
+    {
+      "mesh": "fma38619",
+      "fma": "FMA38619",
+      "name": "ulnar head of right flexor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-ulnaris-caput-ulnare-dexter-6",
+      "sha256": "b88832bd477bb68cd10606fdbff810dc763c397395b3ed23ee66efe82db8004f",
+      "triangles": 3042
+    },
+    {
+      "mesh": "fma38620",
+      "fma": "FMA38620",
+      "name": "ulnar head of left flexor carpi ulnaris",
+      "itemId": "atlas-muscles-musculus-flexor-carpi-ulnaris-caput-ulnare-sinister-6",
+      "sha256": "6a23e2e2f413ce443e18c96395c169b1fb25a4c345f715b9a7c5c93ad376c68f",
+      "triangles": 2934
+    },
+    {
+      "mesh": "fma38638",
+      "fma": "FMA38638",
+      "name": "humeroulnar head of right flexor digitorum superficialis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-superficialis-caput-humeroulnare-dexter-7",
+      "sha256": "fe0180056184d0366edfe31de51d72d7eb42291d17d2f68c5ea7a0547b302d70",
+      "triangles": 25630
+    },
+    {
+      "mesh": "fma38639",
+      "fma": "FMA38639",
+      "name": "humeroulnar head of left flexor digitorum superficialis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-superficialis-caput-humeroulnare-sinister-7",
+      "sha256": "3b64cd0f6ca0cd3944171976e3d114c8e69984fd3dda501196022a72c4258d73",
+      "triangles": 26164
+    },
+    {
+      "mesh": "fma38640",
+      "fma": "FMA38640",
+      "name": "radial head of right flexor digitorum superficialis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-superficialis-caput-radiale-dexter-8",
+      "sha256": "8399ed609935acdad2d3f16e81e13e4dddffb3aa78f2c19d92e49916916bc829",
+      "triangles": 2552
+    },
+    {
+      "mesh": "fma38641",
+      "fma": "FMA38641",
+      "name": "radial head of left flexor digitorum superficialis",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-superficialis-caput-radiale-sinister-8",
+      "sha256": "67aa68770094803f820653dfd57e4032b64101c1220ab0d457fd810ca98ad591",
+      "triangles": 2552
+    },
+    {
+      "mesh": "fma38928",
+      "fma": "FMA38928",
+      "name": "right rectus femoris",
+      "itemId": "atlas-muscles-musculus-rectus-femoris-dexter-2",
+      "sha256": "c9fa241fbe87f1d17395588cc16bc10cf717e0145783487a72786a831b5c22ae",
+      "triangles": 16598
+    },
+    {
+      "mesh": "fma38929",
+      "fma": "FMA38929",
+      "name": "left rectus femoris",
+      "itemId": "atlas-muscles-musculus-rectus-femoris-sinister-2",
+      "sha256": "2ba40a5667a703974a9be42c28b071856deeb0500d3a8ae649d9d3616f03ca52",
+      "triangles": 16410
+    },
+    {
+      "mesh": "fma38930",
+      "fma": "FMA38930",
+      "name": "right vastus lateralis",
+      "itemId": "atlas-muscles-musculus-vastus-lateralis-dexter-3",
+      "sha256": "00ddf2b2926f43dbddd393b7e02cc558502dc1a46ed352bb78b84a484a0878ec",
+      "triangles": 19112
+    },
+    {
+      "mesh": "fma38931",
+      "fma": "FMA38931",
+      "name": "left vastus lateralis",
+      "itemId": "atlas-muscles-musculus-vastus-lateralis-sinister-3",
+      "sha256": "aad0b1854ee8ce0fe590517ee5f16dd48a937a60a7d1debccb2567e1c2153b9e",
+      "triangles": 18894
+    },
+    {
+      "mesh": "fma38932",
+      "fma": "FMA38932",
+      "name": "right vastus medialis",
+      "itemId": "atlas-muscles-musculus-vastus-medialis-dexter-4",
+      "sha256": "0226e06ad52e3c174d1715e701461f81818a8096a53405c3c17d7bc38b206c1a",
+      "triangles": 13162
+    },
+    {
+      "mesh": "fma38933",
+      "fma": "FMA38933",
+      "name": "left vastus medialis",
+      "itemId": "atlas-muscles-musculus-vastus-medialis-sinister-4",
+      "sha256": "f98594640063e4b1e011cfcb9d50a43d525332f080f607c0aa753ef3fed380a8",
+      "triangles": 12996
+    },
+    {
+      "mesh": "fma38934",
+      "fma": "FMA38934",
+      "name": "right vastus intermedius",
+      "itemId": "atlas-muscles-musculus-vastus-intermedius-dexter-5",
+      "sha256": "968f574673ff4e40224ee25cdb1f3c109eb3113f5af2d06afb8bb01e00a20f2a",
+      "triangles": 12372
+    },
+    {
+      "mesh": "fma38935",
+      "fma": "FMA38935",
+      "name": "left vastus intermedius",
+      "itemId": "atlas-muscles-musculus-vastus-intermedius-sinister-5",
+      "sha256": "707575f5eb8ef27e89e1aa0dbc94798a9efe15fba32d68c149b9a24a2fb3125c",
+      "triangles": 12274
+    },
+    {
+      "mesh": "fma43883",
+      "fma": "FMA43883",
+      "name": "right gracilis",
+      "itemId": "atlas-muscles-musculus-gracilis-dexter-12",
+      "sha256": "4025fe2f801974be3a3c597ec48397140100b84def1377fc1fd10908860d9f89",
+      "triangles": 9852
+    },
+    {
+      "mesh": "fma43884",
+      "fma": "FMA43884",
+      "name": "left gracilis",
+      "itemId": "atlas-muscles-musculus-gracilis-sinister-12",
+      "sha256": "8d76b69cb881068e9031fd8cae1631cae9b35b17182380a862c4fced84cda96a",
+      "triangles": 9838
+    },
+    {
+      "mesh": "fma43886",
+      "fma": "FMA43886",
+      "name": "right adductor minimus",
+      "itemId": "atlas-muscles-musculus-adductor-minimus-dexter-2",
+      "sha256": "303f33b5156c839e8791cda1873d95774806667b92feee8cfb1f388022e1d26c",
+      "triangles": 1896
+    },
+    {
+      "mesh": "fma43887",
+      "fma": "FMA43887",
+      "name": "left adductor minimus",
+      "itemId": "atlas-muscles-musculus-adductor-minimus-sinister-2",
+      "sha256": "3da5f76c85d370bcea289f23ba5963671c1c73d156dcaa003ec23a24b05ea38a",
+      "triangles": 1940
+    },
+    {
+      "mesh": "fma45739",
+      "fma": "FMA45739",
+      "name": "right platysma",
+      "itemId": "atlas-muscles-musculus-platysma-dexter-26",
+      "sha256": "756ba259598e16c055518827eb54605a47f306da555fea3c9d17af8cf9b63e56",
+      "triangles": 13116
+    },
+    {
+      "mesh": "fma45740",
+      "fma": "FMA45740",
+      "name": "left platysma",
+      "itemId": "atlas-muscles-musculus-platysma-sinister-26",
+      "sha256": "9ee35cf3f0e4796ca1337d4333bf57cc4ef687ba3b5cf274664f60f062941db1",
+      "triangles": 12902
+    },
+    {
+      "mesh": "fma45826",
+      "fma": "FMA45826",
+      "name": "right stylohyoid",
+      "itemId": "atlas-muscles-musculus-stylohyoideus-dexter-3",
+      "sha256": "51fbd4b17f07369ef04134284266e51aa9f9164dbcc36e9063a7937e0333561b",
+      "triangles": 1474
+    },
+    {
+      "mesh": "fma45827",
+      "fma": "FMA45827",
+      "name": "left stylohyoid",
+      "itemId": "atlas-muscles-musculus-stylohyoideus-sinister-3",
+      "sha256": "59115157ad9ab18aafc300d44e97a9d98defd08843272fdf0b0a60415d18c00a",
+      "triangles": 1426
+    },
+    {
+      "mesh": "fma45854",
+      "fma": "FMA45854",
+      "name": "right pubococcygeus",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-pubococcygea-dexter-4",
+      "sha256": "e75aa0cc6b595d3cab4ee83c3068cfbf793baa725b04c0ddf91c78a810f2cee7",
+      "triangles": 5060
+    },
+    {
+      "mesh": "fma45855",
+      "fma": "FMA45855",
+      "name": "left pubococcygeus",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-pubococcygea-sinister-4",
+      "sha256": "77b190f7d3bde8e0f248b1aed52f4d17ad31360c9df3e71f0c142f84d0d86c36",
+      "triangles": 5122
+    },
+    {
+      "mesh": "fma45856",
+      "fma": "FMA45856",
+      "name": "right puborectalis",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-puborectalis-dexter-3",
+      "sha256": "0dc392d3198b450bbf68d3a2319510d0f8a6a6890d41d9dc3289f14665c33303",
+      "triangles": 3928
+    },
+    {
+      "mesh": "fma45857",
+      "fma": "FMA45857",
+      "name": "left puborectalis",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-puborectalis-sinister-3",
+      "sha256": "f776d0733dc35f47355529250c79d4c57793b8a3a5e10d9c58f200b49f86cb38",
+      "triangles": 3910
+    },
+    {
+      "mesh": "fma45858",
+      "fma": "FMA45858",
+      "name": "right iliococcygeus",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-iliococcygea-dexter-5",
+      "sha256": "2780365d248f1cd8cf99968ec20b2a81ea1d4c8a44c034d8d9d3072241710ba5",
+      "triangles": 4050
+    },
+    {
+      "mesh": "fma45859",
+      "fma": "FMA45859",
+      "name": "left iliococcygeus",
+      "itemId": "atlas-muscles-musculus-levator-ani-pars-iliococcygea-sinister-5",
+      "sha256": "f977a85bff412d62d7354918c4199f46ea55bf7dd4b8a6d3f60e9d36271fef20",
+      "triangles": 4020
+    },
+    {
+      "mesh": "fma45874",
+      "fma": "FMA45874",
+      "name": "abdominal part of right pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-abdominalis-dexter-3",
+      "sha256": "ce5690dbff9f8361e1d73e06e1da89b2410116d5d77ea7af7cf0549d2f049802",
+      "triangles": 1508
+    },
+    {
+      "mesh": "fma45875",
+      "fma": "FMA45875",
+      "name": "abdominal part of left pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-abdominalis-sinister-3",
+      "sha256": "5f8da345e6e139cf4e7f54efe291532452f69b434a6c0466edfc662fa45138fe",
+      "triangles": 1516
+    },
+    {
+      "mesh": "fma45888",
+      "fma": "FMA45888",
+      "name": "long head of right biceps femoris",
+      "itemId": "atlas-muscles-musculus-biceps-femoris-caput-longum-dexter-13",
+      "sha256": "487b4ef6797ac73b559ddd4413e65a1aca6fc7b8ea554144395d86fb284923a1",
+      "triangles": 14618
+    },
+    {
+      "mesh": "fma45889",
+      "fma": "FMA45889",
+      "name": "long head of left biceps femoris",
+      "itemId": "atlas-muscles-musculus-biceps-femoris-caput-longum-sinister-13",
+      "sha256": "6f87529e4a6a21d88f47e322ad1fb2413aecbef65eba968d3cea54e1634c6670",
+      "triangles": 14836
+    },
+    {
+      "mesh": "fma45891",
+      "fma": "FMA45891",
+      "name": "short head of right biceps femoris",
+      "itemId": "atlas-muscles-musculus-biceps-femoris-caput-breve-dexter-14",
+      "sha256": "2602ab31b529f0c9b15180453861ded80b39542cfd7e9f2c5af05277ac7c7761",
+      "triangles": 5096
+    },
+    {
+      "mesh": "fma45892",
+      "fma": "FMA45892",
+      "name": "short head of left biceps femoris",
+      "itemId": "atlas-muscles-musculus-biceps-femoris-caput-breve-sinister-14",
+      "sha256": "3930f90516de4be697142327a6cf5ed9423815ec96ba6837dce357712c886400",
+      "triangles": 4938
+    },
+    {
+      "mesh": "fma45957",
+      "fma": "FMA45957",
+      "name": "medial head of right gastrocnemius",
+      "itemId": "atlas-muscles-musculus-gastrocnemius-caput-mediale-dexter-7",
+      "sha256": "ce26f1d37d66bf67a0cd42dac8116e557439bbfbab85c7a81bd56fe2ba9464d6",
+      "triangles": 12954
+    },
+    {
+      "mesh": "fma45958",
+      "fma": "FMA45958",
+      "name": "medial head of left gastrocnemius",
+      "itemId": "atlas-muscles-musculus-gastrocnemius-caput-mediale-sinister-7",
+      "sha256": "78bdc07b6e84624148ae5888692bd345e30e6591485a242b71776f84099c394a",
+      "triangles": 13028
+    },
+    {
+      "mesh": "fma45960",
+      "fma": "FMA45960",
+      "name": "lateral head of right gastrocnemius",
+      "itemId": "atlas-muscles-musculus-gastrocnemius-caput-laterale-dexter-8",
+      "sha256": "3ff2fb068ede6120bf46125df62b416b5c727b45fc69218b9281176328b8cbe4",
+      "triangles": 9820
+    },
+    {
+      "mesh": "fma45961",
+      "fma": "FMA45961",
+      "name": "lateral head of left gastrocnemius",
+      "itemId": "atlas-muscles-musculus-gastrocnemius-caput-laterale-sinister-8",
+      "sha256": "beba42142f54eb3836cc092170dd7c94a039b78a86d88fa0433986577d54c46c",
+      "triangles": 9742
+    },
+    {
+      "mesh": "fma45971",
+      "fma": "FMA45971",
+      "name": "medial head of right flexor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-brevis-caput-mediale-dexter-11",
+      "sha256": "441f1f2ae842768ee2cc265c15b122e0abbb414c4c5e61e1bd0f685995380b8d",
+      "triangles": 1534
+    },
+    {
+      "mesh": "fma45972",
+      "fma": "FMA45972",
+      "name": "medial head of left flexor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-brevis-caput-mediale-sinister-11",
+      "sha256": "8b481d1345796a52a90f48f88dc601241e83fc1617af1879ea2317d88500892f",
+      "triangles": 1486
+    },
+    {
+      "mesh": "fma45973",
+      "fma": "FMA45973",
+      "name": "lateral head of right flexor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-brevis-caput-laterale-dexter-12",
+      "sha256": "3bfd6a00a908df7a7d5cd366599259603d38d327f06227a9652bd17b08403de7",
+      "triangles": 2198
+    },
+    {
+      "mesh": "fma45974",
+      "fma": "FMA45974",
+      "name": "lateral head of left flexor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-brevis-caput-laterale-sinister-12",
+      "sha256": "2b863f243654a4aa7f6a65d067323ee9a093e5a19f16d61d2b0aebff6975bdf0",
+      "triangles": 2154
+    },
+    {
+      "mesh": "fma46018",
+      "fma": "FMA46018",
+      "name": "oblique head of right adductor hallucis",
+      "itemId": "atlas-muscles-musculus-adductor-hallucis-caput-obliquum-dexter-13",
+      "sha256": "806e79218db140a02a0340f2e5dde20709bdce3bafa90731ecaf25b17ee9b0f2",
+      "triangles": 1896
+    },
+    {
+      "mesh": "fma46019",
+      "fma": "FMA46019",
+      "name": "oblique head of left adductor hallucis",
+      "itemId": "atlas-muscles-musculus-adductor-hallucis-caput-obliquum-sinister-13",
+      "sha256": "ee6ed09a33f7d2bdd259de6cb5080d20c3bf62f7c2e2b3d363056eb0983c677f",
+      "triangles": 1958
+    },
+    {
+      "mesh": "fma46020",
+      "fma": "FMA46020",
+      "name": "transverse head of right adductor hallucis",
+      "itemId": "atlas-muscles-musculus-adductor-hallucis-caput-transversum-dexter-14",
+      "sha256": "e567e1b77852c189d1d784aa121b24eb891c7731c03ee11d89956feb9b932c22",
+      "triangles": 836
+    },
+    {
+      "mesh": "fma46021",
+      "fma": "FMA46021",
+      "name": "transverse head of left adductor hallucis",
+      "itemId": "atlas-muscles-musculus-adductor-hallucis-caput-transversum-sinister-14",
+      "sha256": "ae23d827497e8f5d8005a43e451eff65f8d35be16a7019842aba2f0db9b42b94",
+      "triangles": 786
+    },
+    {
+      "mesh": "fma46110",
+      "fma": "FMA46110",
+      "name": "deep head of right flexor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-brevis-caput-profundum-dexter-3",
+      "sha256": "b70cf6da3bbed27ff39c0f03346b6dc5c1798fa5621f21d0a02488e783f1154b",
+      "triangles": 790
+    },
+    {
+      "mesh": "fma46111",
+      "fma": "FMA46111",
+      "name": "deep head of left flexor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-brevis-caput-profundum-sinister-3",
+      "sha256": "7ae9fb6c2cb4e6116e1e7b0d39fe8fa32a9e541261ca90f61d7bdd2df9d11384",
+      "triangles": 780
+    },
+    {
+      "mesh": "fma46121",
+      "fma": "FMA46121",
+      "name": "oblique head of right adductor pollicis",
+      "itemId": "atlas-muscles-musculus-adductor-pollicis-caput-obliquum-dexter-5",
+      "sha256": "9fdcc018179db85f7eb1a188c029bfeb1c110c213444ff44e553afadbfdf002f",
+      "triangles": 938
+    },
+    {
+      "mesh": "fma46122",
+      "fma": "FMA46122",
+      "name": "oblique head of left adductor pollicis",
+      "itemId": "atlas-muscles-musculus-adductor-pollicis-caput-obliquum-sinister-5",
+      "sha256": "88afd99fae9e22f8c35c0192473acde2c91fd3aa17a8f2d7df948520fc3e8981",
+      "triangles": 864
+    },
+    {
+      "mesh": "fma46123",
+      "fma": "FMA46123",
+      "name": "transverse head of right adductor pollicis",
+      "itemId": "atlas-muscles-musculus-adductor-pollicis-caput-transversum-dexter-6",
+      "sha256": "510fce7255bcce2e6fb337c11110edba59bffb0888aa90d5a74165b720fe09d6",
+      "triangles": 2038
+    },
+    {
+      "mesh": "fma46124",
+      "fma": "FMA46124",
+      "name": "transverse head of left adductor pollicis",
+      "itemId": "atlas-muscles-musculus-adductor-pollicis-caput-transversum-sinister-6",
+      "sha256": "7bf9508d0c41e20cd18028c35051f8a44bd5d94f2e23f2b66b146182c4febc67",
+      "triangles": 1856
+    },
+    {
+      "mesh": "fma46283",
+      "fma": "FMA46283",
+      "name": "superior oblique part of right longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-obliqua-superior-dexter-7",
+      "sha256": "b66c2ba62df7ed5c1b85e1f21f58f4ebe901d0996e269d19fdb154ab0e96bffc",
+      "triangles": 2334
+    },
+    {
+      "mesh": "fma46284",
+      "fma": "FMA46284",
+      "name": "superior oblique part of left longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-obliqua-superior-sinister-7",
+      "sha256": "cf4bb40d967702a5508b29fd2fdaede6afb869ac26c8a6d4e2df77d7370000dd",
+      "triangles": 2128
+    },
+    {
+      "mesh": "fma46285",
+      "fma": "FMA46285",
+      "name": "vertical intermediate part of right longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-recta-dexter-9",
+      "sha256": "d5575f988eee9a4a224ffc0969e133956749d9b27648e4f5aa73109fd840e36a",
+      "triangles": 3486
+    },
+    {
+      "mesh": "fma46286",
+      "fma": "FMA46286",
+      "name": "vertical intermediate part of left longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-recta-sinister-9",
+      "sha256": "eb7d263a958102dc1c0d1fa768fd059173a4f530f98a3a35ba9f6977e4f0c4e6",
+      "triangles": 3390
+    },
+    {
+      "mesh": "fma46287",
+      "fma": "FMA46287",
+      "name": "inferior oblique part of right longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-obliqua-inferior-dexter-8",
+      "sha256": "059523f3861e6eefd56684602dd37c950d5939931a0c8e3aedf21337a73442c7",
+      "triangles": 2234
+    },
+    {
+      "mesh": "fma46288",
+      "fma": "FMA46288",
+      "name": "inferior oblique part of left longus colli",
+      "itemId": "atlas-muscles-musculus-longus-colli-pars-obliqua-inferior-sinister-8",
+      "sha256": "7460aa31fba742d6b70ff417b796dd1ceda8f3ade85c512b9d1e4f8d06f57543",
+      "triangles": 2122
+    },
+    {
+      "mesh": "fma46304",
+      "fma": "FMA46304",
+      "name": "anterior belly of right digastric",
+      "itemId": "atlas-muscles-musculus-digastricus-venter-anterior-dexter-1",
+      "sha256": "19465094df4dc0483e2448939b7cd51ac73fd253176d76f4f404981a9a01e566",
+      "triangles": 784
+    },
+    {
+      "mesh": "fma46305",
+      "fma": "FMA46305",
+      "name": "anterior belly of left digastric",
+      "itemId": "atlas-muscles-musculus-digastricus-venter-anterior-sinister-1",
+      "sha256": "1497199a9b4cdc4b1cabd4eff6d180acf3786e734f290be1ea024e62923b35ae",
+      "triangles": 764
+    },
+    {
+      "mesh": "fma46306",
+      "fma": "FMA46306",
+      "name": "posterior belly of right digastric",
+      "itemId": "atlas-muscles-musculus-digastricus-venter-posterior-dexter-2",
+      "sha256": "c36b1de255696f0b55ef2a5e912e0b1837c550e43f3add9cf1337f40379228c5",
+      "triangles": 2610
+    },
+    {
+      "mesh": "fma46307",
+      "fma": "FMA46307",
+      "name": "posterior belly of left digastric",
+      "itemId": "atlas-muscles-musculus-digastricus-venter-posterior-sinister-2",
+      "sha256": "3cd23cf7ae7be22dd858180a4d170aa4c109fcbbd3e89ee2a325e7fb1c56c39c",
+      "triangles": 2580
+    },
+    {
+      "mesh": "fma46309",
+      "fma": "FMA46309",
+      "name": "right longus capitis",
+      "itemId": "atlas-muscles-musculus-longus-capitis-dexter-10",
+      "sha256": "4eb2cf8963c26c091d5589bd6eae64a4e0d720be1b5404afe674d4cc1aa49bc4",
+      "triangles": 3960
+    },
+    {
+      "mesh": "fma46310",
+      "fma": "FMA46310",
+      "name": "left longus capitis",
+      "itemId": "atlas-muscles-musculus-longus-capitis-sinister-10",
+      "sha256": "44c0752a52087e2e49fa7acbdff1c89217e637bf4fafcaffa7d4f21832018111",
+      "triangles": 3860
+    },
+    {
+      "mesh": "fma46313",
+      "fma": "FMA46313",
+      "name": "right rectus capitis anterior",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-anterior-dexter-11",
+      "sha256": "94de57793c82357e24d3b4bf9ae0b67afa5064d8aee37167daf3d4749d97a09c",
+      "triangles": 806
+    },
+    {
+      "mesh": "fma46314",
+      "fma": "FMA46314",
+      "name": "left rectus capitis anterior",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-anterior-sinister-11",
+      "sha256": "d929af1b92b677a87a19c22076f2d677a35581101dad0785c4491de69a75c16c",
+      "triangles": 796
+    },
+    {
+      "mesh": "fma46317",
+      "fma": "FMA46317",
+      "name": "right rectus capitis lateralis",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-lateralis-dexter-12",
+      "sha256": "e4e444a30fd553868c05fd2c96d16f54b0882c886aef2b13a2311998bc437681",
+      "triangles": 722
+    },
+    {
+      "mesh": "fma46318",
+      "fma": "FMA46318",
+      "name": "left rectus capitis lateralis",
+      "itemId": "atlas-muscles-musculus-rectus-capitis-lateralis-sinister-12",
+      "sha256": "dbc0ee740877c96ff5b8f8c82e81f5f8c3570b605698cc3218fdd65559552c87",
+      "triangles": 718
+    },
+    {
+      "mesh": "fma46321",
+      "fma": "FMA46321",
+      "name": "right mylohyoid",
+      "itemId": "atlas-muscles-musculus-mylohyoideus-dexter-4",
+      "sha256": "ab1c92df421cbceb9bb14e93dc99f8798e58480daf756d4b4ffdf61083e71e5d",
+      "triangles": 2250
+    },
+    {
+      "mesh": "fma46322",
+      "fma": "FMA46322",
+      "name": "left mylohyoid",
+      "itemId": "atlas-muscles-musculus-mylohyoideus-sinister-4",
+      "sha256": "9a85ebe52a3425b197f7e7de758ae4c52dc8016d13983d6bee0d57cc20ac8fea",
+      "triangles": 2232
+    },
+    {
+      "mesh": "fma46326",
+      "fma": "FMA46326",
+      "name": "right geniohyoid",
+      "itemId": "atlas-muscles-musculus-geniohyoideus-dexter-5",
+      "sha256": "ebb041c58ec3de63a3c4fe4afef60cc727f97f3a2a4b2f9f0cf163d21edf2ca5",
+      "triangles": 1064
+    },
+    {
+      "mesh": "fma46327",
+      "fma": "FMA46327",
+      "name": "left geniohyoid",
+      "itemId": "atlas-muscles-musculus-geniohyoideus-sinister-5",
+      "sha256": "b4ae1f1bf94afa55ac5f4c66c107f00cdc154c06ac75cbf640ccc2c22e3efe46",
+      "triangles": 1036
+    },
+    {
+      "mesh": "fma46443",
+      "fma": "FMA46443",
+      "name": "right coccygeus",
+      "itemId": "atlas-muscles-musculus-coccygeus-dexter-6",
+      "sha256": "357edd773a4aae03fb2db29ca9183ea036476072d081bb9f0d7ef4e51390c776",
+      "triangles": 2134
+    },
+    {
+      "mesh": "fma46444",
+      "fma": "FMA46444",
+      "name": "left coccygeus",
+      "itemId": "atlas-muscles-musculus-coccygeus-sinister-6",
+      "sha256": "5a7150d9924431da13384eb9fbc25cca773bac46a1531a6b074b356e4f957248",
+      "triangles": 2126
+    },
+    {
+      "mesh": "fma46759",
+      "fma": "FMA46759",
+      "name": "right frontalis",
+      "itemId": "atlas-muscles-musculus-occipitofrontalis-venter-frontalis-dexter-1",
+      "sha256": "2b7aa37e08dea373142180f5b355b8dd7ae202c31544791424f6899b9dd5867c",
+      "triangles": 11778
+    },
+    {
+      "mesh": "fma46760",
+      "fma": "FMA46760",
+      "name": "left frontalis",
+      "itemId": "atlas-muscles-musculus-occipitofrontalis-venter-frontalis-sinister-1",
+      "sha256": "251fe98cdb483c1c10fb6a526dbbdd0a088e296520ad354e1e0cefab78b51757",
+      "triangles": 11718
+    },
+    {
+      "mesh": "fma46761",
+      "fma": "FMA46761",
+      "name": "right occipitalis",
+      "itemId": "atlas-muscles-musculus-occipitofrontalis-venter-occipitalis-dexter-2",
+      "sha256": "c5ce61faaca8bc08da60934d4ec0529510fbae8aa33341bde74883efd2bb6f18",
+      "triangles": 5404
+    },
+    {
+      "mesh": "fma46762",
+      "fma": "FMA46762",
+      "name": "left occipitalis",
+      "itemId": "atlas-muscles-musculus-occipitofrontalis-venter-occipitalis-sinister-2",
+      "sha256": "c4b81bc1d448229a1fe7b5c3a654d62a99eb2e76144e17f200a35b1b95e52e86",
+      "triangles": 5350
+    },
+    {
+      "mesh": "fma46763",
+      "fma": "FMA46763",
+      "name": "right temporoparietalis",
+      "itemId": "atlas-muscles-musculus-temporoparietalis-dexter-3",
+      "sha256": "9d7dbce009e19cfe6d9b77420e0d6e203929d3e1512213f9e3bf15599ea3d013",
+      "triangles": 24384
+    },
+    {
+      "mesh": "fma46764",
+      "fma": "FMA46764",
+      "name": "left temporoparietalis",
+      "itemId": "atlas-muscles-musculus-temporoparietalis-sinister-3",
+      "sha256": "2b574d7f5d6bb1954cc8fecf77f5706c8c552d72a81c57d5f35ef31635b74816",
+      "triangles": 24324
+    },
+    {
+      "mesh": "fma46782",
+      "fma": "FMA46782",
+      "name": "orbital part of right orbicularis oculi",
+      "itemId": "atlas-muscles-musculus-orbicularis-oculi-pars-orbitalis-dexter-8",
+      "sha256": "102643ece7b314973e0dfb60210d433fae348768712b6ccd4ba6efe079ce9b49",
+      "triangles": 1664
+    },
+    {
+      "mesh": "fma46783",
+      "fma": "FMA46783",
+      "name": "orbital part of left orbicularis oculi",
+      "itemId": "atlas-muscles-musculus-orbicularis-oculi-pars-orbitalis-sinister-8",
+      "sha256": "6cafcf5f2218c172efee8a292cd3d49a723fb57475c8f7ae5cec8508985534b4",
+      "triangles": 1656
+    },
+    {
+      "mesh": "fma46785",
+      "fma": "FMA46785",
+      "name": "palpebral part of right orbicularis oculi",
+      "itemId": "atlas-muscles-musculus-orbicularis-oculi-pars-palpebralis-dexter-9",
+      "sha256": "e58f4bd556d22fbbfd187be1839e1e6f0796114e98809e9da966070c3a7a8823",
+      "triangles": 4780
+    },
+    {
+      "mesh": "fma46786",
+      "fma": "FMA46786",
+      "name": "palpebral part of left orbicularis oculi",
+      "itemId": "atlas-muscles-musculus-orbicularis-oculi-pars-palpebralis-sinister-9",
+      "sha256": "d73cc460c8c3317a39fb5524ecdc34bee61fac752de80897f624dc1cb63da283",
+      "triangles": 4608
+    },
+    {
+      "mesh": "fma46796",
+      "fma": "FMA46796",
+      "name": "right corrugator supercilii",
+      "itemId": "atlas-muscles-musculus-corrugator-supercilii-dexter-10",
+      "sha256": "86c58c1235ef63b59bed09c67e76f06d0437169f82dc2b14ec8f2aeb4c14ac6a",
+      "triangles": 688
+    },
+    {
+      "mesh": "fma46797",
+      "fma": "FMA46797",
+      "name": "left corrugator supercilii",
+      "itemId": "atlas-muscles-musculus-corrugator-supercilii-sinister-10",
+      "sha256": "07c84e60c3e5f7dbad0ede2499236b937d7004ffbc23f582a6eb7441f0476ead",
+      "triangles": 724
+    },
+    {
+      "mesh": "fma46803",
+      "fma": "FMA46803",
+      "name": "right levator labii superioris alaeque nasi",
+      "itemId": "atlas-muscles-musculus-levator-labii-superioris-alaeque-nasi-dexter-18",
+      "sha256": "a1a0a9302708c4c892d4d4dc8e07da480400ed154697a4ac352bc6506d4929b1",
+      "triangles": 346
+    },
+    {
+      "mesh": "fma46804",
+      "fma": "FMA46804",
+      "name": "left levator labii superioris alaeque nasi",
+      "itemId": "atlas-muscles-musculus-levator-labii-superioris-alaeque-nasi-sinister-18",
+      "sha256": "9f910725c0977e43e76929401b979eef9e91ad6dda3146b45550fa4f9ece98e2",
+      "triangles": 328
+    },
+    {
+      "mesh": "fma46806",
+      "fma": "FMA46806",
+      "name": "right levator labii superioris",
+      "itemId": "atlas-muscles-musculus-levator-labii-superioris-dexter-17",
+      "sha256": "b5235af5159adc20f75517781cac9c6b5d0d59b20d3d4c17ad833f5a9a639bb2",
+      "triangles": 1086
+    },
+    {
+      "mesh": "fma46807",
+      "fma": "FMA46807",
+      "name": "left levator labii superioris",
+      "itemId": "atlas-muscles-musculus-levator-labii-superioris-sinister-17",
+      "sha256": "5f941ea869e811ec578816bfa7d2991e729aad22aa2126cc61a6e6ec4542e541",
+      "triangles": 1074
+    },
+    {
+      "mesh": "fma46812",
+      "fma": "FMA46812",
+      "name": "right zygomaticus major",
+      "itemId": "atlas-muscles-musculus-zygomaticus-major-dexter-19",
+      "sha256": "5db211e6172968517d9dc11ed7b833abeaf7e4e4bd7ecdad84911a298d55d01c",
+      "triangles": 2242
+    },
+    {
+      "mesh": "fma46813",
+      "fma": "FMA46813",
+      "name": "left zygomaticus major",
+      "itemId": "atlas-muscles-musculus-zygomaticus-major-sinister-19",
+      "sha256": "ae3272800a570cfaf7b271a262fd27abcf7f1428a57612440c68d0447313741a",
+      "triangles": 2024
+    },
+    {
+      "mesh": "fma46814",
+      "fma": "FMA46814",
+      "name": "right zygomaticus minor",
+      "itemId": "atlas-muscles-musculus-zygomaticus-minor-dexter-20",
+      "sha256": "46fc3eac0b688c1adc20b186146a67fae55bdefe978511825b727c327c5f1742",
+      "triangles": 912
+    },
+    {
+      "mesh": "fma46815",
+      "fma": "FMA46815",
+      "name": "left zygomaticus minor",
+      "itemId": "atlas-muscles-musculus-zygomaticus-minor-sinister-20",
+      "sha256": "f0ececd8a41843b52d2cdc687250aa1190daaa57cf52142c6716bb637225ec1e",
+      "triangles": 910
+    },
+    {
+      "mesh": "fma46817",
+      "fma": "FMA46817",
+      "name": "right depressor labii inferioris",
+      "itemId": "atlas-muscles-musculus-depressor-labii-inferioris-dexter-24",
+      "sha256": "42b01452daeedf55616db33c44760a11ba2dfcf881b6282c2e6aa646cfeab312",
+      "triangles": 1992
+    },
+    {
+      "mesh": "fma46818",
+      "fma": "FMA46818",
+      "name": "left depressor labii inferioris",
+      "itemId": "atlas-muscles-musculus-depressor-labii-inferioris-sinister-24",
+      "sha256": "dc70827f7df1e1ebbe2a663c9e7b3227bddc761edf033867b91eea4fe2f631e3",
+      "triangles": 1966
+    },
+    {
+      "mesh": "fma46823",
+      "fma": "FMA46823",
+      "name": "right levator anguli oris",
+      "itemId": "atlas-muscles-musculus-levator-anguli-oris-dexter-21",
+      "sha256": "ea61d859692f535b9b68bfee23281ed70b5d5a40db6ebae8bd5d7fb733a0fc03",
+      "triangles": 1340
+    },
+    {
+      "mesh": "fma46824",
+      "fma": "FMA46824",
+      "name": "left levator anguli oris",
+      "itemId": "atlas-muscles-musculus-levator-anguli-oris-sinister-21",
+      "sha256": "99a3b7d339e4ae4e88147354f6d0fea6ce69614fdaacbbc342439b400e72e9b4",
+      "triangles": 1234
+    },
+    {
+      "mesh": "fma46826",
+      "fma": "FMA46826",
+      "name": "right mentalis",
+      "itemId": "atlas-muscles-musculus-mentalis-dexter-25",
+      "sha256": "7d5c37cfc1d12e9ec700d0897ea159802c113236ff637e38cfa2a60a70a311f4",
+      "triangles": 378
+    },
+    {
+      "mesh": "fma46827",
+      "fma": "FMA46827",
+      "name": "left mentalis",
+      "itemId": "atlas-muscles-musculus-mentalis-sinister-25",
+      "sha256": "fb88ecc2e0a2cdee3c51c27d80469b34bc0e5aa8bcdf54221c76d1d93e334759",
+      "triangles": 466
+    },
+    {
+      "mesh": "fma46829",
+      "fma": "FMA46829",
+      "name": "right depressor anguli oris",
+      "itemId": "atlas-muscles-musculus-depressor-anguli-oris-dexter-23",
+      "sha256": "802f289620681a849cc5ddff3d14ec870c16857444c669b3030beec7caa475b0",
+      "triangles": 1598
+    },
+    {
+      "mesh": "fma46830",
+      "fma": "FMA46830",
+      "name": "left depressor anguli oris",
+      "itemId": "atlas-muscles-musculus-depressor-anguli-oris-sinister-23",
+      "sha256": "f57ff98668324825c5bac16e946f02b4ad4f3e885920e15c499f4850495bffbc",
+      "triangles": 1392
+    },
+    {
+      "mesh": "fma46835",
+      "fma": "FMA46835",
+      "name": "right buccinator",
+      "itemId": "atlas-muscles-musculus-buccinator-dexter-16",
+      "sha256": "3d9e688726256e062e770a3ee4daf014dd779231855f75b0bcdc7cfc9a21020a",
+      "triangles": 1770
+    },
+    {
+      "mesh": "fma46836",
+      "fma": "FMA46836",
+      "name": "left buccinator",
+      "itemId": "atlas-muscles-musculus-buccinator-sinister-16",
+      "sha256": "b8669c92908b4b5b708ab4dcde713743fc73c3bfe936ebeab60bb9edc89f9cdc",
+      "triangles": 1766
+    },
+    {
+      "mesh": "fma46839",
+      "fma": "FMA46839",
+      "name": "right risorius",
+      "itemId": "atlas-muscles-musculus-risorius-dexter-22",
+      "sha256": "3748437839fae2e65abc86f756ad976b79dc6cce3b9b5e078d5bf7e2213748c4",
+      "triangles": 1346
+    },
+    {
+      "mesh": "fma46840",
+      "fma": "FMA46840",
+      "name": "left risorius",
+      "itemId": "atlas-muscles-musculus-risorius-sinister-22",
+      "sha256": "e43b75f4fa021862413b8eaa83d8289794181b66f982e7853e1ad106d4861d4a",
+      "triangles": 1336
+    },
+    {
+      "mesh": "fma49001",
+      "fma": "FMA49001",
+      "name": "superficial part of right masseter",
+      "itemId": "atlas-muscles-musculus-masseter-pars-superficialis-dexter-2",
+      "sha256": "3e8ef37765a667f0fb729800619a48d5dfe6bd99f281375fa5bc1786930cdcc7",
+      "triangles": 2016
+    },
+    {
+      "mesh": "fma49002",
+      "fma": "FMA49002",
+      "name": "superficial part of left masseter",
+      "itemId": "atlas-muscles-musculus-masseter-pars-superficialis-sinister-2",
+      "sha256": "f4b6f6c4cb124866663d6357eb41067526eaa59a12a9da0b30551f01dbf09d60",
+      "triangles": 2006
+    },
+    {
+      "mesh": "fma49004",
+      "fma": "FMA49004",
+      "name": "deep part of right masseter",
+      "itemId": "atlas-muscles-musculus-masseter-pars-profunda-dexter-3",
+      "sha256": "1739fb75e200ee86062dff55bfe2764b9676b05cbfc498a11a0b841c9ba8c1d8",
+      "triangles": 2830
+    },
+    {
+      "mesh": "fma49005",
+      "fma": "FMA49005",
+      "name": "deep part of left masseter",
+      "itemId": "atlas-muscles-musculus-masseter-pars-profunda-sinister-3",
+      "sha256": "3ad1f17d0873129be3f3b2252c8da68592d1721428e009b4c42877cb1cd977cf",
+      "triangles": 2822
+    },
+    {
+      "mesh": "fma49007",
+      "fma": "FMA49007",
+      "name": "right temporalis",
+      "itemId": "atlas-muscles-musculus-temporalis-dexter-1",
+      "sha256": "49350b11e23432de5d6fa9f1888a6e2da1db0b5389b2baedb7346f179ed0b9dd",
+      "triangles": 21250
+    },
+    {
+      "mesh": "fma49008",
+      "fma": "FMA49008",
+      "name": "left temporalis",
+      "itemId": "atlas-muscles-musculus-temporalis-sinister-1",
+      "sha256": "726dc265301351f5132093ec81f78e3e2c290631caf1dad65dcac56dc56f3447",
+      "triangles": 21270
+    },
+    {
+      "mesh": "fma49012",
+      "fma": "FMA49012",
+      "name": "right medial pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-medialis-dexter-4",
+      "sha256": "4d9d02d9ce76d8c85b7d466b7cfb333382996e2f66ceb28145664dc60a1f8967",
+      "triangles": 1488
+    },
+    {
+      "mesh": "fma49013",
+      "fma": "FMA49013",
+      "name": "left medial pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-medialis-sinister-4",
+      "sha256": "85f718ff6d1cedd1537036be6ed733334176d7ed880bbc1c31af5e32b3f658a9",
+      "triangles": 1472
+    },
+    {
+      "mesh": "fma49022",
+      "fma": "FMA49022",
+      "name": "lower head of right lateral pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-lateralis-caput-inferius-dexter-6",
+      "sha256": "ab457db3530bffd621f63cb831e6f5cbe6eb8d3c7e2a24a274dcecb4e1ebb6b6",
+      "triangles": 690
+    },
+    {
+      "mesh": "fma49023",
+      "fma": "FMA49023",
+      "name": "lower head of left lateral pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-lateralis-caput-inferius-sinister-6",
+      "sha256": "5cd792dd49aa3720bda2802052c7832ce6f7b3ab94a349febb2af52bdaf8ac2b",
+      "triangles": 478
+    },
+    {
+      "mesh": "fma49024",
+      "fma": "FMA49024",
+      "name": "upper head of right lateral pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-lateralis-caput-superius-dexter-5",
+      "sha256": "088614f4ec9d1e26a79a03692cd0e8555058edc7f5596dc84a4a0e8835bc5ffc",
+      "triangles": 464
+    },
+    {
+      "mesh": "fma49025",
+      "fma": "FMA49025",
+      "name": "upper head of left lateral pterygoid",
+      "itemId": "atlas-muscles-musculus-pterygoideus-lateralis-caput-superius-sinister-5",
+      "sha256": "3eaf1691044231a2330a5ce3825718e51cc38c33c85db6e97be4a655974d0087",
+      "triangles": 460
+    },
+    {
+      "mesh": "fma51142",
+      "fma": "FMA51142",
+      "name": "right extensor digitorum brevis",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-brevis-dexter-1",
+      "sha256": "4e097493180c4d63c36fcc03ded9f1a6a4de3ae10b8bddebea75db37f90a4f58",
+      "triangles": 6442
+    },
+    {
+      "mesh": "fma51143",
+      "fma": "FMA51143",
+      "name": "left extensor digitorum brevis",
+      "itemId": "atlas-muscles-musculus-extensor-digitorum-brevis-sinister-1",
+      "sha256": "e17b40e493e524ef932ae8d4071675c5ac3d3b6d8e9eaeb8bea3bd58fb8db9b0",
+      "triangles": 6454
+    },
+    {
+      "mesh": "fma51144",
+      "fma": "FMA51144",
+      "name": "right extensor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-hallucis-brevis-dexter-2",
+      "sha256": "ef90e76ef5df23e6bd4de613e6a33d66f028ac26e90ba4c89528a67f6b9c59f0",
+      "triangles": 2246
+    },
+    {
+      "mesh": "fma51145",
+      "fma": "FMA51145",
+      "name": "left extensor hallucis brevis",
+      "itemId": "atlas-muscles-musculus-extensor-hallucis-brevis-sinister-2",
+      "sha256": "a93c8b24372da8ade6b6a475be5c5cf5fbf5ba472f3480418b62cccacd8739cc",
+      "triangles": 2154
+    },
+    {
+      "mesh": "fma55606",
+      "fma": "FMA55606",
+      "name": "right nasalis",
+      "itemId": "atlas-muscles-musculus-nasalis-dexter-1",
+      "sha256": "68591bed6767a405ef63734939a193e2449ae6fc5b403ef585e29742e126a8c6",
+      "triangles": 1476
+    },
+    {
+      "mesh": "fma55607",
+      "fma": "FMA55607",
+      "name": "left nasalis",
+      "itemId": "atlas-muscles-musculus-nasalis-sinister-1",
+      "sha256": "0900b933f4cfa1d5f586228bf1d51a163bbd94f64e653b168eeeffe55f982aea",
+      "triangles": 1464
+    },
+    {
+      "mesh": "fma55608",
+      "fma": "FMA55608",
+      "name": "right depressor septi nasi",
+      "itemId": "atlas-muscles-musculus-depressor-septi-nasi-dexter-7",
+      "sha256": "cd2878a96f50def54836c2cd55af91def4080d83add77cd52c818b59e55c2285",
+      "triangles": 558
+    },
+    {
+      "mesh": "fma55609",
+      "fma": "FMA55609",
+      "name": "left depressor septi nasi",
+      "itemId": "atlas-muscles-musculus-depressor-septi-nasi-sinister-7",
+      "sha256": "9f4ffb20de4dcb6013a87180f8fdfd7060c5971595e1e3f48ac15127ddb93cce",
+      "triangles": 638
+    },
+    {
+      "mesh": "fma55610",
+      "fma": "FMA55610",
+      "name": "right procerus",
+      "itemId": "atlas-muscles-musculus-procerus-dexter-4",
+      "sha256": "d14b31bcde616896043305dccc4e54f268b4aacf9936013c2d2e3d85fe3dc86e",
+      "triangles": 1098
+    },
+    {
+      "mesh": "fma55611",
+      "fma": "FMA55611",
+      "name": "left procerus",
+      "itemId": "atlas-muscles-musculus-procerus-sinister-4",
+      "sha256": "191f113958bc5ad7a377d9c23340e9da61aaebd9d38ceaa40b550410ee5a7dd0",
+      "triangles": 1096
+    },
+    {
+      "mesh": "fma65014",
+      "fma": "FMA65014",
+      "name": "right flexor hallucis longus",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-longus-dexter-13",
+      "sha256": "d81042aa43b5a351700251dabdb4f1b3b0aac0c1bb0cedea3895042bfd04c1ce",
+      "triangles": 11774
+    },
+    {
+      "mesh": "fma65015",
+      "fma": "FMA65015",
+      "name": "left flexor hallucis longus",
+      "itemId": "atlas-muscles-musculus-flexor-hallucis-longus-sinister-13",
+      "sha256": "2ca3cc5d3b8f4e8350efd79d81d7603cd367352843ecd74e06d60068a1aec486",
+      "triangles": 11970
+    },
+    {
+      "mesh": "fma65016",
+      "fma": "FMA65016",
+      "name": "right flexor digitorum longus",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-longus-dexter-14",
+      "sha256": "26f57a4c96814956219810fe0351c4eeb624c024b6d40298faf43958ea354a31",
+      "triangles": 13982
+    },
+    {
+      "mesh": "fma65017",
+      "fma": "FMA65017",
+      "name": "left flexor digitorum longus",
+      "itemId": "atlas-muscles-musculus-flexor-digitorum-longus-sinister-14",
+      "sha256": "7ba80798903575e0ab66767c05fd58805054fbeb6b7a932d5f140edd59c97e49",
+      "triangles": 14272
+    },
+    {
+      "mesh": "fma65018",
+      "fma": "FMA65018",
+      "name": "right tibialis posterior",
+      "itemId": "atlas-muscles-musculus-tibialis-posterior-dexter-12",
+      "sha256": "1d95e4b691d9881f68a9eae2cd3d45e98e15223ff97f80810b1dbfd569528888",
+      "triangles": 12090
+    },
+    {
+      "mesh": "fma65019",
+      "fma": "FMA65019",
+      "name": "left tibialis posterior",
+      "itemId": "atlas-muscles-musculus-tibialis-posterior-sinister-12",
+      "sha256": "dfa9bea26c97b326fea0dddbe83ab261cdecd31bae4d8442d2daed3ef409e404",
+      "triangles": 11612
+    },
+    {
+      "mesh": "fma65198",
+      "fma": "FMA65198",
+      "name": "superficial head of right flexor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-brevis-caput-superficiale-dexter-2",
+      "sha256": "aa19b46559463198697f46f81ace47df54b18a38dab634a60cc5abb2cf8d08ae",
+      "triangles": 852
+    },
+    {
+      "mesh": "fma65199",
+      "fma": "FMA65199",
+      "name": "superficial head of left flexor pollicis brevis",
+      "itemId": "atlas-muscles-musculus-flexor-pollicis-brevis-caput-superficiale-sinister-2",
+      "sha256": "31cdf6f34df529e05dbe4a6faede8361aa090fa2605de58b3cd9ffd4306bbab4",
+      "triangles": 752
+    },
+    {
+      "mesh": "fma74075",
+      "fma": "FMA74075",
+      "name": "set of right levatores costarum longi",
+      "itemId": "atlas-muscles-musculi-levatores-costarum-longi-dexter-18",
+      "sha256": "aa7cdb8aadc9451c089429c0b530171c410a9c47308d109539499e36082b7b6f",
+      "triangles": 11972
+    },
+    {
+      "mesh": "fma74076",
+      "fma": "FMA74076",
+      "name": "set of left levatores costarum longi",
+      "itemId": "atlas-muscles-musculi-levatores-costarum-longi-sinister-18",
+      "sha256": "ee7eef6d5c4c126d6161c36bab79e787650c8dd0e3735038e30c6e132f7479b3",
+      "triangles": 12770
+    },
+    {
+      "mesh": "fma74077",
+      "fma": "FMA74077",
+      "name": "set of right levatores costarum breves",
+      "itemId": "atlas-muscles-musculi-levatores-costarum-breves-dexter-17",
+      "sha256": "4b839d1e6af738de75802c2925d461562f849ffb042aa853438684a524c0ffa6",
+      "triangles": 6034
+    },
+    {
+      "mesh": "fma74078",
+      "fma": "FMA74078",
+      "name": "set of left levatores costarum breves",
+      "itemId": "atlas-muscles-musculi-levatores-costarum-breves-sinister-17",
+      "sha256": "1698da7876f0a0a6d4a67b56fcd326bcf2a74c5254923db2f3b4c1221453bf00",
+      "triangles": 6520
+    },
+    {
+      "mesh": "fma79979",
+      "fma": "FMA79979",
+      "name": "sternocostal part of right pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-sternocostalis-dexter-2",
+      "sha256": "e40bc4ec4b7e3920d9a893fa692a344639197a0e58fcb711d6421bf96f2b34e0",
+      "triangles": 7202
+    },
+    {
+      "mesh": "fma79980",
+      "fma": "FMA79980",
+      "name": "sternocostal part of left pectoralis major",
+      "itemId": "atlas-muscles-musculus-pectoralis-major-pars-sternocostalis-sinister-2",
+      "sha256": "c97816d04ba3783c0b613bd8e0a06afa62f7991b7633c6e764614fc3767362c8",
+      "triangles": 7274
+    },
+    {
+      "mesh": "fma86034",
+      "fma": "FMA86034",
+      "name": "opponens digiti minimi of right foot",
+      "itemId": "atlas-muscles-musculus-opponens-digiti-minimi-pedis-dexter-1",
+      "sha256": "698442133fb103a77e85bd8a4c2f416d5ac4eb587e614519f01538f93894ef63",
+      "triangles": 484
+    },
+    {
+      "mesh": "fma86035",
+      "fma": "FMA86035",
+      "name": "opponens digiti minimi of left foot",
+      "itemId": "atlas-muscles-musculus-opponens-digiti-minimi-pedis-sinister-1",
+      "sha256": "d0384605b6fb501eac7ca8671fd88cafd753dbd243d9a4d39e67abde27efdcdf",
+      "triangles": 504
+    },
+    {
+      "mesh": "fma9761",
+      "fma": "FMA9761",
+      "name": "right transversus thoracis",
+      "itemId": "atlas-muscles-musculus-transversus-thoracis-dexter-11",
+      "sha256": "8d8b5c5b007631cacde8bc24d24da79a6e58bf501bad5c92d6e990f17c4cea86",
+      "triangles": 3766
+    },
+    {
+      "mesh": "fma9762",
+      "fma": "FMA9762",
+      "name": "left transversus thoracis",
+      "itemId": "atlas-muscles-musculus-transversus-thoracis-sinister-11",
+      "sha256": "a12bc30deb940241b1e9b4b749cd204d8067c7d6d7024c861bd72a08206e5375",
+      "triangles": 3798
+    },
+    {
+      "fma": "FMA44249",
+      "mesh": "context_fma44249",
+      "name": "right long plantar ligament",
+      "context": true,
+      "sha256": "703ae840e0fc4ea01fd6ccacdc0b5fe468ae190c5e1338f8fb03ed046eaf3fe4",
+      "triangles": 7092
+    },
+    {
+      "fma": "FMA24497",
+      "mesh": "context_fma24497",
+      "name": "right calcaneus",
+      "context": true,
+      "sha256": "244b92b9bde31972201ecedadbe2169ffe4cf598ed4d0c3ad6ce32208a3c8a08",
+      "triangles": 1150
+    },
+    {
+      "fma": "FMA24498",
+      "mesh": "context_fma24498",
+      "name": "left calcaneus",
+      "context": true,
+      "sha256": "555ae6a7df1553d37e706a428e0aa44bcf813a34920400bfd2eb251c5dfd7bf5",
+      "triangles": 1280
+    },
+    {
+      "fma": "FMA66791",
+      "mesh": "context_fma66791",
+      "name": "proximal phalanx of left little finger",
+      "context": true,
+      "sha256": "84be1563deec6562fbd55e8f47e8adc749dd084b174a8cb2c0d7be0ea6a4c5a5",
+      "triangles": 254
+    },
+    {
+      "fma": "FMA9248",
+      "mesh": "context_fma9248",
+      "name": "fourth thoracic vertebra",
+      "context": true,
+      "sha256": "ea8275509484a6afb39d64351d0fe3c3ac6c39a6c7765667c29fd00b022aa2db",
+      "triangles": 1892
+    },
+    {
+      "fma": "FMA10458",
+      "mesh": "context_fma10458",
+      "name": "intervertebral disk of first thoracic vertebra",
+      "context": true,
+      "sha256": "c7de7f7ff12f35c85cb408e6103767db3a0a08a014c74caf18d7f2056a82b6ab",
+      "triangles": 958
+    },
+    {
+      "fma": "FMA24486",
+      "mesh": "context_fma24486",
+      "name": "right patella",
+      "context": true,
+      "sha256": "64de1eb490620daadbb5d4a28e777cc5e9ef993b38bd7b1203e7434f9245a95f",
+      "triangles": 266
+    },
+    {
+      "fma": "FMA24487",
+      "mesh": "context_fma24487",
+      "name": "left patella",
+      "context": true,
+      "sha256": "0df7660c3c1088668f8f1c98e0d68d1e26a86cde84280b20027da7be37916896",
+      "triangles": 286
+    },
+    {
+      "fma": "FMA24482",
+      "mesh": "context_fma24482",
+      "name": "right talus",
+      "context": true,
+      "sha256": "a086c8bebb34e60168ff96c9dc25c42fdae2ae164d64b9d5e6ef31811bad416a",
+      "triangles": 1284
+    },
+    {
+      "fma": "FMA24483",
+      "mesh": "context_fma24483",
+      "name": "left talus",
+      "context": true,
+      "sha256": "366010a073c66359b5d753f7f3bc2cae4f8a00360699a0f57b0cb339f9dedcb8",
+      "triangles": 1342
+    },
+    {
+      "fma": "FMA24480",
+      "mesh": "context_fma24480",
+      "name": "right fibula",
+      "context": true,
+      "sha256": "b46923c727160b44d19c3f4f5c9bc2286dc4d0715cb3aa00cc847fb7d4993225",
+      "triangles": 924
+    },
+    {
+      "fma": "FMA24481",
+      "mesh": "context_fma24481",
+      "name": "left fibula",
+      "context": true,
+      "sha256": "d75dd1cf724e9e8c81c8edf8f7a44e48dd4ed941a518eb70a6d50d4df296ddce",
+      "triangles": 976
+    },
+    {
+      "fma": "FMA44250",
+      "mesh": "context_fma44250",
+      "name": "left long plantar ligament",
+      "context": true,
+      "sha256": "5d220101a575edad30a0e309ae1fb2c5ddf45944985382805f9f363b81552425",
+      "triangles": 5032
+    },
+    {
+      "fma": "FMA45098",
+      "mesh": "context_fma45098",
+      "name": "sesamoid bone of left foot",
+      "context": true,
+      "sha256": "f58d3fbcc52b5a26d5e9db68a4c7e703bae14458b470869fa07d91f0d5f2a406",
+      "triangles": 258
+    },
+    {
+      "fma": "FMA45097",
+      "mesh": "context_fma45097",
+      "name": "sesamoid bone of right foot",
+      "context": true,
+      "sha256": "595ccb5577d308bd55e3598b1ba9a987b0843a731ac74f818418f238915c62c4",
+      "triangles": 238
+    },
+    {
+      "fma": "FMA9710",
+      "mesh": "context_fma9710",
+      "name": "vomer",
+      "context": true,
+      "sha256": "2937ec1a9c2721a36d80cfd203785b1539917eda2588daacebf8d7084d7923d4",
+      "triangles": 800
+    },
+    {
+      "fma": "FMA16202",
+      "mesh": "context_fma16202",
+      "name": "sacrum",
+      "context": true,
+      "sha256": "0a715850623c9f7d17cafd004a4e84ac402e2aadb5f1605931e5932f6df1013a",
+      "triangles": 8882
+    },
+    {
+      "fma": "FMA9991",
+      "mesh": "context_fma9991",
+      "name": "eighth thoracic vertebra",
+      "context": true,
+      "sha256": "ba693479c99aa60826d15c518fa79c66484b5298630ade6aae5290b065d6bb0e",
+      "triangles": 1422
+    },
+    {
+      "fma": "FMA13396",
+      "mesh": "context_fma13396",
+      "name": "left scapula",
+      "context": true,
+      "sha256": "d3bd763763054122da5aedafb09a4357258aaf2ffa4d9633547865bd1ba443f6",
+      "triangles": 24362
+    },
+    {
+      "fma": "FMA13395",
+      "mesh": "context_fma13395",
+      "name": "right scapula",
+      "context": true,
+      "sha256": "2ea52baa1986330fcffc03dc0ec1f91f66b678395e6141f92caafeb180755afd",
+      "triangles": 22650
+    },
+    {
+      "fma": "FMA53650",
+      "mesh": "context_fma53650",
+      "name": "left maxilla",
+      "context": true,
+      "sha256": "1e1a4640be1f8856f2a0185869df19531e8fe6113c530290a6cbc7950fd57613",
+      "triangles": 4464
+    },
+    {
+      "fma": "FMA8472",
+      "mesh": "context_fma8472",
+      "name": "left tenth rib",
+      "context": true,
+      "sha256": "3bf9fd4b86e276f8c13b7e57a599ef653fa07aa864211c226919c50683fbe3bc",
+      "triangles": 7116
+    },
+    {
+      "fma": "FMA53655",
+      "mesh": "context_fma53655",
+      "name": "right palatine bone",
+      "context": true,
+      "sha256": "9d3509ea400f6034d613a87cfda1426b017213bc5cdc151e7ce974739d5631a4",
+      "triangles": 1460
+    },
+    {
+      "fma": "FMA53656",
+      "mesh": "context_fma53656",
+      "name": "left palatine bone",
+      "context": true,
+      "sha256": "9465a50a48d67b62fc2849e341158cc5b12d1fd3541f9800bd762d662f73881b",
+      "triangles": 1812
+    },
+    {
+      "fma": "FMA53647",
+      "mesh": "context_fma53647",
+      "name": "right nasal bone",
+      "context": true,
+      "sha256": "8166989d81d2a849a3490c4d0202dd3973141e5fc417e4ff614f9fc5b34eafe7",
+      "triangles": 292
+    },
+    {
+      "fma": "FMA53646",
+      "mesh": "context_fma53646",
+      "name": "left lacrimal bone",
+      "context": true,
+      "sha256": "9ba4c69bf48347c69c08d58d3b96e8e3936f72280b909a6c306eb344ec766257",
+      "triangles": 718
+    },
+    {
+      "fma": "FMA24459",
+      "mesh": "context_fma24459",
+      "name": "distal phalanx of right thumb",
+      "context": true,
+      "sha256": "cf351fcf44a2ef0612ec5914b6d8b5731126a6d929db510700fc03c3d7d223c4",
+      "triangles": 212
+    },
+    {
+      "fma": "FMA53649",
+      "mesh": "context_fma53649",
+      "name": "right maxilla",
+      "context": true,
+      "sha256": "1efbed60f33e8ea4f8554009ee08dadcd65deecd07e13adef416053f0a760c31",
+      "triangles": 4768
+    },
+    {
+      "fma": "FMA53648",
+      "mesh": "context_fma53648",
+      "name": "left nasal bone",
+      "context": true,
+      "sha256": "1322f08cf079bcd2a8ddc7a2409d522ee149c0b075e331abca19cb9a9c1cbe9f",
+      "triangles": 440
+    },
+    {
+      "fma": "FMA24456",
+      "mesh": "context_fma24456",
+      "name": "middle phalanx of right middle finger",
+      "context": true,
+      "sha256": "eb2fa7617ad4b81b49dc745bf29a0bd951db36fce716363f64d26d91fcce3398",
+      "triangles": 294
+    },
+    {
+      "fma": "FMA24455",
+      "mesh": "context_fma24455",
+      "name": "middle phalanx of right index finger",
+      "context": true,
+      "sha256": "90642de1ae16afb14ad41b6cf2f83120bbdef880528675ea75db36c481c33683",
+      "triangles": 228
+    },
+    {
+      "fma": "FMA24458",
+      "mesh": "context_fma24458",
+      "name": "middle phalanx of right little finger",
+      "context": true,
+      "sha256": "7ca11f984619375e3512a1fe5c2282d36e52f4ea863a68c34259cb33ffe67a10",
+      "triangles": 200
+    },
+    {
+      "fma": "FMA24457",
+      "mesh": "context_fma24457",
+      "name": "middle phalanx of right ring finger",
+      "context": true,
+      "sha256": "db6b0714df37fb5fcd1ad9859681c61f3891127969e1c32d3f24264665fd73ae",
+      "triangles": 358
+    },
+    {
+      "fma": "FMA24452",
+      "mesh": "context_fma24452",
+      "name": "proximal phalanx of right middle finger",
+      "context": true,
+      "sha256": "3d8ab5bac006c3d22935d17af4749d4d7bf27616ec5a8900e9ab5258d62724ea",
+      "triangles": 392
+    },
+    {
+      "fma": "FMA24451",
+      "mesh": "context_fma24451",
+      "name": "proximal phalanx of right index finger",
+      "context": true,
+      "sha256": "fff67bb80bdefbe7a0b9135a94729f7760d60fca23b77f3bba1720c6a60c34a7",
+      "triangles": 374
+    },
+    {
+      "fma": "FMA9209",
+      "mesh": "context_fma9209",
+      "name": "third thoracic vertebra",
+      "context": true,
+      "sha256": "a13c7200b0e502cfa6cfc85827744bbbb5405cac9b531c3a56f4ecf8228e317b",
+      "triangles": 2030
+    },
+    {
+      "fma": "FMA24454",
+      "mesh": "context_fma24454",
+      "name": "proximal phalanx of right little finger",
+      "context": true,
+      "sha256": "66ca3e0e694a8d777f8318c0dee43f4e987ef6bf95ec368c31e8ee81d4de76f4",
+      "triangles": 314
+    },
+    {
+      "fma": "FMA24453",
+      "mesh": "context_fma24453",
+      "name": "proximal phalanx of right ring finger",
+      "context": true,
+      "sha256": "d83eb3b8110fba8325549d3a8665e9d19306b275bd4266476417bf736079d4da",
+      "triangles": 324
+    },
+    {
+      "fma": "FMA8066",
+      "mesh": "context_fma8066",
+      "name": "right fifth rib",
+      "context": true,
+      "sha256": "7adb5d2257031ea9c3c947c2367918a83c0ed71eadaa49b45acf2aad3c447626",
+      "triangles": 9328
+    },
+    {
+      "fma": "FMA24450",
+      "mesh": "context_fma24450",
+      "name": "proximal phalanx of right thumb",
+      "context": true,
+      "sha256": "013ebc388d0c5f890d7d5a2146d5c4a2259ab5f922f95ec45a5fc8486ce69637",
+      "triangles": 272
+    },
+    {
+      "fma": "FMA8070",
+      "mesh": "context_fma8070",
+      "name": "right fifth costal cartilage",
+      "context": true,
+      "sha256": "b91e883a5da9696eb23e977515488242009417a8633152994bf5799b3797b9e2",
+      "triangles": 1082
+    },
+    {
+      "fma": "FMA13495",
+      "mesh": "context_fma13495",
+      "name": "intervertebral disk of second thoracic vertebra",
+      "context": true,
+      "sha256": "aa907d108bc5047a58b4fe8cf9b47a817832b02e050914b076f3c39006369b71",
+      "triangles": 1112
+    },
+    {
+      "fma": "FMA7488",
+      "mesh": "context_fma7488",
+      "name": "xiphoid process",
+      "context": true,
+      "sha256": "9aa9cba903f1fbf5549e2aab44c444c81e9cced252a17acc81716593a62bed86",
+      "triangles": 914
+    },
+    {
+      "fma": "FMA7487",
+      "mesh": "context_fma7487",
+      "name": "body of sternum",
+      "context": true,
+      "sha256": "6c932f648a9f14b6e0403081a045aceca9492a6c3993c3346e46e8d6f655f734",
+      "triangles": 4462
+    },
+    {
+      "fma": "FMA7486",
+      "mesh": "context_fma7486",
+      "name": "manubrium",
+      "context": true,
+      "sha256": "6a67b45d9060dce38d1604822997e15577796ba28b732045c0844c75c4e2eaac",
+      "triangles": 2662
+    },
+    {
+      "fma": "FMA24449",
+      "mesh": "context_fma24449",
+      "name": "left hamate",
+      "context": true,
+      "sha256": "b6b193dedb8fda506f29987792c2860825725a4c87659f7c49e8f5646c4cce0e",
+      "triangles": 452
+    },
+    {
+      "fma": "FMA24448",
+      "mesh": "context_fma24448",
+      "name": "right hamate",
+      "context": true,
+      "sha256": "8566c49b2181f005fee3704244b9e190cc222ed271b6458a40d701faf4ee80e4",
+      "triangles": 522
+    },
+    {
+      "fma": "FMA24447",
+      "mesh": "context_fma24447",
+      "name": "left capitate",
+      "context": true,
+      "sha256": "ffa5e858a3883774c45d8b83bc88d549e848723fc74ea3fee8bc29d815030fc7",
+      "triangles": 402
+    },
+    {
+      "fma": "FMA24446",
+      "mesh": "context_fma24446",
+      "name": "right capitate",
+      "context": true,
+      "sha256": "f09c4f3bcb17e02004f9d604e311966014764a039a905f267e60343efddb41ec",
+      "triangles": 428
+    },
+    {
+      "fma": "FMA24445",
+      "mesh": "context_fma24445",
+      "name": "left trapezoid",
+      "context": true,
+      "sha256": "f03ab7fe5d9182e058e8686a5a7dbb5abffc684085c4a4ed6a5d2a0e5794af01",
+      "triangles": 398
+    },
+    {
+      "fma": "FMA24444",
+      "mesh": "context_fma24444",
+      "name": "left trapezium",
+      "context": true,
+      "sha256": "6f073cb257fa61850b92279e77ff30b453f7e3a5e1b085a89e626122b64a2b26",
+      "triangles": 356
+    },
+    {
+      "fma": "FMA24443",
+      "mesh": "context_fma24443",
+      "name": "right trapezium",
+      "context": true,
+      "sha256": "a716be98bba7daf443c6b8df67f2ad17bbd5853a36fd994a8cf0f036bca5dabf",
+      "triangles": 434
+    },
+    {
+      "fma": "FMA24442",
+      "mesh": "context_fma24442",
+      "name": "left pisiform",
+      "context": true,
+      "sha256": "5645409f33c54231ee033fc27ccbd9ee143e980302f189e4f18f7f92f9a3d7ea",
+      "triangles": 210
+    },
+    {
+      "fma": "FMA7857",
+      "mesh": "context_fma7857",
+      "name": "right first rib",
+      "context": true,
+      "sha256": "b38d13834c334155a5fd0f531ad7cd7d6698b6404bf0c46f60376b13c5965d57",
+      "triangles": 3180
+    },
+    {
+      "fma": "FMA24441",
+      "mesh": "context_fma24441",
+      "name": "right pisiform",
+      "context": true,
+      "sha256": "2916beb96da7c77685c22231d855da23352b3e9c22e0df5fdfa6b9370a063250",
+      "triangles": 190
+    },
+    {
+      "fma": "FMA24440",
+      "mesh": "context_fma24440",
+      "name": "left triquetral",
+      "context": true,
+      "sha256": "cdbf8dc60b0190678507457de88f51a4e5b861e9c6bbe856042850972d2c30a8",
+      "triangles": 304
+    },
+    {
+      "fma": "FMA16033",
+      "mesh": "context_fma16033",
+      "name": "intervertebral disk of first lumbar vertebra",
+      "context": true,
+      "sha256": "dd15ac1879dd4906aa8af427a437f8913c5c54b2c05b227b44778ed2e83d4ee1",
+      "triangles": 3170
+    },
+    {
+      "fma": "FMA16035",
+      "mesh": "context_fma16035",
+      "name": "intervertebral disk of third lumbar vertebra",
+      "context": true,
+      "sha256": "c4ef28cf9dc096082bc03bf5f8f9bd4c96979e766b96c91c7a68b7ec5bfecd31",
+      "triangles": 3196
+    },
+    {
+      "fma": "FMA8310",
+      "mesh": "context_fma8310",
+      "name": "left eighth rib",
+      "context": true,
+      "sha256": "47e67b08cfe9ea5a4bc057a51ff9805a3fb2d6ac0861e4cc7f390caa0dbf23ba",
+      "triangles": 8320
+    },
+    {
+      "fma": "FMA16034",
+      "mesh": "context_fma16034",
+      "name": "intervertebral disk of second lumbar vertebra",
+      "context": true,
+      "sha256": "e715f8a4055599169401f442874e3d08b0847527cd572f085be0f1bb4c53b6c5",
+      "triangles": 3046
+    },
+    {
+      "fma": "FMA16037",
+      "mesh": "context_fma16037",
+      "name": "intervertebral disk of fifth lumbar vertebra",
+      "context": true,
+      "sha256": "584284fddc31d7b6455833f3235609ff4c59029df2762d86d0b191c9909d20af",
+      "triangles": 3624
+    },
+    {
+      "fma": "FMA16036",
+      "mesh": "context_fma16036",
+      "name": "intervertebral disk of fourth lumbar vertebra",
+      "context": true,
+      "sha256": "0893e4d0f44813d13d580470673c9b1215d7d22796687db2e4da0b22bc4e6ebc",
+      "triangles": 3246
+    },
+    {
+      "fma": "FMA24478",
+      "mesh": "context_fma24478",
+      "name": "left tibia",
+      "context": true,
+      "sha256": "f052f51eb89d0c4044180a8f0b51badf1fe17047bee6682cf305673969c945f3",
+      "triangles": 1464
+    },
+    {
+      "fma": "FMA24477",
+      "mesh": "context_fma24477",
+      "name": "right tibia",
+      "context": true,
+      "sha256": "f2e0df5722cb94e02765e7a18e700e4c8ff3d216780f2496dcc21099b0efb2e8",
+      "triangles": 1370
+    },
+    {
+      "fma": "FMA9968",
+      "mesh": "context_fma9968",
+      "name": "seventh thoracic vertebra",
+      "context": true,
+      "sha256": "d8ebe7b9bf2ce43d450f01a85c22b9c7269f5b1023b39f4f046b0a74c0513435",
+      "triangles": 2300
+    },
+    {
+      "fma": "FMA7882",
+      "mesh": "context_fma7882",
+      "name": "right second rib",
+      "context": true,
+      "sha256": "68a8910fab048eda765b212b12f2815ce817829e0c55a693cf18e09dbd965871",
+      "triangles": 5308
+    },
+    {
+      "fma": "FMA24470",
+      "mesh": "context_fma24470",
+      "name": "right fourth metacarpal bone",
+      "context": true,
+      "sha256": "1c6991c3e412dcc50d3dca543140ebae3d24f4ef3c6b04e5cf358f6e06e6f87f",
+      "triangles": 534
+    },
+    {
+      "fma": "FMA24472",
+      "mesh": "context_fma24472",
+      "name": "right fifth metacarpal bone",
+      "context": true,
+      "sha256": "a48444a80e71c24c451eaf1fc1bafb3fc4f5704b26eb57a1e01ff1f1a86eee6c",
+      "triangles": 436
+    },
+    {
+      "fma": "FMA7886",
+      "mesh": "context_fma7886",
+      "name": "right second costal cartilage",
+      "context": true,
+      "sha256": "3a1ac3bae246395a2736147a9d0ced4da3daf3d1333e18be53592a9e7539a253",
+      "triangles": 568
+    },
+    {
+      "fma": "FMA24471",
+      "mesh": "context_fma24471",
+      "name": "left fourth metacarpal bone",
+      "context": true,
+      "sha256": "dc47edcc02d3bfa670cfecd00d737af6b0414b0e9254e6ffd389508f8f912353",
+      "triangles": 472
+    },
+    {
+      "fma": "FMA24474",
+      "mesh": "context_fma24474",
+      "name": "right femur",
+      "context": true,
+      "sha256": "6aff68a9ecc438717545db8b0b542f18b33276005201c41fedc28735779f3162",
+      "triangles": 2598
+    },
+    {
+      "fma": "FMA24473",
+      "mesh": "context_fma24473",
+      "name": "left fifth metacarpal bone",
+      "context": true,
+      "sha256": "d6535087ca965a28ce86d49422971ffe93f4f6c46ba8fb77716f2ba6ca89c01f",
+      "triangles": 448
+    },
+    {
+      "fma": "FMA24475",
+      "mesh": "context_fma24475",
+      "name": "left femur",
+      "context": true,
+      "sha256": "e3b5013484852be0be09f873a636b8841c448c8d183fce453d5e87c0b17194af",
+      "triangles": 2836
+    },
+    {
+      "fma": "FMA8093",
+      "mesh": "context_fma8093",
+      "name": "left fifth rib",
+      "context": true,
+      "sha256": "7eccf4121370da563511c2f40ac98a7ee5ce169ce5d5925d831473f6c0b248d7",
+      "triangles": 9314
+    },
+    {
+      "fma": "FMA8202",
+      "mesh": "context_fma8202",
+      "name": "left sixth rib",
+      "context": true,
+      "sha256": "ee3cd8585419dd368c111caf6a23e0d1c81d821f43755497986a4f84fe54305c",
+      "triangles": 9956
+    },
+    {
+      "fma": "FMA53645",
+      "mesh": "context_fma53645",
+      "name": "right lacrimal bone",
+      "context": true,
+      "sha256": "c1bd5a971c2246e77746ea7bdc6f41abdf0648886a3fc7fb74871b85f619a13b",
+      "triangles": 588
+    },
+    {
+      "fma": "FMA8194",
+      "mesh": "context_fma8194",
+      "name": "right sixth costal cartilage",
+      "context": true,
+      "sha256": "e0773c5b041a6828cea569b8e3b37a039d98aa29f7791f42ad39c0f4b211736d",
+      "triangles": 1360
+    },
+    {
+      "fma": "FMA24469",
+      "mesh": "context_fma24469",
+      "name": "left third metacarpal bone",
+      "context": true,
+      "sha256": "bf35208676a7ca793128628b32ec21c9da32c4ae6d9b24972455c10262f0c916",
+      "triangles": 630
+    },
+    {
+      "fma": "FMA24468",
+      "mesh": "context_fma24468",
+      "name": "right third metacarpal bone",
+      "context": true,
+      "sha256": "4662f08b27467ac207d20d1b6b7643b1feb694bad6c71d23a193ea2d001293a0",
+      "triangles": 602
+    },
+    {
+      "fma": "FMA24467",
+      "mesh": "context_fma24467",
+      "name": "left second metacarpal bone",
+      "context": true,
+      "sha256": "8b2833fbe6bc4b9330b0e365ab09848aeec9929ab23244dbd49acdc4ee9099f9",
+      "triangles": 774
+    },
+    {
+      "fma": "FMA24466",
+      "mesh": "context_fma24466",
+      "name": "right second metacarpal bone",
+      "context": true,
+      "sha256": "3f1d21ddc728d22f2a8f8894210c650d32de13ef5eeb18f62e27512a007b255d",
+      "triangles": 644
+    },
+    {
+      "fma": "FMA24461",
+      "mesh": "context_fma24461",
+      "name": "distal phalanx of right middle finger",
+      "context": true,
+      "sha256": "c8b10d07eaf5304d535320540ff5da9ec7f305e7a9d5900b8330110724ef7d26",
+      "triangles": 174
+    },
+    {
+      "fma": "FMA7875",
+      "mesh": "context_fma7875",
+      "name": "right first costal cartilage",
+      "context": true,
+      "sha256": "d059467a12e3740f784c6f37b49b31890f7dfcb2383b1a0d3e0992013a9e0715",
+      "triangles": 524
+    },
+    {
+      "fma": "FMA24460",
+      "mesh": "context_fma24460",
+      "name": "distal phalanx of right index finger",
+      "context": true,
+      "sha256": "7725148e047b08ec2b8286ddf3157f1e180e037014e6b31c4368cd5edeb4812d",
+      "triangles": 210
+    },
+    {
+      "fma": "FMA24465",
+      "mesh": "context_fma24465",
+      "name": "left first metacarpal bone",
+      "context": true,
+      "sha256": "ec5c18084d264becbf3f62d86bee02ee30f84c5cceefd39d63ee73b50c94a718",
+      "triangles": 512
+    },
+    {
+      "fma": "FMA24464",
+      "mesh": "context_fma24464",
+      "name": "right first metacarpal bone",
+      "context": true,
+      "sha256": "033742f0d8a2eca5f7d49e6161e8b949c19108140576d3a6a7c3bc8c194daf04",
+      "triangles": 558
+    },
+    {
+      "fma": "FMA24463",
+      "mesh": "context_fma24463",
+      "name": "distal phalanx of right little finger",
+      "context": true,
+      "sha256": "1a565d0c55a9c245cae2b1faff610692b69a151ffb4d37a6c66fd830998fd07c",
+      "triangles": 178
+    },
+    {
+      "fma": "FMA24462",
+      "mesh": "context_fma24462",
+      "name": "distal phalanx of right ring finger",
+      "context": true,
+      "sha256": "2beed6d6f40637185a8ac29183368e0355b5709b6abc1d75b5c2a1252da5d4a6",
+      "triangles": 112
+    },
+    {
+      "fma": "FMA24521",
+      "mesh": "context_fma24521",
+      "name": "right medial cuneiform bone",
+      "context": true,
+      "sha256": "7e308a4a7e80f774b662447c59d2aaa74ae769da937b81595ac494accba44270",
+      "triangles": 878
+    },
+    {
+      "fma": "FMA24522",
+      "mesh": "context_fma24522",
+      "name": "left medial cuneiform bone",
+      "context": true,
+      "sha256": "aabad0a2f456b1620f96ea19fffdce61559377020a4291a63d7a868d7ee0003c",
+      "triangles": 954
+    },
+    {
+      "fma": "FMA8167",
+      "mesh": "context_fma8167",
+      "name": "left fourth costal cartilage",
+      "context": true,
+      "sha256": "36ecf96ab20d1e59bbd9deeff51fdb7d47d004d22369ebf312b9b81021df71ab",
+      "triangles": 720
+    },
+    {
+      "fma": "FMA24523",
+      "mesh": "context_fma24523",
+      "name": "right intermediate cuneiform bone",
+      "context": true,
+      "sha256": "a7bea268c9599414eb8b3487ec4ee00adf905603347484ca76469e1a28215b94",
+      "triangles": 442
+    },
+    {
+      "fma": "FMA24524",
+      "mesh": "context_fma24524",
+      "name": "left intermediate cuneiform bone",
+      "context": true,
+      "sha256": "b60fdf4bac84961baf41bbfd6366da2d787e45ba07c80b1fa3c8d15736669027",
+      "triangles": 530
+    },
+    {
+      "fma": "FMA9945",
+      "mesh": "context_fma9945",
+      "name": "sixth thoracic vertebra",
+      "context": true,
+      "sha256": "18d47e05c29954fd25e421ab6a8e0b4254e7d0d90eba13d04801628a3ce5d4c2",
+      "triangles": 1588
+    },
+    {
+      "fma": "FMA24525",
+      "mesh": "context_fma24525",
+      "name": "right lateral cuneiform bone",
+      "context": true,
+      "sha256": "f23e5ab9f84c13a4e28699f220d8cf72a80721a6cc21b47443ebcb441b671ab4",
+      "triangles": 616
+    },
+    {
+      "fma": "FMA24526",
+      "mesh": "context_fma24526",
+      "name": "left lateral cuneiform bone",
+      "context": true,
+      "sha256": "13f6b9ad5cfe19509053ee54f4ba2922267cfba226a6f3611d45edfb23d2b352",
+      "triangles": 690
+    },
+    {
+      "fma": "FMA24528",
+      "mesh": "context_fma24528",
+      "name": "right cuboid bone",
+      "context": true,
+      "sha256": "60b534140ee7f3e913dfd887c1d38a57e435716fcd4368985a83e39505abf349",
+      "triangles": 932
+    },
+    {
+      "fma": "FMA23957",
+      "mesh": "context_fma23957",
+      "name": "distal phalanx of left ring finger",
+      "context": true,
+      "sha256": "5652fc535ec3d3267efb9f99cf2cb163f62c1db8f2efc76ad17e50a7f4c236af",
+      "triangles": 192
+    },
+    {
+      "fma": "FMA52788",
+      "mesh": "context_fma52788",
+      "name": "right parietal bone",
+      "context": true,
+      "sha256": "e6fdb5d395dcf65156e1317ce5ad6c376a7c1c0df1460df342c2f686b6c774cb",
+      "triangles": 6666
+    },
+    {
+      "fma": "FMA8229",
+      "mesh": "context_fma8229",
+      "name": "right seventh rib",
+      "context": true,
+      "sha256": "d2b8faf9d4abdbdcfb87f401603cf2deaad57dca47c613eda1ca0696b65c1d13",
+      "triangles": 9666
+    },
+    {
+      "fma": "FMA52789",
+      "mesh": "context_fma52789",
+      "name": "left parietal bone",
+      "context": true,
+      "sha256": "0e548ee045ad1fc54ad5cbbcb75b7eab3681120bba07595a810d83d54d1162b9",
+      "triangles": 6780
+    },
+    {
+      "fma": "FMA23959",
+      "mesh": "context_fma23959",
+      "name": "distal phalanx of left little finger",
+      "context": true,
+      "sha256": "4378c3c88f1f951d3b9f27594599dd26cd8b97e930edf0f422324f427c61e75f",
+      "triangles": 198
+    },
+    {
+      "fma": "FMA230986",
+      "mesh": "context_fma230986",
+      "name": "middle phalanx of right little toe",
+      "context": true,
+      "sha256": "bef317ea92bdc66aff984982b093a2b9691eb7c08ad8666d87d3b2d2d86a7dd1",
+      "triangles": 136
+    },
+    {
+      "fma": "FMA230988",
+      "mesh": "context_fma230988",
+      "name": "middle phalanx of left little toe",
+      "context": true,
+      "sha256": "a26893272752e6b342695d6f56a951397ae5a80ffa6129cb9f2c0ec6a87fc887",
+      "triangles": 254
+    },
+    {
+      "fma": "FMA8364",
+      "mesh": "context_fma8364",
+      "name": "right ninth rib",
+      "context": true,
+      "sha256": "0273c425168aece1bfc2fe936c092a70fd0227e8e542957481c9b0c4dd692848",
+      "triangles": 7680
+    },
+    {
+      "fma": "FMA8221",
+      "mesh": "context_fma8221",
+      "name": "left sixth costal cartilage",
+      "context": true,
+      "sha256": "af1020c28e6d22b41c38c7cb1c1b88a5a1d799df5710b96c425b0e00f8782e98",
+      "triangles": 1336
+    },
+    {
+      "fma": "FMA52892",
+      "mesh": "context_fma52892",
+      "name": "right zygomatic bone",
+      "context": true,
+      "sha256": "e57302455f4dafd42e1ebbd25a6af3d8979574eec5d829f7d3877caae2854018",
+      "triangles": 1322
+    },
+    {
+      "fma": "FMA52893",
+      "mesh": "context_fma52893",
+      "name": "left zygomatic bone",
+      "context": true,
+      "sha256": "564471ddf4784dcdb17001ae9635441f0d9c10e69988f7a950921ab323a93195",
+      "triangles": 1410
+    },
+    {
+      "fma": "FMA8031",
+      "mesh": "context_fma8031",
+      "name": "left second costal cartilage",
+      "context": true,
+      "sha256": "7ee4f5867a16e8ec449fa66fd9bb3e56f4cbe167412cb3b9e422063cfdbd44cf",
+      "triangles": 526
+    },
+    {
+      "fma": "FMA24439",
+      "mesh": "context_fma24439",
+      "name": "right triquetral",
+      "context": true,
+      "sha256": "76fb4e63a0b4384681a453f53093b30f631c53ce6278c5918e16631a23da86b3",
+      "triangles": 170
+    },
+    {
+      "fma": "FMA24437",
+      "mesh": "context_fma24437",
+      "name": "right lunate",
+      "context": true,
+      "sha256": "09033b4a0460a0f7e7b5b539d60f774df56c217e17d0d2ebf8a5e58ebeb373a2",
+      "triangles": 332
+    },
+    {
+      "fma": "FMA24438",
+      "mesh": "context_fma24438",
+      "name": "left lunate",
+      "context": true,
+      "sha256": "06a3fdce31df4f0ba3350399be19505bc3be98f380dcb911b1035c1ae5d9b025",
+      "triangles": 314
+    },
+    {
+      "fma": "FMA24435",
+      "mesh": "context_fma24435",
+      "name": "right scaphoid",
+      "context": true,
+      "sha256": "658088205171342f46e11a25501591a4c608c4d0abc9b182eafea361b0121101",
+      "triangles": 322
+    },
+    {
+      "fma": "FMA24436",
+      "mesh": "context_fma24436",
+      "name": "left scaphoid",
+      "context": true,
+      "sha256": "d692bea2e2381cabba63a45881a5a7049bf95736ce1ee5b3a4e8cb1c54b2d4e8",
+      "triangles": 312
+    },
+    {
+      "fma": "FMA8039",
+      "mesh": "context_fma8039",
+      "name": "left third rib",
+      "context": true,
+      "sha256": "07b81189f6546234467040bff81a708214f6290e31e1cc7e23a8f5b0b0d49b04",
+      "triangles": 6992
+    },
+    {
+      "fma": "FMA23951",
+      "mesh": "context_fma23951",
+      "name": "distal phalanx of left thumb",
+      "context": true,
+      "sha256": "eb7bdefb86c75583afd81bd1e018b851d7026a1ace269027978d024e845040ac",
+      "triangles": 268
+    },
+    {
+      "fma": "FMA23955",
+      "mesh": "context_fma23955",
+      "name": "distal phalanx of left middle finger",
+      "context": true,
+      "sha256": "dc666f7e9ae264f965b37f1e078283b471632d3c99780f794862ca6376c7ace2",
+      "triangles": 266
+    },
+    {
+      "fma": "FMA8175",
+      "mesh": "context_fma8175",
+      "name": "right sixth rib",
+      "context": true,
+      "sha256": "a08425e7e2b339d8e52ca33088446ef9e4d211582fa25f91c369a035174a9397",
+      "triangles": 10000
+    },
+    {
+      "fma": "FMA23953",
+      "mesh": "context_fma23953",
+      "name": "distal phalanx of left index finger",
+      "context": true,
+      "sha256": "431ef329891f5902a60515f3b65b571c0b60bfe39c39d2eeee18d849cdc0e30b",
+      "triangles": 328
+    },
+    {
+      "fma": "FMA13504",
+      "mesh": "context_fma13504",
+      "name": "intervertebral disk of seventh thoracic vertebra",
+      "context": true,
+      "sha256": "b960554625eb94d7e69161db1e00bfdcaf5fcef06df9a00ac97a4e9965893fea",
+      "triangles": 2326
+    },
+    {
+      "fma": "FMA13503",
+      "mesh": "context_fma13503",
+      "name": "intervertebral disk of sixth thoracic vertebra",
+      "context": true,
+      "sha256": "0d4f675371682d55afbbf62de3002148c0f5cd8b51ef5da140865016ce0b583e",
+      "triangles": 2028
+    },
+    {
+      "fma": "FMA13506",
+      "mesh": "context_fma13506",
+      "name": "intervertebral disk of ninth thoracic vertebra",
+      "context": true,
+      "sha256": "25072109522cfe5da7299b8a58c26469daa3d1feace473d4ae108be71d1399d5",
+      "triangles": 1128
+    },
+    {
+      "fma": "FMA13505",
+      "mesh": "context_fma13505",
+      "name": "intervertebral disk of eighth thoracic vertebra",
+      "context": true,
+      "sha256": "b0325a9b78eb65b12a39e734f94eb39a8117372bc5644ab2b497d3f288e437d2",
+      "triangles": 2286
+    },
+    {
+      "fma": "FMA24529",
+      "mesh": "context_fma24529",
+      "name": "left cuboid bone",
+      "context": true,
+      "sha256": "66b0952cf2b85007d398dba58321e629ee2d314d99e5b6fc3b07d3aa7534c21f",
+      "triangles": 862
+    },
+    {
+      "fma": "FMA13500",
+      "mesh": "context_fma13500",
+      "name": "intervertebral disk of third thoracic vertebra",
+      "context": true,
+      "sha256": "67a724bd7de05586835ecbe71362a1e140260926ec9d8d7122915dac11bfaf7a",
+      "triangles": 1158
+    },
+    {
+      "fma": "FMA13502",
+      "mesh": "context_fma13502",
+      "name": "intervertebral disk of fifth thoracic vertebra",
+      "context": true,
+      "sha256": "1788d7bbde5475dc1798b590609a08d9f051730983744b23e470db123df4a137",
+      "triangles": 1644
+    },
+    {
+      "fma": "FMA43253",
+      "mesh": "context_fma43253",
+      "name": "proximal phalanx of right big toe",
+      "context": true,
+      "sha256": "a893cd68c72bf025e54a66b643a9c345fa3d8c91ba04e6a2b61d4cc6d40c888c",
+      "triangles": 420
+    },
+    {
+      "fma": "FMA13501",
+      "mesh": "context_fma13501",
+      "name": "intervertebral disk of fourth thoracic vertebra",
+      "context": true,
+      "sha256": "0b9883ba322aeae879410a75ab8da31eb6b58d64dd47299a7ee4e193a7f38d83",
+      "triangles": 1412
+    },
+    {
+      "fma": "FMA43254",
+      "mesh": "context_fma43254",
+      "name": "proximal phalanx of left big toe",
+      "context": true,
+      "sha256": "15795ca53e4c9fefda25707f72f8eed224930fae7e526c8a9e46f5a6edb0b895",
+      "triangles": 472
+    },
+    {
+      "fma": "FMA32659",
+      "mesh": "context_fma32659",
+      "name": "distal phalanx of left little toe",
+      "context": true,
+      "sha256": "fea03b86099528410efdf4bc72eba90601af86564afe71ed0a1f24873ff1d932",
+      "triangles": 284
+    },
+    {
+      "fma": "FMA32658",
+      "mesh": "context_fma32658",
+      "name": "distal phalanx of right little toe",
+      "context": true,
+      "sha256": "007d228c7bcc6c2cf06d8806d93132571c0036afbd8c02d3b19c4419a30d7a87",
+      "triangles": 210
+    },
+    {
+      "fma": "FMA13900",
+      "mesh": "context_fma13900",
+      "name": "intervertebral disk of seventh cervical vertebra",
+      "context": true,
+      "sha256": "3b1fed3dd723e183ef804ccda4690a4a815b67a698d71120be5bd2c0a3a632b8",
+      "triangles": 876
+    },
+    {
+      "fma": "FMA13899",
+      "mesh": "context_fma13899",
+      "name": "intervertebral disk of sixth cervical vertebra",
+      "context": true,
+      "sha256": "0d515c7e29532ba81c98d2d3bc040f86dc5f40f4c6d17b7ae07a0b234654ee1f",
+      "triangles": 724
+    },
+    {
+      "fma": "FMA13897",
+      "mesh": "context_fma13897",
+      "name": "intervertebral disk of fourth cervical vertebra",
+      "context": true,
+      "sha256": "86f1cea0be45f65cc5b048dbd97a5c6004fdfb882f63edf9753f017e1a7604d9",
+      "triangles": 786
+    },
+    {
+      "fma": "FMA13898",
+      "mesh": "context_fma13898",
+      "name": "intervertebral disk of fifth cervical vertebra",
+      "context": true,
+      "sha256": "f3160f1e0822e2d1018c2e76aa56531f04d6ca4eb53fd402e22eea929e5837b8",
+      "triangles": 770
+    },
+    {
+      "fma": "FMA7976",
+      "mesh": "context_fma7976",
+      "name": "right fourth costal cartilage",
+      "context": true,
+      "sha256": "ad093d1434fd80dc29997b0df3acd45cb681cd7b7c4e23d71908eda107892515",
+      "triangles": 780
+    },
+    {
+      "fma": "FMA13896",
+      "mesh": "context_fma13896",
+      "name": "intervertebral disk of third cervical vertebra",
+      "context": true,
+      "sha256": "b950dc134f1ea68ef40e659ae03f0d58f55354e60fb70018927ef082ead7590c",
+      "triangles": 678
+    },
+    {
+      "fma": "FMA9922",
+      "mesh": "context_fma9922",
+      "name": "fifth thoracic vertebra",
+      "context": true,
+      "sha256": "f99342cc5f6b8a0d978fa8c45e7f1eab1e0a574b86fe1a95d7a3aeebc1cd20a6",
+      "triangles": 2082
+    },
+    {
+      "fma": "FMA8148",
+      "mesh": "context_fma8148",
+      "name": "left fourth rib",
+      "context": true,
+      "sha256": "96e3e15a064647a4140c9c3c6951f3085a63e02458684e6926d7435f378420fd",
+      "triangles": 8496
+    },
+    {
+      "fma": "FMA8445",
+      "mesh": "context_fma8445",
+      "name": "right tenth rib",
+      "context": true,
+      "sha256": "fafbadd31519dc722c07846b20852ade278230bb1d2fe8e7dfb63df990ba007c",
+      "triangles": 6948
+    },
+    {
+      "fma": "FMA8248",
+      "mesh": "context_fma8248",
+      "name": "right seventh costal cartilage",
+      "context": true,
+      "sha256": "98403574f3a4823f747694f95d53e4286e79f6108058a49c52a225e5686044da",
+      "triangles": 2350
+    },
+    {
+      "fma": "FMA8058",
+      "mesh": "context_fma8058",
+      "name": "left third costal cartilage",
+      "context": true,
+      "sha256": "fa9a3dad1b5d4829b30ea2b5b1093046330f660ccf104f8d4f7bd16b1c92e83d",
+      "triangles": 544
+    },
+    {
+      "fma": "FMA7987",
+      "mesh": "context_fma7987",
+      "name": "left first rib",
+      "context": true,
+      "sha256": "37997f5a37cd6cf59174fd5ec4cae84eded8c4c5306b57704c5483580dd56404",
+      "triangles": 3464
+    },
+    {
+      "fma": "FMA65470",
+      "mesh": "context_fma65470",
+      "name": "proximal phalanx of left thumb",
+      "context": true,
+      "sha256": "5f4d939773b8191115002c040bb21b369ceb3e1c9f82eb3b8692e5e184474524",
+      "triangles": 346
+    },
+    {
+      "fma": "FMA8256",
+      "mesh": "context_fma8256",
+      "name": "left seventh rib",
+      "context": true,
+      "sha256": "95ab412e816af036c9a028de6c1a2e9968330bf2e4d9d656c3d8423a0f3a2357",
+      "triangles": 9872
+    },
+    {
+      "fma": "FMA9187",
+      "mesh": "context_fma9187",
+      "name": "second thoracic vertebra",
+      "context": true,
+      "sha256": "1a57b3371a8b1125f5610589980c631c6df1836e5080b932395d6b79f8c81939",
+      "triangles": 1790
+    },
+    {
+      "fma": "FMA32635",
+      "mesh": "context_fma32635",
+      "name": "proximal phalanx of left second toe",
+      "context": true,
+      "sha256": "19abff35e55631dcdb1770317d9f76d6b2ea9e4b9e76c08285473b73d68acb8f",
+      "triangles": 452
+    },
+    {
+      "fma": "FMA32634",
+      "mesh": "context_fma32634",
+      "name": "proximal phalanx of right second toe",
+      "context": true,
+      "sha256": "d681444f2583218121e268c55ce8da9c69debdc6448d15b6a564c8f29a5060c7",
+      "triangles": 414
+    },
+    {
+      "fma": "FMA7957",
+      "mesh": "context_fma7957",
+      "name": "right fourth rib",
+      "context": true,
+      "sha256": "a9bb1e5ead8fe9da08f1ce996955815b72fcb03b3ed3701442d3f9d0b9a5c97b",
+      "triangles": 8624
+    },
+    {
+      "fma": "FMA52749",
+      "mesh": "context_fma52749",
+      "name": "hyoid bone",
+      "context": true,
+      "sha256": "42a28441c2e784730603147c196a1f337917c0a28bac02e1598ce6442fa97bb0",
+      "triangles": 1166
+    },
+    {
+      "fma": "FMA52748",
+      "mesh": "context_fma52748",
+      "name": "mandible",
+      "context": true,
+      "sha256": "9e4805e0a3553498e5fecdc5db12475bf58fef2264a8eb392fe42d5835ceb9b9",
+      "triangles": 2148
+    },
+    {
+      "fma": "FMA23725",
+      "mesh": "context_fma23725",
+      "name": "right trapezoid",
+      "context": true,
+      "sha256": "a9fd167da460c53573241368f45faaa71b6b85aacf3d90b15505183ba8c70792",
+      "triangles": 360
+    },
+    {
+      "fma": "FMA23707",
+      "mesh": "context_fma23707",
+      "name": "interosseous membrane of right forearm",
+      "context": true,
+      "sha256": "b060e3f9172a1124a3dca031bf55aa3fe7ec5c2cfac765a1cd9c11fa0cf3acac",
+      "triangles": 2882
+    },
+    {
+      "fma": "FMA23467",
+      "mesh": "context_fma23467",
+      "name": "right ulna",
+      "context": true,
+      "sha256": "a6507e1dffd043e76253a9c9883304a748e500e9315e5be9c93996b33f9409d5",
+      "triangles": 768
+    },
+    {
+      "fma": "FMA23468",
+      "mesh": "context_fma23468",
+      "name": "left ulna",
+      "context": true,
+      "sha256": "41f88e2023d898e584f192923875587e17eae7ad79c89aac4ef84e5e8d11174f",
+      "triangles": 806
+    },
+    {
+      "fma": "FMA23708",
+      "mesh": "context_fma23708",
+      "name": "interosseous membrane of left forearm",
+      "context": true,
+      "sha256": "f72c4f85129b48b40b1d614be3d658f4182e0b77f9006af417efbc35d470cca0",
+      "triangles": 2760
+    },
+    {
+      "fma": "FMA52740",
+      "mesh": "context_fma52740",
+      "name": "ethmoid",
+      "context": true,
+      "sha256": "26af5156db5ec0623639d6e2c3e18993849b96797f95f20b52733306ac245bb2",
+      "triangles": 4424
+    },
+    {
+      "fma": "FMA23465",
+      "mesh": "context_fma23465",
+      "name": "left radius",
+      "context": true,
+      "sha256": "4ffab51af557306c7c5ceb0555f849195d54b53452cafe4b44747901858e48fe",
+      "triangles": 588
+    },
+    {
+      "fma": "FMA23464",
+      "mesh": "context_fma23464",
+      "name": "right radius",
+      "context": true,
+      "sha256": "eb01d90020c0573bf2323db7be4d7553b97aa4741701a4647a40a30d76db5312",
+      "triangles": 632
+    },
+    {
+      "fma": "FMA54738",
+      "mesh": "context_fma54738",
+      "name": "left inferior nasal concha",
+      "context": true,
+      "sha256": "8497fed2e04a4aee990a83b1991848dc75b86ce4397cb97634e35e44b51f731e",
+      "triangles": 568
+    },
+    {
+      "fma": "FMA54737",
+      "mesh": "context_fma54737",
+      "name": "right inferior nasal concha",
+      "context": true,
+      "sha256": "8b67264f8ab210f3f335cf8c60928d21bb556f4c08ce1930301c8392ea10fcb3",
+      "triangles": 490
+    },
+    {
+      "fma": "FMA13322",
+      "mesh": "context_fma13322",
+      "name": "right clavicle",
+      "context": true,
+      "sha256": "b15f5a20ae9ec041307964f1ef07c3c084333933dea5165f8b07a559b56b584b",
+      "triangles": 1144
+    },
+    {
+      "fma": "FMA8275",
+      "mesh": "context_fma8275",
+      "name": "left seventh costal cartilage",
+      "context": true,
+      "sha256": "8dfbd7a02fd929df518d3ba696d7fd7f78560ee9a652107618e3bbac25f88fbf",
+      "triangles": 2218
+    },
+    {
+      "fma": "FMA8532",
+      "mesh": "context_fma8532",
+      "name": "left eleventh rib",
+      "context": true,
+      "sha256": "618da3bd847af0ead77803ff652fd29ec1c3782f842bfc68bdd0293ff77bfb8d",
+      "triangles": 5114
+    },
+    {
+      "fma": "FMA8533",
+      "mesh": "context_fma8533",
+      "name": "right twelfth rib",
+      "context": true,
+      "sha256": "546e9b51a4d5eeb402121b9673999296e2f6d7d3402b2d8fa745ad7d8e9b619a",
+      "triangles": 2970
+    },
+    {
+      "fma": "FMA8531",
+      "mesh": "context_fma8531",
+      "name": "right eleventh rib",
+      "context": true,
+      "sha256": "b61bc1bc2623b14cd3ab0a14cade7089fcdbd83b692476ea397737c5977073b0",
+      "triangles": 5024
+    },
+    {
+      "fma": "FMA52736",
+      "mesh": "context_fma52736",
+      "name": "sphenoid bone",
+      "context": true,
+      "sha256": "dd806e7a764156e3e586b7f22aeb56549471da58d7f3e4b6edb9e1d2a31ed01c",
+      "triangles": 6672
+    },
+    {
+      "fma": "FMA52735",
+      "mesh": "context_fma52735",
+      "name": "occipital bone",
+      "context": true,
+      "sha256": "5d83793483f514f6954ba27ed120984d7d25437d8e8fad2c9c1f164f8cf62f44",
+      "triangles": 6760
+    },
+    {
+      "fma": "FMA52734",
+      "mesh": "context_fma52734",
+      "name": "frontal bone",
+      "context": true,
+      "sha256": "dd455c1252b2b240912900fc6aecd110f98ab737549fd2b3783c33db68e658d1",
+      "triangles": 7412
+    },
+    {
+      "fma": "FMA8534",
+      "mesh": "context_fma8534",
+      "name": "left twelfth rib",
+      "context": true,
+      "sha256": "024682d9a5cbb576338934dc0db311779defe0e96e1952d863126eb05928b7f6",
+      "triangles": 674
+    },
+    {
+      "fma": "FMA52739",
+      "mesh": "context_fma52739",
+      "name": "left temporal bone",
+      "context": true,
+      "sha256": "af071c8188f3663aa0fdac4084981a9e68567c7a5086217263da76c0e986b39f",
+      "triangles": 3424
+    },
+    {
+      "fma": "FMA52738",
+      "mesh": "context_fma52738",
+      "name": "right temporal bone",
+      "context": true,
+      "sha256": "d3df8957adfbfc59d4b82be33eaa068422fe4eb73e35fa37f3aff7afe00e0b68",
+      "triangles": 3330
+    },
+    {
+      "fma": "FMA13323",
+      "mesh": "context_fma13323",
+      "name": "left clavicle",
+      "context": true,
+      "sha256": "65466089c029cfe951946b962440c84fc8629dbafaff5b6dc4298920861a796f",
+      "triangles": 1150
+    },
+    {
+      "fma": "FMA23942",
+      "mesh": "context_fma23942",
+      "name": "middle phalanx of left ring finger",
+      "context": true,
+      "sha256": "28f38762aecb2f9a15674e8bdfbb093c172365eed5658c15ff6ab6ad06015802",
+      "triangles": 340
+    },
+    {
+      "fma": "FMA13509",
+      "mesh": "context_fma13509",
+      "name": "intervertebral disk of twelfth thoracic vertebra",
+      "context": true,
+      "sha256": "b183183be7a7aa85a21f81b68c630ede0358496c12a7f0d384b0fd132e04e9b6",
+      "triangles": 3256
+    },
+    {
+      "fma": "FMA13508",
+      "mesh": "context_fma13508",
+      "name": "intervertebral disk of eleventh thoracic vertebra",
+      "context": true,
+      "sha256": "fa476b292992f19d99c8c3bdbd1ecb3ee607db53fdd8cd0497a666f8b7b335a5",
+      "triangles": 3198
+    },
+    {
+      "fma": "FMA23944",
+      "mesh": "context_fma23944",
+      "name": "middle phalanx of left little finger",
+      "context": true,
+      "sha256": "6bbdde5e7de81c1615a8b3afc760c5a0276e70acc31ae5c6457713f2fe8e578d",
+      "triangles": 254
+    },
+    {
+      "fma": "FMA13507",
+      "mesh": "context_fma13507",
+      "name": "intervertebral disk of tenth thoracic vertebra",
+      "context": true,
+      "sha256": "fc270811f218a492f7cbadeeba458f2ca1bc96168786d4f2514d9e149f659928",
+      "triangles": 2584
+    },
+    {
+      "fma": "FMA23130",
+      "mesh": "context_fma23130",
+      "name": "right humerus",
+      "context": true,
+      "sha256": "8a26bcc5ae63c94a525172bb5ee5514d6badd39aa56f951861fb0c606f14d374",
+      "triangles": 3252
+    },
+    {
+      "fma": "FMA23131",
+      "mesh": "context_fma23131",
+      "name": "left humerus",
+      "context": true,
+      "sha256": "4af277604e09c6837f22f6064f604398d65316e32816cb4079eeb2badbf2ad1f",
+      "triangles": 3384
+    },
+    {
+      "fma": "FMA24500",
+      "mesh": "context_fma24500",
+      "name": "navicular bone of right foot",
+      "context": true,
+      "sha256": "1802066200ae45580253a3f4fb4faf2c7b315051bc5078fdfe81afbe3c65648e",
+      "triangles": 716
+    },
+    {
+      "fma": "FMA23940",
+      "mesh": "context_fma23940",
+      "name": "middle phalanx of left middle finger",
+      "context": true,
+      "sha256": "c6a97c6d714997cf602d5f7240d989fa053bf45cb6410c41f78382e34cd81b51",
+      "triangles": 384
+    },
+    {
+      "fma": "FMA24501",
+      "mesh": "context_fma24501",
+      "name": "navicular bone of left foot",
+      "context": true,
+      "sha256": "a5aff876d39a2634e94690f2c6b44498390d5d38e9561b71779c625f876d51ab",
+      "triangles": 700
+    },
+    {
+      "fma": "FMA8005",
+      "mesh": "context_fma8005",
+      "name": "left first costal cartilage",
+      "context": true,
+      "sha256": "6f368167cee4de8151b25b8d68fe59bffe8be94358d50f0aa0b8ff2a939d81ec",
+      "triangles": 494
+    },
+    {
+      "fma": "FMA7913",
+      "mesh": "context_fma7913",
+      "name": "right third costal cartilage",
+      "context": true,
+      "sha256": "53e179c6eaab786c3b10214ab04e67756ccd15043e513213aabe956cfbb84aad",
+      "triangles": 602
+    },
+    {
+      "fma": "FMA32651",
+      "mesh": "context_fma32651",
+      "name": "distal phalanx of left big toe",
+      "context": true,
+      "sha256": "4ee317ccae8d1879ff8dc93e8378fb4b62f1e69bd8c61ab1711746d7d1f88c2e",
+      "triangles": 530
+    },
+    {
+      "fma": "FMA8283",
+      "mesh": "context_fma8283",
+      "name": "right eighth rib",
+      "context": true,
+      "sha256": "ae9d037a487f398d01ff3b22f96162e829987ae7a917fdaef5851e10adc4d0b7",
+      "triangles": 8210
+    },
+    {
+      "fma": "FMA71915",
+      "mesh": "context_fma71915",
+      "name": "proximal phalanx of left index finger",
+      "context": true,
+      "sha256": "c3873ec20d4514117b438eb371d6a8565dcdcf0151a04eb3c39484bd5719e5a7",
+      "triangles": 348
+    },
+    {
+      "fma": "FMA32650",
+      "mesh": "context_fma32650",
+      "name": "distal phalanx of right big toe",
+      "context": true,
+      "sha256": "34d47c7850445e5a6b8b9ee84ad1fb89925917adbba905ac2fa858c64d375798",
+      "triangles": 440
+    },
+    {
+      "fma": "FMA71916",
+      "mesh": "context_fma71916",
+      "name": "proximal phalanx of left ring finger",
+      "context": true,
+      "sha256": "8f95b6bea0e35ecbdd8d9748a2ac4ea9f2e9e57d55f494bff4d25ba6226da6e4",
+      "triangles": 362
+    },
+    {
+      "fma": "FMA16586",
+      "mesh": "context_fma16586",
+      "name": "right hip bone",
+      "context": true,
+      "sha256": "2fc0f001ad13acfb2e77979a3e7d02f2476fe54b64a4ea1c4caafd2632969a14",
+      "triangles": 1942
+    },
+    {
+      "fma": "FMA32653",
+      "mesh": "context_fma32653",
+      "name": "distal phalanx of left second toe",
+      "context": true,
+      "sha256": "62f58d8aa5b07b2b2c7e248cf00a6b0d8bb368c7c0ed94f9cefdfb1e449b629f",
+      "triangles": 320
+    },
+    {
+      "fma": "FMA16587",
+      "mesh": "context_fma16587",
+      "name": "left hip bone",
+      "context": true,
+      "sha256": "959df200626165d47c38d3135c17c0b22267c3b708d1c0600619d1b251c1f958",
+      "triangles": 1892
+    },
+    {
+      "fma": "FMA32652",
+      "mesh": "context_fma32652",
+      "name": "distal phalanx of right second toe",
+      "context": true,
+      "sha256": "feea53f76f226e7f3f3837e9f3ebf4402448e227f9c400c8d18579d82da2a4c7",
+      "triangles": 200
+    },
+    {
+      "fma": "FMA32655",
+      "mesh": "context_fma32655",
+      "name": "distal phalanx of left third toe",
+      "context": true,
+      "sha256": "a397fe2e29824e7688f16e98c5b84c79910b9b243f34b9d1bf4c534b69d33c3b",
+      "triangles": 260
+    },
+    {
+      "fma": "FMA9165",
+      "mesh": "context_fma9165",
+      "name": "first thoracic vertebra",
+      "context": true,
+      "sha256": "f11188e2e557fea57d4b15e0c68f993efc4037c8cbbd09cec62f0834982c3a0e",
+      "triangles": 1706
+    },
+    {
+      "fma": "FMA32654",
+      "mesh": "context_fma32654",
+      "name": "distal phalanx of right third toe",
+      "context": true,
+      "sha256": "95120d858102e5d612f76c3eca99a134615e4e4f38b287fe6d43376d5d8442e0",
+      "triangles": 260
+    },
+    {
+      "fma": "FMA32657",
+      "mesh": "context_fma32657",
+      "name": "distal phalanx of left fourth toe",
+      "context": true,
+      "sha256": "adad6161a2b35cef60b2a9e380b9916c1130e8d5d56d3d512ee33462a42f35f1",
+      "triangles": 266
+    },
+    {
+      "fma": "FMA32656",
+      "mesh": "context_fma32656",
+      "name": "distal phalanx of right fourth toe",
+      "context": true,
+      "sha256": "9e615bd9d415a4e2405c753a3383d48c6571ab66ac7acff3812bdb3eea36d7e7",
+      "triangles": 244
+    },
+    {
+      "fma": "FMA32647",
+      "mesh": "context_fma32647",
+      "name": "middle phalanx of left fourth toe",
+      "context": true,
+      "sha256": "b6d04017aa481fe8c4f5ee157ebe86c3afafa149bce8fb4640f52bfb87aff15e",
+      "triangles": 412
+    },
+    {
+      "fma": "FMA7909",
+      "mesh": "context_fma7909",
+      "name": "right third rib",
+      "context": true,
+      "sha256": "6464176be71553c23a875f87249cc514f17c7f567e40a1cc380079715ecf9b98",
+      "triangles": 6914
+    },
+    {
+      "fma": "FMA25058",
+      "mesh": "context_fma25058",
+      "name": "intervertebral disk of axis",
+      "context": true,
+      "sha256": "852e382d28d311fe4467b086a137242dbd86364af9d54cc6ad4b20a8a6d61747",
+      "triangles": 674
+    },
+    {
+      "fma": "FMA23938",
+      "mesh": "context_fma23938",
+      "name": "middle phalanx of left index finger",
+      "context": true,
+      "sha256": "617fcdcb62c4daf7718a491d1ec7cc3b9f78ee44a079918898d065c168b4d091",
+      "triangles": 306
+    },
+    {
+      "fma": "FMA24516",
+      "mesh": "context_fma24516",
+      "name": "left fifth metatarsal bone",
+      "context": true,
+      "sha256": "c1099f6ee3dbaa196055e9e367cf7d5c25db759ad914d7196107f8245ba17bd8",
+      "triangles": 826
+    },
+    {
+      "fma": "FMA24515",
+      "mesh": "context_fma24515",
+      "name": "right fifth metatarsal bone",
+      "context": true,
+      "sha256": "5be20527211aab1b352be851b06d12f13695b72454b5f50e9a213e83f7f7f464",
+      "triangles": 710
+    },
+    {
+      "fma": "FMA24514",
+      "mesh": "context_fma24514",
+      "name": "left fourth metatarsal bone",
+      "context": true,
+      "sha256": "d235b50ed8de3ba6d8df4a9cc7cb95e2ff2a53d5f1d8c0150d46e2d8223d35cc",
+      "triangles": 688
+    },
+    {
+      "fma": "FMA24513",
+      "mesh": "context_fma24513",
+      "name": "right fourth metatarsal bone",
+      "context": true,
+      "sha256": "3a815e1ac3e7651d96fa0b77aa00deb10af355c6ce110b2cff4e8d296bdc6ab3",
+      "triangles": 592
+    },
+    {
+      "fma": "FMA8391",
+      "mesh": "context_fma8391",
+      "name": "left ninth rib",
+      "context": true,
+      "sha256": "435b702f799ec6ad826990412105fe167b730651a993b0c04aaf092468ddd240",
+      "triangles": 8070
+    },
+    {
+      "fma": "FMA8112",
+      "mesh": "context_fma8112",
+      "name": "left fifth costal cartilage",
+      "context": true,
+      "sha256": "23fe7ec5dc922d6ee2a7e9fe8918c594ad3e50e1012f5684a0d5c7e2f2a14343",
+      "triangles": 1016
+    },
+    {
+      "fma": "FMA24512",
+      "mesh": "context_fma24512",
+      "name": "left third metatarsal bone",
+      "context": true,
+      "sha256": "80515c3ec1205d2e3b443142651915a2f6180880a29022c52ba4bdab31495f12",
+      "triangles": 706
+    },
+    {
+      "fma": "FMA24511",
+      "mesh": "context_fma24511",
+      "name": "right third metatarsal bone",
+      "context": true,
+      "sha256": "2f95fc6e06473317c41f2028e27a36f078297c5970bd1f5170a21232ee36e7a5",
+      "triangles": 606
+    },
+    {
+      "fma": "FMA24510",
+      "mesh": "context_fma24510",
+      "name": "left second metatarsal bone",
+      "context": true,
+      "sha256": "867ec0b6544d98a73855b759c246a6ad236a76bb39d188362246123e092127b6",
+      "triangles": 730
+    },
+    {
+      "fma": "FMA35193",
+      "mesh": "context_fma35193",
+      "name": "interosseous membrane of left leg",
+      "context": true,
+      "sha256": "d7edf43c7f420e72acbb99949eed2709835e562dba3b71a2c5d5b8dee595d949",
+      "triangles": 12708
+    },
+    {
+      "fma": "FMA59764",
+      "mesh": "context_fma59764",
+      "name": "gingiva of lower jaw",
+      "context": true,
+      "sha256": "a19bdeeeda19dd1abe34439a27638468900bc224a9e9deb3d5b296ebc91fb683",
+      "triangles": 1918
+    },
+    {
+      "fma": "FMA32642",
+      "mesh": "context_fma32642",
+      "name": "middle phalanx of right second toe",
+      "context": true,
+      "sha256": "0ae62f65bcdd8459cdb27861a868f785ad4850a6a6b595e5b8849e2d3b59c77d",
+      "triangles": 264
+    },
+    {
+      "fma": "FMA35192",
+      "mesh": "context_fma35192",
+      "name": "interosseous membrane of right leg",
+      "context": true,
+      "sha256": "eb458a924f834b4608ca61e0189a38a0c08552bc7381762f844711c63dfc27c4",
+      "triangles": 12870
+    },
+    {
+      "fma": "FMA59763",
+      "mesh": "context_fma59763",
+      "name": "gingiva of upper jaw",
+      "context": true,
+      "sha256": "81edc8881330338adf1488e5271c9b185380093aa5316e6d6796c4e8911990a6",
+      "triangles": 1848
+    },
+    {
+      "fma": "FMA32641",
+      "mesh": "context_fma32641",
+      "name": "proximal phalanx of left little toe",
+      "context": true,
+      "sha256": "43f933eab61f25254ce1c9a08d0c8aa80e89fc6dc2b9dfc2a861ffeb41ed893f",
+      "triangles": 364
+    },
+    {
+      "fma": "FMA32640",
+      "mesh": "context_fma32640",
+      "name": "proximal phalanx of right little toe",
+      "context": true,
+      "sha256": "622328701d53f83a4f5b4bd7560b8e024e0b0e83f4f7acff7c2509ac77acaf8d",
+      "triangles": 406
+    },
+    {
+      "fma": "FMA32646",
+      "mesh": "context_fma32646",
+      "name": "middle phalanx of right fourth toe",
+      "context": true,
+      "sha256": "2b647d96266131c84aaeba469b5e5396e91a37cc446f4f36579062ccbfae1144",
+      "triangles": 350
+    },
+    {
+      "fma": "FMA32645",
+      "mesh": "context_fma32645",
+      "name": "middle phalanx of left third toe",
+      "context": true,
+      "sha256": "cb9d40fb18b9635a43f199efc75087ed26a7ebfc60cec62e12347cad23438f4e",
+      "triangles": 268
+    },
+    {
+      "fma": "FMA8012",
+      "mesh": "context_fma8012",
+      "name": "left second rib",
+      "context": true,
+      "sha256": "b0c41dd5860e64ad07315ff788952aabd951ea7c0995ca4420dda321471f9b50",
+      "triangles": 5668
+    },
+    {
+      "fma": "FMA32644",
+      "mesh": "context_fma32644",
+      "name": "middle phalanx of right third toe",
+      "context": true,
+      "sha256": "0a74f520178f28edc9d608da064bf914925c3998aba5eace86dec82bb9f04533",
+      "triangles": 292
+    },
+    {
+      "fma": "FMA32643",
+      "mesh": "context_fma32643",
+      "name": "middle phalanx of left second toe",
+      "context": true,
+      "sha256": "af197bd3e18aaff5cddbf8576b02c1733740f4e3b044958cee2b71c8aa9443c4",
+      "triangles": 330
+    },
+    {
+      "fma": "FMA71908",
+      "mesh": "context_fma71908",
+      "name": "proximal phalanx of left middle finger",
+      "context": true,
+      "sha256": "05a9a4929036f666ea97e15bc724ff12c6eb5d19888c2ac088d48828a2d9ef36",
+      "triangles": 408
+    },
+    {
+      "fma": "FMA32638",
+      "mesh": "context_fma32638",
+      "name": "proximal phalanx of right fourth toe",
+      "context": true,
+      "sha256": "becf6b393cb8dbe54dd9632b628442e5d0979911e020cf6d98a182e3e03feb61",
+      "triangles": 438
+    },
+    {
+      "fma": "FMA32639",
+      "mesh": "context_fma32639",
+      "name": "proximal phalanx of left fourth toe",
+      "context": true,
+      "sha256": "4ee504b3ec32853b0e3fc8ee0b09c87bd51cade11d2757e1f424f480d56eb0f5",
+      "triangles": 446
+    },
+    {
+      "fma": "FMA32636",
+      "mesh": "context_fma32636",
+      "name": "proximal phalanx of right third toe",
+      "context": true,
+      "sha256": "af85202bf3d81bed56fc79e075d29f7b2203768ccdd489df0aac4cc45848cc95",
+      "triangles": 422
+    },
+    {
+      "fma": "FMA32637",
+      "mesh": "context_fma32637",
+      "name": "proximal phalanx of left third toe",
+      "context": true,
+      "sha256": "46852c346ba04a31fa4b1735cb921235833fe39b1461320d7df5db6e6db937f8",
+      "triangles": 432
+    },
+    {
+      "fma": "FMA24509",
+      "mesh": "context_fma24509",
+      "name": "right second metatarsal bone",
+      "context": true,
+      "sha256": "012e6f967e4180f6bf50fa6551de05cb8c40743a9328e372381416d42eb2f84c",
+      "triangles": 650
+    },
+    {
+      "fma": "FMA24507",
+      "mesh": "context_fma24507",
+      "name": "right first metatarsal bone",
+      "context": true,
+      "sha256": "4a41c236ebd6a29e2e5329d1e1ccb59949b2d48b575c8755d3e6d97c1b05b078",
+      "triangles": 976
+    },
+    {
+      "fma": "FMA24508",
+      "mesh": "context_fma24508",
+      "name": "left first metatarsal bone",
+      "context": true,
+      "sha256": "09a4fce374760e498fabe80ea22f1469e3c5370c3937286ee8f8887952fa8579",
+      "triangles": 1044
+    }
+  ]
+}

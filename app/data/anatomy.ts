@@ -58,7 +58,15 @@ const systemsData:AnatomyItem[]=[
  ...make("sensory","Görme",[["bulbus-oculi","Bulbus oculi","Göz küresi",46,16],["retina","Retina","Retina",46,16],["nervus-opticus","Nervus opticus","Görme siniri",48,16]]),...make("sensory","İşitme ve denge",[["auris-externa","Auris externa","Dış kulak",43,17],["cochlea","Cochlea","Koklea",43,17],["vestibulum","Vestibulum","Vestibül",43,17]]),...make("sensory","Koku, tat ve dokunma",[["organum-olfactus","Organum olfactus","Koku organı",50,15],["papillae-linguales","Papillae linguales","Tat tomurcukları",50,18],["cutis","Cutis","Deri",40,45]]),
 ];
 if (skeleton.length !== 206) throw new Error(`İskelet veri bütünlüğü hatası: 206 yerine ${skeleton.length} kemik üretildi.`);
-const combinedItems:AnatomyItem[]=[...skeleton,...joints,...muscles,...systemsData,...expandedAnatomyItems];
+const reviewedTerms: Record<string, Partial<AnatomyItem>> = {
+ "papillae-linguales": { turkish: "Dil papillaları", note: "Dilin yüzeyindeki papiller çıkıntılardır. Tat tomurcukları bazı papilla tiplerinin epitelinde bulunur; papillalar ile tat tomurcukları aynı yapı değildir." },
+ "ovarium-dexter": { latin: "Ovarium dextrum" },
+ "ovarium-sinister": { latin: "Ovarium sinistrum" },
+ "larynx": { group: "Alt solunum yolları" },
+ "trachea": { group: "Alt solunum yolları" },
+ "arteria-tibialis": { latin: "Arteria tibialis anterior", turkish: "Ön tibial arter", note: "Popliteal arterin terminal dallarından biridir; bacağın ön kompartımanına ilerler ve ayak sırtında arteria dorsalis pedis olarak devam eder." },
+};
+const combinedItems:AnatomyItem[]=[...skeleton,...joints,...muscles,...systemsData,...expandedAnatomyItems].map(item => ({ ...item, ...reviewedTerms[item.id] }));
 const canonicalLatin=(value:string)=>value.toLocaleLowerCase("la").replace(/\s+/g," ").trim();
 const seenStructures=new Set<string>();
 export const anatomyItems=combinedItems.filter(item=>{
@@ -68,7 +76,7 @@ export const anatomyItems=combinedItems.filter(item=>{
  return true;
 });
 export const catalogCounts=Object.fromEntries((["bones","joints","muscles","nervous","circulatory","respiratory","digestive","urinary","genital","endocrine","sensory"] as SystemId[]).map(category=>[category,anatomyItems.filter(item=>item.category===category).length])) as Record<SystemId,number>;
-export const catalogVersion="2026.09";
+export const catalogVersion="2026.10";
 export function validateAnatomyCatalog(){
  const issues:string[]=[];
  const ids=new Set<string>();

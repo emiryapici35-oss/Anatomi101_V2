@@ -1,0 +1,92 @@
+html:not([data-theme="dark"]) {
+  --ink: #20372f;
+  --muted: #50665c;
+  --line: #bdccc5;
+  background: #edf2ef;
+}
+html:not([data-theme="dark"]) .app-shell { background: #edf2ef; }
+html:not([data-theme="dark"]) .topbar {
+  background: #fff;
+  border-bottom: 1px solid #b8c9c0;
+  box-shadow: 0 2px 8px #193e2f0c;
+}
+html:not([data-theme="dark"]) .sidebar {
+  background: #fff;
+  border: 1px solid #9bb3a7;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px #193e2f16;
+}
+html:not([data-theme="dark"]) .sidebar-heading,
+html:not([data-theme="dark"]) .sidebar-result-summary { color: #456255; }
+html:not([data-theme="dark"]) .sidebar-search,
+html:not([data-theme="dark"]) .search-wrap {
+  background: #fff;
+  border: 1px solid #8fa99b;
+  color: #3d594b;
+  box-shadow: inset 0 1px 2px #193e2f08;
+}
+html:not([data-theme="dark"]) .sidebar-search input,
+html:not([data-theme="dark"]) .search-wrap input { color: #20372f; }
+html:not([data-theme="dark"]) input::placeholder { color: #596e63; opacity: 1; }
+html:not([data-theme="dark"]) .system { border-top-color: #c2d0c8; }
+html:not([data-theme="dark"]) .system-title {
+  padding: 8px 6px;
+  color: #233e31;
+  border-radius: 5px;
+}
+html:not([data-theme="dark"]) .system-title small { color: #506b5b; }
+html:not([data-theme="dark"]) .system-title:hover { background: #eef5f0; }
+html:not([data-theme="dark"]) .system.open > .system-title {
+  background: #e3efe8;
+  box-shadow: inset 3px 0 #287153;
+}
+html:not([data-theme="dark"]) .structure-group-title {
+  background: #f0f4f1;
+  border: 1px solid #bdcfc2;
+  border-radius: 5px;
+  color: #294f38;
+}
+html:not([data-theme="dark"]) .structure-group-title:hover { background: #e0ece3; }
+html:not([data-theme="dark"]) .structure-group.open > .structure-group-title {
+  background: #e3eee6;
+  border-color: #6e967b;
+}
+html:not([data-theme="dark"]) .structure-group-title b { background: #c3d8c9; color: #274b32; }
+html:not([data-theme="dark"]) .structure-group-items { border-left: 2px solid #92b49b; }
+html:not([data-theme="dark"]) .structure {
+  color: #30483a;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 13px;
+  min-height: 43px;
+}
+html:not([data-theme="dark"]) .structure em { color: #52695b; font-size: 11px; }
+html:not([data-theme="dark"]) .structure:hover { background: #edf3ee; border-color: #becfc1; }
+html:not([data-theme="dark"]) .structure.active {
+  background: #dcecdf;
+  color: #163e24;
+  border-color: #6d9878;
+  box-shadow: inset 3px 0 #2f7242, 0 2px 4px #193e2f0c;
+}
+html:not([data-theme="dark"]) .structure.active em { color: #315a3d; }
+html:not([data-theme="dark"]) .structure.active .structure-dot { background: #2f7242; border-color: #2f7242; }
+html:not([data-theme="dark"]) .detail-panel {
+  border-color: #aebfb5;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px #193e2f15;
+}
+html:not([data-theme="dark"]) .latin-card,
+html:not([data-theme="dark"]) .etymology-card {
+  border: 1px solid #c1cec6;
+  border-radius: 8px;
+  box-shadow: 0 3px 9px #193e2f13;
+}
+html:not([data-theme="dark"]) .image-atlas .eyebrow,
+html:not([data-theme="dark"]) .skeleton-footer { color: #4c6356; }
+html:not([data-theme="dark"]) .atlas-toolbar button,
+html:not([data-theme="dark"]) .atlas-toolbar a,
+html:not([data-theme="dark"]) .atlas-pagination button { background: #fff; border-color: #92aa9a; color: #244833; }
+html:not([data-theme="dark"]) .atlas-legend button[aria-pressed="true"] { background: #fff0e7; box-shadow: inset 3px 0 #a54422; }
+html:not([data-theme="dark"]) .view-toggle,
+html:not([data-theme="dark"]) .latin-guide-button,
+html:not([data-theme="dark"]) .theme-toggle { border-color: #98afa1; box-shadow: 0 2px 4px #193e2f0c; }

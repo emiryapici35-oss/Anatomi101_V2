@@ -1,0 +1,181 @@
+// Exact terms were checked against the published figures. A regional reference
+// is not counted as an illustrated structure unless it is listed here.
+export function textbookAtlas(catalog) {
+  const plates = [];
+  const base = value => value.toLowerCase().replace(/ (dexter|dextra|dextrum|dextri|dextrae|sinister|sinistra|sinistrum|sinistri|sinistrae)$/, "")
+    .replace(/^epididymis, (caput|corpus|cauda)$/, "$1 epididymidis").replace(/^tuba uterina, infundibulum$/, "infundibulum tubae uterinae");
+  const add = (category, group, image, title, terms = [], provider = "openstax") => {
+    const available = [...new Set(catalog.filter(item => item.category === category).map(item => item.group))];
+    const groups = available.includes(group) ? [group] : available.filter(name => name.startsWith(group));
+    if (groups.length !== 1) throw new Error(`Ambiguous group: ${category}/${group}`);
+    const members = catalog.filter(item => item.category === category && item.group === groups[0]);
+    const names = terms.map(base);
+    for (const term of names) if (!members.some(item => base(item.latin) === term)) throw new Error(`Unknown term: ${groups[0]} / ${term}`);
+    plates.push({ provider, image, category, group: groups[0], title, schematic: true,
+      items: members.filter(item => names.includes(base(item.latin))).map(item => [item.id, null]) });
+  };
+  const n = (group, image, title, terms) => add("nervous", group, image, title, terms);
+  n("Merkezi", "1311_", "Beyin sapı · orta sagittal kesit", ["Encephalon", "Cerebrum", "Cerebellum", "Truncus encephali"]);
+  n("Merkezi", "1313_", "Omurilik · enine kesit ve histoloji", ["Medulla spinalis"]);
+  n("Periferik", "1321_", "Spinal pleksuslar ve ana periferik sinirler", ["Plexus brachialis", "Nervus medianus", "Nervus ulnaris", "Nervus ischiadicus", "Nervus femoralis", "Nervus tibialis"]);
+  n("Periferik", "1320_", "Kraniyal sinirler · beynin alt yüzü", ["Nervus vagus"]);
+  n("Beyin · Loblar", "1306_", "Serebral loblar, giruslar ve sulkuslar", ["Telencephalon", "Lobus frontalis", "Lobus parietalis", "Lobus temporalis", "Lobus occipitalis", "Gyrus precentralis", "Gyrus postcentralis", "Sulcus centralis", "Sulcus lateralis"]);
+  n("Beyin · Loblar", "1305_", "Serebral hemisferler ve korpus kallozum", ["Telencephalon", "Corpus callosum"]);
+  n("Beyin · Loblar", "1511_", "Limbik lob · medial görünüm", ["Lobus limbicus", "Corpus callosum"]);
+  n("Beyin · Bazal", "1308_", "Bazal çekirdekler · koronal kesit", ["Nucleus caudatus", "Putamen"]);
+  n("Beyin · Bazal", "1511_", "Hipokampus ve amigdala · şematik kesit", ["Amygdala", "Hippocampus"]);
+  n("Diensefalon", "1310_", "Diensefalon · talamus ve hipotalamus", ["Thalamus", "Hypothalamus"]);
+  n("Diensefalon", "1311_", "Beyin sapının bölümleri", ["Mesencephalon", "Pons", "Medulla oblongata"]);
+  n("Diensefalon", "1317_", "Ventriküller ve beyin-omurilik sıvısı yolları", ["Ventriculus lateralis", "Ventriculus tertius", "Aqueductus mesencephali", "Ventriculus quartus"]);
+  n("Kraniyal", "1320_", "On iki çift kraniyal sinir · inferior görünüm", ["Nervus olfactorius I", "Nervus opticus II", "Nervus oculomotorius III", "Nervus trochlearis IV", "Nervus trigeminus V", "Nervus abducens VI", "Nervus facialis VII", "Nervus vestibulocochlearis VIII", "Nervus glossopharyngeus IX", "Nervus vagus X", "Nervus accessorius XI", "Nervus hypoglossus XII"]);
+  n("Trigeminal", "1320_", "Trigeminal ve fasiyal sinirlerin beyin sapı ile ilişkisi");
+  for (const region of ["Servikal", "Torakal", "Lumbal", "Sakral ve koksigeal"]) n(`Spinal sinirler · ${region}`, "1321_", "Spinal sinirler ve pleksuslar · bölgesel referans");
+  n("Boyun ve brakiyal", "1321_", "Servikal ve brakiyal pleksus · genel yerleşim", ["Plexus cervicalis", "Plexus brachialis", "Nervus phrenicus", "Nervus axillaris", "Nervus medianus", "Nervus ulnaris", "Nervus radialis"]);
+  n("Lumbosakral", "1321_", "Lumbosakral pleksuslar · genel yerleşim", ["Plexus lumbalis", "Plexus sacralis", "Nervus femoralis", "Nervus obturatorius", "Nervus ischiadicus", "Nervus tibialis", "Nervus fibularis communis"]);
+  n("Otonom", "1316_", "Meninksler · koronal kesit", ["Dura mater encephali", "Arachnoidea mater", "Pia mater", "Sinus sagittalis superior"]);
+  n("Otonom", "1501_", "Sempatik zincir, ganglionlar ve organ bağlantıları", ["Truncus sympathicus", "Ganglion cervicale superius", "Ganglion cervicale medium", "Plexus coeliacus", "Plexus mesentericus superior"]);
+  n("Otonom", "1503_", "Parasempatik sinirlerin kraniyosakral dağılımı", ["Nervi splanchnici pelvici"]);
+
+  const c = (group, image, title, terms) => add("circulatory", group, image, title, terms);
+  c("Kalp", "2008_", "Kalp · odacıklar, kapaklar ve büyük damarlar", ["Cor", "Aorta", "Vena cava superior", "Vena cava inferior", "Arteria pulmonalis", "Venae pulmonales"]);
+  // Use the full group name because the basic and detailed heart groups share a prefix.
+  const heart = "Kalp · Boşluklar, kapaklar ve ileti sistemi";
+  c(heart, "2008_", "Kalp · frontal kesit", ["Atrium dextrum", "Ventriculus dexter", "Atrium sinistrum", "Ventriculus sinister", "Septum interventriculare", "Valva tricuspidalis", "Valva trunci pulmonalis", "Valva mitralis", "Valva aortae"]);
+  c(heart, "2005_", "Kalbin ön ve arka yüzleri", ["Auricula dextra", "Auricula sinistra"]);
+  c(heart, "2011_", "Kalp kapakları · üstten görünüm", ["Valva tricuspidalis", "Valva trunci pulmonalis", "Valva mitralis", "Valva aortae"]);
+  c(heart, "2018_", "Kalbin ileti sistemi", ["Nodus sinuatrialis", "Nodus atrioventricularis", "Fasciculus atrioventricularis", "Crus dextrum fasciculi atrioventricularis", "Crus sinistrum fasciculi atrioventricularis"]);
+  c("Büyük dolaşım", "2120_", "Sistemik arterler · bütün vücut", ["Arteria carotis communis", "Arteria subclavia", "Arteria brachialis", "Arteria radialis", "Arteria femoralis", "Arteria tibialis anterior"]);
+  c("Aorta ve", "2121_", "Aortanın bölümleri ve arkus dalları", ["Aorta ascendens", "Arcus aortae", "Aorta thoracica", "Aorta abdominalis", "Truncus brachiocephalicus"]);
+  c("Aorta ve", "2124_", "Torakal ve abdominal aortanın dalları", ["Aorta thoracica", "Aorta abdominalis", "Truncus coeliacus", "Arteria mesenterica superior", "Arteria mesenterica inferior", "Arteria sacralis mediana"]);
+  c("Baş-boyun arter", "2122_", "Karotis ve vertebral arterler · lateral görünüm", ["Arteria carotis communis", "Arteria carotis externa", "Arteria carotis interna", "Arteria lingualis", "Arteria facialis", "Arteria occipitalis", "Arteria maxillaris", "Arteria temporalis superficialis", "Arteria vertebralis"]);
+  c("Baş-boyun arter", "2123_", "Beynin arterleri · Willis poligonu", ["Arteria carotis interna", "Arteria ophthalmica", "Arteria cerebri anterior", "Arteria cerebri media", "Arteria cerebri posterior", "Arteria vertebralis"]);
+  c("Üst ekstremite arter", "2127_", "Üst ekstremite arterleri · yüzeyel ve derin dağılım", ["Arteria subclavia", "Arteria axillaris", "Arteria brachialis", "Arteria profunda brachii", "Arteria ulnaris", "Arteria radialis", "Arcus palmaris superficialis", "Arcus palmaris profundus"]);
+  c("Üst ekstremite arter", "2124_", "İç torasik arterin göğüs duvarındaki seyri", ["Arteria thoracica interna"]);
+  c("Toraks, abdomen", "2124_", "Toraks, abdomen ve pelvis arterleri", ["Arteria intercostalis posterior", "Arteria phrenica inferior", "Arteria renalis", "Arteria gonadalis", "Arteria iliaca communis", "Arteria iliaca interna", "Arteria iliaca externa"]);
+  c("Toraks, abdomen", "2129ab_", "Pelvis ve uyluk arterleri · ön ve arka görünüm", ["Arteria iliaca communis", "Arteria iliaca interna", "Arteria iliaca externa", "Arteria pudenda interna", "Arteria obturatoria"]);
+  c("Alt ekstremite arter", "2129ab_", "Alt ekstremite arterleri · ön ve arka görünüm", ["Arteria femoralis", "Arteria profunda femoris", "Arteria circumflexa femoris lateralis", "Arteria poplitea", "Arteria tibialis anterior", "Arteria dorsalis pedis", "Arteria tibialis posterior", "Arteria fibularis", "Arteria plantaris medialis", "Arteria plantaris lateralis", "Arcus plantaris profundus"]);
+  c("Ana venler", "2138_", "Hepatik portal sistem ve venöz dallar", ["Vena portae hepatis", "Vena mesenterica superior", "Vena mesenterica inferior", "Vena splenica"]);
+  c("Ana venler", "2132_", "Azigos sistemi ve torakoabdominal venler", ["Vena azygos", "Vena hemiazygos"]);
+  c("Ana venler", "2014ab_", "Koroner venler ve koroner sinüs", ["Sinus coronarius"]);
+  c("Baş-boyun ve üst", "2133_", "Baş ve boyun venleri", ["Vena jugularis interna", "Vena jugularis externa", "Vena vertebralis", "Vena brachiocephalica", "Vena subclavia", "Vena axillaris"]);
+  c("Baş-boyun ve üst", "2134_", "Üst ekstremitenin yüzeyel ve derin venleri", ["Vena subclavia", "Vena axillaris", "Vena brachialis", "Vena cephalica", "Vena basilica", "Vena mediana cubiti", "Vena radialis", "Vena ulnaris"]);
+  c("Abdomen, pelvis", "2132_", "Abdominal ve pelvik venler", ["Vena hepatica", "Vena renalis", "Vena gonadalis", "Vena iliaca communis", "Vena iliaca interna", "Vena iliaca externa"]);
+  c("Abdomen, pelvis", "2136ab_", "Alt ekstremite venleri · ön ve arka görünüm", ["Vena iliaca communis", "Vena iliaca interna", "Vena iliaca externa", "Vena femoralis", "Vena profunda femoris", "Vena poplitea", "Vena saphena magna", "Vena saphena parva", "Vena tibialis anterior", "Vena tibialis posterior", "Vena fibularis"]);
+  c("Koroner ve", "2014ab_", "Koroner arter ve venler · iki yüz", ["Arteria coronaria dextra", "Arteria coronaria sinistra", "Arteria interventricularis anterior", "Arteria circumflexa", "Arteria interventricularis posterior"]);
+  c("Koroner ve", "2005_", "Pulmoner damarların kalple ilişkisi", ["Arteria pulmonalis", "Vena pulmonalis superior", "Vena pulmonalis inferior"]);
+
+  const r = (group, image, title, terms) => add("respiratory", group, image, title, terms);
+  r("Üst solunum", "2303_", "Üst hava yolu · sagittal kesit", ["Cavitas nasi", "Pharynx"]);
+  r("Alt solunum", "2308a_", "Trakea, ana bronşlar ve akciğerler", ["Larynx", "Trachea", "Bronchi", "Pulmo dexter", "Pulmo sinister"]);
+  r("Alt solunum", "2313_", "Akciğerler, plevra ve diyafram", ["Pleura", "Diaphragma"]);
+  r("Burun ve", "2303_", "Burun boşluğu, konkalar ve paranazal sinüsler", ["Vestibulum nasi", "Concha nasalis superior", "Concha nasalis media", "Concha nasalis inferior", "Meatus nasi superior", "Meatus nasi medius", "Meatus nasi inferior", "Sinus frontalis", "Sinus sphenoidalis"]);
+  r("Farinks,", "2306_", "Larinks kıkırdakları · ön ve lateral görünüm", ["Epiglottis", "Cartilago thyroidea", "Cartilago cricoidea", "Cartilago arytenoidea", "Plica vestibularis", "Plica vocalis"]);
+  r("Farinks,", "2305_", "Farinksin üç bölümü", ["Nasopharynx", "Oropharynx", "Laryngopharynx"]);
+  r("Farinks,", "2307_", "Larinks · üstten görünüm", ["Epiglottis", "Plica vestibularis", "Plica vocalis", "Rima glottidis"]);
+  r("Bronş ağacı", "2308a_", "Ana ve lober bronşlar", ["Bronchus principalis dexter", "Bronchus principalis sinister", "Bronchus lobaris superior dexter", "Bronchus lobaris medius dexter", "Bronchus lobaris inferior dexter", "Bronchus lobaris superior sinister", "Bronchus lobaris inferior sinister"]);
+  r("Bronş ağacı · Distal", "2309_", "Terminal bronşiyolden alveole · solunum bölgesi", ["Bronchiolus terminalis", "Bronchiolus respiratorius", "Ductus alveolaris", "Saccus alveolaris", "Alveolus pulmonis"]);
+  r("Bronş ağacı · Distal", "2310_Structures_of_the_Respiratory_Zone.jpg", "Alveol duvarı ve solunum membranı · kesit ve histoloji", ["Alveolus pulmonis", "Saccus alveolaris", "Ductus alveolaris"]);
+  r("Akciğer lob", "2308a_", "Akciğerlerin lobları ve bronş ağacı · bölgesel referans");
+  r("Pleura ve", "2313_", "Pariyetal ve visseral plevra · kesit", ["Pleura parietalis", "Pleura visceralis"]);
+
+  const d = (group, image, title, terms) => add("digestive", group, image, title, terms);
+  d("Ağız ve yutak", "2407_", "Dil · dorsal yüz", ["Lingua"]);
+  d("Ağız ve yutak", "2408_", "Büyük tükürük bezleri", ["Glandula parotis"]);
+  d("Ağız ve yutak", "2412_", "Özofagus · yerleşim ve sfinkterler", ["Oesophagus"]);
+  d("Karın organ", "2401_", "Sindirim organları · topografik görünüm", ["Hepar", "Vesica biliaris", "Ventriculus", "Pancreas", "Lien", "Intestinum tenue", "Intestinum crassum", "Rectum"]);
+  d("Karın organ", "2208_", "Dalak · makroskopik kesit ve histoloji", ["Lien"]);
+  d("Ağız boşluğu", "2406_", "Ağız boşluğu · ön görünüm", ["Vestibulum oris", "Cavitas oris propria", "Palatum durum", "Palatum molle", "Uvula palatina", "Tonsilla palatina"]);
+  d("Ağız boşluğu", "2407_", "Dil papillaları ve tonsiller", ["Papillae filiformes", "Papillae fungiformes", "Papillae vallatae", "Papillae foliatae", "Tonsilla palatina"]);
+  d("Ağız boşluğu", "2410_", "Süt ve kalıcı dişler · dental arklar", ["Dens incisivus centralis", "Dens incisivus lateralis", "Dens caninus", "Dens premolaris primus", "Dens premolaris secundus", "Dens molaris primus", "Dens molaris secundus", "Dens molaris tertius"]);
+  d("Tükürük", "2408_", "Parotis, submandibular ve sublingual bezler", ["Glandula parotidea", "Ductus parotideus", "Glandula submandibularis", "Ductus submandibularis", "Glandula sublingualis"]);
+  d("Farinks,", "2414_", "Mide · açılmış ön duvar ve anatomik bölümler", ["Cardia ventriculi", "Fundus ventriculi", "Corpus ventriculi", "Pars pylorica", "Antrum pyloricum", "Canalis pyloricus", "Pylorus", "Curvatura major", "Curvatura minor"]);
+  d("Farinks,", "2411_", "Farinks ve özofagusun komşulukları", ["Pharynx"]);
+  d("Farinks,", "2412_", "Özofagus · servikal, torakal ve abdominal seyir", ["Oesophagus, pars cervicalis", "Oesophagus, pars thoracica", "Oesophagus, pars abdominalis"]);
+  d("İnce ve", "2417_", "İnce bağırsağın bölümleri", ["Jejunum", "Ileum"]);
+  d("İnce ve", "2420_", "Kalın bağırsak · bölümler ve fleksuralar", ["Ileum", "Caecum", "Appendix vermiformis", "Colon ascendens", "Flexura coli dextra", "Colon transversum", "Flexura coli sinistra", "Colon descendens", "Colon sigmoideum", "Canalis analis"]);
+  d("İnce ve", "2433_", "Kolonun ayırt edici makroskopik özellikleri", ["Taeniae coli", "Haustra coli", "Appendices epiploicae"]);
+  d("Karaciğer,", "2422_", "Karaciğer lobları, safra yolları ve pankreas", ["Lobus hepatis dexter", "Lobus hepatis sinister", "Lobus caudatus", "Lobus quadratus", "Ductus cysticus", "Ductus hepaticus dexter", "Ductus hepaticus sinister", "Ductus hepaticus communis", "Ductus choledochus", "Ductus pancreaticus"]);
+  d("Karaciğer,", "2425_", "Safra kesesi ve ekstrahepatik safra yolları", ["Fundus vesicae biliaris", "Corpus vesicae biliaris", "Collum vesicae biliaris", "Ductus cysticus", "Ductus hepaticus dexter", "Ductus hepaticus sinister", "Ductus hepaticus communis", "Ductus choledochus"]);
+  d("Karaciğer,", "2424_", "Pankreas · makroskopik ve mikroskopik yapı", ["Caput pancreatis", "Cauda pancreatis", "Ductus pancreaticus"]);
+  d("Periton ve", "2403_", "Periton · transvers kesit ve organ komşulukları", ["Peritoneum parietale", "Peritoneum viscerale"]);
+  d("Periton ve", "2402_", "Mezenterin bağırsak duvarıyla ilişkisi", ["Mesenterium"]);
+
+  const u = (group, image, title, terms) => add("urinary", group, image, title, terms);
+  u("Böbrek ve", "2608_", "Böbrek ve üreterlerin retroperitoneal yerleşimi", ["Ren dexter", "Ren sinister", "Ureter dexter", "Ureter sinister"]);
+  u("Böbrek ve", "2602_Female_Male", "Kadın ve erkekte alt idrar yolları · sagittal kesit", ["Vesica urinaria", "Urethra"]);
+  u("Böbrek ·", "2610_", "Böbrek · koronal kesit", ["Capsula fibrosa renis", "Cortex renalis", "Medulla renalis", "Columna renalis", "Pyramis renalis", "Papilla renalis", "Calix renalis minor", "Calix renalis major", "Pelvis renalis", "Hilum renale"]);
+  u("Nefron ve", "2611_", "Nefron ve peritübüler damarlar", ["Corpusculum renale", "Glomerulus", "Capsula glomerularis", "Tubulus contortus proximalis", "Ansa nephroni", "Ductus colligens"]);
+  u("Nefron ve", "2615_", "Renal korpüskül ve jukstaglomerüler aygıt", ["Corpusculum renale", "Glomerulus", "Capsula glomerularis", "Tubulus contortus proximalis", "Tubulus contortus distalis", "Apparatus juxtaglomerularis"]);
+  u("Üreter", "2608_", "Üreter · abdominal seyir", ["Ureter, pars abdominalis"]);
+  u("Üreter", "2605_", "Üreterin mesaneye girişi ve üreter ağızları", ["Ureter, pars intramuralis", "Ostium ureteris"]);
+  u("Üreter", "2603_", "Üreter · pelvik komşuluklar", ["Ureter, pars pelvica"]);
+  u("Mesane ve", "2605_", "Mesane · açılmış ön duvar", ["Apex vesicae urinariae", "Corpus vesicae urinariae", "Cervix vesicae urinariae", "Trigonum vesicae"]);
+  u("Mesane ve", "2602_Female_Urethra", "Kadın üretrası · sagittal kesit", ["Urethra feminina"]);
+  u("Mesane ve", "2801_", "Erkek üretrası · prostatik, membranöz ve spongiyöz bölümler", ["Urethra masculina, pars prostatica", "Urethra masculina, pars membranacea", "Urethra masculina, pars spongiosa"]);
+
+  const g = (group, image, title, terms) => add("genital", group, image, title, terms);
+  g("Kadın üreme", "Figure_28_02_01", "Kadın üreme organları · sagittal ve anterior görünüm", ["Ovarium dextrum", "Ovarium sinistrum", "Tuba uterina", "Uterus", "Vagina"]);
+  g("Erkek üreme", "2801_", "Erkek üreme organları · sagittal kesit", ["Testis dexter", "Testis sinister", "Epididymis", "Prostata", "Penis"]);
+  g("Kadın · Over", "Figure_28_02_06", "Over, uterin tüp ve uterus · koronal kesit", ["Cortex ovarii", "Ligamentum ovarii proprium", "Ligamentum suspensorium ovarii", "Tuba uterina, infundibulum", "Fimbriae tubae uterinae", "Ampulla tubae uterinae", "Isthmus tubae uterinae"]);
+  g("Kadın · Uterus", "Figure_28_02_06", "Uterus · duvar tabakaları ve bağlar", ["Fundus uteri", "Corpus uteri", "Cervix uteri", "Endometrium", "Myometrium", "Perimetrium", "Ligamentum latum uteri"]);
+  g("Kadın · Uterus", "Figure_28_02_02", "Vulva · dış görünüm ve derin yapılar", ["Labium majus pudendi", "Labium minus pudendi", "Clitoris", "Vestibulum vaginae", "Bulbus vestibuli", "Glandula vestibularis major"]);
+  g("Kadın · Uterus", "Figure_28_02_01", "Kadın pelvisi · sagittal komşuluklar", ["Mons pubis", "Fornix vaginae"]);
+  g("Erkek · Testis", "Figure_28_01_03", "Testis ve epididim · açılmış kesit", ["Tunica albuginea testis", "Tubuli seminiferi contorti", "Rete testis", "Ductuli efferentes testis", "Epididymis, caput", "Epididymis, corpus", "Epididymis, cauda", "Ductus deferens", "Funiculus spermaticus"]);
+  g("Erkek · Testis", "2801_", "Duktus deferens ve ampullanın pelvik seyri", ["Ductus deferens", "Ampulla ductus deferentis"]);
+  g("Erkek · Aksesuar", "2801_", "Aksesuar bezler ve ejakülasyon kanalı", ["Vesicula seminalis", "Ductus ejaculatorius", "Glandula bulbourethralis", "Crus penis"]);
+  g("Erkek · Aksesuar", "Figure_28_01_06", "Penis · longitudinal ve transvers kesitler", ["Corpus cavernosum penis", "Corpus spongiosum penis"]);
+  g("Erkek · Prostat", "2801_", "Penis ve skrotum · yüzey ve sagittal kesit", ["Radix penis", "Corpus penis", "Glans penis", "Preputium penis", "Scrotum"]);
+  g("Erkek · Prostat", "Figure_28_01_02", "Skrotum · katmanlar ve septum", ["Scrotum", "Septum scroti"]);
+
+  const e = (group, image, title, terms) => add("endocrine", group, image, title, terms);
+  e("Endokrin bezler", "1801_", "Endokrin bezlerin vücuttaki dağılımı", ["Hypophysis", "Epiphysis", "Glandula thyroidea", "Glandula parathyroidea", "Thymus", "Glandula suprarenalis"]);
+  e("Endokrin bezler", "1820_", "Pankreasın endokrin adacıkları", ["Insulae pancreaticae"]);
+  e("Hipotalamus ve", "1806_", "Hipotalamus ve hipofiz · sagittal kesit", ["Infundibulum hypophysis", "Adenohypophysis", "Neurohypophysis"]);
+  e("Hipotalamus ve", "1807_", "Hipotalamik çekirdekler ve nörohipofiz", ["Nucleus supraopticus", "Nucleus paraventricularis", "Infundibulum hypophysis", "Neurohypophysis"]);
+  e("Hipotalamus ve", "1808_", "Adenohipofiz ve hipofizer portal dolaşım", ["Adenohypophysis"]);
+  e("Epifiz,", "1811_", "Tiroid · loblar, istmus ve folliküler yapı", ["Lobus dexter glandulae thyroideae", "Lobus sinister glandulae thyroideae", "Isthmus glandulae thyroideae"]);
+  e("Epifiz,", "1814_", "Paratiroid bezleri · posterior görünüm", ["Glandula parathyroidea superior", "Glandula parathyroidea inferior"]);
+  e("Epifiz,", "1801_", "Epifizin merkezi yerleşimi", ["Glandula pinealis"]);
+  e("Epifiz,", "2206_", "Timus · yerleşim, lobüller ve histoloji", ["Lobus dexter thymi", "Lobus sinister thymi"]);
+  e("Sürrenal", "1818_", "Sürrenal bez · korteks zonları ve medulla", ["Glandula suprarenalis", "Cortex glandulae suprarenalis", "Zona glomerulosa", "Zona fasciculata", "Zona reticularis", "Medulla glandulae suprarenalis"]);
+  e("Sürrenal", "1820_", "Pankreas adacıkları · alfa ve beta hücreleri", ["Cellula alpha pancreatica", "Cellula beta pancreatica"]);
+  e("Dağınık", "Figure_28_01_04", "Seminifer tübül · Sertoli ve Leydig hücreleri", ["Cellula Leydig", "Cellula Sertoli"]);
+  e("Dağınık", "Figure_28_02_04", "Over follikülleri ve korpus luteum", ["Folliculus ovaricus", "Corpus luteum"]);
+  e("Dağınık", "2910_", "Plasenta · fetal ve maternal dolaşım", ["Placenta"]);
+  e("Dağınık", "2615_", "Böbreğin jukstaglomerüler aygıtı", ["Apparatus juxtaglomerularis"]);
+  e("Dağınık", "2415_", "Mide bezinde enteroendokrin hücreler", ["Cellula enteroendocrina"]);
+
+  const s = (group, image, title, terms) => add("sensory", group, image, title, terms);
+  s("Görme", "1413_", "Göz küresi · horizontal kesit", ["Bulbus oculi", "Retina", "Nervus opticus"]);
+  s("İşitme ve", "1404_", "Dış, orta ve iç kulak · kesit", ["Auris externa", "Cochlea", "Vestibulum"]);
+  s("Koku, tat", "1403_", "Koku epiteli ve olfaktör yol", ["Organum olfactus"]);
+  s("Koku, tat", "1402_", "Dil papillaları ve tat tomurcukları", ["Papillae linguales"]);
+  s("Koku, tat", "501_", "Deri · tabakalar, bezler ve duyu uçları", ["Cutis"]);
+  s("Göz · Dış", "1411_", "Göz kapakları, konjonktiva ve kornea · sagittal kesit", ["Palpebra superior", "Palpebra inferior", "Conjunctiva palpebrarum", "Conjunctiva bulbi", "Cornea"]);
+  s("Göz · Dış", "1413_", "Gözün fibröz tabakası · horizontal kesit", ["Sclera", "Cornea"]);
+  s("Göz · Uvea", "1413_", "Göz · uvea, retina ve optik ortamlar", ["Choroidea", "Corpus ciliare", "Musculus ciliaris", "Iris", "Pupilla", "Retina", "Fovea centralis", "Discus nervi optici", "Camera anterior bulbi", "Camera posterior bulbi", "Lens", "Corpus vitreum", "Nervus opticus"]);
+  s("Kulak · Dış", "1404_", "Dış ve orta kulak · kemikçik zinciri", ["Auricula", "Meatus acusticus externus", "Membrana tympanica", "Cavitas tympani", "Malleus", "Incus", "Stapes", "Tuba auditiva"]);
+  s("Kulak · İç", "1406_", "Koklea · kanal kesiti ve Corti organı", ["Cochlea", "Ductus cochlearis", "Organum spirale", "Nervus cochlearis"]);
+  s("Kulak · İç", "1409_", "Utrikulus, sakkulus ve makulalar", ["Utriculus", "Sacculus", "Nervus vestibularis"]);
+  s("Kulak · İç", "1410_", "Semisirküler kanallar ve ampulla · denge reseptörleri");
+  s("Koku ve tat", "1403_", "Olfaktör mukoza ve koku yolu", ["Regio olfactoria", "Epithelium olfactorium", "Bulbus olfactorius", "Tractus olfactorius"]);
+  s("Koku ve tat", "1402_", "Tat papillaları ve tat tomurcuğu · kesit", ["Caliculus gustatorius", "Papilla fungiformis", "Papilla vallata", "Papilla foliata"]);
+  s("Deri ve", "501_", "Deri · tabakalar ve duyu reseptörleri", ["Epidermis", "Dermis", "Tela subcutanea", "Folliculus pili", "Glandula sebacea", "Glandula sudorifera eccrina", "Corpusculum lamellosum Pacini"]);
+  s("Deri ve", "502_Layers", "Epidermisin tabakaları ve Merkel hücresi", ["Epidermis", "Discus tactilis Merkel"]);
+  s("Deri ve", "1401_", "Serbest ve kapsüllü duyu sonlanmaları", ["Terminatio nervosa libera"]);
+  const w = (category, group, file, title, terms) => add(category, group, file, title, terms, "commons");
+  for (const [region, prefix, count] of [["Servikal", "Nervus spinalis cervicalis C", 8], ["Torakal", "Nervus spinalis thoracicus T", 12], ["Lumbal", "Nervus spinalis lumbalis L", 5], ["Sakral ve koksigeal", "Nervus spinalis sacralis S", 5]]) {
+    const terms = Array.from({ length: count }, (_, index) => `${prefix} ${index + 1}`);
+    if (region === "Sakral ve koksigeal") terms.push("Nervus coccygeus Co1");
+    w("nervous", `Spinal sinirler · ${region}`, "Spinal cord details.jpg", "Spinal sinir seviyeleri, kökler ve omurilik zarları", terms);
+  }
+  w("nervous", "Trigeminal", "Gray778.png", "Trigeminal sinirin üç ana dalı ve derin dalları", ["Nervus ophthalmicus", "Nervus maxillaris", "Nervus mandibularis", "Nervus infraorbitalis", "Nervus mentalis", "Nervus lingualis", "Nervus alveolaris inferior", "Nervus auriculotemporalis"]);
+  w("nervous", "Trigeminal", "Gray784.png", "Yüzün duyusal sinir dağılımı", ["Nervus supraorbitalis", "Nervus infraorbitalis", "Nervus mentalis", "Nervus auriculotemporalis"]);
+  w("nervous", "Boyun ve brakiyal", "Brachial plexus color.svg", "Brakiyal pleksus · köklerden terminal dallara", ["Plexus brachialis", "Nervus dorsalis scapulae", "Nervus thoracicus longus", "Nervus suprascapularis", "Nervus pectoralis lateralis", "Nervus pectoralis medialis", "Nervus thoracodorsalis", "Nervus axillaris", "Nervus musculocutaneus", "Nervus medianus", "Nervus ulnaris", "Nervus radialis"]);
+  w("nervous", "Boyun ve brakiyal", "Gray808.png", "Boyun ve aksillada brakiyal pleksusun seyri", ["Plexus brachialis", "Nervus phrenicus", "Nervus dorsalis scapulae", "Nervus thoracicus longus", "Nervus suprascapularis"]);
+  w("nervous", "Lumbosakral", "Gray822.png", "Lumbal pleksus · kökler ve dallar", ["Plexus lumbalis", "Nervus iliohypogastricus", "Nervus ilioinguinalis", "Nervus genitofemoralis", "Nervus cutaneus femoris lateralis", "Nervus femoralis", "Nervus obturatorius"]);
+  w("nervous", "Lumbosakral", "Gray828.png", "Sakral pleksus · kökler ve dallar", ["Plexus sacralis", "Nervus gluteus superior", "Nervus gluteus inferior", "Nervus cutaneus femoris posterior", "Nervus pudendus", "Nervus ischiadicus", "Nervus tibialis", "Nervus fibularis communis"]);
+  w("respiratory", "Akciğer lob", "Sobo 1906 445.png", "Sağ akciğer · loblar ve fissürler", ["Lobus superior pulmonis dextri", "Lobus medius pulmonis dextri", "Lobus inferior pulmonis dextri"]);
+  w("respiratory", "Akciğer lob", "Sobo 1906 446.png", "Sol akciğer · loblar ve fissür", ["Lobus superior pulmonis sinistri", "Lobus inferior pulmonis sinistri"]);
+  return plates;
+}

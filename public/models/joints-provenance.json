@@ -1,0 +1,1529 @@
+{
+  "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+  "source": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20110915/",
+  "license": "CC BY 4.0",
+  "changes": "Bone, cartilage and intervertebral disk OBJ surfaces converted to Y-up indexed GLB, mm to meters, simplified and meshopt compressed; contact markers computed separately from source surfaces.",
+  "archive": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20110915/BodyParts3D_3.0_obj_99.zip",
+  "archiveSha256": "2125f6d761b14ead4ee64f71713f56f3f0f29982693ff20aac63474470cb92f4",
+  "parts": [
+    {
+      "fma": "FMA10014",
+      "name": "ninth thoracic vertebra",
+      "sha256": "cd58bd1512f110719b18a44caae57d888c667d3f95104c0aedea759700150e6f",
+      "vertices": 1222
+    },
+    {
+      "fma": "FMA10037",
+      "name": "tenth thoracic vertebra",
+      "sha256": "b3785b9d790b22b338b6934fcf5cda8457bc1500a3957bfd95e1a45dcc653e0c",
+      "vertices": 1292
+    },
+    {
+      "fma": "FMA10059",
+      "name": "eleventh thoracic vertebra",
+      "sha256": "f54ee60923bbdabd0c8ebc81d7a8faf5c442bf971c5f77174aa7829f7f0d5f00",
+      "vertices": 829
+    },
+    {
+      "fma": "FMA10081",
+      "name": "twelfth thoracic vertebra",
+      "sha256": "ed45622a2bda6dea623dfcb263878c903992b0b87afdbdc8e9e554f41655b914",
+      "vertices": 1150
+    },
+    {
+      "fma": "FMA10458",
+      "name": "intervertebral disk of first thoracic vertebra",
+      "sha256": "c7de7f7ff12f35c85cb408e6103767db3a0a08a014c74caf18d7f2056a82b6ab",
+      "vertices": 481
+    },
+    {
+      "fma": "FMA12519",
+      "name": "atlas",
+      "sha256": "9622a949531bdb81b4f7745b273cdceda43501b757ca342eedf797690393c71d",
+      "vertices": 1075
+    },
+    {
+      "fma": "FMA12520",
+      "name": "axis",
+      "sha256": "1b7b876e2b0a3b936a18f9d7c9edba72727bc91d28d7263534da3fd4362f422c",
+      "vertices": 1181
+    },
+    {
+      "fma": "FMA12521",
+      "name": "third cervical vertebra",
+      "sha256": "45555b9cb958808a9cbbd5463ad903757c979cdacfe740dd22115cd6ae670dc3",
+      "vertices": 985
+    },
+    {
+      "fma": "FMA12522",
+      "name": "fourth cervical vertebra",
+      "sha256": "991e1172f99b33b522ae24326e602c86d69a0a56471037557b4258a9d22f5fab",
+      "vertices": 866
+    },
+    {
+      "fma": "FMA12523",
+      "name": "fifth cervical vertebra",
+      "sha256": "dc5081f377f2012a44e61d9c96377cff99ac2f5654e663f5953e1ae9769fab2a",
+      "vertices": 1047
+    },
+    {
+      "fma": "FMA12524",
+      "name": "sixth cervical vertebra",
+      "sha256": "2af2e7f2fb9d70e01adbf96e453b73aa4fe8af219c4fa991717dec817ec4bca6",
+      "vertices": 1101
+    },
+    {
+      "fma": "FMA12525",
+      "name": "seventh cervical vertebra",
+      "sha256": "fa3e0d7058012f3038b55e9f8a8f9fe77f9b776de268e490b88366cf6b037b19",
+      "vertices": 953
+    },
+    {
+      "fma": "FMA13072",
+      "name": "first lumbar vertebra",
+      "sha256": "3fd3f1f1374d50a77440755ab47d6e6423de4109b02b857f1066f10e0cf208e2",
+      "vertices": 1433
+    },
+    {
+      "fma": "FMA13073",
+      "name": "second lumbar vertebra",
+      "sha256": "23457a53d74d8202447551e145b63dd0624b3fa85a4bdca40ba14d2e1d85d5cf",
+      "vertices": 1194
+    },
+    {
+      "fma": "FMA13074",
+      "name": "third lumbar vertebra",
+      "sha256": "cf879fd25baf516f621ae1da1413fa73dd682d26e6f7fd106a806307fdcac2b1",
+      "vertices": 1652
+    },
+    {
+      "fma": "FMA13075",
+      "name": "fourth lumbar vertebra",
+      "sha256": "596b9d5d3fb1676e086f4262809f69c48230e94b4c40396e8441fe0e0e5d196e",
+      "vertices": 1728
+    },
+    {
+      "fma": "FMA13076",
+      "name": "fifth lumbar vertebra",
+      "sha256": "347de6db15415924f7534ea48881474ad0b9d73e57060bb9859cce64c8679cad",
+      "vertices": 1936
+    },
+    {
+      "fma": "FMA13322",
+      "name": "right clavicle",
+      "sha256": "b15f5a20ae9ec041307964f1ef07c3c084333933dea5165f8b07a559b56b584b",
+      "vertices": 574
+    },
+    {
+      "fma": "FMA13323",
+      "name": "left clavicle",
+      "sha256": "65466089c029cfe951946b962440c84fc8629dbafaff5b6dc4298920861a796f",
+      "vertices": 577
+    },
+    {
+      "fma": "FMA13395",
+      "name": "right scapula",
+      "sha256": "2ea52baa1986330fcffc03dc0ec1f91f66b678395e6141f92caafeb180755afd",
+      "vertices": 11327
+    },
+    {
+      "fma": "FMA13396",
+      "name": "left scapula",
+      "sha256": "d3bd763763054122da5aedafb09a4357258aaf2ffa4d9633547865bd1ba443f6",
+      "vertices": 12183
+    },
+    {
+      "fma": "FMA13495",
+      "name": "intervertebral disk of second thoracic vertebra",
+      "sha256": "aa907d108bc5047a58b4fe8cf9b47a817832b02e050914b076f3c39006369b71",
+      "vertices": 558
+    },
+    {
+      "fma": "FMA13500",
+      "name": "intervertebral disk of third thoracic vertebra",
+      "sha256": "67a724bd7de05586835ecbe71362a1e140260926ec9d8d7122915dac11bfaf7a",
+      "vertices": 581
+    },
+    {
+      "fma": "FMA13501",
+      "name": "intervertebral disk of fourth thoracic vertebra",
+      "sha256": "0b9883ba322aeae879410a75ab8da31eb6b58d64dd47299a7ee4e193a7f38d83",
+      "vertices": 708
+    },
+    {
+      "fma": "FMA13502",
+      "name": "intervertebral disk of fifth thoracic vertebra",
+      "sha256": "1788d7bbde5475dc1798b590609a08d9f051730983744b23e470db123df4a137",
+      "vertices": 826
+    },
+    {
+      "fma": "FMA13503",
+      "name": "intervertebral disk of sixth thoracic vertebra",
+      "sha256": "0d4f675371682d55afbbf62de3002148c0f5cd8b51ef5da140865016ce0b583e",
+      "vertices": 1016
+    },
+    {
+      "fma": "FMA13504",
+      "name": "intervertebral disk of seventh thoracic vertebra",
+      "sha256": "b960554625eb94d7e69161db1e00bfdcaf5fcef06df9a00ac97a4e9965893fea",
+      "vertices": 1167
+    },
+    {
+      "fma": "FMA13505",
+      "name": "intervertebral disk of eighth thoracic vertebra",
+      "sha256": "b0325a9b78eb65b12a39e734f94eb39a8117372bc5644ab2b497d3f288e437d2",
+      "vertices": 1149
+    },
+    {
+      "fma": "FMA13506",
+      "name": "intervertebral disk of ninth thoracic vertebra",
+      "sha256": "25072109522cfe5da7299b8a58c26469daa3d1feace473d4ae108be71d1399d5",
+      "vertices": 616
+    },
+    {
+      "fma": "FMA13507",
+      "name": "intervertebral disk of tenth thoracic vertebra",
+      "sha256": "fc270811f218a492f7cbadeeba458f2ca1bc96168786d4f2514d9e149f659928",
+      "vertices": 1298
+    },
+    {
+      "fma": "FMA13508",
+      "name": "intervertebral disk of eleventh thoracic vertebra",
+      "sha256": "fa476b292992f19d99c8c3bdbd1ecb3ee607db53fdd8cd0497a666f8b7b335a5",
+      "vertices": 1601
+    },
+    {
+      "fma": "FMA13509",
+      "name": "intervertebral disk of twelfth thoracic vertebra",
+      "sha256": "b183183be7a7aa85a21f81b68c630ede0358496c12a7f0d384b0fd132e04e9b6",
+      "vertices": 1630
+    },
+    {
+      "fma": "FMA13896",
+      "name": "intervertebral disk of third cervical vertebra",
+      "sha256": "b950dc134f1ea68ef40e659ae03f0d58f55354e60fb70018927ef082ead7590c",
+      "vertices": 333
+    },
+    {
+      "fma": "FMA13897",
+      "name": "intervertebral disk of fourth cervical vertebra",
+      "sha256": "86f1cea0be45f65cc5b048dbd97a5c6004fdfb882f63edf9753f017e1a7604d9",
+      "vertices": 395
+    },
+    {
+      "fma": "FMA13898",
+      "name": "intervertebral disk of fifth cervical vertebra",
+      "sha256": "f3160f1e0822e2d1018c2e76aa56531f04d6ca4eb53fd402e22eea929e5837b8",
+      "vertices": 387
+    },
+    {
+      "fma": "FMA13899",
+      "name": "intervertebral disk of sixth cervical vertebra",
+      "sha256": "0d515c7e29532ba81c98d2d3bc040f86dc5f40f4c6d17b7ae07a0b234654ee1f",
+      "vertices": 364
+    },
+    {
+      "fma": "FMA13900",
+      "name": "intervertebral disk of seventh cervical vertebra",
+      "sha256": "3b1fed3dd723e183ef804ccda4690a4a815b67a698d71120be5bd2c0a3a632b8",
+      "vertices": 440
+    },
+    {
+      "fma": "FMA16033",
+      "name": "intervertebral disk of first lumbar vertebra",
+      "sha256": "dd15ac1879dd4906aa8af427a437f8913c5c54b2c05b227b44778ed2e83d4ee1",
+      "vertices": 1581
+    },
+    {
+      "fma": "FMA16034",
+      "name": "intervertebral disk of second lumbar vertebra",
+      "sha256": "e715f8a4055599169401f442874e3d08b0847527cd572f085be0f1bb4c53b6c5",
+      "vertices": 1525
+    },
+    {
+      "fma": "FMA16035",
+      "name": "intervertebral disk of third lumbar vertebra",
+      "sha256": "c4ef28cf9dc096082bc03bf5f8f9bd4c96979e766b96c91c7a68b7ec5bfecd31",
+      "vertices": 1600
+    },
+    {
+      "fma": "FMA16036",
+      "name": "intervertebral disk of fourth lumbar vertebra",
+      "sha256": "0893e4d0f44813d13d580470673c9b1215d7d22796687db2e4da0b22bc4e6ebc",
+      "vertices": 1625
+    },
+    {
+      "fma": "FMA16037",
+      "name": "intervertebral disk of fifth lumbar vertebra",
+      "sha256": "584284fddc31d7b6455833f3235609ff4c59029df2762d86d0b191c9909d20af",
+      "vertices": 1814
+    },
+    {
+      "fma": "FMA16202",
+      "name": "sacrum",
+      "sha256": "0a715850623c9f7d17cafd004a4e84ac402e2aadb5f1605931e5932f6df1013a",
+      "vertices": 4427
+    },
+    {
+      "fma": "FMA16586",
+      "name": "right hip bone",
+      "sha256": "2fc0f001ad13acfb2e77979a3e7d02f2476fe54b64a4ea1c4caafd2632969a14",
+      "vertices": 971
+    },
+    {
+      "fma": "FMA16587",
+      "name": "left hip bone",
+      "sha256": "959df200626165d47c38d3135c17c0b22267c3b708d1c0600619d1b251c1f958",
+      "vertices": 946
+    },
+    {
+      "fma": "FMA230986",
+      "name": "middle phalanx of right little toe",
+      "sha256": "bef317ea92bdc66aff984982b093a2b9691eb7c08ad8666d87d3b2d2d86a7dd1",
+      "vertices": 70
+    },
+    {
+      "fma": "FMA230988",
+      "name": "middle phalanx of left little toe",
+      "sha256": "a26893272752e6b342695d6f56a951397ae5a80ffa6129cb9f2c0ec6a87fc887",
+      "vertices": 129
+    },
+    {
+      "fma": "FMA23130",
+      "name": "right humerus",
+      "sha256": "8a26bcc5ae63c94a525172bb5ee5514d6badd39aa56f951861fb0c606f14d374",
+      "vertices": 1628
+    },
+    {
+      "fma": "FMA23131",
+      "name": "left humerus",
+      "sha256": "4af277604e09c6837f22f6064f604398d65316e32816cb4079eeb2badbf2ad1f",
+      "vertices": 1694
+    },
+    {
+      "fma": "FMA23464",
+      "name": "right radius",
+      "sha256": "eb01d90020c0573bf2323db7be4d7553b97aa4741701a4647a40a30d76db5312",
+      "vertices": 318
+    },
+    {
+      "fma": "FMA23465",
+      "name": "left radius",
+      "sha256": "4ffab51af557306c7c5ceb0555f849195d54b53452cafe4b44747901858e48fe",
+      "vertices": 296
+    },
+    {
+      "fma": "FMA23467",
+      "name": "right ulna",
+      "sha256": "a6507e1dffd043e76253a9c9883304a748e500e9315e5be9c93996b33f9409d5",
+      "vertices": 386
+    },
+    {
+      "fma": "FMA23468",
+      "name": "left ulna",
+      "sha256": "41f88e2023d898e584f192923875587e17eae7ad79c89aac4ef84e5e8d11174f",
+      "vertices": 405
+    },
+    {
+      "fma": "FMA23725",
+      "name": "right trapezoid",
+      "sha256": "a9fd167da460c53573241368f45faaa71b6b85aacf3d90b15505183ba8c70792",
+      "vertices": 182
+    },
+    {
+      "fma": "FMA23938",
+      "name": "middle phalanx of left index finger",
+      "sha256": "617fcdcb62c4daf7718a491d1ec7cc3b9f78ee44a079918898d065c168b4d091",
+      "vertices": 155
+    },
+    {
+      "fma": "FMA23940",
+      "name": "middle phalanx of left middle finger",
+      "sha256": "c6a97c6d714997cf602d5f7240d989fa053bf45cb6410c41f78382e34cd81b51",
+      "vertices": 194
+    },
+    {
+      "fma": "FMA23942",
+      "name": "middle phalanx of left ring finger",
+      "sha256": "28f38762aecb2f9a15674e8bdfbb093c172365eed5658c15ff6ab6ad06015802",
+      "vertices": 172
+    },
+    {
+      "fma": "FMA23944",
+      "name": "middle phalanx of left little finger",
+      "sha256": "6bbdde5e7de81c1615a8b3afc760c5a0276e70acc31ae5c6457713f2fe8e578d",
+      "vertices": 129
+    },
+    {
+      "fma": "FMA23953",
+      "name": "distal phalanx of left index finger",
+      "sha256": "431ef329891f5902a60515f3b65b571c0b60bfe39c39d2eeee18d849cdc0e30b",
+      "vertices": 166
+    },
+    {
+      "fma": "FMA23955",
+      "name": "distal phalanx of left middle finger",
+      "sha256": "dc666f7e9ae264f965b37f1e078283b471632d3c99780f794862ca6376c7ace2",
+      "vertices": 135
+    },
+    {
+      "fma": "FMA23957",
+      "name": "distal phalanx of left ring finger",
+      "sha256": "5652fc535ec3d3267efb9f99cf2cb163f62c1db8f2efc76ad17e50a7f4c236af",
+      "vertices": 98
+    },
+    {
+      "fma": "FMA23959",
+      "name": "distal phalanx of left little finger",
+      "sha256": "4378c3c88f1f951d3b9f27594599dd26cd8b97e930edf0f422324f427c61e75f",
+      "vertices": 101
+    },
+    {
+      "fma": "FMA24435",
+      "name": "right scaphoid",
+      "sha256": "658088205171342f46e11a25501591a4c608c4d0abc9b182eafea361b0121101",
+      "vertices": 163
+    },
+    {
+      "fma": "FMA24436",
+      "name": "left scaphoid",
+      "sha256": "d692bea2e2381cabba63a45881a5a7049bf95736ce1ee5b3a4e8cb1c54b2d4e8",
+      "vertices": 158
+    },
+    {
+      "fma": "FMA24437",
+      "name": "right lunate",
+      "sha256": "09033b4a0460a0f7e7b5b539d60f774df56c217e17d0d2ebf8a5e58ebeb373a2",
+      "vertices": 168
+    },
+    {
+      "fma": "FMA24438",
+      "name": "left lunate",
+      "sha256": "06a3fdce31df4f0ba3350399be19505bc3be98f380dcb911b1035c1ae5d9b025",
+      "vertices": 159
+    },
+    {
+      "fma": "FMA24439",
+      "name": "right triquetral",
+      "sha256": "76fb4e63a0b4384681a453f53093b30f631c53ce6278c5918e16631a23da86b3",
+      "vertices": 87
+    },
+    {
+      "fma": "FMA24440",
+      "name": "left triquetral",
+      "sha256": "cdbf8dc60b0190678507457de88f51a4e5b861e9c6bbe856042850972d2c30a8",
+      "vertices": 154
+    },
+    {
+      "fma": "FMA24441",
+      "name": "right pisiform",
+      "sha256": "2916beb96da7c77685c22231d855da23352b3e9c22e0df5fdfa6b9370a063250",
+      "vertices": 97
+    },
+    {
+      "fma": "FMA24442",
+      "name": "left pisiform",
+      "sha256": "5645409f33c54231ee033fc27ccbd9ee143e980302f189e4f18f7f92f9a3d7ea",
+      "vertices": 107
+    },
+    {
+      "fma": "FMA24443",
+      "name": "right trapezium",
+      "sha256": "a716be98bba7daf443c6b8df67f2ad17bbd5853a36fd994a8cf0f036bca5dabf",
+      "vertices": 219
+    },
+    {
+      "fma": "FMA24444",
+      "name": "left trapezium",
+      "sha256": "6f073cb257fa61850b92279e77ff30b453f7e3a5e1b085a89e626122b64a2b26",
+      "vertices": 180
+    },
+    {
+      "fma": "FMA24445",
+      "name": "left trapezoid",
+      "sha256": "f03ab7fe5d9182e058e8686a5a7dbb5abffc684085c4a4ed6a5d2a0e5794af01",
+      "vertices": 201
+    },
+    {
+      "fma": "FMA24446",
+      "name": "right capitate",
+      "sha256": "f09c4f3bcb17e02004f9d604e311966014764a039a905f267e60343efddb41ec",
+      "vertices": 216
+    },
+    {
+      "fma": "FMA24447",
+      "name": "left capitate",
+      "sha256": "ffa5e858a3883774c45d8b83bc88d549e848723fc74ea3fee8bc29d815030fc7",
+      "vertices": 203
+    },
+    {
+      "fma": "FMA24448",
+      "name": "right hamate",
+      "sha256": "8566c49b2181f005fee3704244b9e190cc222ed271b6458a40d701faf4ee80e4",
+      "vertices": 263
+    },
+    {
+      "fma": "FMA24449",
+      "name": "left hamate",
+      "sha256": "b6b193dedb8fda506f29987792c2860825725a4c87659f7c49e8f5646c4cce0e",
+      "vertices": 228
+    },
+    {
+      "fma": "FMA24450",
+      "name": "proximal phalanx of right thumb",
+      "sha256": "013ebc388d0c5f890d7d5a2146d5c4a2259ab5f922f95ec45a5fc8486ce69637",
+      "vertices": 140
+    },
+    {
+      "fma": "FMA24451",
+      "name": "proximal phalanx of right index finger",
+      "sha256": "fff67bb80bdefbe7a0b9135a94729f7760d60fca23b77f3bba1720c6a60c34a7",
+      "vertices": 189
+    },
+    {
+      "fma": "FMA24452",
+      "name": "proximal phalanx of right middle finger",
+      "sha256": "3d8ab5bac006c3d22935d17af4749d4d7bf27616ec5a8900e9ab5258d62724ea",
+      "vertices": 198
+    },
+    {
+      "fma": "FMA24453",
+      "name": "proximal phalanx of right ring finger",
+      "sha256": "d83eb3b8110fba8325549d3a8665e9d19306b275bd4266476417bf736079d4da",
+      "vertices": 164
+    },
+    {
+      "fma": "FMA24454",
+      "name": "proximal phalanx of right little finger",
+      "sha256": "66ca3e0e694a8d777f8318c0dee43f4e987ef6bf95ec368c31e8ee81d4de76f4",
+      "vertices": 159
+    },
+    {
+      "fma": "FMA24455",
+      "name": "middle phalanx of right index finger",
+      "sha256": "90642de1ae16afb14ad41b6cf2f83120bbdef880528675ea75db36c481c33683",
+      "vertices": 116
+    },
+    {
+      "fma": "FMA24456",
+      "name": "middle phalanx of right middle finger",
+      "sha256": "eb2fa7617ad4b81b49dc745bf29a0bd951db36fce716363f64d26d91fcce3398",
+      "vertices": 149
+    },
+    {
+      "fma": "FMA24457",
+      "name": "middle phalanx of right ring finger",
+      "sha256": "db6b0714df37fb5fcd1ad9859681c61f3891127969e1c32d3f24264665fd73ae",
+      "vertices": 181
+    },
+    {
+      "fma": "FMA24458",
+      "name": "middle phalanx of right little finger",
+      "sha256": "7ca11f984619375e3512a1fe5c2282d36e52f4ea863a68c34259cb33ffe67a10",
+      "vertices": 102
+    },
+    {
+      "fma": "FMA24460",
+      "name": "distal phalanx of right index finger",
+      "sha256": "7725148e047b08ec2b8286ddf3157f1e180e037014e6b31c4368cd5edeb4812d",
+      "vertices": 107
+    },
+    {
+      "fma": "FMA24461",
+      "name": "distal phalanx of right middle finger",
+      "sha256": "c8b10d07eaf5304d535320540ff5da9ec7f305e7a9d5900b8330110724ef7d26",
+      "vertices": 89
+    },
+    {
+      "fma": "FMA24462",
+      "name": "distal phalanx of right ring finger",
+      "sha256": "2beed6d6f40637185a8ac29183368e0355b5709b6abc1d75b5c2a1252da5d4a6",
+      "vertices": 58
+    },
+    {
+      "fma": "FMA24463",
+      "name": "distal phalanx of right little finger",
+      "sha256": "1a565d0c55a9c245cae2b1faff610692b69a151ffb4d37a6c66fd830998fd07c",
+      "vertices": 93
+    },
+    {
+      "fma": "FMA24464",
+      "name": "right first metacarpal bone",
+      "sha256": "033742f0d8a2eca5f7d49e6161e8b949c19108140576d3a6a7c3bc8c194daf04",
+      "vertices": 281
+    },
+    {
+      "fma": "FMA24465",
+      "name": "left first metacarpal bone",
+      "sha256": "ec5c18084d264becbf3f62d86bee02ee30f84c5cceefd39d63ee73b50c94a718",
+      "vertices": 258
+    },
+    {
+      "fma": "FMA24466",
+      "name": "right second metacarpal bone",
+      "sha256": "3f1d21ddc728d22f2a8f8894210c650d32de13ef5eeb18f62e27512a007b255d",
+      "vertices": 324
+    },
+    {
+      "fma": "FMA24467",
+      "name": "left second metacarpal bone",
+      "sha256": "8b2833fbe6bc4b9330b0e365ab09848aeec9929ab23244dbd49acdc4ee9099f9",
+      "vertices": 389
+    },
+    {
+      "fma": "FMA24468",
+      "name": "right third metacarpal bone",
+      "sha256": "4662f08b27467ac207d20d1b6b7643b1feb694bad6c71d23a193ea2d001293a0",
+      "vertices": 303
+    },
+    {
+      "fma": "FMA24469",
+      "name": "left third metacarpal bone",
+      "sha256": "bf35208676a7ca793128628b32ec21c9da32c4ae6d9b24972455c10262f0c916",
+      "vertices": 317
+    },
+    {
+      "fma": "FMA24470",
+      "name": "right fourth metacarpal bone",
+      "sha256": "1c6991c3e412dcc50d3dca543140ebae3d24f4ef3c6b04e5cf358f6e06e6f87f",
+      "vertices": 269
+    },
+    {
+      "fma": "FMA24471",
+      "name": "left fourth metacarpal bone",
+      "sha256": "dc47edcc02d3bfa670cfecd00d737af6b0414b0e9254e6ffd389508f8f912353",
+      "vertices": 238
+    },
+    {
+      "fma": "FMA24472",
+      "name": "right fifth metacarpal bone",
+      "sha256": "a48444a80e71c24c451eaf1fc1bafb3fc4f5704b26eb57a1e01ff1f1a86eee6c",
+      "vertices": 220
+    },
+    {
+      "fma": "FMA24473",
+      "name": "left fifth metacarpal bone",
+      "sha256": "d6535087ca965a28ce86d49422971ffe93f4f6c46ba8fb77716f2ba6ca89c01f",
+      "vertices": 226
+    },
+    {
+      "fma": "FMA24474",
+      "name": "right femur",
+      "sha256": "6aff68a9ecc438717545db8b0b542f18b33276005201c41fedc28735779f3162",
+      "vertices": 1301
+    },
+    {
+      "fma": "FMA24475",
+      "name": "left femur",
+      "sha256": "e3b5013484852be0be09f873a636b8841c448c8d183fce453d5e87c0b17194af",
+      "vertices": 1420
+    },
+    {
+      "fma": "FMA24477",
+      "name": "right tibia",
+      "sha256": "f2e0df5722cb94e02765e7a18e700e4c8ff3d216780f2496dcc21099b0efb2e8",
+      "vertices": 687
+    },
+    {
+      "fma": "FMA24478",
+      "name": "left tibia",
+      "sha256": "f052f51eb89d0c4044180a8f0b51badf1fe17047bee6682cf305673969c945f3",
+      "vertices": 734
+    },
+    {
+      "fma": "FMA24480",
+      "name": "right fibula",
+      "sha256": "b46923c727160b44d19c3f4f5c9bc2286dc4d0715cb3aa00cc847fb7d4993225",
+      "vertices": 464
+    },
+    {
+      "fma": "FMA24481",
+      "name": "left fibula",
+      "sha256": "d75dd1cf724e9e8c81c8edf8f7a44e48dd4ed941a518eb70a6d50d4df296ddce",
+      "vertices": 490
+    },
+    {
+      "fma": "FMA24482",
+      "name": "right talus",
+      "sha256": "a086c8bebb34e60168ff96c9dc25c42fdae2ae164d64b9d5e6ef31811bad416a",
+      "vertices": 644
+    },
+    {
+      "fma": "FMA24483",
+      "name": "left talus",
+      "sha256": "366010a073c66359b5d753f7f3bc2cae4f8a00360699a0f57b0cb339f9dedcb8",
+      "vertices": 673
+    },
+    {
+      "fma": "FMA24486",
+      "name": "right patella",
+      "sha256": "64de1eb490620daadbb5d4a28e777cc5e9ef993b38bd7b1203e7434f9245a95f",
+      "vertices": 135
+    },
+    {
+      "fma": "FMA24487",
+      "name": "left patella",
+      "sha256": "0df7660c3c1088668f8f1c98e0d68d1e26a86cde84280b20027da7be37916896",
+      "vertices": 145
+    },
+    {
+      "fma": "FMA24497",
+      "name": "right calcaneus",
+      "sha256": "244b92b9bde31972201ecedadbe2169ffe4cf598ed4d0c3ad6ce32208a3c8a08",
+      "vertices": 577
+    },
+    {
+      "fma": "FMA24498",
+      "name": "left calcaneus",
+      "sha256": "555ae6a7df1553d37e706a428e0aa44bcf813a34920400bfd2eb251c5dfd7bf5",
+      "vertices": 642
+    },
+    {
+      "fma": "FMA24500",
+      "name": "navicular bone of right foot",
+      "sha256": "1802066200ae45580253a3f4fb4faf2c7b315051bc5078fdfe81afbe3c65648e",
+      "vertices": 360
+    },
+    {
+      "fma": "FMA24501",
+      "name": "navicular bone of left foot",
+      "sha256": "a5aff876d39a2634e94690f2c6b44498390d5d38e9561b71779c625f876d51ab",
+      "vertices": 352
+    },
+    {
+      "fma": "FMA24507",
+      "name": "right first metatarsal bone",
+      "sha256": "4a41c236ebd6a29e2e5329d1e1ccb59949b2d48b575c8755d3e6d97c1b05b078",
+      "vertices": 490
+    },
+    {
+      "fma": "FMA24508",
+      "name": "left first metatarsal bone",
+      "sha256": "09a4fce374760e498fabe80ea22f1469e3c5370c3937286ee8f8887952fa8579",
+      "vertices": 524
+    },
+    {
+      "fma": "FMA24509",
+      "name": "right second metatarsal bone",
+      "sha256": "012e6f967e4180f6bf50fa6551de05cb8c40743a9328e372381416d42eb2f84c",
+      "vertices": 327
+    },
+    {
+      "fma": "FMA24510",
+      "name": "left second metatarsal bone",
+      "sha256": "867ec0b6544d98a73855b759c246a6ad236a76bb39d188362246123e092127b6",
+      "vertices": 367
+    },
+    {
+      "fma": "FMA24511",
+      "name": "right third metatarsal bone",
+      "sha256": "2f95fc6e06473317c41f2028e27a36f078297c5970bd1f5170a21232ee36e7a5",
+      "vertices": 305
+    },
+    {
+      "fma": "FMA24512",
+      "name": "left third metatarsal bone",
+      "sha256": "80515c3ec1205d2e3b443142651915a2f6180880a29022c52ba4bdab31495f12",
+      "vertices": 355
+    },
+    {
+      "fma": "FMA24513",
+      "name": "right fourth metatarsal bone",
+      "sha256": "3a815e1ac3e7651d96fa0b77aa00deb10af355c6ce110b2cff4e8d296bdc6ab3",
+      "vertices": 298
+    },
+    {
+      "fma": "FMA24514",
+      "name": "left fourth metatarsal bone",
+      "sha256": "d235b50ed8de3ba6d8df4a9cc7cb95e2ff2a53d5f1d8c0150d46e2d8223d35cc",
+      "vertices": 346
+    },
+    {
+      "fma": "FMA24515",
+      "name": "right fifth metatarsal bone",
+      "sha256": "5be20527211aab1b352be851b06d12f13695b72454b5f50e9a213e83f7f7f464",
+      "vertices": 357
+    },
+    {
+      "fma": "FMA24516",
+      "name": "left fifth metatarsal bone",
+      "sha256": "c1099f6ee3dbaa196055e9e367cf7d5c25db759ad914d7196107f8245ba17bd8",
+      "vertices": 415
+    },
+    {
+      "fma": "FMA24521",
+      "name": "right medial cuneiform bone",
+      "sha256": "7e308a4a7e80f774b662447c59d2aaa74ae769da937b81595ac494accba44270",
+      "vertices": 441
+    },
+    {
+      "fma": "FMA24522",
+      "name": "left medial cuneiform bone",
+      "sha256": "aabad0a2f456b1620f96ea19fffdce61559377020a4291a63d7a868d7ee0003c",
+      "vertices": 479
+    },
+    {
+      "fma": "FMA24523",
+      "name": "right intermediate cuneiform bone",
+      "sha256": "a7bea268c9599414eb8b3487ec4ee00adf905603347484ca76469e1a28215b94",
+      "vertices": 223
+    },
+    {
+      "fma": "FMA24524",
+      "name": "left intermediate cuneiform bone",
+      "sha256": "b60fdf4bac84961baf41bbfd6366da2d787e45ba07c80b1fa3c8d15736669027",
+      "vertices": 267
+    },
+    {
+      "fma": "FMA24525",
+      "name": "right lateral cuneiform bone",
+      "sha256": "f23e5ab9f84c13a4e28699f220d8cf72a80721a6cc21b47443ebcb441b671ab4",
+      "vertices": 310
+    },
+    {
+      "fma": "FMA24526",
+      "name": "left lateral cuneiform bone",
+      "sha256": "13f6b9ad5cfe19509053ee54f4ba2922267cfba226a6f3611d45edfb23d2b352",
+      "vertices": 347
+    },
+    {
+      "fma": "FMA24528",
+      "name": "right cuboid bone",
+      "sha256": "60b534140ee7f3e913dfd887c1d38a57e435716fcd4368985a83e39505abf349",
+      "vertices": 468
+    },
+    {
+      "fma": "FMA24529",
+      "name": "left cuboid bone",
+      "sha256": "66b0952cf2b85007d398dba58321e629ee2d314d99e5b6fc3b07d3aa7534c21f",
+      "vertices": 433
+    },
+    {
+      "fma": "FMA25058",
+      "name": "intervertebral disk of axis",
+      "sha256": "852e382d28d311fe4467b086a137242dbd86364af9d54cc6ad4b20a8a6d61747",
+      "vertices": 339
+    },
+    {
+      "fma": "FMA32634",
+      "name": "proximal phalanx of right second toe",
+      "sha256": "d681444f2583218121e268c55ce8da9c69debdc6448d15b6a564c8f29a5060c7",
+      "vertices": 209
+    },
+    {
+      "fma": "FMA32635",
+      "name": "proximal phalanx of left second toe",
+      "sha256": "19abff35e55631dcdb1770317d9f76d6b2ea9e4b9e76c08285473b73d68acb8f",
+      "vertices": 228
+    },
+    {
+      "fma": "FMA32636",
+      "name": "proximal phalanx of right third toe",
+      "sha256": "af85202bf3d81bed56fc79e075d29f7b2203768ccdd489df0aac4cc45848cc95",
+      "vertices": 213
+    },
+    {
+      "fma": "FMA32637",
+      "name": "proximal phalanx of left third toe",
+      "sha256": "46852c346ba04a31fa4b1735cb921235833fe39b1461320d7df5db6e6db937f8",
+      "vertices": 218
+    },
+    {
+      "fma": "FMA32638",
+      "name": "proximal phalanx of right fourth toe",
+      "sha256": "becf6b393cb8dbe54dd9632b628442e5d0979911e020cf6d98a182e3e03feb61",
+      "vertices": 221
+    },
+    {
+      "fma": "FMA32639",
+      "name": "proximal phalanx of left fourth toe",
+      "sha256": "4ee504b3ec32853b0e3fc8ee0b09c87bd51cade11d2757e1f424f480d56eb0f5",
+      "vertices": 225
+    },
+    {
+      "fma": "FMA32640",
+      "name": "proximal phalanx of right little toe",
+      "sha256": "622328701d53f83a4f5b4bd7560b8e024e0b0e83f4f7acff7c2509ac77acaf8d",
+      "vertices": 205
+    },
+    {
+      "fma": "FMA32641",
+      "name": "proximal phalanx of left little toe",
+      "sha256": "43f933eab61f25254ce1c9a08d0c8aa80e89fc6dc2b9dfc2a861ffeb41ed893f",
+      "vertices": 184
+    },
+    {
+      "fma": "FMA32642",
+      "name": "middle phalanx of right second toe",
+      "sha256": "0ae62f65bcdd8459cdb27861a868f785ad4850a6a6b595e5b8849e2d3b59c77d",
+      "vertices": 134
+    },
+    {
+      "fma": "FMA32643",
+      "name": "middle phalanx of left second toe",
+      "sha256": "af197bd3e18aaff5cddbf8576b02c1733740f4e3b044958cee2b71c8aa9443c4",
+      "vertices": 167
+    },
+    {
+      "fma": "FMA32644",
+      "name": "middle phalanx of right third toe",
+      "sha256": "0a74f520178f28edc9d608da064bf914925c3998aba5eace86dec82bb9f04533",
+      "vertices": 148
+    },
+    {
+      "fma": "FMA32645",
+      "name": "middle phalanx of left third toe",
+      "sha256": "cb9d40fb18b9635a43f199efc75087ed26a7ebfc60cec62e12347cad23438f4e",
+      "vertices": 136
+    },
+    {
+      "fma": "FMA32646",
+      "name": "middle phalanx of right fourth toe",
+      "sha256": "2b647d96266131c84aaeba469b5e5396e91a37cc446f4f36579062ccbfae1144",
+      "vertices": 177
+    },
+    {
+      "fma": "FMA32647",
+      "name": "middle phalanx of left fourth toe",
+      "sha256": "b6d04017aa481fe8c4f5ee157ebe86c3afafa149bce8fb4640f52bfb87aff15e",
+      "vertices": 208
+    },
+    {
+      "fma": "FMA32652",
+      "name": "distal phalanx of right second toe",
+      "sha256": "feea53f76f226e7f3f3837e9f3ebf4402448e227f9c400c8d18579d82da2a4c7",
+      "vertices": 102
+    },
+    {
+      "fma": "FMA32653",
+      "name": "distal phalanx of left second toe",
+      "sha256": "62f58d8aa5b07b2b2c7e248cf00a6b0d8bb368c7c0ed94f9cefdfb1e449b629f",
+      "vertices": 162
+    },
+    {
+      "fma": "FMA32654",
+      "name": "distal phalanx of right third toe",
+      "sha256": "95120d858102e5d612f76c3eca99a134615e4e4f38b287fe6d43376d5d8442e0",
+      "vertices": 132
+    },
+    {
+      "fma": "FMA32655",
+      "name": "distal phalanx of left third toe",
+      "sha256": "a397fe2e29824e7688f16e98c5b84c79910b9b243f34b9d1bf4c534b69d33c3b",
+      "vertices": 132
+    },
+    {
+      "fma": "FMA32656",
+      "name": "distal phalanx of right fourth toe",
+      "sha256": "9e615bd9d415a4e2405c753a3383d48c6571ab66ac7acff3812bdb3eea36d7e7",
+      "vertices": 124
+    },
+    {
+      "fma": "FMA32657",
+      "name": "distal phalanx of left fourth toe",
+      "sha256": "adad6161a2b35cef60b2a9e380b9916c1130e8d5d56d3d512ee33462a42f35f1",
+      "vertices": 135
+    },
+    {
+      "fma": "FMA32658",
+      "name": "distal phalanx of right little toe",
+      "sha256": "007d228c7bcc6c2cf06d8806d93132571c0036afbd8c02d3b19c4419a30d7a87",
+      "vertices": 109
+    },
+    {
+      "fma": "FMA32659",
+      "name": "distal phalanx of left little toe",
+      "sha256": "fea03b86099528410efdf4bc72eba90601af86564afe71ed0a1f24873ff1d932",
+      "vertices": 144
+    },
+    {
+      "fma": "FMA43253",
+      "name": "proximal phalanx of right big toe",
+      "sha256": "a893cd68c72bf025e54a66b643a9c345fa3d8c91ba04e6a2b61d4cc6d40c888c",
+      "vertices": 212
+    },
+    {
+      "fma": "FMA43254",
+      "name": "proximal phalanx of left big toe",
+      "sha256": "15795ca53e4c9fefda25707f72f8eed224930fae7e526c8a9e46f5a6edb0b895",
+      "vertices": 238
+    },
+    {
+      "fma": "FMA52734",
+      "name": "frontal bone",
+      "sha256": "dd455c1252b2b240912900fc6aecd110f98ab737549fd2b3783c33db68e658d1",
+      "vertices": 3706
+    },
+    {
+      "fma": "FMA52735",
+      "name": "occipital bone",
+      "sha256": "5d83793483f514f6954ba27ed120984d7d25437d8e8fad2c9c1f164f8cf62f44",
+      "vertices": 3378
+    },
+    {
+      "fma": "FMA52736",
+      "name": "sphenoid bone",
+      "sha256": "dd806e7a764156e3e586b7f22aeb56549471da58d7f3e4b6edb9e1d2a31ed01c",
+      "vertices": 3322
+    },
+    {
+      "fma": "FMA52738",
+      "name": "right temporal bone",
+      "sha256": "d3df8957adfbfc59d4b82be33eaa068422fe4eb73e35fa37f3aff7afe00e0b68",
+      "vertices": 1661
+    },
+    {
+      "fma": "FMA52739",
+      "name": "left temporal bone",
+      "sha256": "af071c8188f3663aa0fdac4084981a9e68567c7a5086217263da76c0e986b39f",
+      "vertices": 1712
+    },
+    {
+      "fma": "FMA52740",
+      "name": "ethmoid",
+      "sha256": "26af5156db5ec0623639d6e2c3e18993849b96797f95f20b52733306ac245bb2",
+      "vertices": 2212
+    },
+    {
+      "fma": "FMA52748",
+      "name": "mandible",
+      "sha256": "9e4805e0a3553498e5fecdc5db12475bf58fef2264a8eb392fe42d5835ceb9b9",
+      "vertices": 1076
+    },
+    {
+      "fma": "FMA52749",
+      "name": "hyoid bone",
+      "sha256": "42a28441c2e784730603147c196a1f337917c0a28bac02e1598ce6442fa97bb0",
+      "vertices": 585
+    },
+    {
+      "fma": "FMA52788",
+      "name": "right parietal bone",
+      "sha256": "e6fdb5d395dcf65156e1317ce5ad6c376a7c1c0df1460df342c2f686b6c774cb",
+      "vertices": 3329
+    },
+    {
+      "fma": "FMA52789",
+      "name": "left parietal bone",
+      "sha256": "0e548ee045ad1fc54ad5cbbcb75b7eab3681120bba07595a810d83d54d1162b9",
+      "vertices": 3388
+    },
+    {
+      "fma": "FMA52892",
+      "name": "right zygomatic bone",
+      "sha256": "e57302455f4dafd42e1ebbd25a6af3d8979574eec5d829f7d3877caae2854018",
+      "vertices": 663
+    },
+    {
+      "fma": "FMA52893",
+      "name": "left zygomatic bone",
+      "sha256": "564471ddf4784dcdb17001ae9635441f0d9c10e69988f7a950921ab323a93195",
+      "vertices": 707
+    },
+    {
+      "fma": "FMA53645",
+      "name": "right lacrimal bone",
+      "sha256": "c1bd5a971c2246e77746ea7bdc6f41abdf0648886a3fc7fb74871b85f619a13b",
+      "vertices": 296
+    },
+    {
+      "fma": "FMA53646",
+      "name": "left lacrimal bone",
+      "sha256": "9ba4c69bf48347c69c08d58d3b96e8e3936f72280b909a6c306eb344ec766257",
+      "vertices": 361
+    },
+    {
+      "fma": "FMA53647",
+      "name": "right nasal bone",
+      "sha256": "8166989d81d2a849a3490c4d0202dd3973141e5fc417e4ff614f9fc5b34eafe7",
+      "vertices": 148
+    },
+    {
+      "fma": "FMA53648",
+      "name": "left nasal bone",
+      "sha256": "1322f08cf079bcd2a8ddc7a2409d522ee149c0b075e331abca19cb9a9c1cbe9f",
+      "vertices": 222
+    },
+    {
+      "fma": "FMA53649",
+      "name": "right maxilla",
+      "sha256": "1efbed60f33e8ea4f8554009ee08dadcd65deecd07e13adef416053f0a760c31",
+      "vertices": 2378
+    },
+    {
+      "fma": "FMA53650",
+      "name": "left maxilla",
+      "sha256": "1e1a4640be1f8856f2a0185869df19531e8fe6113c530290a6cbc7950fd57613",
+      "vertices": 2230
+    },
+    {
+      "fma": "FMA53655",
+      "name": "right palatine bone",
+      "sha256": "9d3509ea400f6034d613a87cfda1426b017213bc5cdc151e7ce974739d5631a4",
+      "vertices": 732
+    },
+    {
+      "fma": "FMA53656",
+      "name": "left palatine bone",
+      "sha256": "9465a50a48d67b62fc2849e341158cc5b12d1fd3541f9800bd762d662f73881b",
+      "vertices": 908
+    },
+    {
+      "fma": "FMA65470",
+      "name": "proximal phalanx of left thumb",
+      "sha256": "5f4d939773b8191115002c040bb21b369ceb3e1c9f82eb3b8692e5e184474524",
+      "vertices": 175
+    },
+    {
+      "fma": "FMA66791",
+      "name": "proximal phalanx of left little finger",
+      "sha256": "84be1563deec6562fbd55e8f47e8adc749dd084b174a8cb2c0d7be0ea6a4c5a5",
+      "vertices": 129
+    },
+    {
+      "fma": "FMA71908",
+      "name": "proximal phalanx of left middle finger",
+      "sha256": "05a9a4929036f666ea97e15bc724ff12c6eb5d19888c2ac088d48828a2d9ef36",
+      "vertices": 206
+    },
+    {
+      "fma": "FMA71915",
+      "name": "proximal phalanx of left index finger",
+      "sha256": "c3873ec20d4514117b438eb371d6a8565dcdcf0151a04eb3c39484bd5719e5a7",
+      "vertices": 176
+    },
+    {
+      "fma": "FMA71916",
+      "name": "proximal phalanx of left ring finger",
+      "sha256": "8f95b6bea0e35ecbdd8d9748a2ac4ea9f2e9e57d55f494bff4d25ba6226da6e4",
+      "vertices": 183
+    },
+    {
+      "fma": "FMA7486",
+      "name": "manubrium",
+      "sha256": "6a67b45d9060dce38d1604822997e15577796ba28b732045c0844c75c4e2eaac",
+      "vertices": 1333
+    },
+    {
+      "fma": "FMA7487",
+      "name": "body of sternum",
+      "sha256": "6c932f648a9f14b6e0403081a045aceca9492a6c3993c3346e46e8d6f655f734",
+      "vertices": 2229
+    },
+    {
+      "fma": "FMA7488",
+      "name": "xiphoid process",
+      "sha256": "9aa9cba903f1fbf5549e2aab44c444c81e9cced252a17acc81716593a62bed86",
+      "vertices": 459
+    },
+    {
+      "fma": "FMA7857",
+      "name": "right first rib",
+      "sha256": "b38d13834c334155a5fd0f531ad7cd7d6698b6404bf0c46f60376b13c5965d57",
+      "vertices": 1592
+    },
+    {
+      "fma": "FMA7875",
+      "name": "right first costal cartilage",
+      "sha256": "d059467a12e3740f784c6f37b49b31890f7dfcb2383b1a0d3e0992013a9e0715",
+      "vertices": 290
+    },
+    {
+      "fma": "FMA7882",
+      "name": "right second rib",
+      "sha256": "68a8910fab048eda765b212b12f2815ce817829e0c55a693cf18e09dbd965871",
+      "vertices": 2656
+    },
+    {
+      "fma": "FMA7886",
+      "name": "right second costal cartilage",
+      "sha256": "3a1ac3bae246395a2736147a9d0ced4da3daf3d1333e18be53592a9e7539a253",
+      "vertices": 286
+    },
+    {
+      "fma": "FMA7909",
+      "name": "right third rib",
+      "sha256": "6464176be71553c23a875f87249cc514f17c7f567e40a1cc380079715ecf9b98",
+      "vertices": 3459
+    },
+    {
+      "fma": "FMA7913",
+      "name": "right third costal cartilage",
+      "sha256": "53e179c6eaab786c3b10214ab04e67756ccd15043e513213aabe956cfbb84aad",
+      "vertices": 305
+    },
+    {
+      "fma": "FMA7957",
+      "name": "right fourth rib",
+      "sha256": "a9bb1e5ead8fe9da08f1ce996955815b72fcb03b3ed3701442d3f9d0b9a5c97b",
+      "vertices": 4314
+    },
+    {
+      "fma": "FMA7976",
+      "name": "right fourth costal cartilage",
+      "sha256": "ad093d1434fd80dc29997b0df3acd45cb681cd7b7c4e23d71908eda107892515",
+      "vertices": 406
+    },
+    {
+      "fma": "FMA7987",
+      "name": "left first rib",
+      "sha256": "37997f5a37cd6cf59174fd5ec4cae84eded8c4c5306b57704c5483580dd56404",
+      "vertices": 1734
+    },
+    {
+      "fma": "FMA8005",
+      "name": "left first costal cartilage",
+      "sha256": "6f368167cee4de8151b25b8d68fe59bffe8be94358d50f0aa0b8ff2a939d81ec",
+      "vertices": 249
+    },
+    {
+      "fma": "FMA8012",
+      "name": "left second rib",
+      "sha256": "b0c41dd5860e64ad07315ff788952aabd951ea7c0995ca4420dda321471f9b50",
+      "vertices": 2836
+    },
+    {
+      "fma": "FMA8031",
+      "name": "left second costal cartilage",
+      "sha256": "7ee4f5867a16e8ec449fa66fd9bb3e56f4cbe167412cb3b9e422063cfdbd44cf",
+      "vertices": 265
+    },
+    {
+      "fma": "FMA8039",
+      "name": "left third rib",
+      "sha256": "07b81189f6546234467040bff81a708214f6290e31e1cc7e23a8f5b0b0d49b04",
+      "vertices": 3498
+    },
+    {
+      "fma": "FMA8058",
+      "name": "left third costal cartilage",
+      "sha256": "fa9a3dad1b5d4829b30ea2b5b1093046330f660ccf104f8d4f7bd16b1c92e83d",
+      "vertices": 274
+    },
+    {
+      "fma": "FMA8066",
+      "name": "right fifth rib",
+      "sha256": "7adb5d2257031ea9c3c947c2367918a83c0ed71eadaa49b45acf2aad3c447626",
+      "vertices": 4666
+    },
+    {
+      "fma": "FMA8070",
+      "name": "right fifth costal cartilage",
+      "sha256": "b91e883a5da9696eb23e977515488242009417a8633152994bf5799b3797b9e2",
+      "vertices": 543
+    },
+    {
+      "fma": "FMA8093",
+      "name": "left fifth rib",
+      "sha256": "7eccf4121370da563511c2f40ac98a7ee5ce169ce5d5925d831473f6c0b248d7",
+      "vertices": 4659
+    },
+    {
+      "fma": "FMA8112",
+      "name": "left fifth costal cartilage",
+      "sha256": "23fe7ec5dc922d6ee2a7e9fe8918c594ad3e50e1012f5684a0d5c7e2f2a14343",
+      "vertices": 510
+    },
+    {
+      "fma": "FMA8148",
+      "name": "left fourth rib",
+      "sha256": "96e3e15a064647a4140c9c3c6951f3085a63e02458684e6926d7435f378420fd",
+      "vertices": 4250
+    },
+    {
+      "fma": "FMA8167",
+      "name": "left fourth costal cartilage",
+      "sha256": "36ecf96ab20d1e59bbd9deeff51fdb7d47d004d22369ebf312b9b81021df71ab",
+      "vertices": 362
+    },
+    {
+      "fma": "FMA8175",
+      "name": "right sixth rib",
+      "sha256": "a08425e7e2b339d8e52ca33088446ef9e4d211582fa25f91c369a035174a9397",
+      "vertices": 5002
+    },
+    {
+      "fma": "FMA8194",
+      "name": "right sixth costal cartilage",
+      "sha256": "e0773c5b041a6828cea569b8e3b37a039d98aa29f7791f42ad39c0f4b211736d",
+      "vertices": 682
+    },
+    {
+      "fma": "FMA8202",
+      "name": "left sixth rib",
+      "sha256": "ee3cd8585419dd368c111caf6a23e0d1c81d821f43755497986a4f84fe54305c",
+      "vertices": 4980
+    },
+    {
+      "fma": "FMA8221",
+      "name": "left sixth costal cartilage",
+      "sha256": "af1020c28e6d22b41c38c7cb1c1b88a5a1d799df5710b96c425b0e00f8782e98",
+      "vertices": 670
+    },
+    {
+      "fma": "FMA8229",
+      "name": "right seventh rib",
+      "sha256": "d2b8faf9d4abdbdcfb87f401603cf2deaad57dca47c613eda1ca0696b65c1d13",
+      "vertices": 4835
+    },
+    {
+      "fma": "FMA8248",
+      "name": "right seventh costal cartilage",
+      "sha256": "98403574f3a4823f747694f95d53e4286e79f6108058a49c52a225e5686044da",
+      "vertices": 1203
+    },
+    {
+      "fma": "FMA8256",
+      "name": "left seventh rib",
+      "sha256": "95ab412e816af036c9a028de6c1a2e9968330bf2e4d9d656c3d8423a0f3a2357",
+      "vertices": 4938
+    },
+    {
+      "fma": "FMA8275",
+      "name": "left seventh costal cartilage",
+      "sha256": "8dfbd7a02fd929df518d3ba696d7fd7f78560ee9a652107618e3bbac25f88fbf",
+      "vertices": 1111
+    },
+    {
+      "fma": "FMA8283",
+      "name": "right eighth rib",
+      "sha256": "ae9d037a487f398d01ff3b22f96162e829987ae7a917fdaef5851e10adc4d0b7",
+      "vertices": 4107
+    },
+    {
+      "fma": "FMA8310",
+      "name": "left eighth rib",
+      "sha256": "47e67b08cfe9ea5a4bc057a51ff9805a3fb2d6ac0861e4cc7f390caa0dbf23ba",
+      "vertices": 4162
+    },
+    {
+      "fma": "FMA8364",
+      "name": "right ninth rib",
+      "sha256": "0273c425168aece1bfc2fe936c092a70fd0227e8e542957481c9b0c4dd692848",
+      "vertices": 3842
+    },
+    {
+      "fma": "FMA8391",
+      "name": "left ninth rib",
+      "sha256": "435b702f799ec6ad826990412105fe167b730651a993b0c04aaf092468ddd240",
+      "vertices": 4037
+    },
+    {
+      "fma": "FMA8445",
+      "name": "right tenth rib",
+      "sha256": "fafbadd31519dc722c07846b20852ade278230bb1d2fe8e7dfb63df990ba007c",
+      "vertices": 3476
+    },
+    {
+      "fma": "FMA8472",
+      "name": "left tenth rib",
+      "sha256": "3bf9fd4b86e276f8c13b7e57a599ef653fa07aa864211c226919c50683fbe3bc",
+      "vertices": 3560
+    },
+    {
+      "fma": "FMA8531",
+      "name": "right eleventh rib",
+      "sha256": "b61bc1bc2623b14cd3ab0a14cade7089fcdbd83b692476ea397737c5977073b0",
+      "vertices": 2514
+    },
+    {
+      "fma": "FMA8532",
+      "name": "left eleventh rib",
+      "sha256": "618da3bd847af0ead77803ff652fd29ec1c3782f842bfc68bdd0293ff77bfb8d",
+      "vertices": 2559
+    },
+    {
+      "fma": "FMA8533",
+      "name": "right twelfth rib",
+      "sha256": "546e9b51a4d5eeb402121b9673999296e2f6d7d3402b2d8fa745ad7d8e9b619a",
+      "vertices": 1487
+    },
+    {
+      "fma": "FMA8534",
+      "name": "left twelfth rib",
+      "sha256": "024682d9a5cbb576338934dc0db311779defe0e96e1952d863126eb05928b7f6",
+      "vertices": 339
+    },
+    {
+      "fma": "FMA9165",
+      "name": "first thoracic vertebra",
+      "sha256": "f11188e2e557fea57d4b15e0c68f993efc4037c8cbbd09cec62f0834982c3a0e",
+      "vertices": 853
+    },
+    {
+      "fma": "FMA9187",
+      "name": "second thoracic vertebra",
+      "sha256": "1a57b3371a8b1125f5610589980c631c6df1836e5080b932395d6b79f8c81939",
+      "vertices": 895
+    },
+    {
+      "fma": "FMA9209",
+      "name": "third thoracic vertebra",
+      "sha256": "a13c7200b0e502cfa6cfc85827744bbbb5405cac9b531c3a56f4ecf8228e317b",
+      "vertices": 1015
+    },
+    {
+      "fma": "FMA9248",
+      "name": "fourth thoracic vertebra",
+      "sha256": "ea8275509484a6afb39d64351d0fe3c3ac6c39a6c7765667c29fd00b022aa2db",
+      "vertices": 946
+    },
+    {
+      "fma": "FMA9710",
+      "name": "vomer",
+      "sha256": "2937ec1a9c2721a36d80cfd203785b1539917eda2588daacebf8d7084d7923d4",
+      "vertices": 402
+    },
+    {
+      "fma": "FMA9922",
+      "name": "fifth thoracic vertebra",
+      "sha256": "f99342cc5f6b8a0d978fa8c45e7f1eab1e0a574b86fe1a95d7a3aeebc1cd20a6",
+      "vertices": 1041
+    },
+    {
+      "fma": "FMA9945",
+      "name": "sixth thoracic vertebra",
+      "sha256": "18d47e05c29954fd25e421ab6a8e0b4254e7d0d90eba13d04801628a3ce5d4c2",
+      "vertices": 794
+    },
+    {
+      "fma": "FMA9968",
+      "name": "seventh thoracic vertebra",
+      "sha256": "d8ebe7b9bf2ce43d450f01a85c22b9c7269f5b1023b39f4f046b0a74c0513435",
+      "vertices": 1150
+    },
+    {
+      "fma": "FMA9991",
+      "name": "eighth thoracic vertebra",
+      "sha256": "ba693479c99aa60826d15c518fa79c66484b5298630ade6aae5290b065d6bb0e",
+      "vertices": 711
+    }
+  ],
+  "unsupported": [
+    {
+      "id": "art-sacrococcygea",
+      "latin": "Articulatio sacrococcygea",
+      "missing": [
+        [
+          "sacrum",
+          "coccyx"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-joints-junctura-fibrosa-1",
+      "latin": "Junctura fibrosa",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-sutura-serrata-2",
+      "latin": "Sutura serrata",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-sutura-plana-4",
+      "latin": "Sutura plana",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-schindylesis-5",
+      "latin": "Schindylesis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-gomphosis-6",
+      "latin": "Gomphosis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-junctura-cartilaginea-7",
+      "latin": "Junctura cartilaginea",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-synchondrosis-8",
+      "latin": "Synchondrosis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-symphysis-9",
+      "latin": "Symphysis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-synovialis-10",
+      "latin": "Articulatio synovialis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-plana-11",
+      "latin": "Articulatio plana",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-ginglymus-12",
+      "latin": "Ginglymus",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-trochoidea-13",
+      "latin": "Articulatio trochoidea",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-ellipsoidea-14",
+      "latin": "Articulatio ellipsoidea",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-sellaris-15",
+      "latin": "Articulatio sellaris",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-spheroidea-16",
+      "latin": "Articulatio spheroidea",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-bicondylaris-17",
+      "latin": "Articulatio bicondylaris",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-fonticulus-anterior-13",
+      "latin": "Fonticulus anterior",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-fonticulus-posterior-14",
+      "latin": "Fonticulus posterior",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-ligamentum-transversum-atlantis-2",
+      "latin": "Ligamentum transversum atlantis",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-ligamenta-alaria-3",
+      "latin": "Ligamenta alaria",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-membrana-tectoria-4",
+      "latin": "Membrana tectoria",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-scapulothoracica-functionalis-dexter-4",
+      "latin": "Articulatio scapulothoracica functionalis dextra",
+      "missing": []
+    },
+    {
+      "id": "atlas-joints-articulatio-scapulothoracica-functionalis-sinister-4",
+      "latin": "Articulatio scapulothoracica functionalis sinistra",
+      "missing": []
+    }
+  ]
+}

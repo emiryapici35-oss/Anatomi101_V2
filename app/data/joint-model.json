@@ -1,0 +1,6066 @@
+{
+  "coverage": {
+    "catalog": 284,
+    "mapped": 260,
+    "markers": 397,
+    "context": 232
+  },
+  "mappings": {
+    "art-temporomandibularis": [
+      {
+        "name": "joint_art-temporomandibularis_0",
+        "position": [
+          -0.03554,
+          1.5129,
+          0.10301
+        ],
+        "bones": [
+          "FMA52748",
+          "FMA52738"
+        ],
+        "distance": 0.00037,
+        "region": "head"
+      },
+      {
+        "name": "joint_art-temporomandibularis_1",
+        "position": [
+          0.03383,
+          1.51301,
+          0.10383
+        ],
+        "bones": [
+          "FMA52748",
+          "FMA52739"
+        ],
+        "distance": 0.00026,
+        "region": "head"
+      }
+    ],
+    "art-atlantooccipitalis": [
+      {
+        "name": "joint_art-atlantooccipitalis_0",
+        "position": [
+          -0.01855,
+          1.48821,
+          0.07517
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA52735"
+        ],
+        "distance": 0.00123,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-atlantooccipitalis_1",
+        "position": [
+          0.01745,
+          1.488,
+          0.07589
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA52735"
+        ],
+        "distance": 0.00157,
+        "region": "spine"
+      }
+    ],
+    "art-atlantoaxialis": [
+      {
+        "name": "joint_art-atlantoaxialis_0",
+        "position": [
+          -0.00114,
+          1.47774,
+          0.09531
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00059,
+        "region": "spine"
+      }
+    ],
+    "art-intervertebrales": [
+      {
+        "name": "joint_art-intervertebrales_0",
+        "position": [
+          -0.00083,
+          1.44216,
+          0.09011
+        ],
+        "bones": [
+          "FMA13896"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_1",
+        "position": [
+          -0.00084,
+          1.42597,
+          0.08963
+        ],
+        "bones": [
+          "FMA13897"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_2",
+        "position": [
+          -0.00193,
+          1.41054,
+          0.08779
+        ],
+        "bones": [
+          "FMA13898"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_3",
+        "position": [
+          -0.00143,
+          1.39651,
+          0.08365
+        ],
+        "bones": [
+          "FMA13899"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_4",
+        "position": [
+          -0.00201,
+          1.38326,
+          0.079
+        ],
+        "bones": [
+          "FMA13900"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_5",
+        "position": [
+          -0.00184,
+          1.36652,
+          0.0729
+        ],
+        "bones": [
+          "FMA10458"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_6",
+        "position": [
+          -0.00195,
+          1.34699,
+          0.06604
+        ],
+        "bones": [
+          "FMA13495"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_7",
+        "position": [
+          -0.00193,
+          1.3269,
+          0.05812
+        ],
+        "bones": [
+          "FMA13500"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_8",
+        "position": [
+          -0.00178,
+          1.30477,
+          0.05191
+        ],
+        "bones": [
+          "FMA13501"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_9",
+        "position": [
+          -0.00175,
+          1.28,
+          0.04965
+        ],
+        "bones": [
+          "FMA13502"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_10",
+        "position": [
+          -0.00173,
+          1.25417,
+          0.04857
+        ],
+        "bones": [
+          "FMA13503"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_11",
+        "position": [
+          -0.00182,
+          1.22675,
+          0.05117
+        ],
+        "bones": [
+          "FMA13504"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_12",
+        "position": [
+          -0.00186,
+          1.20066,
+          0.05538
+        ],
+        "bones": [
+          "FMA13505"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_13",
+        "position": [
+          -0.00074,
+          1.17247,
+          0.0605
+        ],
+        "bones": [
+          "FMA13506"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_14",
+        "position": [
+          -0.00092,
+          1.14484,
+          0.06842
+        ],
+        "bones": [
+          "FMA13507"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_15",
+        "position": [
+          -0.00114,
+          1.11492,
+          0.07684
+        ],
+        "bones": [
+          "FMA13508"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_16",
+        "position": [
+          -0.00061,
+          1.08336,
+          0.08522
+        ],
+        "bones": [
+          "FMA13509"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_17",
+        "position": [
+          -0.00056,
+          1.05237,
+          0.09323
+        ],
+        "bones": [
+          "FMA16033"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_18",
+        "position": [
+          -0.00034,
+          1.01947,
+          0.09727
+        ],
+        "bones": [
+          "FMA16034"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_19",
+        "position": [
+          -0.00056,
+          0.98422,
+          0.09757
+        ],
+        "bones": [
+          "FMA16035"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_20",
+        "position": [
+          -0.00006,
+          0.95144,
+          0.09254
+        ],
+        "bones": [
+          "FMA16036"
+        ],
+        "distance": 0,
+        "region": "spine"
+      },
+      {
+        "name": "joint_art-intervertebrales_21",
+        "position": [
+          0.00083,
+          0.91837,
+          0.0831
+        ],
+        "bones": [
+          "FMA16037"
+        ],
+        "distance": 0,
+        "region": "spine"
+      }
+    ],
+    "art-sternoclavicularis": [
+      {
+        "name": "joint_art-sternoclavicularis_0",
+        "position": [
+          -0.01488,
+          1.33294,
+          0.13245
+        ],
+        "bones": [
+          "FMA13322",
+          "FMA7486"
+        ],
+        "distance": 0.00007,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-sternoclavicularis_1",
+        "position": [
+          0.02353,
+          1.33819,
+          0.14342
+        ],
+        "bones": [
+          "FMA13323",
+          "FMA7486"
+        ],
+        "distance": 0.00023,
+        "region": "upper"
+      }
+    ],
+    "art-acromioclavicularis": [
+      {
+        "name": "joint_art-acromioclavicularis_0",
+        "position": [
+          -0.14545,
+          1.35493,
+          0.05767
+        ],
+        "bones": [
+          "FMA13322",
+          "FMA13395"
+        ],
+        "distance": 0.00031,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-acromioclavicularis_1",
+        "position": [
+          0.144,
+          1.35483,
+          0.05809
+        ],
+        "bones": [
+          "FMA13323",
+          "FMA13396"
+        ],
+        "distance": 0.0003,
+        "region": "upper"
+      }
+    ],
+    "art-humeri": [
+      {
+        "name": "joint_art-humeri_0",
+        "position": [
+          -0.14653,
+          1.30895,
+          0.06409
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA13395"
+        ],
+        "distance": 0.00099,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-humeri_1",
+        "position": [
+          0.14463,
+          1.30925,
+          0.06463
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA13396"
+        ],
+        "distance": 0.001,
+        "region": "upper"
+      }
+    ],
+    "art-cubiti": [
+      {
+        "name": "joint_art-cubiti_0",
+        "position": [
+          -0.21251,
+          1.06074,
+          0.05826
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA23467"
+        ],
+        "distance": 0.00054,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-cubiti_1",
+        "position": [
+          -0.22132,
+          1.04494,
+          0.06575
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA23464"
+        ],
+        "distance": 0.00439,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-cubiti_2",
+        "position": [
+          0.21108,
+          1.06064,
+          0.05833
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA23468"
+        ],
+        "distance": 0.00082,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-cubiti_3",
+        "position": [
+          0.22055,
+          1.04501,
+          0.06415
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA23465"
+        ],
+        "distance": 0.0043,
+        "region": "upper"
+      }
+    ],
+    "art-radiocarpalis": [
+      {
+        "name": "joint_art-radiocarpalis_0",
+        "position": [
+          -0.26351,
+          0.8178,
+          0.10867
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA24435"
+        ],
+        "distance": 0.00122,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-radiocarpalis_1",
+        "position": [
+          -0.25085,
+          0.81889,
+          0.10982
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA24437"
+        ],
+        "distance": 0.00442,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-radiocarpalis_2",
+        "position": [
+          0.26326,
+          0.81795,
+          0.10876
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA24436"
+        ],
+        "distance": 0.00132,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-radiocarpalis_3",
+        "position": [
+          0.24941,
+          0.82032,
+          0.11129
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA24438"
+        ],
+        "distance": 0.00473,
+        "region": "upper"
+      }
+    ],
+    "art-metacarpophalangeae": [
+      {
+        "name": "joint_art-metacarpophalangeae_0",
+        "position": [
+          -0.30507,
+          0.77588,
+          0.14906
+        ],
+        "bones": [
+          "FMA24464",
+          "FMA24450"
+        ],
+        "distance": 0.00048,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_1",
+        "position": [
+          -0.28402,
+          0.73136,
+          0.13776
+        ],
+        "bones": [
+          "FMA24466",
+          "FMA24451"
+        ],
+        "distance": 0.00033,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_2",
+        "position": [
+          -0.27115,
+          0.73421,
+          0.13675
+        ],
+        "bones": [
+          "FMA24468",
+          "FMA24452"
+        ],
+        "distance": 0.00086,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_3",
+        "position": [
+          -0.25211,
+          0.73926,
+          0.1376
+        ],
+        "bones": [
+          "FMA24470",
+          "FMA24453"
+        ],
+        "distance": 0.00111,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_4",
+        "position": [
+          -0.22845,
+          0.74627,
+          0.14057
+        ],
+        "bones": [
+          "FMA24472",
+          "FMA24454"
+        ],
+        "distance": 0.00048,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_5",
+        "position": [
+          0.30297,
+          0.77551,
+          0.14883
+        ],
+        "bones": [
+          "FMA24465",
+          "FMA65470"
+        ],
+        "distance": 0.00023,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_6",
+        "position": [
+          0.28133,
+          0.72892,
+          0.13299
+        ],
+        "bones": [
+          "FMA24467",
+          "FMA71915"
+        ],
+        "distance": 0.00075,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_7",
+        "position": [
+          0.26295,
+          0.73119,
+          0.13519
+        ],
+        "bones": [
+          "FMA24469",
+          "FMA71908"
+        ],
+        "distance": 0.00051,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_8",
+        "position": [
+          0.24156,
+          0.73644,
+          0.13498
+        ],
+        "bones": [
+          "FMA24471",
+          "FMA71916"
+        ],
+        "distance": 0.00061,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-metacarpophalangeae_9",
+        "position": [
+          0.22512,
+          0.7448,
+          0.13707
+        ],
+        "bones": [
+          "FMA24473",
+          "FMA66791"
+        ],
+        "distance": 0.0006,
+        "region": "upper"
+      }
+    ],
+    "art-interphalangeae-manus": [
+      {
+        "name": "joint_art-interphalangeae-manus_0",
+        "position": [
+          -0.29904,
+          0.69723,
+          0.14838
+        ],
+        "bones": [
+          "FMA24451",
+          "FMA24455"
+        ],
+        "distance": 0.00037,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_1",
+        "position": [
+          -0.26994,
+          0.69462,
+          0.15614
+        ],
+        "bones": [
+          "FMA24452",
+          "FMA24456"
+        ],
+        "distance": 0.00051,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_2",
+        "position": [
+          -0.25157,
+          0.7001,
+          0.1543
+        ],
+        "bones": [
+          "FMA24453",
+          "FMA24457"
+        ],
+        "distance": 0.00042,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_3",
+        "position": [
+          -0.22555,
+          0.7142,
+          0.15176
+        ],
+        "bones": [
+          "FMA24454",
+          "FMA24458"
+        ],
+        "distance": 0.00062,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_4",
+        "position": [
+          -0.30976,
+          0.68459,
+          0.16785
+        ],
+        "bones": [
+          "FMA24455",
+          "FMA24460"
+        ],
+        "distance": 0.0005,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_5",
+        "position": [
+          -0.27406,
+          0.67234,
+          0.17505
+        ],
+        "bones": [
+          "FMA24456",
+          "FMA24461"
+        ],
+        "distance": 0.00069,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_6",
+        "position": [
+          -0.25177,
+          0.68029,
+          0.1749
+        ],
+        "bones": [
+          "FMA24457",
+          "FMA24462"
+        ],
+        "distance": 0.00035,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_7",
+        "position": [
+          -0.22003,
+          0.69879,
+          0.16764
+        ],
+        "bones": [
+          "FMA24458",
+          "FMA24463"
+        ],
+        "distance": 0.00056,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_8",
+        "position": [
+          0.29563,
+          0.696,
+          0.15024
+        ],
+        "bones": [
+          "FMA71915",
+          "FMA23938"
+        ],
+        "distance": 0.00025,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_9",
+        "position": [
+          0.27521,
+          0.69579,
+          0.15855
+        ],
+        "bones": [
+          "FMA71908",
+          "FMA23940"
+        ],
+        "distance": 0.00052,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_10",
+        "position": [
+          0.25094,
+          0.70019,
+          0.15422
+        ],
+        "bones": [
+          "FMA71916",
+          "FMA23942"
+        ],
+        "distance": 0.0003,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_11",
+        "position": [
+          0.22497,
+          0.71556,
+          0.15504
+        ],
+        "bones": [
+          "FMA66791",
+          "FMA23944"
+        ],
+        "distance": 0.00049,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_12",
+        "position": [
+          0.30768,
+          0.68549,
+          0.16853
+        ],
+        "bones": [
+          "FMA23938",
+          "FMA23953"
+        ],
+        "distance": 0.00033,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_13",
+        "position": [
+          0.27153,
+          0.67322,
+          0.17666
+        ],
+        "bones": [
+          "FMA23940",
+          "FMA23955"
+        ],
+        "distance": 0.00049,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_14",
+        "position": [
+          0.24563,
+          0.68133,
+          0.17625
+        ],
+        "bones": [
+          "FMA23942",
+          "FMA23957"
+        ],
+        "distance": 0.00047,
+        "region": "upper"
+      },
+      {
+        "name": "joint_art-interphalangeae-manus_15",
+        "position": [
+          0.21882,
+          0.69866,
+          0.1672
+        ],
+        "bones": [
+          "FMA23944",
+          "FMA23959"
+        ],
+        "distance": 0.00034,
+        "region": "upper"
+      }
+    ],
+    "art-sacrioiliaca": [
+      {
+        "name": "joint_art-sacrioiliaca_0",
+        "position": [
+          -0.04444,
+          0.87546,
+          0.05383
+        ],
+        "bones": [
+          "FMA16202",
+          "FMA16586"
+        ],
+        "distance": 0.00057,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-sacrioiliaca_1",
+        "position": [
+          0.04714,
+          0.89319,
+          0.05119
+        ],
+        "bones": [
+          "FMA16202",
+          "FMA16587"
+        ],
+        "distance": 0.00086,
+        "region": "lower"
+      }
+    ],
+    "art-coxae": [
+      {
+        "name": "joint_art-coxae_0",
+        "position": [
+          -0.07276,
+          0.81945,
+          0.07067
+        ],
+        "bones": [
+          "FMA16586",
+          "FMA24474"
+        ],
+        "distance": 0.00174,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-coxae_1",
+        "position": [
+          0.07224,
+          0.81938,
+          0.07079
+        ],
+        "bones": [
+          "FMA16587",
+          "FMA24475"
+        ],
+        "distance": 0.00068,
+        "region": "lower"
+      }
+    ],
+    "art-genus": [
+      {
+        "name": "joint_art-genus_0",
+        "position": [
+          -0.06177,
+          0.40501,
+          0.07811
+        ],
+        "bones": [
+          "FMA24474",
+          "FMA24477"
+        ],
+        "distance": 0.00183,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-genus_1",
+        "position": [
+          -0.0777,
+          0.43396,
+          0.09911
+        ],
+        "bones": [
+          "FMA24474",
+          "FMA24486"
+        ],
+        "distance": 0.00361,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-genus_2",
+        "position": [
+          0.05747,
+          0.40398,
+          0.07688
+        ],
+        "bones": [
+          "FMA24475",
+          "FMA24478"
+        ],
+        "distance": 0.00119,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-genus_3",
+        "position": [
+          0.07866,
+          0.42796,
+          0.09809
+        ],
+        "bones": [
+          "FMA24475",
+          "FMA24487"
+        ],
+        "distance": 0.0032,
+        "region": "lower"
+      }
+    ],
+    "art-tibiofibularis": [
+      {
+        "name": "joint_art-tibiofibularis_0",
+        "position": [
+          -0.11221,
+          0.39143,
+          0.05397
+        ],
+        "bones": [
+          "FMA24477",
+          "FMA24480"
+        ],
+        "distance": 0.00141,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tibiofibularis_1",
+        "position": [
+          0.10053,
+          0.382,
+          0.05605
+        ],
+        "bones": [
+          "FMA24478",
+          "FMA24481"
+        ],
+        "distance": 0.00076,
+        "region": "lower"
+      }
+    ],
+    "art-talocruralis": [
+      {
+        "name": "joint_art-talocruralis_0",
+        "position": [
+          -0.06449,
+          0.06848,
+          0.06905
+        ],
+        "bones": [
+          "FMA24477",
+          "FMA24482"
+        ],
+        "distance": 0.00154,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-talocruralis_1",
+        "position": [
+          -0.0949,
+          0.05221,
+          0.05268
+        ],
+        "bones": [
+          "FMA24480",
+          "FMA24482"
+        ],
+        "distance": 0.00271,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-talocruralis_2",
+        "position": [
+          0.0841,
+          0.06702,
+          0.04653
+        ],
+        "bones": [
+          "FMA24478",
+          "FMA24483"
+        ],
+        "distance": 0.00108,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-talocruralis_3",
+        "position": [
+          0.09472,
+          0.05025,
+          0.05329
+        ],
+        "bones": [
+          "FMA24481",
+          "FMA24483"
+        ],
+        "distance": 0.0023,
+        "region": "lower"
+      }
+    ],
+    "art-subtalaris": [
+      {
+        "name": "joint_art-subtalaris_0",
+        "position": [
+          -0.07685,
+          0.04084,
+          0.06666
+        ],
+        "bones": [
+          "FMA24482",
+          "FMA24497"
+        ],
+        "distance": 0.00059,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-subtalaris_1",
+        "position": [
+          0.09248,
+          0.03526,
+          0.05485
+        ],
+        "bones": [
+          "FMA24483",
+          "FMA24498"
+        ],
+        "distance": 0.00038,
+        "region": "lower"
+      }
+    ],
+    "art-tarsometatarsales": [
+      {
+        "name": "joint_art-tarsometatarsales_0",
+        "position": [
+          -0.06625,
+          0.03403,
+          0.12374
+        ],
+        "bones": [
+          "FMA24521",
+          "FMA24507"
+        ],
+        "distance": 0.00026,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_1",
+        "position": [
+          -0.08941,
+          0.04743,
+          0.11853
+        ],
+        "bones": [
+          "FMA24523",
+          "FMA24509"
+        ],
+        "distance": 0.00038,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_2",
+        "position": [
+          -0.1057,
+          0.03816,
+          0.11311
+        ],
+        "bones": [
+          "FMA24525",
+          "FMA24511"
+        ],
+        "distance": 0.00064,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_3",
+        "position": [
+          -0.0961,
+          0.0227,
+          0.10837
+        ],
+        "bones": [
+          "FMA24528",
+          "FMA24513"
+        ],
+        "distance": 0.00028,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_4",
+        "position": [
+          -0.11182,
+          0.01745,
+          0.08802
+        ],
+        "bones": [
+          "FMA24528",
+          "FMA24515"
+        ],
+        "distance": 0.00081,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_5",
+        "position": [
+          0.06486,
+          0.03424,
+          0.12378
+        ],
+        "bones": [
+          "FMA24522",
+          "FMA24508"
+        ],
+        "distance": 0.00016,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_6",
+        "position": [
+          0.09323,
+          0.04575,
+          0.11467
+        ],
+        "bones": [
+          "FMA24524",
+          "FMA24510"
+        ],
+        "distance": 0.00036,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_7",
+        "position": [
+          0.10423,
+          0.03648,
+          0.1121
+        ],
+        "bones": [
+          "FMA24526",
+          "FMA24512"
+        ],
+        "distance": 0.00053,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_8",
+        "position": [
+          0.10445,
+          0.0333,
+          0.10683
+        ],
+        "bones": [
+          "FMA24529",
+          "FMA24514"
+        ],
+        "distance": 0.00024,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-tarsometatarsales_9",
+        "position": [
+          0.11089,
+          0.01986,
+          0.0936
+        ],
+        "bones": [
+          "FMA24529",
+          "FMA24516"
+        ],
+        "distance": 0.00054,
+        "region": "lower"
+      }
+    ],
+    "art-interphalangeae-pedis": [
+      {
+        "name": "joint_art-interphalangeae-pedis_0",
+        "position": [
+          -0.10469,
+          0.00279,
+          0.20466
+        ],
+        "bones": [
+          "FMA32634",
+          "FMA32642"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_1",
+        "position": [
+          -0.11781,
+          0.00421,
+          0.19988
+        ],
+        "bones": [
+          "FMA32636",
+          "FMA32644"
+        ],
+        "distance": 0.00039,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_2",
+        "position": [
+          -0.13206,
+          -0.00201,
+          0.18746
+        ],
+        "bones": [
+          "FMA32638",
+          "FMA32646"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_3",
+        "position": [
+          -0.13793,
+          0.00094,
+          0.17693
+        ],
+        "bones": [
+          "FMA32640",
+          "FMA230986"
+        ],
+        "distance": 0.00019,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_4",
+        "position": [
+          -0.10767,
+          0.00001,
+          0.21796
+        ],
+        "bones": [
+          "FMA32642",
+          "FMA32652"
+        ],
+        "distance": 0.00052,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_5",
+        "position": [
+          -0.11678,
+          -0.00004,
+          0.21477
+        ],
+        "bones": [
+          "FMA32644",
+          "FMA32654"
+        ],
+        "distance": 0.00041,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_6",
+        "position": [
+          -0.13519,
+          -0.00017,
+          0.19861
+        ],
+        "bones": [
+          "FMA32646",
+          "FMA32656"
+        ],
+        "distance": 0.00012,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_7",
+        "position": [
+          -0.14479,
+          -0.00061,
+          0.18118
+        ],
+        "bones": [
+          "FMA230986",
+          "FMA32658"
+        ],
+        "distance": 0.0004,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_8",
+        "position": [
+          0.09527,
+          0.00204,
+          0.20536
+        ],
+        "bones": [
+          "FMA32635",
+          "FMA32643"
+        ],
+        "distance": 0.00032,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_9",
+        "position": [
+          0.11097,
+          0.00017,
+          0.20046
+        ],
+        "bones": [
+          "FMA32637",
+          "FMA32645"
+        ],
+        "distance": 0.00051,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_10",
+        "position": [
+          0.13055,
+          -0.00238,
+          0.1874
+        ],
+        "bones": [
+          "FMA32639",
+          "FMA32647"
+        ],
+        "distance": 0.00026,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_11",
+        "position": [
+          0.13974,
+          -0.00239,
+          0.17525
+        ],
+        "bones": [
+          "FMA32641",
+          "FMA230988"
+        ],
+        "distance": 0.00023,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_12",
+        "position": [
+          0.10106,
+          0.00286,
+          0.2198
+        ],
+        "bones": [
+          "FMA32643",
+          "FMA32653"
+        ],
+        "distance": 0.00044,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_13",
+        "position": [
+          0.12017,
+          0.00091,
+          0.21356
+        ],
+        "bones": [
+          "FMA32645",
+          "FMA32655"
+        ],
+        "distance": 0.00035,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_14",
+        "position": [
+          0.13386,
+          0.00055,
+          0.19863
+        ],
+        "bones": [
+          "FMA32647",
+          "FMA32657"
+        ],
+        "distance": 0.00025,
+        "region": "lower"
+      },
+      {
+        "name": "joint_art-interphalangeae-pedis_15",
+        "position": [
+          0.14363,
+          -0.00105,
+          0.18104
+        ],
+        "bones": [
+          "FMA230988",
+          "FMA32659"
+        ],
+        "distance": 0.00023,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-sutura-squamosa-3": [
+      {
+        "name": "joint_atlas-joints-sutura-squamosa-3_0",
+        "position": [
+          -0.06498,
+          1.53564,
+          0.07636
+        ],
+        "bones": [
+          "FMA52738",
+          "FMA52788"
+        ],
+        "distance": 0.00015,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-squamosa-3_1",
+        "position": [
+          0.06332,
+          1.53554,
+          0.0771
+        ],
+        "bones": [
+          "FMA52739",
+          "FMA52789"
+        ],
+        "distance": 0.00013,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-coronalis-1": [
+      {
+        "name": "joint_atlas-joints-sutura-coronalis-1_0",
+        "position": [
+          -0.04499,
+          1.61099,
+          0.12543
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA52788"
+        ],
+        "distance": 0.00002,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-coronalis-1_1",
+        "position": [
+          0.04795,
+          1.60221,
+          0.12499
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA52789"
+        ],
+        "distance": 0.00009,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-sagittalis-2": [
+      {
+        "name": "joint_atlas-joints-sutura-sagittalis-2_0",
+        "position": [
+          0.00077,
+          1.63383,
+          0.06293
+        ],
+        "bones": [
+          "FMA52788",
+          "FMA52789"
+        ],
+        "distance": 0.00006,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-lambdoidea-3": [
+      {
+        "name": "joint_atlas-joints-sutura-lambdoidea-3_0",
+        "position": [
+          -0.02151,
+          1.57143,
+          0.00183
+        ],
+        "bones": [
+          "FMA52735",
+          "FMA52788"
+        ],
+        "distance": 0.00007,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-lambdoidea-3_1",
+        "position": [
+          0.04381,
+          1.55389,
+          0.01636
+        ],
+        "bones": [
+          "FMA52735",
+          "FMA52789"
+        ],
+        "distance": 0.00002,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-frontonasalis-5": [
+      {
+        "name": "joint_atlas-joints-sutura-frontonasalis-5_0",
+        "position": [
+          -0.00536,
+          1.53897,
+          0.17704
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA53647"
+        ],
+        "distance": 0.00009,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-frontonasalis-5_1",
+        "position": [
+          0.00077,
+          1.54062,
+          0.17445
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA53648"
+        ],
+        "distance": 0.00013,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-internasalis-6": [
+      {
+        "name": "joint_atlas-joints-sutura-internasalis-6_0",
+        "position": [
+          -0.00209,
+          1.52899,
+          0.18595
+        ],
+        "bones": [
+          "FMA53647",
+          "FMA53648"
+        ],
+        "distance": 0.00009,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-nasomaxillaris-7": [
+      {
+        "name": "joint_atlas-joints-sutura-nasomaxillaris-7_0",
+        "position": [
+          -0.00453,
+          1.53746,
+          0.17608
+        ],
+        "bones": [
+          "FMA53647",
+          "FMA53649"
+        ],
+        "distance": 0.00015,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-nasomaxillaris-7_1",
+        "position": [
+          0.00432,
+          1.51773,
+          0.18384
+        ],
+        "bones": [
+          "FMA53648",
+          "FMA53650"
+        ],
+        "distance": 0.00017,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-frontomaxillaris-8": [
+      {
+        "name": "joint_atlas-joints-sutura-frontomaxillaris-8_0",
+        "position": [
+          -0.00256,
+          1.53527,
+          0.17292
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA53649"
+        ],
+        "distance": 0.00008,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-frontomaxillaris-8_1",
+        "position": [
+          0.00831,
+          1.53483,
+          0.16891
+        ],
+        "bones": [
+          "FMA52734",
+          "FMA53650"
+        ],
+        "distance": 0.00003,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-zygomaticomaxillaris-9": [
+      {
+        "name": "joint_atlas-joints-sutura-zygomaticomaxillaris-9_0",
+        "position": [
+          -0.04102,
+          1.49524,
+          0.15929
+        ],
+        "bones": [
+          "FMA52892",
+          "FMA53649"
+        ],
+        "distance": 0.00014,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-zygomaticomaxillaris-9_1",
+        "position": [
+          0.03766,
+          1.50004,
+          0.16241
+        ],
+        "bones": [
+          "FMA52893",
+          "FMA53650"
+        ],
+        "distance": 0.00007,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-temporozygomatica-10": [
+      {
+        "name": "joint_atlas-joints-sutura-temporozygomatica-10_0",
+        "position": [
+          -0.05759,
+          1.50821,
+          0.13001
+        ],
+        "bones": [
+          "FMA52738",
+          "FMA52892"
+        ],
+        "distance": 0.00024,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-temporozygomatica-10_1",
+        "position": [
+          0.05614,
+          1.50798,
+          0.12993
+        ],
+        "bones": [
+          "FMA52739",
+          "FMA52893"
+        ],
+        "distance": 0.0003,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-palatina-mediana-11": [
+      {
+        "name": "joint_atlas-joints-sutura-palatina-mediana-11_0",
+        "position": [
+          -0.00246,
+          1.48739,
+          0.13579
+        ],
+        "bones": [
+          "FMA53655",
+          "FMA53656"
+        ],
+        "distance": 0.00022,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-sutura-palatina-transversa-12": [
+      {
+        "name": "joint_atlas-joints-sutura-palatina-transversa-12_0",
+        "position": [
+          -0.01695,
+          1.51798,
+          0.13998
+        ],
+        "bones": [
+          "FMA53655",
+          "FMA53649"
+        ],
+        "distance": 0.00004,
+        "region": "head"
+      },
+      {
+        "name": "joint_atlas-joints-sutura-palatina-transversa-12_1",
+        "position": [
+          0.01391,
+          1.50859,
+          0.13757
+        ],
+        "bones": [
+          "FMA53656",
+          "FMA53650"
+        ],
+        "distance": 0.00007,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-articulatio-temporomandibularis-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-temporomandibularis-dexter-1_0",
+        "position": [
+          -0.03554,
+          1.5129,
+          0.10301
+        ],
+        "bones": [
+          "FMA52748",
+          "FMA52738"
+        ],
+        "distance": 0.00037,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-articulatio-temporomandibularis-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-temporomandibularis-sinister-1_0",
+        "position": [
+          0.03383,
+          1.51301,
+          0.10383
+        ],
+        "bones": [
+          "FMA52748",
+          "FMA52739"
+        ],
+        "distance": 0.00026,
+        "region": "head"
+      }
+    ],
+    "atlas-joints-articulatio-atlantooccipitalis-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-atlantooccipitalis-dexter-2_0",
+        "position": [
+          -0.01855,
+          1.48821,
+          0.07517
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA52735"
+        ],
+        "distance": 0.00123,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-atlantooccipitalis-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-atlantooccipitalis-sinister-2_0",
+        "position": [
+          0.01745,
+          1.488,
+          0.07589
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA52735"
+        ],
+        "distance": 0.00157,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-atlantoaxialis-lateralis-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-atlantoaxialis-lateralis-dexter-3_0",
+        "position": [
+          -0.00883,
+          1.47676,
+          0.09241
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00134,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-atlantoaxialis-lateralis-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-atlantoaxialis-lateralis-sinister-3_0",
+        "position": [
+          0.00831,
+          1.47707,
+          0.08829
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00068,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-atlantoaxialis-mediana-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-atlantoaxialis-mediana-1_0",
+        "position": [
+          -0.00114,
+          1.47774,
+          0.09531
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00059,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-1-dexter-1_0",
+        "position": [
+          -0.0067,
+          1.46952,
+          0.06321
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00833,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-1-sinister-1_0",
+        "position": [
+          0.0059,
+          1.46971,
+          0.06288
+        ],
+        "bones": [
+          "FMA12519",
+          "FMA12520"
+        ],
+        "distance": 0.00767,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-2-dexter-1_0",
+        "position": [
+          -0.00896,
+          1.45153,
+          0.06831
+        ],
+        "bones": [
+          "FMA12520",
+          "FMA12521"
+        ],
+        "distance": 0.00455,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-2-sinister-1_0",
+        "position": [
+          0.00477,
+          1.4523,
+          0.06593
+        ],
+        "bones": [
+          "FMA12520",
+          "FMA12521"
+        ],
+        "distance": 0.00586,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-3-dexter-1_0",
+        "position": [
+          -0.00996,
+          1.43922,
+          0.07158
+        ],
+        "bones": [
+          "FMA12521",
+          "FMA12522"
+        ],
+        "distance": 0.00291,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-3-sinister-1_0",
+        "position": [
+          0.0089,
+          1.43898,
+          0.07073
+        ],
+        "bones": [
+          "FMA12521",
+          "FMA12522"
+        ],
+        "distance": 0.00243,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-4-dexter-1_0",
+        "position": [
+          -0.00688,
+          1.42052,
+          0.06573
+        ],
+        "bones": [
+          "FMA12522",
+          "FMA12523"
+        ],
+        "distance": 0.00982,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-4-sinister-1_0",
+        "position": [
+          0.00614,
+          1.42449,
+          0.0679
+        ],
+        "bones": [
+          "FMA12522",
+          "FMA12523"
+        ],
+        "distance": 0.00509,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-5-dexter-1_0",
+        "position": [
+          -0.00787,
+          1.4104,
+          0.06375
+        ],
+        "bones": [
+          "FMA12523",
+          "FMA12524"
+        ],
+        "distance": 0.01045,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-5-sinister-1_0",
+        "position": [
+          0.00629,
+          1.40852,
+          0.06404
+        ],
+        "bones": [
+          "FMA12523",
+          "FMA12524"
+        ],
+        "distance": 0.01205,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-6-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-6-dexter-1_0",
+        "position": [
+          -0.00799,
+          1.39654,
+          0.05517
+        ],
+        "bones": [
+          "FMA12524",
+          "FMA12525"
+        ],
+        "distance": 0.0086,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-6-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-6-sinister-1_0",
+        "position": [
+          0.00719,
+          1.39727,
+          0.05824
+        ],
+        "bones": [
+          "FMA12524",
+          "FMA12525"
+        ],
+        "distance": 0.01183,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-7-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-7-dexter-1_0",
+        "position": [
+          -0.00964,
+          1.38471,
+          0.05021
+        ],
+        "bones": [
+          "FMA12525",
+          "FMA9165"
+        ],
+        "distance": 0.0081,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-cervicalis-7-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-cervicalis-7-sinister-1_0",
+        "position": [
+          0.0058,
+          1.38473,
+          0.05143
+        ],
+        "bones": [
+          "FMA12525",
+          "FMA9165"
+        ],
+        "distance": 0.00601,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-1-dexter-1_0",
+        "position": [
+          -0.00779,
+          1.36795,
+          0.04221
+        ],
+        "bones": [
+          "FMA9165",
+          "FMA9187"
+        ],
+        "distance": 0.00501,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-1-sinister-1_0",
+        "position": [
+          0.00297,
+          1.36984,
+          0.04601
+        ],
+        "bones": [
+          "FMA9165",
+          "FMA9187"
+        ],
+        "distance": 0.00293,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-2-dexter-1_0",
+        "position": [
+          -0.00749,
+          1.35119,
+          0.03728
+        ],
+        "bones": [
+          "FMA9187",
+          "FMA9209"
+        ],
+        "distance": 0.00349,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-2-sinister-1_0",
+        "position": [
+          0.00354,
+          1.35169,
+          0.03746
+        ],
+        "bones": [
+          "FMA9187",
+          "FMA9209"
+        ],
+        "distance": 0.00323,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-3-dexter-1_0",
+        "position": [
+          -0.00875,
+          1.33159,
+          0.03261
+        ],
+        "bones": [
+          "FMA9209",
+          "FMA9248"
+        ],
+        "distance": 0.00296,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-3-sinister-1_0",
+        "position": [
+          0.00597,
+          1.33173,
+          0.03285
+        ],
+        "bones": [
+          "FMA9209",
+          "FMA9248"
+        ],
+        "distance": 0.00291,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-4-dexter-1_0",
+        "position": [
+          -0.01217,
+          1.31775,
+          0.03085
+        ],
+        "bones": [
+          "FMA9248",
+          "FMA9922"
+        ],
+        "distance": 0.00308,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-4-sinister-1_0",
+        "position": [
+          0.01434,
+          1.31596,
+          0.03271
+        ],
+        "bones": [
+          "FMA9248",
+          "FMA9922"
+        ],
+        "distance": 0.00209,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-5-dexter-1_0",
+        "position": [
+          -0.01665,
+          1.28614,
+          0.02744
+        ],
+        "bones": [
+          "FMA9922",
+          "FMA9945"
+        ],
+        "distance": 0.00128,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-5-sinister-1_0",
+        "position": [
+          0.016,
+          1.2876,
+          0.02586
+        ],
+        "bones": [
+          "FMA9922",
+          "FMA9945"
+        ],
+        "distance": 0.00196,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-6-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-6-dexter-1_0",
+        "position": [
+          -0.01139,
+          1.25151,
+          0.02021
+        ],
+        "bones": [
+          "FMA9945",
+          "FMA9968"
+        ],
+        "distance": 0.00107,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-6-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-6-sinister-1_0",
+        "position": [
+          0.01378,
+          1.25785,
+          0.02264
+        ],
+        "bones": [
+          "FMA9945",
+          "FMA9968"
+        ],
+        "distance": 0.00168,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-7-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-7-dexter-1_0",
+        "position": [
+          -0.01296,
+          1.23238,
+          0.02223
+        ],
+        "bones": [
+          "FMA9968",
+          "FMA9991"
+        ],
+        "distance": 0.00106,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-7-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-7-sinister-1_0",
+        "position": [
+          0.0158,
+          1.22691,
+          0.02436
+        ],
+        "bones": [
+          "FMA9968",
+          "FMA9991"
+        ],
+        "distance": 0.00201,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-8-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-8-dexter-1_0",
+        "position": [
+          -0.00932,
+          1.19486,
+          0.02617
+        ],
+        "bones": [
+          "FMA9991",
+          "FMA10014"
+        ],
+        "distance": 0.00043,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-8-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-8-sinister-1_0",
+        "position": [
+          0.01534,
+          1.19729,
+          0.02819
+        ],
+        "bones": [
+          "FMA9991",
+          "FMA10014"
+        ],
+        "distance": 0.00064,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-9-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-9-dexter-1_0",
+        "position": [
+          -0.02003,
+          1.1709,
+          0.03443
+        ],
+        "bones": [
+          "FMA10014",
+          "FMA10037"
+        ],
+        "distance": 0.00205,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-9-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-9-sinister-1_0",
+        "position": [
+          0.01818,
+          1.1661,
+          0.03181
+        ],
+        "bones": [
+          "FMA10014",
+          "FMA10037"
+        ],
+        "distance": 0.00123,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-10-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-10-dexter-1_0",
+        "position": [
+          -0.00981,
+          1.13695,
+          0.03738
+        ],
+        "bones": [
+          "FMA10037",
+          "FMA10059"
+        ],
+        "distance": 0.00097,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-10-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-10-sinister-1_0",
+        "position": [
+          0.01303,
+          1.13688,
+          0.04022
+        ],
+        "bones": [
+          "FMA10037",
+          "FMA10059"
+        ],
+        "distance": 0.0017,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-11-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-11-dexter-1_0",
+        "position": [
+          -0.01715,
+          1.10782,
+          0.04527
+        ],
+        "bones": [
+          "FMA10059",
+          "FMA10081"
+        ],
+        "distance": 0.00048,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-11-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-11-sinister-1_0",
+        "position": [
+          0.01293,
+          1.10727,
+          0.04592
+        ],
+        "bones": [
+          "FMA10059",
+          "FMA10081"
+        ],
+        "distance": 0.00204,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-12-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-12-dexter-1_0",
+        "position": [
+          -0.01162,
+          1.07104,
+          0.05668
+        ],
+        "bones": [
+          "FMA10081",
+          "FMA13072"
+        ],
+        "distance": 0.00109,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-thoracica-12-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-thoracica-12-sinister-1_0",
+        "position": [
+          0.00923,
+          1.07546,
+          0.05411
+        ],
+        "bones": [
+          "FMA10081",
+          "FMA13072"
+        ],
+        "distance": 0.00155,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-1-dexter-1_0",
+        "position": [
+          -0.01054,
+          1.04734,
+          0.06535
+        ],
+        "bones": [
+          "FMA13072",
+          "FMA13073"
+        ],
+        "distance": 0.00056,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-1-sinister-1_0",
+        "position": [
+          0.00882,
+          1.0385,
+          0.06536
+        ],
+        "bones": [
+          "FMA13072",
+          "FMA13073"
+        ],
+        "distance": 0.00063,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-2-dexter-1_0",
+        "position": [
+          -0.01577,
+          1.00511,
+          0.06256
+        ],
+        "bones": [
+          "FMA13073",
+          "FMA13074"
+        ],
+        "distance": 0.00057,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-2-sinister-1_0",
+        "position": [
+          0.01521,
+          1.0081,
+          0.05773
+        ],
+        "bones": [
+          "FMA13073",
+          "FMA13074"
+        ],
+        "distance": 0.00076,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-3-dexter-1_0",
+        "position": [
+          -0.01949,
+          0.98707,
+          0.05868
+        ],
+        "bones": [
+          "FMA13074",
+          "FMA13075"
+        ],
+        "distance": 0.0014,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-3-sinister-1_0",
+        "position": [
+          0.01946,
+          0.98302,
+          0.05922
+        ],
+        "bones": [
+          "FMA13074",
+          "FMA13075"
+        ],
+        "distance": 0.00188,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-4-dexter-1_0",
+        "position": [
+          -0.02595,
+          0.95966,
+          0.05814
+        ],
+        "bones": [
+          "FMA13075",
+          "FMA13076"
+        ],
+        "distance": 0.00096,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-4-sinister-1_0",
+        "position": [
+          0.02419,
+          0.96266,
+          0.05948
+        ],
+        "bones": [
+          "FMA13075",
+          "FMA13076"
+        ],
+        "distance": 0.00104,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-5-dexter-1_0",
+        "position": [
+          -0.02661,
+          0.92451,
+          0.04947
+        ],
+        "bones": [
+          "FMA13076",
+          "FMA16202"
+        ],
+        "distance": 0.0021,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-zygapophysialis-lumbalis-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-zygapophysialis-lumbalis-5-sinister-1_0",
+        "position": [
+          0.02741,
+          0.92457,
+          0.0497
+        ],
+        "bones": [
+          "FMA13076",
+          "FMA16202"
+        ],
+        "distance": 0.00465,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-1-dexter-1_0",
+        "position": [
+          -0.01776,
+          1.37838,
+          0.07206
+        ],
+        "bones": [
+          "FMA7857",
+          "FMA9165"
+        ],
+        "distance": 0.00027,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-1-sinister-1_0",
+        "position": [
+          0.01322,
+          1.38034,
+          0.07375
+        ],
+        "bones": [
+          "FMA7987",
+          "FMA9165"
+        ],
+        "distance": 0.00067,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-2-dexter-1_0",
+        "position": [
+          -0.03397,
+          1.37282,
+          0.0544
+        ],
+        "bones": [
+          "FMA7882",
+          "FMA9187"
+        ],
+        "distance": 0.00061,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-2-sinister-1_0",
+        "position": [
+          0.031,
+          1.3756,
+          0.05436
+        ],
+        "bones": [
+          "FMA8012",
+          "FMA9187"
+        ],
+        "distance": 0.00138,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-3-dexter-1_0",
+        "position": [
+          -0.03203,
+          1.35265,
+          0.0405
+        ],
+        "bones": [
+          "FMA7909",
+          "FMA9209"
+        ],
+        "distance": 0.00085,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-3-sinister-1_0",
+        "position": [
+          0.02912,
+          1.3518,
+          0.04036
+        ],
+        "bones": [
+          "FMA8039",
+          "FMA9209"
+        ],
+        "distance": 0.00118,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-4-dexter-1_0",
+        "position": [
+          -0.01568,
+          1.32477,
+          0.05407
+        ],
+        "bones": [
+          "FMA7957",
+          "FMA9248"
+        ],
+        "distance": 0.00097,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-4-sinister-1_0",
+        "position": [
+          0.03301,
+          1.32658,
+          0.03008
+        ],
+        "bones": [
+          "FMA8148",
+          "FMA9248"
+        ],
+        "distance": 0.00144,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-5-dexter-1_0",
+        "position": [
+          -0.03369,
+          1.2979,
+          0.02615
+        ],
+        "bones": [
+          "FMA8066",
+          "FMA9922"
+        ],
+        "distance": 0.00024,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-5-sinister-1_0",
+        "position": [
+          0.01298,
+          1.29865,
+          0.04212
+        ],
+        "bones": [
+          "FMA8093",
+          "FMA9922"
+        ],
+        "distance": 0.00194,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-6-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-6-dexter-1_0",
+        "position": [
+          -0.0348,
+          1.27185,
+          0.01826
+        ],
+        "bones": [
+          "FMA8175",
+          "FMA9945"
+        ],
+        "distance": 0.0008,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-6-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-6-sinister-1_0",
+        "position": [
+          0.01396,
+          1.2757,
+          0.04161
+        ],
+        "bones": [
+          "FMA8202",
+          "FMA9945"
+        ],
+        "distance": 0.00092,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-7-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-7-dexter-1_0",
+        "position": [
+          -0.03374,
+          1.24649,
+          0.01839
+        ],
+        "bones": [
+          "FMA8229",
+          "FMA9968"
+        ],
+        "distance": 0.00032,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-7-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-7-sinister-1_0",
+        "position": [
+          0.0331,
+          1.24561,
+          0.01633
+        ],
+        "bones": [
+          "FMA8256",
+          "FMA9968"
+        ],
+        "distance": 0.00115,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-8-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-8-dexter-1_0",
+        "position": [
+          -0.0317,
+          1.21741,
+          0.01747
+        ],
+        "bones": [
+          "FMA8283",
+          "FMA9991"
+        ],
+        "distance": 0.00101,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-8-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-8-sinister-1_0",
+        "position": [
+          0.02907,
+          1.21687,
+          0.01818
+        ],
+        "bones": [
+          "FMA8310",
+          "FMA9991"
+        ],
+        "distance": 0.00031,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-9-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-9-dexter-1_0",
+        "position": [
+          -0.01925,
+          1.19428,
+          0.04948
+        ],
+        "bones": [
+          "FMA8364",
+          "FMA10014"
+        ],
+        "distance": 0.00021,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-9-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-9-sinister-1_0",
+        "position": [
+          0.0322,
+          1.18518,
+          0.0242
+        ],
+        "bones": [
+          "FMA8391",
+          "FMA10014"
+        ],
+        "distance": 0.00014,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-10-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-10-dexter-1_0",
+        "position": [
+          -0.036,
+          1.15403,
+          0.03092
+        ],
+        "bones": [
+          "FMA8445",
+          "FMA10037"
+        ],
+        "distance": 0.00042,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-10-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-10-sinister-1_0",
+        "position": [
+          0.01676,
+          1.16626,
+          0.05496
+        ],
+        "bones": [
+          "FMA8472",
+          "FMA10037"
+        ],
+        "distance": 0.00085,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-11-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-11-dexter-1_0",
+        "position": [
+          -0.02085,
+          1.13214,
+          0.055
+        ],
+        "bones": [
+          "FMA8531",
+          "FMA10059"
+        ],
+        "distance": 0.00106,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-11-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-11-sinister-1_0",
+        "position": [
+          0.01783,
+          1.13217,
+          0.05687
+        ],
+        "bones": [
+          "FMA8532",
+          "FMA10059"
+        ],
+        "distance": 0.00066,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-12-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-12-dexter-1_0",
+        "position": [
+          -0.02007,
+          1.09696,
+          0.06459
+        ],
+        "bones": [
+          "FMA8533",
+          "FMA10081"
+        ],
+        "distance": 0.00021,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-capitis-costae-12-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-capitis-costae-12-sinister-1_0",
+        "position": [
+          0.02019,
+          1.10037,
+          0.06352
+        ],
+        "bones": [
+          "FMA8534",
+          "FMA10081"
+        ],
+        "distance": 0.00077,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-1-dexter-1_0",
+        "position": [
+          -0.01776,
+          1.37838,
+          0.07206
+        ],
+        "bones": [
+          "FMA7857",
+          "FMA9165"
+        ],
+        "distance": 0.00027,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-1-sinister-1_0",
+        "position": [
+          0.01322,
+          1.38034,
+          0.07375
+        ],
+        "bones": [
+          "FMA7987",
+          "FMA9165"
+        ],
+        "distance": 0.00067,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-2-dexter-1_0",
+        "position": [
+          -0.03397,
+          1.37282,
+          0.0544
+        ],
+        "bones": [
+          "FMA7882",
+          "FMA9187"
+        ],
+        "distance": 0.00061,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-2-sinister-1_0",
+        "position": [
+          0.031,
+          1.3756,
+          0.05436
+        ],
+        "bones": [
+          "FMA8012",
+          "FMA9187"
+        ],
+        "distance": 0.00138,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-3-dexter-1_0",
+        "position": [
+          -0.03203,
+          1.35265,
+          0.0405
+        ],
+        "bones": [
+          "FMA7909",
+          "FMA9209"
+        ],
+        "distance": 0.00085,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-3-sinister-1_0",
+        "position": [
+          0.02912,
+          1.3518,
+          0.04036
+        ],
+        "bones": [
+          "FMA8039",
+          "FMA9209"
+        ],
+        "distance": 0.00118,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-4-dexter-1_0",
+        "position": [
+          -0.01568,
+          1.32477,
+          0.05407
+        ],
+        "bones": [
+          "FMA7957",
+          "FMA9248"
+        ],
+        "distance": 0.00097,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-4-sinister-1_0",
+        "position": [
+          0.03301,
+          1.32658,
+          0.03008
+        ],
+        "bones": [
+          "FMA8148",
+          "FMA9248"
+        ],
+        "distance": 0.00144,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-5-dexter-1_0",
+        "position": [
+          -0.03369,
+          1.2979,
+          0.02615
+        ],
+        "bones": [
+          "FMA8066",
+          "FMA9922"
+        ],
+        "distance": 0.00024,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-5-sinister-1_0",
+        "position": [
+          0.01298,
+          1.29865,
+          0.04212
+        ],
+        "bones": [
+          "FMA8093",
+          "FMA9922"
+        ],
+        "distance": 0.00194,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-6-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-6-dexter-1_0",
+        "position": [
+          -0.0348,
+          1.27185,
+          0.01826
+        ],
+        "bones": [
+          "FMA8175",
+          "FMA9945"
+        ],
+        "distance": 0.0008,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-6-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-6-sinister-1_0",
+        "position": [
+          0.01396,
+          1.2757,
+          0.04161
+        ],
+        "bones": [
+          "FMA8202",
+          "FMA9945"
+        ],
+        "distance": 0.00092,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-7-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-7-dexter-1_0",
+        "position": [
+          -0.03374,
+          1.24649,
+          0.01839
+        ],
+        "bones": [
+          "FMA8229",
+          "FMA9968"
+        ],
+        "distance": 0.00032,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-7-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-7-sinister-1_0",
+        "position": [
+          0.0331,
+          1.24561,
+          0.01633
+        ],
+        "bones": [
+          "FMA8256",
+          "FMA9968"
+        ],
+        "distance": 0.00115,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-8-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-8-dexter-1_0",
+        "position": [
+          -0.0317,
+          1.21741,
+          0.01747
+        ],
+        "bones": [
+          "FMA8283",
+          "FMA9991"
+        ],
+        "distance": 0.00101,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-8-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-8-sinister-1_0",
+        "position": [
+          0.02907,
+          1.21687,
+          0.01818
+        ],
+        "bones": [
+          "FMA8310",
+          "FMA9991"
+        ],
+        "distance": 0.00031,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-9-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-9-dexter-1_0",
+        "position": [
+          -0.01925,
+          1.19428,
+          0.04948
+        ],
+        "bones": [
+          "FMA8364",
+          "FMA10014"
+        ],
+        "distance": 0.00021,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-9-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-9-sinister-1_0",
+        "position": [
+          0.0322,
+          1.18518,
+          0.0242
+        ],
+        "bones": [
+          "FMA8391",
+          "FMA10014"
+        ],
+        "distance": 0.00014,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-10-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-10-dexter-1_0",
+        "position": [
+          -0.036,
+          1.15403,
+          0.03092
+        ],
+        "bones": [
+          "FMA8445",
+          "FMA10037"
+        ],
+        "distance": 0.00042,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-costotransversaria-10-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-costotransversaria-10-sinister-1_0",
+        "position": [
+          0.01676,
+          1.16626,
+          0.05496
+        ],
+        "bones": [
+          "FMA8472",
+          "FMA10037"
+        ],
+        "distance": 0.00085,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-1-dexter-1_0",
+        "position": [
+          -0.02666,
+          1.32244,
+          0.14292
+        ],
+        "bones": [
+          "FMA7875",
+          "FMA7486"
+        ],
+        "distance": 0.00004,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-1-sinister-1_0",
+        "position": [
+          0.02439,
+          1.32569,
+          0.14769
+        ],
+        "bones": [
+          "FMA8005",
+          "FMA7486"
+        ],
+        "distance": 0.00004,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-2-dexter-1_0",
+        "position": [
+          -0.01361,
+          1.29459,
+          0.17636
+        ],
+        "bones": [
+          "FMA7886",
+          "FMA7487"
+        ],
+        "distance": 0.00008,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-2-sinister-1_0",
+        "position": [
+          0.01299,
+          1.2951,
+          0.17659
+        ],
+        "bones": [
+          "FMA8031",
+          "FMA7487"
+        ],
+        "distance": 0.00008,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-3-dexter-1_0",
+        "position": [
+          -0.01554,
+          1.27073,
+          0.17828
+        ],
+        "bones": [
+          "FMA7913",
+          "FMA7487"
+        ],
+        "distance": 0.00002,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-3-sinister-1_0",
+        "position": [
+          0.01467,
+          1.27245,
+          0.17695
+        ],
+        "bones": [
+          "FMA8058",
+          "FMA7487"
+        ],
+        "distance": 0.00004,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-4-dexter-1_0",
+        "position": [
+          -0.01627,
+          1.24327,
+          0.18375
+        ],
+        "bones": [
+          "FMA7976",
+          "FMA7487"
+        ],
+        "distance": 0.00011,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-4-sinister-1_0",
+        "position": [
+          0.01501,
+          1.24455,
+          0.18343
+        ],
+        "bones": [
+          "FMA8167",
+          "FMA7487"
+        ],
+        "distance": 0.00003,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-5-dexter-1_0",
+        "position": [
+          -0.02084,
+          1.22537,
+          0.1924
+        ],
+        "bones": [
+          "FMA8070",
+          "FMA7487"
+        ],
+        "distance": 0.00003,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-5-sinister-1_0",
+        "position": [
+          0.01973,
+          1.22302,
+          0.19021
+        ],
+        "bones": [
+          "FMA8112",
+          "FMA7487"
+        ],
+        "distance": 0.00004,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-6-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-6-dexter-1_0",
+        "position": [
+          -0.0175,
+          1.20368,
+          0.20311
+        ],
+        "bones": [
+          "FMA8194",
+          "FMA7487"
+        ],
+        "distance": 0.00007,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-6-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-6-sinister-1_0",
+        "position": [
+          0.01486,
+          1.19984,
+          0.20447
+        ],
+        "bones": [
+          "FMA8221",
+          "FMA7487"
+        ],
+        "distance": 0.00003,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-7-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-7-dexter-1_0",
+        "position": [
+          -0.01122,
+          1.19199,
+          0.19761
+        ],
+        "bones": [
+          "FMA8248",
+          "FMA7487"
+        ],
+        "distance": 0.00006,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternocostalis-7-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternocostalis-7-sinister-1_0",
+        "position": [
+          0.00891,
+          1.19195,
+          0.20298
+        ],
+        "bones": [
+          "FMA8275",
+          "FMA7487"
+        ],
+        "distance": 0.00006,
+        "region": "thorax"
+      }
+    ],
+    "atlas-joints-articulatio-sternoclavicularis-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternoclavicularis-dexter-1_0",
+        "position": [
+          -0.01488,
+          1.33294,
+          0.13245
+        ],
+        "bones": [
+          "FMA13322",
+          "FMA7486"
+        ],
+        "distance": 0.00007,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-sternoclavicularis-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sternoclavicularis-sinister-1_0",
+        "position": [
+          0.02353,
+          1.33819,
+          0.14342
+        ],
+        "bones": [
+          "FMA13323",
+          "FMA7486"
+        ],
+        "distance": 0.00023,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-acromioclavicularis-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-acromioclavicularis-dexter-2_0",
+        "position": [
+          -0.14545,
+          1.35493,
+          0.05767
+        ],
+        "bones": [
+          "FMA13322",
+          "FMA13395"
+        ],
+        "distance": 0.00031,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-acromioclavicularis-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-acromioclavicularis-sinister-2_0",
+        "position": [
+          0.144,
+          1.35483,
+          0.05809
+        ],
+        "bones": [
+          "FMA13323",
+          "FMA13396"
+        ],
+        "distance": 0.0003,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeri-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeri-dexter-3_0",
+        "position": [
+          -0.14653,
+          1.30895,
+          0.06409
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA13395"
+        ],
+        "distance": 0.00099,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeri-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeri-sinister-3_0",
+        "position": [
+          0.14463,
+          1.30925,
+          0.06463
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA13396"
+        ],
+        "distance": 0.001,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeroulnaris-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeroulnaris-dexter-1_0",
+        "position": [
+          -0.21251,
+          1.06074,
+          0.05826
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA23467"
+        ],
+        "distance": 0.00054,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeroulnaris-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeroulnaris-sinister-1_0",
+        "position": [
+          0.21108,
+          1.06064,
+          0.05833
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA23468"
+        ],
+        "distance": 0.00082,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeroradialis-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeroradialis-dexter-2_0",
+        "position": [
+          -0.22132,
+          1.04494,
+          0.06575
+        ],
+        "bones": [
+          "FMA23130",
+          "FMA23464"
+        ],
+        "distance": 0.00439,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-humeroradialis-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-humeroradialis-sinister-2_0",
+        "position": [
+          0.22055,
+          1.04501,
+          0.06415
+        ],
+        "bones": [
+          "FMA23131",
+          "FMA23465"
+        ],
+        "distance": 0.0043,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radioulnaris-proximalis-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-radioulnaris-proximalis-dexter-3_0",
+        "position": [
+          -0.21966,
+          1.03882,
+          0.06417
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA23467"
+        ],
+        "distance": 0.00241,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radioulnaris-proximalis-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-radioulnaris-proximalis-sinister-3_0",
+        "position": [
+          0.22122,
+          1.03235,
+          0.06928
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA23468"
+        ],
+        "distance": 0.00225,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radioulnaris-distalis-dexter-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-radioulnaris-distalis-dexter-4_0",
+        "position": [
+          -0.24708,
+          0.82474,
+          0.11727
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA23467"
+        ],
+        "distance": 0.00243,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radioulnaris-distalis-sinister-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-radioulnaris-distalis-sinister-4_0",
+        "position": [
+          0.24692,
+          0.82559,
+          0.11426
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA23468"
+        ],
+        "distance": 0.00246,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radiocarpalis-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-radiocarpalis-dexter-1_0",
+        "position": [
+          -0.26351,
+          0.8178,
+          0.10867
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA24435"
+        ],
+        "distance": 0.00122,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-radiocarpalis-dexter-1_1",
+        "position": [
+          -0.25085,
+          0.81889,
+          0.10982
+        ],
+        "bones": [
+          "FMA23464",
+          "FMA24437"
+        ],
+        "distance": 0.00442,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-radiocarpalis-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-radiocarpalis-sinister-1_0",
+        "position": [
+          0.26326,
+          0.81795,
+          0.10876
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA24436"
+        ],
+        "distance": 0.00132,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-radiocarpalis-sinister-1_1",
+        "position": [
+          0.24941,
+          0.82032,
+          0.11129
+        ],
+        "bones": [
+          "FMA23465",
+          "FMA24438"
+        ],
+        "distance": 0.00473,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-mediocarpalis-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-mediocarpalis-dexter-2_0",
+        "position": [
+          -0.25863,
+          0.8149,
+          0.11797
+        ],
+        "bones": [
+          "FMA24435",
+          "FMA24446"
+        ],
+        "distance": 0.00039,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-mediocarpalis-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-mediocarpalis-sinister-2_0",
+        "position": [
+          0.25391,
+          0.81403,
+          0.1137
+        ],
+        "bones": [
+          "FMA24436",
+          "FMA24447"
+        ],
+        "distance": 0.00062,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-intercarpales-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulationes-intercarpales-dexter-3_0",
+        "position": [
+          -0.25123,
+          0.81923,
+          0.11703
+        ],
+        "bones": [
+          "FMA24435",
+          "FMA24437"
+        ],
+        "distance": 0.00136,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intercarpales-dexter-3_1",
+        "position": [
+          -0.24319,
+          0.80989,
+          0.11866
+        ],
+        "bones": [
+          "FMA24437",
+          "FMA24439"
+        ],
+        "distance": 0.00056,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-intercarpales-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulationes-intercarpales-sinister-3_0",
+        "position": [
+          0.2497,
+          0.81372,
+          0.10892
+        ],
+        "bones": [
+          "FMA24436",
+          "FMA24438"
+        ],
+        "distance": 0.00106,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intercarpales-sinister-3_1",
+        "position": [
+          0.24177,
+          0.80962,
+          0.11748
+        ],
+        "bones": [
+          "FMA24438",
+          "FMA24440"
+        ],
+        "distance": 0.00056,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-carpometacarpalis-pollicis-dexter-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-carpometacarpalis-pollicis-dexter-4_0",
+        "position": [
+          -0.27683,
+          0.8004,
+          0.12336
+        ],
+        "bones": [
+          "FMA24443",
+          "FMA24464"
+        ],
+        "distance": 0.00044,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-carpometacarpalis-pollicis-sinister-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-carpometacarpalis-pollicis-sinister-4_0",
+        "position": [
+          0.28065,
+          0.80745,
+          0.12528
+        ],
+        "bones": [
+          "FMA24444",
+          "FMA24465"
+        ],
+        "distance": 0.00012,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-carpometacarpales-ii-v-dexter-5": [
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-dexter-5_0",
+        "position": [
+          -0.26973,
+          0.79413,
+          0.1153
+        ],
+        "bones": [
+          "FMA23725",
+          "FMA24466"
+        ],
+        "distance": 0.00106,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-dexter-5_1",
+        "position": [
+          -0.26143,
+          0.79461,
+          0.12188
+        ],
+        "bones": [
+          "FMA24446",
+          "FMA24468"
+        ],
+        "distance": 0.00063,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-dexter-5_2",
+        "position": [
+          -0.24633,
+          0.79501,
+          0.12316
+        ],
+        "bones": [
+          "FMA24448",
+          "FMA24470"
+        ],
+        "distance": 0.00094,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-dexter-5_3",
+        "position": [
+          -0.24601,
+          0.79511,
+          0.12327
+        ],
+        "bones": [
+          "FMA24448",
+          "FMA24472"
+        ],
+        "distance": 0.00044,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-carpometacarpales-ii-v-sinister-5": [
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-sinister-5_0",
+        "position": [
+          0.27086,
+          0.79544,
+          0.11463
+        ],
+        "bones": [
+          "FMA24445",
+          "FMA24467"
+        ],
+        "distance": 0.00105,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-sinister-5_1",
+        "position": [
+          0.26015,
+          0.79519,
+          0.12307
+        ],
+        "bones": [
+          "FMA24447",
+          "FMA24469"
+        ],
+        "distance": 0.00109,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-sinister-5_2",
+        "position": [
+          0.24582,
+          0.7953,
+          0.1219
+        ],
+        "bones": [
+          "FMA24449",
+          "FMA24471"
+        ],
+        "distance": 0.00113,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-carpometacarpales-ii-v-sinister-5_3",
+        "position": [
+          0.24391,
+          0.79549,
+          0.12331
+        ],
+        "bones": [
+          "FMA24449",
+          "FMA24473"
+        ],
+        "distance": 0.00017,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-intermetacarpales-dexter-6": [
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-dexter-6_0",
+        "position": [
+          -0.26244,
+          0.79284,
+          0.1189
+        ],
+        "bones": [
+          "FMA24466",
+          "FMA24468"
+        ],
+        "distance": 0.00077,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-dexter-6_1",
+        "position": [
+          -0.25282,
+          0.79214,
+          0.11629
+        ],
+        "bones": [
+          "FMA24468",
+          "FMA24470"
+        ],
+        "distance": 0.00041,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-dexter-6_2",
+        "position": [
+          -0.24358,
+          0.78896,
+          0.11754
+        ],
+        "bones": [
+          "FMA24470",
+          "FMA24472"
+        ],
+        "distance": 0.0004,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulationes-intermetacarpales-sinister-6": [
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-sinister-6_0",
+        "position": [
+          0.26065,
+          0.79408,
+          0.12326
+        ],
+        "bones": [
+          "FMA24467",
+          "FMA24469"
+        ],
+        "distance": 0.00091,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-sinister-6_1",
+        "position": [
+          0.25188,
+          0.79028,
+          0.11275
+        ],
+        "bones": [
+          "FMA24469",
+          "FMA24471"
+        ],
+        "distance": 0.00052,
+        "region": "upper"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetacarpales-sinister-6_2",
+        "position": [
+          0.24476,
+          0.79415,
+          0.12258
+        ],
+        "bones": [
+          "FMA24471",
+          "FMA24473"
+        ],
+        "distance": 0.00065,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-1-dexter-1_0",
+        "position": [
+          -0.30507,
+          0.77588,
+          0.14906
+        ],
+        "bones": [
+          "FMA24464",
+          "FMA24450"
+        ],
+        "distance": 0.00048,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-1-sinister-1_0",
+        "position": [
+          0.30297,
+          0.77551,
+          0.14883
+        ],
+        "bones": [
+          "FMA24465",
+          "FMA65470"
+        ],
+        "distance": 0.00023,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-2-dexter-1_0",
+        "position": [
+          -0.28402,
+          0.73136,
+          0.13776
+        ],
+        "bones": [
+          "FMA24466",
+          "FMA24451"
+        ],
+        "distance": 0.00033,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-2-sinister-1_0",
+        "position": [
+          0.28133,
+          0.72892,
+          0.13299
+        ],
+        "bones": [
+          "FMA24467",
+          "FMA71915"
+        ],
+        "distance": 0.00075,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-3-dexter-1_0",
+        "position": [
+          -0.27115,
+          0.73421,
+          0.13675
+        ],
+        "bones": [
+          "FMA24468",
+          "FMA24452"
+        ],
+        "distance": 0.00086,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-3-sinister-1_0",
+        "position": [
+          0.26295,
+          0.73119,
+          0.13519
+        ],
+        "bones": [
+          "FMA24469",
+          "FMA71908"
+        ],
+        "distance": 0.00051,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-4-dexter-1_0",
+        "position": [
+          -0.25211,
+          0.73926,
+          0.1376
+        ],
+        "bones": [
+          "FMA24470",
+          "FMA24453"
+        ],
+        "distance": 0.00111,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-4-sinister-1_0",
+        "position": [
+          0.24156,
+          0.73644,
+          0.13498
+        ],
+        "bones": [
+          "FMA24471",
+          "FMA71916"
+        ],
+        "distance": 0.00061,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-5-dexter-1_0",
+        "position": [
+          -0.22845,
+          0.74627,
+          0.14057
+        ],
+        "bones": [
+          "FMA24472",
+          "FMA24454"
+        ],
+        "distance": 0.00048,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-metacarpophalangea-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metacarpophalangea-5-sinister-1_0",
+        "position": [
+          0.22512,
+          0.7448,
+          0.13707
+        ],
+        "bones": [
+          "FMA24473",
+          "FMA66791"
+        ],
+        "distance": 0.0006,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-1-dexter-1_0",
+        "position": [
+          -0.29904,
+          0.69723,
+          0.14838
+        ],
+        "bones": [
+          "FMA24451",
+          "FMA24455"
+        ],
+        "distance": 0.00037,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-1-sinister-1_0",
+        "position": [
+          0.29563,
+          0.696,
+          0.15024
+        ],
+        "bones": [
+          "FMA71915",
+          "FMA23938"
+        ],
+        "distance": 0.00025,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-2-dexter-1_0",
+        "position": [
+          -0.26994,
+          0.69462,
+          0.15614
+        ],
+        "bones": [
+          "FMA24452",
+          "FMA24456"
+        ],
+        "distance": 0.00051,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-2-sinister-1_0",
+        "position": [
+          0.27521,
+          0.69579,
+          0.15855
+        ],
+        "bones": [
+          "FMA71908",
+          "FMA23940"
+        ],
+        "distance": 0.00052,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-3-dexter-1_0",
+        "position": [
+          -0.25157,
+          0.7001,
+          0.1543
+        ],
+        "bones": [
+          "FMA24453",
+          "FMA24457"
+        ],
+        "distance": 0.00042,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-3-sinister-1_0",
+        "position": [
+          0.25094,
+          0.70019,
+          0.15422
+        ],
+        "bones": [
+          "FMA71916",
+          "FMA23942"
+        ],
+        "distance": 0.0003,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-4-dexter-1_0",
+        "position": [
+          -0.22555,
+          0.7142,
+          0.15176
+        ],
+        "bones": [
+          "FMA24454",
+          "FMA24458"
+        ],
+        "distance": 0.00062,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-manus-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-manus-4-sinister-1_0",
+        "position": [
+          0.22497,
+          0.71556,
+          0.15504
+        ],
+        "bones": [
+          "FMA66791",
+          "FMA23944"
+        ],
+        "distance": 0.00049,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-1-dexter-1_0",
+        "position": [
+          -0.30976,
+          0.68459,
+          0.16785
+        ],
+        "bones": [
+          "FMA24455",
+          "FMA24460"
+        ],
+        "distance": 0.0005,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-1-sinister-1_0",
+        "position": [
+          0.30768,
+          0.68549,
+          0.16853
+        ],
+        "bones": [
+          "FMA23938",
+          "FMA23953"
+        ],
+        "distance": 0.00033,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-2-dexter-1_0",
+        "position": [
+          -0.27406,
+          0.67234,
+          0.17505
+        ],
+        "bones": [
+          "FMA24456",
+          "FMA24461"
+        ],
+        "distance": 0.00069,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-2-sinister-1_0",
+        "position": [
+          0.27153,
+          0.67322,
+          0.17666
+        ],
+        "bones": [
+          "FMA23940",
+          "FMA23955"
+        ],
+        "distance": 0.00049,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-3-dexter-1_0",
+        "position": [
+          -0.25177,
+          0.68029,
+          0.1749
+        ],
+        "bones": [
+          "FMA24457",
+          "FMA24462"
+        ],
+        "distance": 0.00035,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-3-sinister-1_0",
+        "position": [
+          0.24563,
+          0.68133,
+          0.17625
+        ],
+        "bones": [
+          "FMA23942",
+          "FMA23957"
+        ],
+        "distance": 0.00047,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-4-dexter-1_0",
+        "position": [
+          -0.22003,
+          0.69879,
+          0.16764
+        ],
+        "bones": [
+          "FMA24458",
+          "FMA24463"
+        ],
+        "distance": 0.00056,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-manus-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-manus-4-sinister-1_0",
+        "position": [
+          0.21882,
+          0.69866,
+          0.1672
+        ],
+        "bones": [
+          "FMA23944",
+          "FMA23959"
+        ],
+        "distance": 0.00034,
+        "region": "upper"
+      }
+    ],
+    "atlas-joints-articulatio-sacroiliaca-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sacroiliaca-dexter-1_0",
+        "position": [
+          -0.04444,
+          0.87546,
+          0.05383
+        ],
+        "bones": [
+          "FMA16202",
+          "FMA16586"
+        ],
+        "distance": 0.00057,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-sacroiliaca-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-sacroiliaca-sinister-1_0",
+        "position": [
+          0.04714,
+          0.89319,
+          0.05119
+        ],
+        "bones": [
+          "FMA16202",
+          "FMA16587"
+        ],
+        "distance": 0.00086,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-coxae-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-coxae-dexter-2_0",
+        "position": [
+          -0.07276,
+          0.81945,
+          0.07067
+        ],
+        "bones": [
+          "FMA16586",
+          "FMA24474"
+        ],
+        "distance": 0.00174,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-coxae-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-coxae-sinister-2_0",
+        "position": [
+          0.07224,
+          0.81938,
+          0.07079
+        ],
+        "bones": [
+          "FMA16587",
+          "FMA24475"
+        ],
+        "distance": 0.00068,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-symphysis-pubica-1": [
+      {
+        "name": "joint_atlas-joints-symphysis-pubica-1_0",
+        "position": [
+          0.0004,
+          0.8046,
+          0.12704
+        ],
+        "bones": [
+          "FMA16586",
+          "FMA16587"
+        ],
+        "distance": 0.00779,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-lumbosacralis-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-lumbosacralis-2_0",
+        "position": [
+          -0.02618,
+          0.93403,
+          0.05455
+        ],
+        "bones": [
+          "FMA13076",
+          "FMA16202"
+        ],
+        "distance": 0.00088,
+        "region": "spine"
+      }
+    ],
+    "atlas-joints-articulatio-femorotibialis-medialis-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-femorotibialis-medialis-dexter-1_0",
+        "position": [
+          -0.06177,
+          0.40501,
+          0.07811
+        ],
+        "bones": [
+          "FMA24474",
+          "FMA24477"
+        ],
+        "distance": 0.00183,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-femorotibialis-medialis-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-femorotibialis-medialis-sinister-1_0",
+        "position": [
+          0.05747,
+          0.40398,
+          0.07688
+        ],
+        "bones": [
+          "FMA24475",
+          "FMA24478"
+        ],
+        "distance": 0.00119,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-femorotibialis-lateralis-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-femorotibialis-lateralis-dexter-2_0",
+        "position": [
+          -0.099,
+          0.40701,
+          0.08298
+        ],
+        "bones": [
+          "FMA24474",
+          "FMA24477"
+        ],
+        "distance": 0.00481,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-femorotibialis-lateralis-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-femorotibialis-lateralis-sinister-2_0",
+        "position": [
+          0.09545,
+          0.40697,
+          0.08311
+        ],
+        "bones": [
+          "FMA24475",
+          "FMA24478"
+        ],
+        "distance": 0.00526,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-femoropatellaris-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-femoropatellaris-dexter-3_0",
+        "position": [
+          -0.0777,
+          0.43396,
+          0.09911
+        ],
+        "bones": [
+          "FMA24474",
+          "FMA24486"
+        ],
+        "distance": 0.00361,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-femoropatellaris-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-femoropatellaris-sinister-3_0",
+        "position": [
+          0.07866,
+          0.42796,
+          0.09809
+        ],
+        "bones": [
+          "FMA24475",
+          "FMA24487"
+        ],
+        "distance": 0.0032,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-tibiofibularis-dexter-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-tibiofibularis-dexter-4_0",
+        "position": [
+          -0.11221,
+          0.39143,
+          0.05397
+        ],
+        "bones": [
+          "FMA24477",
+          "FMA24480"
+        ],
+        "distance": 0.00141,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-tibiofibularis-sinister-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-tibiofibularis-sinister-4_0",
+        "position": [
+          0.10053,
+          0.382,
+          0.05605
+        ],
+        "bones": [
+          "FMA24478",
+          "FMA24481"
+        ],
+        "distance": 0.00076,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-syndesmosis-tibiofibularis-dexter-5": [
+      {
+        "name": "joint_atlas-joints-syndesmosis-tibiofibularis-dexter-5_0",
+        "position": [
+          -0.09451,
+          0.07996,
+          0.04362
+        ],
+        "bones": [
+          "FMA24477",
+          "FMA24480"
+        ],
+        "distance": 0.00144,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-syndesmosis-tibiofibularis-sinister-5": [
+      {
+        "name": "joint_atlas-joints-syndesmosis-tibiofibularis-sinister-5_0",
+        "position": [
+          0.09322,
+          0.07707,
+          0.04417
+        ],
+        "bones": [
+          "FMA24478",
+          "FMA24481"
+        ],
+        "distance": 0.00094,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-talocruralis-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-talocruralis-dexter-1_0",
+        "position": [
+          -0.06449,
+          0.06848,
+          0.06905
+        ],
+        "bones": [
+          "FMA24477",
+          "FMA24482"
+        ],
+        "distance": 0.00154,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-talocruralis-dexter-1_1",
+        "position": [
+          -0.0949,
+          0.05221,
+          0.05268
+        ],
+        "bones": [
+          "FMA24480",
+          "FMA24482"
+        ],
+        "distance": 0.00271,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-talocruralis-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-talocruralis-sinister-1_0",
+        "position": [
+          0.0841,
+          0.06702,
+          0.04653
+        ],
+        "bones": [
+          "FMA24478",
+          "FMA24483"
+        ],
+        "distance": 0.00108,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-talocruralis-sinister-1_1",
+        "position": [
+          0.09472,
+          0.05025,
+          0.05329
+        ],
+        "bones": [
+          "FMA24481",
+          "FMA24483"
+        ],
+        "distance": 0.0023,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-subtalaris-dexter-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-subtalaris-dexter-2_0",
+        "position": [
+          -0.07685,
+          0.04084,
+          0.06666
+        ],
+        "bones": [
+          "FMA24482",
+          "FMA24497"
+        ],
+        "distance": 0.00059,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-subtalaris-sinister-2": [
+      {
+        "name": "joint_atlas-joints-articulatio-subtalaris-sinister-2_0",
+        "position": [
+          0.09248,
+          0.03526,
+          0.05485
+        ],
+        "bones": [
+          "FMA24483",
+          "FMA24498"
+        ],
+        "distance": 0.00038,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-talocalcaneonavicularis-dexter-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-talocalcaneonavicularis-dexter-3_0",
+        "position": [
+          -0.08236,
+          0.05978,
+          0.08916
+        ],
+        "bones": [
+          "FMA24482",
+          "FMA24500"
+        ],
+        "distance": 0.001,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-talocalcaneonavicularis-dexter-3_1",
+        "position": [
+          -0.07685,
+          0.04084,
+          0.06666
+        ],
+        "bones": [
+          "FMA24482",
+          "FMA24497"
+        ],
+        "distance": 0.00059,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-talocalcaneonavicularis-sinister-3": [
+      {
+        "name": "joint_atlas-joints-articulatio-talocalcaneonavicularis-sinister-3_0",
+        "position": [
+          0.08463,
+          0.05697,
+          0.08723
+        ],
+        "bones": [
+          "FMA24483",
+          "FMA24501"
+        ],
+        "distance": 0.00082,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-talocalcaneonavicularis-sinister-3_1",
+        "position": [
+          0.09248,
+          0.03526,
+          0.05485
+        ],
+        "bones": [
+          "FMA24483",
+          "FMA24498"
+        ],
+        "distance": 0.00038,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-calcaneocuboidea-dexter-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-calcaneocuboidea-dexter-4_0",
+        "position": [
+          -0.083,
+          0.0366,
+          0.08126
+        ],
+        "bones": [
+          "FMA24497",
+          "FMA24528"
+        ],
+        "distance": 0.00053,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-calcaneocuboidea-sinister-4": [
+      {
+        "name": "joint_atlas-joints-articulatio-calcaneocuboidea-sinister-4_0",
+        "position": [
+          0.08197,
+          0.03702,
+          0.08167
+        ],
+        "bones": [
+          "FMA24498",
+          "FMA24529"
+        ],
+        "distance": 0.00046,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-tarsi-transversa-dexter-5": [
+      {
+        "name": "joint_atlas-joints-articulatio-tarsi-transversa-dexter-5_0",
+        "position": [
+          -0.08236,
+          0.05978,
+          0.08916
+        ],
+        "bones": [
+          "FMA24482",
+          "FMA24500"
+        ],
+        "distance": 0.001,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-tarsi-transversa-dexter-5_1",
+        "position": [
+          -0.083,
+          0.0366,
+          0.08126
+        ],
+        "bones": [
+          "FMA24497",
+          "FMA24528"
+        ],
+        "distance": 0.00053,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-tarsi-transversa-sinister-5": [
+      {
+        "name": "joint_atlas-joints-articulatio-tarsi-transversa-sinister-5_0",
+        "position": [
+          0.08463,
+          0.05697,
+          0.08723
+        ],
+        "bones": [
+          "FMA24483",
+          "FMA24501"
+        ],
+        "distance": 0.00082,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-tarsi-transversa-sinister-5_1",
+        "position": [
+          0.08197,
+          0.03702,
+          0.08167
+        ],
+        "bones": [
+          "FMA24498",
+          "FMA24529"
+        ],
+        "distance": 0.00046,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuneonavicularis-dexter-6": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-dexter-6_0",
+        "position": [
+          -0.07627,
+          0.05111,
+          0.10655
+        ],
+        "bones": [
+          "FMA24500",
+          "FMA24521"
+        ],
+        "distance": 0.00048,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-dexter-6_1",
+        "position": [
+          -0.08301,
+          0.04086,
+          0.09782
+        ],
+        "bones": [
+          "FMA24500",
+          "FMA24523"
+        ],
+        "distance": 0.00019,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-dexter-6_2",
+        "position": [
+          -0.09082,
+          0.05087,
+          0.09853
+        ],
+        "bones": [
+          "FMA24500",
+          "FMA24525"
+        ],
+        "distance": 0.0008,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuneonavicularis-sinister-6": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-sinister-6_0",
+        "position": [
+          0.06318,
+          0.04517,
+          0.10454
+        ],
+        "bones": [
+          "FMA24501",
+          "FMA24522"
+        ],
+        "distance": 0.00042,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-sinister-6_1",
+        "position": [
+          0.07778,
+          0.03921,
+          0.09982
+        ],
+        "bones": [
+          "FMA24501",
+          "FMA24524"
+        ],
+        "distance": 0.00052,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulatio-cuneonavicularis-sinister-6_2",
+        "position": [
+          0.093,
+          0.04902,
+          0.09414
+        ],
+        "bones": [
+          "FMA24501",
+          "FMA24526"
+        ],
+        "distance": 0.00101,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-intercuneiformes-dexter-7": [
+      {
+        "name": "joint_atlas-joints-articulationes-intercuneiformes-dexter-7_0",
+        "position": [
+          -0.08466,
+          0.04852,
+          0.11947
+        ],
+        "bones": [
+          "FMA24521",
+          "FMA24523"
+        ],
+        "distance": 0.00014,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intercuneiformes-dexter-7_1",
+        "position": [
+          -0.09454,
+          0.04515,
+          0.11408
+        ],
+        "bones": [
+          "FMA24523",
+          "FMA24525"
+        ],
+        "distance": 0.00061,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-intercuneiformes-sinister-7": [
+      {
+        "name": "joint_atlas-joints-articulationes-intercuneiformes-sinister-7_0",
+        "position": [
+          0.08357,
+          0.04813,
+          0.11984
+        ],
+        "bones": [
+          "FMA24522",
+          "FMA24524"
+        ],
+        "distance": 0.00059,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intercuneiformes-sinister-7_1",
+        "position": [
+          0.09056,
+          0.04723,
+          0.10597
+        ],
+        "bones": [
+          "FMA24524",
+          "FMA24526"
+        ],
+        "distance": 0.00069,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuneocuboidea-dexter-8": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuneocuboidea-dexter-8_0",
+        "position": [
+          -0.094,
+          0.03202,
+          0.10249
+        ],
+        "bones": [
+          "FMA24525",
+          "FMA24528"
+        ],
+        "distance": 0.00025,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuneocuboidea-sinister-8": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuneocuboidea-sinister-8_0",
+        "position": [
+          0.09508,
+          0.03372,
+          0.10083
+        ],
+        "bones": [
+          "FMA24526",
+          "FMA24529"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuboideonavicularis-dexter-9": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuboideonavicularis-dexter-9_0",
+        "position": [
+          -0.08939,
+          0.03932,
+          0.09129
+        ],
+        "bones": [
+          "FMA24528",
+          "FMA24500"
+        ],
+        "distance": 0.00076,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-cuboideonavicularis-sinister-9": [
+      {
+        "name": "joint_atlas-joints-articulatio-cuboideonavicularis-sinister-9_0",
+        "position": [
+          0.08422,
+          0.03732,
+          0.09333
+        ],
+        "bones": [
+          "FMA24529",
+          "FMA24501"
+        ],
+        "distance": 0.00094,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-tarsometatarsales-dexter-10": [
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-dexter-10_0",
+        "position": [
+          -0.06625,
+          0.03403,
+          0.12374
+        ],
+        "bones": [
+          "FMA24521",
+          "FMA24507"
+        ],
+        "distance": 0.00026,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-dexter-10_1",
+        "position": [
+          -0.08941,
+          0.04743,
+          0.11853
+        ],
+        "bones": [
+          "FMA24523",
+          "FMA24509"
+        ],
+        "distance": 0.00038,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-dexter-10_2",
+        "position": [
+          -0.1057,
+          0.03816,
+          0.11311
+        ],
+        "bones": [
+          "FMA24525",
+          "FMA24511"
+        ],
+        "distance": 0.00064,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-dexter-10_3",
+        "position": [
+          -0.0961,
+          0.0227,
+          0.10837
+        ],
+        "bones": [
+          "FMA24528",
+          "FMA24513"
+        ],
+        "distance": 0.00028,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-dexter-10_4",
+        "position": [
+          -0.11182,
+          0.01745,
+          0.08802
+        ],
+        "bones": [
+          "FMA24528",
+          "FMA24515"
+        ],
+        "distance": 0.00081,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-tarsometatarsales-sinister-10": [
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-sinister-10_0",
+        "position": [
+          0.06486,
+          0.03424,
+          0.12378
+        ],
+        "bones": [
+          "FMA24522",
+          "FMA24508"
+        ],
+        "distance": 0.00016,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-sinister-10_1",
+        "position": [
+          0.09323,
+          0.04575,
+          0.11467
+        ],
+        "bones": [
+          "FMA24524",
+          "FMA24510"
+        ],
+        "distance": 0.00036,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-sinister-10_2",
+        "position": [
+          0.10423,
+          0.03648,
+          0.1121
+        ],
+        "bones": [
+          "FMA24526",
+          "FMA24512"
+        ],
+        "distance": 0.00053,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-sinister-10_3",
+        "position": [
+          0.10445,
+          0.0333,
+          0.10683
+        ],
+        "bones": [
+          "FMA24529",
+          "FMA24514"
+        ],
+        "distance": 0.00024,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-tarsometatarsales-sinister-10_4",
+        "position": [
+          0.11089,
+          0.01986,
+          0.0936
+        ],
+        "bones": [
+          "FMA24529",
+          "FMA24516"
+        ],
+        "distance": 0.00054,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-intermetatarsales-dexter-11": [
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-dexter-11_0",
+        "position": [
+          -0.09093,
+          0.03012,
+          0.11467
+        ],
+        "bones": [
+          "FMA24509",
+          "FMA24511"
+        ],
+        "distance": 0.00019,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-dexter-11_1",
+        "position": [
+          -0.1,
+          0.02757,
+          0.11501
+        ],
+        "bones": [
+          "FMA24511",
+          "FMA24513"
+        ],
+        "distance": 0.00071,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-dexter-11_2",
+        "position": [
+          -0.11471,
+          0.02405,
+          0.10857
+        ],
+        "bones": [
+          "FMA24513",
+          "FMA24515"
+        ],
+        "distance": 0.00025,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulationes-intermetatarsales-sinister-11": [
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-sinister-11_0",
+        "position": [
+          0.08985,
+          0.02907,
+          0.11703
+        ],
+        "bones": [
+          "FMA24510",
+          "FMA24512"
+        ],
+        "distance": 0.0005,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-sinister-11_1",
+        "position": [
+          0.1034,
+          0.03025,
+          0.11872
+        ],
+        "bones": [
+          "FMA24512",
+          "FMA24514"
+        ],
+        "distance": 0.00039,
+        "region": "lower"
+      },
+      {
+        "name": "joint_atlas-joints-articulationes-intermetatarsales-sinister-11_2",
+        "position": [
+          0.11016,
+          0.02095,
+          0.11206
+        ],
+        "bones": [
+          "FMA24514",
+          "FMA24516"
+        ],
+        "distance": 0.00035,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-1-dexter-1_0",
+        "position": [
+          -0.06784,
+          0.01216,
+          0.17916
+        ],
+        "bones": [
+          "FMA24507",
+          "FMA43253"
+        ],
+        "distance": 0.00067,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-1-sinister-1_0",
+        "position": [
+          0.06352,
+          0.00728,
+          0.17707
+        ],
+        "bones": [
+          "FMA24508",
+          "FMA43254"
+        ],
+        "distance": 0.00053,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-2-dexter-1_0",
+        "position": [
+          -0.08991,
+          0.00589,
+          0.17958
+        ],
+        "bones": [
+          "FMA24509",
+          "FMA32634"
+        ],
+        "distance": 0.00032,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-2-sinister-1_0",
+        "position": [
+          0.09738,
+          0.01076,
+          0.17839
+        ],
+        "bones": [
+          "FMA24510",
+          "FMA32635"
+        ],
+        "distance": 0.00009,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-3-dexter-1_0",
+        "position": [
+          -0.10457,
+          0.00512,
+          0.17603
+        ],
+        "bones": [
+          "FMA24511",
+          "FMA32636"
+        ],
+        "distance": 0.00034,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-3-sinister-1_0",
+        "position": [
+          0.10318,
+          0.00507,
+          0.176
+        ],
+        "bones": [
+          "FMA24512",
+          "FMA32637"
+        ],
+        "distance": 0.00047,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-4-dexter-1_0",
+        "position": [
+          -0.11602,
+          0.00727,
+          0.16704
+        ],
+        "bones": [
+          "FMA24513",
+          "FMA32638"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-4-sinister-1_0",
+        "position": [
+          0.11524,
+          0.00756,
+          0.16727
+        ],
+        "bones": [
+          "FMA24514",
+          "FMA32639"
+        ],
+        "distance": 0.00022,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-5-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-5-dexter-1_0",
+        "position": [
+          -0.13502,
+          0.0058,
+          0.15457
+        ],
+        "bones": [
+          "FMA24515",
+          "FMA32640"
+        ],
+        "distance": 0.00042,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-metatarsophalangea-5-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-metatarsophalangea-5-sinister-1_0",
+        "position": [
+          0.12597,
+          0.00329,
+          0.15529
+        ],
+        "bones": [
+          "FMA24516",
+          "FMA32641"
+        ],
+        "distance": 0.00022,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-1-dexter-1_0",
+        "position": [
+          -0.10469,
+          0.00279,
+          0.20466
+        ],
+        "bones": [
+          "FMA32634",
+          "FMA32642"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-1-sinister-1_0",
+        "position": [
+          0.09527,
+          0.00204,
+          0.20536
+        ],
+        "bones": [
+          "FMA32635",
+          "FMA32643"
+        ],
+        "distance": 0.00032,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-2-dexter-1_0",
+        "position": [
+          -0.11781,
+          0.00421,
+          0.19988
+        ],
+        "bones": [
+          "FMA32636",
+          "FMA32644"
+        ],
+        "distance": 0.00039,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-2-sinister-1_0",
+        "position": [
+          0.11097,
+          0.00017,
+          0.20046
+        ],
+        "bones": [
+          "FMA32637",
+          "FMA32645"
+        ],
+        "distance": 0.00051,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-3-dexter-1_0",
+        "position": [
+          -0.13206,
+          -0.00201,
+          0.18746
+        ],
+        "bones": [
+          "FMA32638",
+          "FMA32646"
+        ],
+        "distance": 0.00029,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-3-sinister-1_0",
+        "position": [
+          0.13055,
+          -0.00238,
+          0.1874
+        ],
+        "bones": [
+          "FMA32639",
+          "FMA32647"
+        ],
+        "distance": 0.00026,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-4-dexter-1_0",
+        "position": [
+          -0.13793,
+          0.00094,
+          0.17693
+        ],
+        "bones": [
+          "FMA32640",
+          "FMA230986"
+        ],
+        "distance": 0.00019,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-proximalis-pedis-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-proximalis-pedis-4-sinister-1_0",
+        "position": [
+          0.13974,
+          -0.00239,
+          0.17525
+        ],
+        "bones": [
+          "FMA32641",
+          "FMA230988"
+        ],
+        "distance": 0.00023,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-1-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-1-dexter-1_0",
+        "position": [
+          -0.10767,
+          0.00001,
+          0.21796
+        ],
+        "bones": [
+          "FMA32642",
+          "FMA32652"
+        ],
+        "distance": 0.00052,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-1-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-1-sinister-1_0",
+        "position": [
+          0.10106,
+          0.00286,
+          0.2198
+        ],
+        "bones": [
+          "FMA32643",
+          "FMA32653"
+        ],
+        "distance": 0.00044,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-2-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-2-dexter-1_0",
+        "position": [
+          -0.11678,
+          -0.00004,
+          0.21477
+        ],
+        "bones": [
+          "FMA32644",
+          "FMA32654"
+        ],
+        "distance": 0.00041,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-2-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-2-sinister-1_0",
+        "position": [
+          0.12017,
+          0.00091,
+          0.21356
+        ],
+        "bones": [
+          "FMA32645",
+          "FMA32655"
+        ],
+        "distance": 0.00035,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-3-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-3-dexter-1_0",
+        "position": [
+          -0.13519,
+          -0.00017,
+          0.19861
+        ],
+        "bones": [
+          "FMA32646",
+          "FMA32656"
+        ],
+        "distance": 0.00012,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-3-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-3-sinister-1_0",
+        "position": [
+          0.13386,
+          0.00055,
+          0.19863
+        ],
+        "bones": [
+          "FMA32647",
+          "FMA32657"
+        ],
+        "distance": 0.00025,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-4-dexter-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-4-dexter-1_0",
+        "position": [
+          -0.14479,
+          -0.00061,
+          0.18118
+        ],
+        "bones": [
+          "FMA230986",
+          "FMA32658"
+        ],
+        "distance": 0.0004,
+        "region": "lower"
+      }
+    ],
+    "atlas-joints-articulatio-interphalangea-distalis-pedis-4-sinister-1": [
+      {
+        "name": "joint_atlas-joints-articulatio-interphalangea-distalis-pedis-4-sinister-1_0",
+        "position": [
+          0.14363,
+          -0.00105,
+          0.18104
+        ],
+        "bones": [
+          "FMA230988",
+          "FMA32659"
+        ],
+        "distance": 0.00023,
+        "region": "lower"
+      }
+    ]
+  }
+}

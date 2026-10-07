@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   compress: true,
   reactStrictMode: true,
+  devIndicators: false,
   async headers() {
     return [{
       source: "/(.*)",

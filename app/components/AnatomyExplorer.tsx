@@ -2,8 +2,10 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
+import { Box, BookOpen, Images } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { anatomyItems, catalogVersion, systems, type AnatomyItem, type SystemId } from "../data/anatomy";
+import { anatomyItems, catalogVersion, systems, type AnatomyItem } from "../data/anatomy";
 import { searchAnatomy } from "../lib/anatomy-search";
 import { reconcileStoredStreak } from "../lib/daily";
 import DailyChallengeModal from "./DailyChallengeModal";
@@ -13,10 +15,14 @@ import LatinReadingGuide from "./LatinReadingGuide";
 import ProfileMenu from "./ProfileMenu";
 import QuizCenter from "./QuizCenter";
 import Sidebar from "./Sidebar";
+import "./skeleton-viewer.css";
 
-const initialOpenSystems = Object.fromEntries(
-  systems.map((system) => [system.id, system.id === "bones"]),
-) as Record<SystemId, boolean>;
+const SkeletonViewer = dynamic(() => import("./SkeletonViewer"), {
+  ssr: false,
+  loading: () => <section className="skeleton-viewer skeleton-loading" role="status">3D atlas açılıyor…</section>,
+});
+
+const ImageAtlas = dynamic(() => import("./ImageAtlas"));
 
 const initialItem = anatomyItems.find((item) => item.id === "femur-dexter") ?? anatomyItems[0];
 
@@ -28,7 +34,8 @@ export default function AnatomyExplorer() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [latinGuideOpen, setLatinGuideOpen] = useState(false);
   const [quizAnswerConcealed, setQuizAnswerConcealed] = useState(false);
-  const [openSystems, setOpenSystems] = useState<Record<SystemId, boolean>>(initialOpenSystems);
+  const [view, setView] = useState<"quiz" | "model">("quiz");
+  const hasModel = selected.category === "bones" || selected.category === "muscles" || selected.category === "joints";
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -56,23 +63,13 @@ export default function AnatomyExplorer() {
 
   const choose = (item: AnatomyItem) => {
     setSelected(item);
-    setOpenSystems(Object.fromEntries(systems.map((system) => [system.id, system.id === item.category])) as Record<SystemId, boolean>);
     setQuery("");
     setFocused(false);
   };
 
-  const toggle = (systemId: SystemId) => {
-    setOpenSystems((current) => {
-      const willOpen = !current[systemId];
-      return Object.fromEntries(
-        systems.map((system) => [system.id, willOpen && system.id === systemId]),
-      ) as Record<SystemId, boolean>;
-    });
-  };
-
   return (
     <main className="app-shell">
-      <a className="skip-link" href="#quiz-main">Ana içeriğe geç</a>
+      <a className="skip-link" href={view === "model" ? "#model-main" : "#quiz-main"}>Ana içeriğe geç</a>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Anatomi 101 ana sayfa">
           <span className="brand-mark"><i /><i /><i /></span>
@@ -122,6 +119,10 @@ export default function AnatomyExplorer() {
           )}
         </div>
         <div className="top-actions">
+          <div className="model-segments workspace-switch" role="group" aria-label="Çalışma görünümü">
+            <button type="button" aria-pressed={view === "quiz"} onClick={() => { if (view !== "quiz") { setView("quiz"); setQuizAnswerConcealed(false); } }}><BookOpen size={16} />Quiz</button>
+            <button type="button" aria-pressed={view === "model"} onClick={() => { if (view !== "model") { setView("model"); setQuizAnswerConcealed(false); } }}>{hasModel ? <Box size={16} /> : <Images size={16} />}{hasModel ? "Model" : "Görsel"}</button>
+          </div>
           <button type="button" className="latin-guide-button" onClick={() => setLatinGuideOpen(true)}>
             <Icon name="book" size={17} /><span>Latince okuma</span>
           </button>
@@ -139,20 +140,25 @@ export default function AnatomyExplorer() {
         </div>
       </header>
 
-      <div className="workspace quiz-workspace" id="top">
+      <div className={`workspace quiz-workspace${view === "model" ? " model-workspace" : ""}`} id="top">
         <Sidebar
           items={anatomyItems}
           selectedId={selected.id}
           onSelect={choose}
-          openSystems={openSystems}
-          onToggle={toggle}
         />
         <DetailCard item={selected} concealed={quizAnswerConcealed} />
-        <QuizCenter
+        {view === "model" ? hasModel ? <SkeletonViewer item={selected} onSelect={(id) => {
+          const item = anatomyItems.find((candidate) => candidate.id === id && (candidate.category === "bones" || candidate.category === "muscles" || candidate.category === "joints"));
+          if (!item) return;
+          setSelected(item);
+        }} /> : <ImageAtlas item={selected} onSelect={(id) => {
+          const item = anatomyItems.find(candidate => candidate.id === id && candidate.category === selected.category && candidate.group === selected.group);
+          if (item) setSelected(item);
+        }} /> : <QuizCenter
           items={anatomyItems}
           onFocusItem={setSelected}
           onQuizGuardChange={setQuizAnswerConcealed}
-        />
+        />}
       </div>
 
       <footer className="app-footer">

@@ -34,11 +34,13 @@ const slug = (value: string) => value
   .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
 const sideAdjective = (latin: string, left: boolean) => {
-  const first = latin.trim().split(/\s+/)[0].toLocaleLowerCase("la");
+  const first = latin.trim().split(/\s+/)[0].replace(/,$/, "").toLocaleLowerCase("la");
+  if (["medulla", "ansa", "iris", "camera", "cupula", "membrana", "cavitas", "zona", "incus", "cauda"].includes(first)) return left ? "sinistra" : "dextra";
+  if (first === "infundibulum") return left ? "sinistrum" : "dextrum";
   if (["articulationes", "arteriae", "venae", "glandulae", "cellulae", "fimbriae"].includes(first)) return left ? "sinistrae" : "dextrae";
   if (["musculi", "nervi", "bronchi", "ductuli", "tubuli"].includes(first)) return left ? "sinistri" : "dextri";
-  if (["os", "corpus", "ligamentum", "ovarium", "atrium", "septum", "crus", "labium", "ganglion", "organum", "vestibulum"].includes(first)) return left ? "sinistrum" : "dextrum";
-  if (["articulatio", "arteria", "vena", "glandula", "tuba", "pleura", "auricula", "retina", "cochlea", "capsula", "chorda", "amygdala", "insula", "radix", "pars", "phalanx"].includes(first)) return left ? "sinistra" : "dextra";
+  if (["os", "corpus", "ligamentum", "ovarium", "atrium", "septum", "crus", "labium", "ganglion", "organum", "vestibulum", "putamen", "claustrum", "rete", "hilum", "ostium", "corpusculum", "caput"].includes(first)) return left ? "sinistrum" : "dextrum";
+  if (["articulatio", "arteria", "vena", "glandula", "tuba", "pleura", "auricula", "retina", "cochlea", "capsula", "chorda", "amygdala", "insula", "radix", "pars", "phalanx", "tunica", "ampulla", "vesicula", "palpebra", "conjunctiva", "sclera", "cornea", "choroidea", "pupilla", "macula", "fovea", "lens", "columna", "pyramis", "papilla", "pelvis", "epididymis"].includes(first)) return left ? "sinistra" : "dextra";
   return left ? "sinister" : "dexter";
 };
 
@@ -55,17 +57,28 @@ const singles = (category: Category, group: string, text: string, position: [num
     accent: accents[category], aliases, x: position[0], y: position[1],
   }));
 
+const pairedLatin = (latin: string, left: boolean) => {
+  const reviewed: Record<string, string> = {
+    "Epididymis, caput": "Caput epididymidis",
+    "Epididymis, corpus": "Corpus epididymidis",
+    "Epididymis, cauda": "Cauda epididymidis",
+    "Tuba uterina, infundibulum": "Infundibulum tubae uterinae",
+  };
+  const term = reviewed[latin] ?? latin;
+  return `${term} ${sideAdjective(term, left)}`;
+};
+
 const paired = (category: Category, group: string, text: string, position: [number, number] = [43, 45]): ExpandedAnatomyItem[] =>
   parse(text).flatMap(({ latin, turkish, aliases }, index) => ([
     {
       id: `atlas-${category}-${slug(latin)}-dexter-${index + 1}`,
-      latin: `${latin} ${sideAdjective(latin, false)}`, turkish: `Sağ ${turkish}`, category, group,
+      latin: pairedLatin(latin, false), turkish: `Sağ ${turkish}`, category, group,
       note: `Sağ ${turkish}; ${group} içinde karşı taraf eşiyle birlikte değerlendirilir.`,
       accent: accents[category], aliases, x: position[0], y: position[1],
     },
     {
       id: `atlas-${category}-${slug(latin)}-sinister-${index + 1}`,
-      latin: `${latin} ${sideAdjective(latin, true)}`, turkish: `Sol ${turkish}`, category, group,
+      latin: pairedLatin(latin, true), turkish: `Sol ${turkish}`, category, group,
       note: `Sol ${turkish}; ${group} içinde karşı taraf eşiyle birlikte değerlendirilir.`,
       accent: accents[category], aliases, x: 100 - position[0], y: position[1],
     },
@@ -1194,7 +1207,26 @@ Fusus neuromuscularis|Kas iğciği
 Organum tendineum Golgi|Golgi tendon organı`, [40, 45]),
 ];
 
+// Keep existing generated IDs stable when correcting incorrectly paired entries.
+const unpairedMuscles = ["Musculus arytenoideus transversus", "Musculus sphincter ani externus"];
+const muscleAdditions: ExpandedAnatomyItem[] = [
+  ...singles("muscles", "Boyun · Larinks kasları", "Musculus arytenoideus transversus|Transvers aritenoid kas", [50, 22]),
+  ...singles("muscles", "Pelvis · Perine kasları", "Musculus sphincter ani externus|Dış anal sfinkter", [50, 60]),
+  ...singles("muscles", "Gövde · Solunum kasları", "Diaphragma|Diyafram", [50, 42]),
+  ...paired("muscles", "Baş · Mimik kasları", "Musculus nasalis|Nazal kas", [46, 17]),
+  ...paired("muscles", "Boyun · Yüzeyel ve hyoid kaslar", `
+Musculus sternocleidomastoideus|Sternokleidomastoid kas
+Musculus omohyoideus|Omohyoid kas`, [46, 22]),
+  ...paired("muscles", "Alt ekstremite · Uyluk kasları", `
+Musculus adductor magnus|Büyük addüktör kas
+Musculus adductor minimus|En küçük addüktör kas`, [43, 65]).map(item => item.latin.includes("minimus") ? { ...item, note: "Adductor magnus'un üst bölümünde ayırt edilebilen parça; ayrı bir kas olarak tanımlanması kaynaklara göre değişebilir." } : item),
+  ...paired("muscles", "Alt ekstremite · Ayak kasları", "Musculus opponens digiti minimi pedis|Ayak küçük parmağının opponens kası", [43, 95]).map(item => ({ ...item, note: "Değişken bir anatomik yapı; her bireyde ayrı bir kas olarak bulunmayabilir." })),
+];
+
 export const expandedAnatomyItems: ExpandedAnatomyItem[] = [
-  ...joints, ...muscles, ...nervous, ...circulatory, ...respiratory,
-  ...digestive, ...urinary, ...genital, ...endocrine, ...sensory,
+  ...joints, ...muscles.filter(item => !unpairedMuscles.some(latin => item.latin === `${latin} dexter` || item.latin === `${latin} sinister`)), ...muscleAdditions, ...nervous, ...circulatory, ...respiratory,
+  ...digestive, ...urinary,
+  ...genital.filter(item => !item.id.includes("-corpus-spongiosum-penis-")),
+  ...singles("genital", "Erkek · Aksesuar bezler ve dış genital organlar", "Corpus spongiosum penis|Penis spongiyöz cismi", [50, 70]),
+  ...endocrine, ...sensory,
 ];

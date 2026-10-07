@@ -1,4 +1,4 @@
-# Anatomi 101 V2
+# Anatomi 101 V1
 
 Tıp ve sağlık bilimleri öğrencileri için Türkçe–Latince anatomi terimleri, klasik quiz, 60 saniyelik hız turu, günlük soru, seri ve profil çerçeveleri sunan Next.js uygulaması.
 
